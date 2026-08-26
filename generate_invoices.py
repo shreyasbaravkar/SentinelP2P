@@ -34,7 +34,8 @@ for i, po in enumerate(pos, start=1):
 
     invoices.append({
         "invoice_id": invoice_id,
-        "po_id":po["amount"],
+        "po_id": po["po_id"],
+        "amount": po["amount"],
         "description": random.choice(item_descriptions),
         "date": invoice_date.strftime("%Y-%m-%d")
    })

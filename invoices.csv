@@ -1,103 +1,103 @@
 invoice_id,po_id,amount,description,date
-INV0001,1112.76,,Office stationery supply,2026-06-24
-INV0002,3918.68,,Printing and packaging materials,2026-03-05
-INV0003,22358.4,,IT hardware procurrement,2026-06-28
-INV0004,1278.68,,IT hardware procurrement,2026-06-05
-INV0005,12881.2,,Office stationery supply,2026-03-09
-INV0006,18042.48,,Printing and packaging materials,2026-06-04
-INV0007,11505.62,,Catering services,2026-05-03
-INV0008,20242.57,,Catering services,2026-01-04
-INV0009,4309.25,,Office stationery supply,2026-04-05
-INV0010,9808.22,,Office stationery supply,2026-01-28
-INV0011,6980.76,,IT hardware procurrement,2026-04-03
-INV0012,13637.59,,Catering services,2026-07-15
-INV0013,7682.87,,Catering services,2026-01-22
-INV0014,5211.07,,Printing and packaging materials,2026-04-07
-INV0015,6083.51,,Printing and packaging materials,2026-01-23
-INV0016,6203.38,,Software license renewal,2026-01-30
-INV0017,11608.55,,Software license renewal,2026-04-12
-INV0018,9204.13,,Cleaning services,2026-02-21
-INV0019,17246.92,,Logistics and courier services,2026-07-12
-INV0020,4692.9,,Logistics and courier services,2026-06-06
-INV0021,9796.66,,IT hardware procurrement,2026-02-24
-INV0022,8444.93,,Software license renewal,2026-03-10
-INV0023,1286.46,,Cleaning services,2026-03-06
-INV0024,2121.62,,IT hardware procurrement,2026-04-16
-INV0025,5709.35,,Cleaning services,2026-07-16
-INV0026,22906.42,,Office stationery supply,2026-04-14
-INV0027,3920.94,,Office stationery supply,2026-02-13
-INV0028,18801.84,,Logistics and courier services,2026-05-24
-INV0029,9368.91,,Catering services,2026-06-05
-INV0030,2727.28,,Logistics and courier services,2026-05-16
-INV0031,15872.43,,Printing and packaging materials,2026-01-30
-INV0032,9926.8,,Catering services,2026-06-10
-INV0033,6659.65,,Software license renewal,2026-05-02
-INV0034,18157.68,,Catering services,2026-01-05
-INV0035,19330.67,,Logistics and courier services,2026-07-17
-INV0036,11151.75,,Catering services,2026-02-09
-INV0037,21958.4,,Logistics and courier services,2026-01-16
-INV0038,4876.97,,Catering services,2026-05-15
-INV0039,21120.9,,Printing and packaging materials,2026-06-14
-INV0040,4244.56,,Office stationery supply,2026-06-07
-INV0041,23099.63,,IT hardware procurrement,2026-05-30
-INV0042,12470.84,,Cleaning services,2026-06-16
-INV0043,24640.37,,Logistics and courier services,2026-04-05
-INV0044,6401.35,,Logistics and courier services,2026-03-07
-INV0045,18431.74,,Software license renewal,2026-01-23
-INV0046,19262.94,,Software license renewal,2026-07-19
-INV0047,23697.79,,Logistics and courier services,2026-06-29
-INV0048,21874.61,,IT hardware procurrement,2026-03-15
-INV0049,13712.75,,Cleaning services,2026-03-02
-INV0050,10275.31,,Printing and packaging materials,2026-07-06
-INV0051,13180.61,,Printing and packaging materials,2026-04-28
-INV0052,2068.63,,Printing and packaging materials,2026-03-20
-INV0053,6137.81,,Office stationery supply,2026-06-11
-INV0054,17842.1,,Printing and packaging materials,2026-01-12
-INV0055,22682.79,,Catering services,2026-03-03
-INV0056,6331.11,,IT hardware procurrement,2026-01-31
-INV0057,3741.64,,Software license renewal,2026-02-27
-INV0058,6453.43,,Cleaning services,2026-06-04
-INV0059,2810.98,,Printing and packaging materials,2026-04-30
-INV0060,10572.01,,Catering services,2026-04-13
-INV0061,24612.05,,Printing and packaging materials,2026-06-26
-INV0062,18341.23,,Logistics and courier services,2026-01-22
-INV0063,5160.12,,Logistics and courier services,2026-03-18
-INV0064,4995.46,,IT hardware procurrement,2026-02-06
-INV0065,23120.01,,Office stationery supply,2026-03-19
-INV0066,1739.41,,Cleaning services,2026-06-03
-INV0067,23195.99,,Cleaning services,2026-01-11
-INV0068,12398.21,,IT hardware procurrement,2026-02-14
-INV0069,1936.57,,Catering services,2026-04-28
-INV0070,6997.47,,Printing and packaging materials,2026-01-16
-INV0071,17566.49,,IT hardware procurrement,2026-03-21
-INV0072,12423.45,,Software license renewal,2026-06-30
-INV0073,24233.38,,Printing and packaging materials,2026-03-24
-INV0074,1993.46,,IT hardware procurrement,2026-07-16
-INV0075,14812.35,,IT hardware procurrement,2026-01-20
-INV0076,1893.55,,Printing and packaging materials,2026-05-20
-INV0077,5052.71,,Catering services,2026-01-30
-INV0078,21614.57,,Printing and packaging materials,2026-01-23
-INV0079,14457.05,,Software license renewal,2026-02-10
-INV0080,15674.85,,Catering services,2026-06-17
-INV0081,14348.06,,Cleaning services,2026-06-25
-INV0082,16908.29,,IT hardware procurrement,2026-03-12
-INV0083,10196.75,,Software license renewal,2026-03-12
-INV0084,23260.95,,Logistics and courier services,2026-04-30
-INV0085,15718.4,,Logistics and courier services,2026-01-04
-INV0086,13672.04,,IT hardware procurrement,2026-01-28
-INV0087,23364.85,,IT hardware procurrement,2026-03-20
-INV0088,7482.19,,Printing and packaging materials,2026-03-17
-INV0089,7911.67,,Catering services,2026-05-27
-INV0090,20519.05,,Software license renewal,2026-01-05
-INV0091,23503.79,,Catering services,2026-06-26
-INV0092,22297.96,,Catering services,2026-03-17
-INV0093,7403.03,,Catering services,2026-02-14
-INV0094,5488.13,,Office stationery supply,2026-07-17
-INV0095,6652.47,,Printing and packaging materials,2026-05-21
-INV0096,10877.61,,Printing and packaging materials,2026-01-26
-INV0097,8672.14,,Catering services,2026-01-27
-INV0098,4458.76,,Cleaning services,2026-06-26
-INV0099,10978.33,,Printing and packaging materials,2026-06-04
-INV0100,23653.75,,Office stationery supply,2026-02-04
-INV0101,9204.13,,Cleaning services (resubmitted),2026-02-21
-INV0102,6652.47,,Printing and packaging materials (resubmitted),2026-05-21
+INV0001,Po0001,1112.76,Office stationery supply,2026-06-24
+INV0002,Po0002,3918.68,Printing and packaging materials,2026-03-05
+INV0003,Po0003,22358.4,IT hardware procurrement,2026-06-28
+INV0004,Po0004,1278.68,IT hardware procurrement,2026-06-05
+INV0005,Po0005,12881.2,Office stationery supply,2026-03-09
+INV0006,Po0006,18042.48,Printing and packaging materials,2026-06-04
+INV0007,Po0007,11505.62,Catering services,2026-05-03
+INV0008,Po0008,20242.57,Catering services,2026-01-04
+INV0009,Po0009,4309.25,Office stationery supply,2026-04-05
+INV0010,Po0010,9808.22,Office stationery supply,2026-01-28
+INV0011,Po0011,6980.76,IT hardware procurrement,2026-04-03
+INV0012,Po0012,13637.59,Catering services,2026-07-15
+INV0013,Po0013,7682.87,Catering services,2026-01-22
+INV0014,Po0014,5211.07,Printing and packaging materials,2026-04-07
+INV0015,Po0015,6083.51,Printing and packaging materials,2026-01-23
+INV0016,Po0016,6203.38,Software license renewal,2026-01-30
+INV0017,Po0017,11608.55,Software license renewal,2026-04-12
+INV0018,Po0018,9204.13,Cleaning services,2026-02-21
+INV0019,Po0019,17246.92,Logistics and courier services,2026-07-12
+INV0020,Po0020,4692.9,Logistics and courier services,2026-06-06
+INV0021,Po0021,9796.66,IT hardware procurrement,2026-02-24
+INV0022,Po0022,8444.93,Software license renewal,2026-03-10
+INV0023,Po0023,1286.46,Cleaning services,2026-03-06
+INV0024,Po0024,2121.62,IT hardware procurrement,2026-04-16
+INV0025,Po0025,5709.35,Cleaning services,2026-07-16
+INV0026,Po0026,22906.42,Office stationery supply,2026-04-14
+INV0027,Po0027,3920.94,Office stationery supply,2026-02-13
+INV0028,Po0028,18801.84,Logistics and courier services,2026-05-24
+INV0029,Po0029,9368.91,Catering services,2026-06-05
+INV0030,Po0030,2727.28,Logistics and courier services,2026-05-16
+INV0031,Po0031,15872.43,Printing and packaging materials,2026-01-30
+INV0032,Po0032,9926.8,Catering services,2026-06-10
+INV0033,Po0033,6659.65,Software license renewal,2026-05-02
+INV0034,Po0034,18157.68,Catering services,2026-01-05
+INV0035,Po0035,19330.67,Logistics and courier services,2026-07-17
+INV0036,Po0036,11151.75,Catering services,2026-02-09
+INV0037,Po0037,21958.4,Logistics and courier services,2026-01-16
+INV0038,Po0038,4876.97,Catering services,2026-05-15
+INV0039,Po0039,21120.9,Printing and packaging materials,2026-06-14
+INV0040,Po0040,4244.56,Office stationery supply,2026-06-07
+INV0041,Po0041,23099.63,IT hardware procurrement,2026-05-30
+INV0042,Po0042,12470.84,Cleaning services,2026-06-16
+INV0043,Po0043,24640.37,Logistics and courier services,2026-04-05
+INV0044,Po0044,6401.35,Logistics and courier services,2026-03-07
+INV0045,Po0045,18431.74,Software license renewal,2026-01-23
+INV0046,Po0046,19262.94,Software license renewal,2026-07-19
+INV0047,Po0047,23697.79,Logistics and courier services,2026-06-29
+INV0048,Po0048,21874.61,IT hardware procurrement,2026-03-15
+INV0049,Po0049,13712.75,Cleaning services,2026-03-02
+INV0050,Po0050,10275.31,Printing and packaging materials,2026-07-06
+INV0051,Po0051,13180.61,Printing and packaging materials,2026-04-28
+INV0052,Po0052,2068.63,Printing and packaging materials,2026-03-20
+INV0053,Po0053,6137.81,Office stationery supply,2026-06-11
+INV0054,Po0054,17842.1,Printing and packaging materials,2026-01-12
+INV0055,Po0055,22682.79,Catering services,2026-03-03
+INV0056,Po0056,6331.11,IT hardware procurrement,2026-01-31
+INV0057,Po0057,3741.64,Software license renewal,2026-02-27
+INV0058,Po0058,6453.43,Cleaning services,2026-06-04
+INV0059,Po0059,2810.98,Printing and packaging materials,2026-04-30
+INV0060,Po0060,10572.01,Catering services,2026-04-13
+INV0061,Po0061,24612.05,Printing and packaging materials,2026-06-26
+INV0062,Po0062,18341.23,Logistics and courier services,2026-01-22
+INV0063,Po0063,5160.12,Logistics and courier services,2026-03-18
+INV0064,Po0064,4995.46,IT hardware procurrement,2026-02-06
+INV0065,Po0065,23120.01,Office stationery supply,2026-03-19
+INV0066,Po0066,1739.41,Cleaning services,2026-06-03
+INV0067,Po0067,23195.99,Cleaning services,2026-01-11
+INV0068,Po0068,12398.21,IT hardware procurrement,2026-02-14
+INV0069,Po0069,1936.57,Catering services,2026-04-28
+INV0070,Po0070,6997.47,Printing and packaging materials,2026-01-16
+INV0071,Po0071,17566.49,IT hardware procurrement,2026-03-21
+INV0072,Po0072,12423.45,Software license renewal,2026-06-30
+INV0073,Po0073,24233.38,Printing and packaging materials,2026-03-24
+INV0074,Po0074,1993.46,IT hardware procurrement,2026-07-16
+INV0075,Po0075,14812.35,IT hardware procurrement,2026-01-20
+INV0076,Po0076,1893.55,Printing and packaging materials,2026-05-20
+INV0077,Po0077,5052.71,Catering services,2026-01-30
+INV0078,Po0078,21614.57,Printing and packaging materials,2026-01-23
+INV0079,Po0079,14457.05,Software license renewal,2026-02-10
+INV0080,Po0080,15674.85,Catering services,2026-06-17
+INV0081,Po0081,14348.06,Cleaning services,2026-06-25
+INV0082,Po0082,16908.29,IT hardware procurrement,2026-03-12
+INV0083,Po0083,10196.75,Software license renewal,2026-03-12
+INV0084,Po0084,23260.95,Logistics and courier services,2026-04-30
+INV0085,Po0085,15718.4,Logistics and courier services,2026-01-04
+INV0086,Po0086,13672.04,IT hardware procurrement,2026-01-28
+INV0087,Po0087,23364.85,IT hardware procurrement,2026-03-20
+INV0088,Po0088,7482.19,Printing and packaging materials,2026-03-17
+INV0089,Po0089,7911.67,Catering services,2026-05-27
+INV0090,Po0090,20519.05,Software license renewal,2026-01-05
+INV0091,Po0091,23503.79,Catering services,2026-06-26
+INV0092,Po0092,22297.96,Catering services,2026-03-17
+INV0093,Po0093,7403.03,Catering services,2026-02-14
+INV0094,Po0094,5488.13,Office stationery supply,2026-07-17
+INV0095,Po0095,6652.47,Printing and packaging materials,2026-05-21
+INV0096,Po0096,10877.61,Printing and packaging materials,2026-01-26
+INV0097,Po0097,8672.14,Catering services,2026-01-27
+INV0098,Po0098,4458.76,Cleaning services,2026-06-26
+INV0099,Po0099,10978.33,Printing and packaging materials,2026-06-04
+INV0100,Po0100,23653.75,Office stationery supply,2026-02-04
+INV0101,Po0018,9204.13,Cleaning services (resubmitted),2026-02-21
+INV0102,Po0095,6652.47,Printing and packaging materials (resubmitted),2026-05-21
