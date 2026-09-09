@@ -1,21 +1,101 @@
-employee_id,name,phone,department
-EMP001,Allison Hill,321.581.9600,Finance
-EMP002,Lance Hoffman,001-486-537-9402x654,Finance
-EMP003,Gabrielle Davis,855-394-0781,Operations
-EMP004,Sandra Montgomery,(993)710-3413x164,Procurement
-EMP005,Henry Santiago,001-719-228-3276x483,Procurement
-EMP006,Andrew Stewart,513-695-3767x242,Procurement
-EMP007,Jessica Silva,(332)887-1012x269,Finance
-EMP008,Zachary Rice,+1-401-984-5146,Sales
-EMP009,Nathan Cortez,728.914.8932x52880,Finance
-EMP010,Timothy Koch,430-639-1171x8227,Sales
-EMP011,Lisa Brandt,+1-534-565-7871,IT
-EMP012,Alex Spencer,001-330-510-3105,Finance
-EMP013,John Ryan,001-899-973-7631x1656,Finance
-EMP014,Amy Valdez,+1-410-665-1333x8726,Finance
-EMP015,Shannon Jones,+1-910-980-1326,Procurement
-EMP016,James Brown,(206)247-4687x2343,Procurement
-EMP017,Amy Silva,582.208.1219x13619,Sales
-EMP018,Jennifer Silva,954.335.3462x47510,Sales
-EMP019,Daniel Baker,(613)354-2784x980,Finance
-EMP020,Brandy Wilson,682-944-9353,Sales
+employee_id,name,email,phone,department,role,join_date
+EMP001,Allison Hill,allison.hill@sentinelcorp.com,(518)519-6001,Finance,Finance Executive,2024-08-20
+EMP002,Alyssa Gonzalez,alyssa.gonzalez@sentinelcorp.com,001-486-537-9402x654,Operations,Operations Executive,2026-06-14
+EMP003,Gabrielle Davis,gabrielle.davis@sentinelcorp.com,(759)540-7816x184,Procurement,Procurement Officer,2024-02-06
+EMP004,Amber Perez,amber.perez@sentinelcorp.com,731-564-7525,Finance,Accountant,2024-12-01
+EMP005,Mia Sutton,mia.sutton@sentinelcorp.com,+1-528-232-7648x350,Sales,Sales Executive,2023-12-28
+EMP006,Jennifer Jones,jennifer.jones@sentinelcorp.com,001-653-876-7242x388,Sales,Sales Manager,2026-02-06
+EMP007,Jennifer Robinson,jennifer.robinson@sentinelcorp.com,671.201.2269x16697,Finance,Finance Executive,2024-04-10
+EMP008,Ashley Dyer,ashley.dyer@sentinelcorp.com,001-551-446-2704x82814,Finance,Finance Executive,2024-10-27
+EMP009,Christopher Ashley,christopher.ashley@sentinelcorp.com,2955701543,Procurement,Procurement Intern,2025-12-10
+EMP010,Theresa Miller,theresa.miller@sentinelcorp.com,882-527-8248,Sales,Sales Executive,2025-10-02
+EMP011,Nicole Vaughn,nicole.vaughn@sentinelcorp.com,(557)587-1331x5098,Sales,Sales Executive,2025-01-05
+EMP012,Michael Brown,michael.brown@sentinelcorp.com,4519834738,Sales,Sales Manager,2023-12-22
+EMP013,John Russell,john.russell@sentinelcorp.com,865-766-7010,Procurement,Procurement Manager,2024-02-02
+EMP014,Ashley Lee,ashley.lee@sentinelcorp.com,226.324.7317x810,Sales,Sales Manager,2025-12-20
+EMP015,Sarah Martin,sarah.martin@sentinelcorp.com,936.402.6064x7468,Finance,Finance Executive,2025-10-02
+EMP016,Daniel Brown,daniel.brown@sentinelcorp.com,2503097882,IT,IT Manager,2025-12-29
+EMP017,Andrea Jones,andrea.jones@sentinelcorp.com,(719)639-9091x6998,Operations,Operations Executive,2024-09-08
+EMP018,Mike Allen,mike.allen@sentinelcorp.com,(347)351-0799,Procurement,Procurement Manager,2025-05-15
+EMP019,Katie Anderson,katie.anderson@sentinelcorp.com,235-642-7849,Finance,Finance Executive,2025-03-04
+EMP020,Ashley Humphrey,ashley.humphrey@sentinelcorp.com,518-624-4935,IT,IT Support,2024-10-23
+EMP021,Danielle Odonnell,danielle.odonnell@sentinelcorp.com,964-800-5242,Operations,Operations Manager,2023-11-26
+EMP022,Ashley Landry,ashley.landry@sentinelcorp.com,(280)659-8262,Sales,Sales Manager,2026-08-17
+EMP023,Timothy Stanton,timothy.stanton@sentinelcorp.com,(833)215-8692x322,Finance,Accountant,2023-11-09
+EMP024,Tim Patton,tim.patton@sentinelcorp.com,+1-534-221-6073x37543,IT,IT Support,2025-06-09
+EMP025,Jennifer Ramirez,jennifer.ramirez@sentinelcorp.com,001-345-886-8501x42940,IT,IT Support,2023-12-25
+EMP026,Richard Graham,richard.graham@sentinelcorp.com,569-734-0608,Sales,Sales Manager,2025-11-11
+EMP027,Travis Mccall,travis.mccall@sentinelcorp.com,414-684-6564x82366,Sales,Sales Manager,2026-05-04
+EMP028,Roy Torres,roy.torres@sentinelcorp.com,(799)357-7738x72148,Sales,Sales Executive,2024-07-31
+EMP029,Nicole Chambers,nicole.chambers@sentinelcorp.com,820.503.7917,Finance,Finance Executive,2024-08-22
+EMP030,Janet Ross,janet.ross@sentinelcorp.com,+1-401-963-2870x8317,Procurement,Procurement Manager,2024-04-25
+EMP031,Victoria Larson,victoria.larson@sentinelcorp.com,+1-986-587-2774x348,Finance,Finance Executive,2025-07-27
+EMP032,Billy Mitchell,billy.mitchell@sentinelcorp.com,958-812-2362x31665,Finance,Finance Manager,2024-11-04
+EMP033,Ross Price,ross.price@sentinelcorp.com,001-509-967-0546x688,Operations,Operations Manager,2026-03-04
+EMP034,Jeffrey Johnson,jeffrey.johnson@sentinelcorp.com,+1-462-972-9806x99016,Operations,Operations Executive,2025-02-12
+EMP035,David Murphy,david.murphy@sentinelcorp.com,256-246-4170x80531,Operations,Operations Manager,2025-08-15
+EMP036,Christina Smith,christina.smith@sentinelcorp.com,427.319.3745,Procurement,Procurement Intern,2024-05-02
+EMP037,Carla Collins,carla.collins@sentinelcorp.com,3496663193,Operations,Operations Executive,2026-02-23
+EMP038,Lindsay Martinez,lindsay.martinez@sentinelcorp.com,8589651850,Sales,Sales Executive,2026-02-04
+EMP039,Tyler Reid,tyler.reid@sentinelcorp.com,001-626-728-4987x769,Sales,Sales Executive,2025-08-23
+EMP040,Sandra Miller,sandra.miller@sentinelcorp.com,479.996.5075,Procurement,Procurement Manager,2025-08-09
+EMP041,Robert Peterson,robert.peterson@sentinelcorp.com,001-948-908-3136x783,IT,IT Manager,2026-03-23
+EMP042,Alan Phillips,alan.phillips@sentinelcorp.com,001-734-995-7885x685,Sales,Sales Executive,2025-05-29
+EMP043,David Martinez,david.martinez@sentinelcorp.com,618-523-3749x89413,Operations,Operations Executive,2024-07-04
+EMP044,Eric Erickson,eric.erickson@sentinelcorp.com,900-984-2710x947,Procurement,Procurement Officer,2024-03-23
+EMP045,Vincent King,vincent.king@sentinelcorp.com,616-371-9022,Operations,Operations Manager,2025-09-20
+EMP046,Bailey Duran DDS,bailey.duran.dds@sentinelcorp.com,286.377.4964,Operations,Operations Executive,2026-04-26
+EMP047,Christine Clark,christine.clark@sentinelcorp.com,923-928-1206,Procurement,Procurement Intern,2026-06-30
+EMP048,David Mann,david.mann@sentinelcorp.com,413.349.3618x324,Operations,Operations Executive,2026-09-05
+EMP049,Ricky Larson,ricky.larson@sentinelcorp.com,271-874-6488x7719,IT,IT Manager,2026-02-09
+EMP050,Lindsey Johnson,lindsey.johnson@sentinelcorp.com,+1-899-904-9027x87429,IT,IT Support,2024-08-29
+EMP051,Julie Ortiz,julie.ortiz@sentinelcorp.com,+1-712-356-7468x07154,Operations,Operations Executive,2025-01-19
+EMP052,Jennifer Robertson,jennifer.robertson@sentinelcorp.com,+1-487-660-3859x77034,Procurement,Procurement Intern,2023-09-10
+EMP053,Michael Martinez,michael.martinez@sentinelcorp.com,+1-332-448-0861x317,Sales,Sales Manager,2026-05-14
+EMP054,Dr. Jordan Hill PhD,dr..jordan.hill.phd@sentinelcorp.com,378.626.3982,Sales,Sales Manager,2025-09-11
+EMP055,Sarah Morgan,sarah.morgan@sentinelcorp.com,704-849-9727x875,Sales,Sales Manager,2025-11-05
+EMP056,Frank Lopez,frank.lopez@sentinelcorp.com,896.436.0576,Operations,Operations Executive,2026-08-27
+EMP057,Andrew Shaw MD,andrew.shaw.md@sentinelcorp.com,818.370.2621x745,Procurement,Procurement Intern,2024-02-11
+EMP058,Sarah Villarreal,sarah.villarreal@sentinelcorp.com,478-609-1343x16117,IT,IT Support,2025-04-21
+EMP059,Amber Flynn,amber.flynn@sentinelcorp.com,(856)523-8692x221,Finance,Finance Executive,2024-12-07
+EMP060,Mr. David Little MD,mr..david.little.md@sentinelcorp.com,6748821759,Procurement,Procurement Intern,2026-07-10
+EMP061,Joyce Turner,joyce.turner@sentinelcorp.com,213.969.5944x0640,Procurement,Procurement Intern,2025-04-28
+EMP062,Stephanie Parsons,stephanie.parsons@sentinelcorp.com,+1-753-439-4210x470,IT,IT Support,2024-08-31
+EMP063,Edward Burgess,edward.burgess@sentinelcorp.com,928.658.8424,IT,IT Manager,2024-06-07
+EMP064,Gina Wilson,gina.wilson@sentinelcorp.com,(336)985-1604,Sales,Sales Manager,2024-01-03
+EMP065,Paul Baker,paul.baker@sentinelcorp.com,+1-651-837-0985x9317,Sales,Sales Manager,2025-04-22
+EMP066,Andrew Johnson,andrew.johnson@sentinelcorp.com,813-482-6758,Sales,Sales Executive,2025-10-13
+EMP067,Mary Bass,mary.bass@sentinelcorp.com,(840)653-7735x15850,Finance,Accountant,2026-04-22
+EMP068,Bryan Charles,bryan.charles@sentinelcorp.com,539-300-5329,Sales,Sales Manager,2025-08-15
+EMP069,Kristen Willis,kristen.willis@sentinelcorp.com,729-504-2284x21020,Operations,Operations Executive,2024-09-04
+EMP070,Alexis Baker,alexis.baker@sentinelcorp.com,001-568-211-7758x9178,Operations,Operations Manager,2024-03-23
+EMP071,Susan Hopkins,susan.hopkins@sentinelcorp.com,400.376.6177x115,Procurement,Procurement Manager,2024-12-20
+EMP072,Marcus Richards,marcus.richards@sentinelcorp.com,(998)547-8961x1836,Finance,Accountant,2025-01-26
+EMP073,Ronald Ross,ronald.ross@sentinelcorp.com,465-245-2711x11615,Operations,Operations Executive,2024-02-03
+EMP074,Kristina Rivera,kristina.rivera@sentinelcorp.com,(556)304-9451x98327,Sales,Sales Executive,2024-03-16
+EMP075,Justin Wilson,justin.wilson@sentinelcorp.com,001-636-289-9809,Operations,Operations Executive,2024-11-14
+EMP076,Michael Parker,michael.parker@sentinelcorp.com,(802)829-6120x183,Procurement,Procurement Manager,2025-02-17
+EMP077,Christopher Collins,christopher.collins@sentinelcorp.com,001-999-810-2290x14767,Procurement,Procurement Intern,2025-01-24
+EMP078,Paul Wilson,paul.wilson@sentinelcorp.com,249-278-4036,Sales,Sales Executive,2025-07-07
+EMP079,Tony Saunders,tony.saunders@sentinelcorp.com,751-307-6226x8388,Sales,Sales Manager,2024-10-09
+EMP080,Patrick Graham,patrick.graham@sentinelcorp.com,859-269-6641,IT,IT Support,2025-08-23
+EMP081,Carolyn Meza,carolyn.meza@sentinelcorp.com,001-651-761-3696x816,Finance,Finance Manager,2025-08-23
+EMP082,Richard Jones,richard.jones@sentinelcorp.com,488-635-5231,Operations,Operations Executive,2026-05-19
+EMP083,Lance Wolf,lance.wolf@sentinelcorp.com,727-779-9799,Finance,Finance Executive,2026-06-23
+EMP084,Barry Ramos,barry.ramos@sentinelcorp.com,690-358-1477x005,Sales,Sales Executive,2024-12-22
+EMP085,Vanessa Davis,vanessa.davis@sentinelcorp.com,267.998.0793x59782,Finance,Accountant,2026-03-19
+EMP086,Steven Cooper,steven.cooper@sentinelcorp.com,820.737.7889x25546,IT,IT Support,2024-01-18
+EMP087,Amy Mccoy,amy.mccoy@sentinelcorp.com,751-386-4492,Sales,Sales Executive,2025-02-09
+EMP088,Brenda Bailey,brenda.bailey@sentinelcorp.com,001-862-791-4865x281,Procurement,Procurement Intern,2026-06-24
+EMP089,Eric Bean,eric.bean@sentinelcorp.com,001-473-832-2141x88805,IT,IT Support,2025-02-20
+EMP090,Christopher Schwartz,christopher.schwartz@sentinelcorp.com,(970)565-3794,Operations,Operations Manager,2026-05-06
+EMP091,Emily Stokes,emily.stokes@sentinelcorp.com,859.477.4688,Procurement,Procurement Intern,2025-09-06
+EMP092,Rebecca Taylor,rebecca.taylor@sentinelcorp.com,4756818141,Procurement,Procurement Intern,2024-10-01
+EMP093,Jose Guerra,jose.guerra@sentinelcorp.com,575.806.0685,Operations,Operations Manager,2024-01-29
+EMP094,Jade Johnson DVM,jade.johnson.dvm@sentinelcorp.com,522-404-7277x90104,Operations,Operations Manager,2026-06-14
+EMP095,Monica Rose,monica.rose@sentinelcorp.com,001-243-541-0369x71179,Sales,Sales Manager,2024-02-28
+EMP096,Doris Smith,doris.smith@sentinelcorp.com,296.821.8518,Finance,Finance Executive,2025-03-10
+EMP097,Amanda Hughes,amanda.hughes@sentinelcorp.com,705-415-3195x205,Procurement,Procurement Officer,2025-04-10
+EMP098,Melinda Pollard,melinda.pollard@sentinelcorp.com,+1-822-917-0430x3054,Operations,Operations Executive,2025-09-21
+EMP099,Paul Lee,paul.lee@sentinelcorp.com,001-705-641-5667x65277,Sales,Sales Executive,2025-03-16
+EMP100,Monica Miller,monica.miller@sentinelcorp.com,(984)851-1544,Sales,Sales Executive,2026-04-01

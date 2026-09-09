@@ -1,33 +1,346 @@
-vendor_id,vendor_name,phone,address,bank_account,created_by_employee_id
-VEN001,"Rodriguez, Figueroa and Sanchez",(518)519-6001,"386 Shane Harbors, Port Lindachester, MA 36922",GB76EGYK11615594078161,EMP004
-VEN002,"Carter, Fuller and Mcclure",(993)710-3413x164,"41928 Frank Light Suite 835, East Lydiamouth, MO 35594",GB41CGSW53767242388496,EMP001
-VEN003,"Ross, Robinson and Bright",671.201.2269x16697,"845 Kelly Estate, Smithview, NY 23917",GB47QDUJ89325288095701,EMP009
-VEN004,Koch-Decker,430-639-1171x8227,"83465 Lam Mission Apt. 331, Andrewside, IN 77629",GB49HACW03105183473829,EMP008
-VEN005,"Kennedy, Mueller and Aguirre",311.265.6670,"33387 Robert Harbors Suite 317, North Deniseside, MP 02435",GB96CYHF67736026064746,EMP008
-VEN006,"Bernard, Cowan and Peters",001-272-934-3098x050,"81219 Emma Freeway, Wilsonshire, IA 76381",GB37TBTC69985435346247,EMP005
-VEN007,Hickman-Walls,6794911838,"USS Suarez, FPO AA 37854",GB19FORW49808412411824,EMP004
-VEN008,Jacobs-Robbins,248.274.0164,"427 Hoffman Creek, Lake Rebeccaside, AZ 48894",GB57SREN20450533158692,EMP018
-VEN009,Hancock and Sons,(902)756-3421x60733,"03654 Tammy Harbors, Darlenefurt, TX 70783",GB51KADI29401965569816,EMP003
-VEN010,"Lee, Williams and Graham",783.856.1595x14846,"66299 Sullivan Village, West Justinchester, WY 76520",GB97TUKO77387214895134,EMP019
-VEN011,Drake and Sons,5038791769,"01632 Williams Gateway, South Dennismouth, TN 70117",GB48RTKY79868727743487,EMP014
-VEN012,"Allen, Gonzales and Reeves",845.458.1223,"6587 Brown Village, Priceshire, UT 03061",GB42YSMP05466889373467,EMP002
-VEN013,Price Ltd,+1-462-972-9806x99016,"5375 Juarez Light Suite 641, Smithside, AR 46371",GB20HUCY00330923271937,EMP001
-VEN014,"Scott, Wood and Obrien",001-512-341-9049x6631,"919 Michael Meadow Suite 185, Port Robertfort, CT 57323",GB97LUOW26284987769453,EMP003
-VEN015,Ramirez Group,479.996.5075,"4948 Zachary Field Apt. 367, Lake Thomas, VT 64833",GB09OZAC43634957885685,EMP007
-VEN016,Warner-Nelson,631-335-1823x374,"52408 Joshua Center Suite 271, New Justinfort, NV 45158",GB57FBIP11671902294131,EMP008
-VEN017,"Duran, Obrien and Gibbs",286.377.4964,"USNS Garrett, FPO AA 87064",GB67CFHF81206797403447,EMP017
-VEN018,Mcdaniel LLC,+1-693-661-8324x2102,"464 Kim Rapid Apt. 659, Anthonybury, TX 75893",GB08SAYV49027874296717,EMP020
-VEN019,Ortiz-Morris,925-367-4680,"68087 Brown Path Suite 977, East Josephberg, LA 57925",GB91WPDA93248086131712,EMP001
-VEN020,Cantu-Carter,001-446-377-3782x639,"8404 Monroe Prairie Suite 278, Reedside, WV 71729",GB72MOKG39636057662702,EMP018
-VEN021,"Sanford, Rivera and Garcia",818.370.2621x745,"7809 Jimmy Spur Suite 316, Port Cynthiaville, NV 22306",GB90WJAB50455623869222,EMP007
-VEN022,Lynch Group,+1-637-492-3747x407,"464 Bruce Flat Suite 713, Armstrongshire, LA 92156",GB71JAVM40909743953394,EMP018
-VEN023,"Campos, Saunders and Becker",(310)647-0952,"32858 Rivas Glens Suite 451, Mccartyberg, WV 30072",GB16VXVM85160481754965,EMP014
-VEN024,Leonard Group,8983593174,"7113 Paul Land, Matthewsberg, FM 54880",GB39UDPT64053773515850,EMP008
-VEN025,Hill-Donaldson,513.590.0532x931,"2904 Vanessa Plains, Laurenville, TN 03880",GB36EALZ39502402681177,EMP015
-VEN026,Palmer-Rodriguez,939.308.4700x76617,"PSC 5921, Box 2499, APO AP 93844",GB86KMTQ47896118367365,EMP019
-VEN027,Ross-Blair,465-245-2711x11615,"165 Parrish Stravenue Apt. 494, Dalehaven, IL 20781",GB33VPHD58514936899809,EMP009
-VEN028,"Gallegos, Adams and White",001-345-550-2296x120,"2545 Nicole Drives Apt. 901, Scottchester, NM 80071",GB14ONIG81561497840369,EMP001
-VEN029,Smith LLC,424.445.1076,"851 Hensley Canyon, Smithland, VI 41534",GB18SNSM64160529751613,EMP006
-VEN030,Chapman-Warren,(745)435-2181x8835,"3292 Gregory Trail, Marshallshire, WV 76453",GB33OVSU95527177449058,EMP014
-VEN031,Precision Supply Co,+1-401-984-5146,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000000,EMP008
-VEN032,Metro Business Solutions,+1-401-984-5146,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000001,EMP008
+vendor_id,vendor_name,email,phone,address,bank_account,registration_number,vendor_category,onboarding_date,has_contract,created_by_employee_id
+VEN001,"Rodriguez, Figueroa and Sanchez",contact@rodriguezfiguer.com,001-218-519-6001x3389,"79402 Peterson Drives Apt. 511, Davisstad, PA 35172",GB93ZBXO81618495931034,REG-13164752,IT Hardware,2024-12-25,Yes,EMP082
+VEN002,Kelly-Santiago,contact@kelly-santiago.com,+1-519-228-3276x48350,"1395 Diana Locks Suite 242, Lake Anna, KS 98413",GB64SNSM53287101226916,REG-69784801,Catering,2026-03-07,Yes,EMP095
+VEN003,"Dyer, Potter and Mack",contact@dyerpotterandma.com,346-627-0482,"52880 Burns Creek, Natashaport, IA 08093",GB40HSCC71822782489638,REG-34657871,Office Supplies,2025-05-30,Yes,EMP029
+VEN004,Walker LLC,contact@walkerllc.com,001-383-293-0103,"347 Amber Stream, Sanchezfort, AS 53855",GB23GDDV65667010651333,REG-87262473,Cleaning Services,2024-09-24,Yes,EMP087
+VEN005,Ramos PLC,contact@ramosplc.com,5808132677,"PSC 2606, Box 4746, APO AP 96249",GB80ZRVW72343098050097,REG-88208121,Logistics,2024-11-23,Yes,EMP076
+VEN006,"Jones, Hensley and Powell",contact@joneshensleyand.com,001-739-690-9169,"46247 Hickman Cliffs Apt. 799, North Amandahaven, KS 17862",GB72LCHL42784980841241,REG-18244935,IT Hardware,2026-07-31,Yes,EMP004
+VEN007,Watts LLC,contact@wattsllc.com,840.216.4005x2427,"059 Russell Canyon, Michaelton, MH 47399",GB49GVHV15869232260256,REG-34216073,Software Licensing,2025-10-05,Yes,EMP030
+VEN008,Velasquez Group,contact@velasquezgroup.com,733-203-6541x4586,"94019 Reed Turnpike Suite 698, South Rachelborough, KS 06318",GB59WNAQ83561595148465,REG-64823662,Office Supplies,2025-06-06,No,EMP072
+VEN009,"Carroll, Sullivan and Bass",contact@carrollsullivan.com,336-699-5777x3872,"34332 Brandon Mountains Apt. 769, Lake Heather, NM 52884",GB88HEUW01632870831727,REG-88957986,Logistics,2025-05-02,No,EMP029
+VEN010,"Griffin, Moore and Hensley",contact@griffinmooreand.com,734-787-3471x434,"PSC 1223, Box 6231, APO AA 53925",GB97KRON03669096705466,REG-88937346,Printing & Packaging,2025-08-23,Yes,EMP001
+VEN011,Johnson-Rogers,contact@johnson-rogers.com,(427)929-8069x9016,"5375 Juarez Light Suite 641, Smithside, AR 46371",GB20HUCY00330923271937,REG-45299124,Logistics,2026-02-17,No,EMP090
+VEN012,Lane LLC,contact@lanellc.com,+1-866-731-9314x91905,"67165 Zimmerman Mews Apt. 849, Marshallshire, KY 42746",GB16HCIO37996507527354,REG-54948083,Office Supplies,2025-11-29,Yes,EMP036
+VEN013,Allen Group,contact@allengroup.com,+1-837-577-0143,"8856 Bell Motorway Suite 443, Lake Jamesville, WA 70737",GB54YWFG37498941343524,REG-08240084,Catering,2025-09-22,Yes,EMP098
+VEN014,"Raymond, Little and Mullins",contact@raymondlittlean.com,6949777520,"7190 Edward Port, Christopherbury, DE 73648",GB10YNTT93867749649909,REG-13341232,Logistics,2024-11-26,Yes,EMP012
+VEN015,"Jones, Smith and Hayes",contact@jonessmithandha.com,340.534.4713x4936,"10249 Gonzales Mountain Suite 648, Kimton, FM 57127",GB13XKTI01399049027874,REG-29671756,Printing & Packaging,2025-12-13,No,EMP046
+VEN016,Morris-Garcia,contact@morris-garcia.com,267-946-8071x54516,"597 Wolf Ford, Andreaport, NV 92022",GB17PDAU93248086131712,REG-74846773,Catering,2025-01-10,Yes,EMP078
+VEN017,Arnold-Reyes,contact@arnold-reyes.com,+1-982-414-6584x044,"5886 Cantu Ways Apt. 396, Port Kimberly, AZ 42205",GB65XPWZ66270289517187,REG-02621745,Logistics,2026-08-25,Yes,EMP094
+VEN018,"Schwartz, Santos and Christian",contact@schwartzsantosa.com,+1-386-357-8091x34316,"05045 Jordan Gardens Suite 922, North Chelsea, MS 81727",GB50VHPS23747407482175,REG-94647436,IT Hardware,2026-07-02,No,EMP049
+VEN019,Rodriguez-James,contact@rodriguez-james.com,001-944-606-4090,"533 Byrd Stravenue, Lake Colton, SC 85218",GB72BJZO09521456232858,REG-84247451,Software Licensing,2025-06-13,No,EMP081
+VEN020,Mccarty-Taylor,contact@mccarty-taylor.com,+1-868-751-6048x17549,"0985 Deborah Roads, Blankenshipport, SD 54017",GB45DEBB47113826758692,REG-61796405,Office Supplies,2025-03-02,Yes,EMP074
+VEN021,Ramos and Sons,contact@ramosandsons.com,(515)285-0643x171,"29318 Brenda Via Apt. 529, West Micheleberg, DC 71308",GB86IZFD02053950240268,REG-11775891,Cleaning Services,2026-07-04,Yes,EMP006
+VEN022,Gordon-Dougherty,contact@gordon-doughert.com,001-384-770-0766x1771,"49985 Vang Pines, Shawnchester, CT 92484",GB51DUUY83673657661565,REG-45271111,Catering,2024-10-11,Yes,EMP099
+VEN023,Davis-Rodgers,contact@davis-rodgers.com,(780)898-8516,"9451 Eric Orchard, Port Daniel, PR 73411",GB57LDYI93689980940244,REG-55022961,Printing & Packaging,2026-05-31,Yes,EMP030
+VEN024,Figueroa Inc,contact@figueroainc.com,001-383-266-7525x4599,"147 Tucker Mills, Nelsonhaven, DE 45743",GB35NDJV97840369003432,REG-44510762,Catering,2024-11-18,No,EMP049
+VEN025,James Ltd,contact@jamesltd.com,885.816.0607x15969,"52975 Samuel Coves Apt. 696, South Monicamouth, IN 44156",GB53YFCQ18835523124329,REG-21277997,Printing & Packaging,2025-03-05,No,EMP082
+VEN026,"Glass, Cunningham and Reid",contact@glasscunningham.com,652-971-7744x90581,"4119 Ford Plaza, South Reginashire, SD 25173",GB18KTPQ20715182037788,REG-92554665,Catering,2026-01-06,No,EMP021
+VEN027,"Harper, Mccormick and Holland",contact@harpermccormick.com,818-464-4925x19254,"8652 Debbie Manors, Andrewport, HI 28575",GB70KYPG32214188805929,REG-62229270,Cleaning Services,2024-10-29,No,EMP027
+VEN028,Diaz-Ball,contact@diaz-ball.com,+1-947-638-3473x597,"39240 Sawyer Plaza Apt. 814, Port Ethanmouth, MH 67787",GB23ENCH75060685361530,REG-51522047,Cleaning Services,2025-08-19,Yes,EMP090
+VEN029,"Guerra, Blake and Harrison",contact@guerrablakeandh.com,8103432898,"1036 Brown Villages, Carlsontown, SC 68052",GB30SHWE46095396218518,REG-88880670,Cleaning Services,2025-12-29,Yes,EMP078
+VEN030,"Hughes, Brooks and Burgess",contact@hughesbrooksand.com,753-419-5205,"722 Jennifer Mount Apt. 430, North Leslie, ME 68053",GB56MRPI03450541566765,REG-27758416,Cleaning Services,2025-06-12,Yes,EMP069
+VEN031,Jordan and Sons,contact@jordanandsons.com,951-215-4479x6275,"640 Emily Lodge Suite 820, Port Cathy, WY 57933",GB85BECH55690927557192,REG-85654310,Logistics,2025-11-05,No,EMP021
+VEN032,"Lopez, Holmes and Mcintyre",contact@lopezholmesandm.com,447-939-4731x217,"Unit 5518 Box 8442, DPO AP 93504",GB25WUFZ58313237058957,REG-82911467,Cleaning Services,2024-12-08,Yes,EMP035
+VEN033,"Jenkins, Ortiz and Andrews",contact@jenkinsortizand.com,317-478-5289x22680,"3584 John Roads, Davidport, RI 70425",GB30CQUF99229959001094,REG-39690784,Catering,2024-12-14,Yes,EMP088
+VEN034,"Frye, Webb and Ballard",contact@fryewebbandball.com,(447)710-2767x7359,"562 Robertson Coves Suite 371, Shannonberg, CT 07133",GB14JMTN32595327877470,REG-16873395,Printing & Packaging,2026-02-22,Yes,EMP030
+VEN035,Williams Group,contact@williamsgroup.com,+1-874-280-1624x5650,"8416 Duran Harbors, East Theresafurt, MN 44945",GB73RLYE39868000257872,REG-98259526,Logistics,2025-12-16,No,EMP041
+VEN036,"Stevenson, Evans and Rogers",contact@stevensonevansa.com,987.694.7055x16940,"Unit 9930 Box 9728, DPO AP 95027",GB80TYME30913075626368,REG-97028385,Office Supplies,2026-06-13,No,EMP009
+VEN037,"Mendoza, Bennett and Frye",contact@mendozabennetta.com,+1-658-654-9733,"3757 Castro Underpass Suite 419, Huangfurt, GU 45738",GB06YZEJ04157473384842,REG-19933083,Cleaning Services,2025-08-31,No,EMP028
+VEN038,"Hall, Garcia and Rivera",contact@hallgarciaandri.com,620-782-6773,"93802 Khan Fall, Port Randyfort, HI 98674",GB27JBAJ99154788728743,REG-15274205,Cleaning Services,2025-09-09,No,EMP051
+VEN039,Bradley-Todd,contact@bradley-todd.com,+1-566-285-1612x275,"4549 Jose Lake, North Elizabeth, NH 40714",GB20FMVQ41459332727956,REG-87833918,Catering,2025-01-22,Yes,EMP019
+VEN040,Rice-Cox,contact@rice-cox.com,001-410-788-3982,"39718 Stokes Motorway Apt. 867, New Stevenport, VA 03354",GB09MIAX39106518017046,REG-22656766,Cleaning Services,2026-08-21,No,EMP032
+VEN041,Vega Ltd,contact@vegaltd.com,+1-525-212-8682,"8686 John Key Apt. 431, Port Donnatown, IA 27512",GB25CDTB79030673830284,REG-39599534,Software Licensing,2026-07-19,No,EMP096
+VEN042,Odom PLC,contact@odomplc.com,(744)808-9268x70568,"2873 Kevin Station Apt. 708, Faulknerside, NC 18076",GB11MHIG51751830469901,REG-39837354,Logistics,2025-02-26,No,EMP075
+VEN043,Lewis and Sons,contact@lewisandsons.com,673-893-6385,"4587 Garcia Stravenue Suite 535, Robertshire, VI 29503",GB12XEAI89964235369378,REG-54777252,Office Supplies,2026-04-06,No,EMP029
+VEN044,Cortez Group,contact@cortezgroup.com,+1-508-301-0062,"87509 Hopkins Brook, New Andreatown, AK 69892",GB18XIRJ08621182339845,REG-46156793,Printing & Packaging,2025-01-28,Yes,EMP012
+VEN045,"Perez, Sutton and Abbott",contact@perezsuttonanda.com,+1-801-766-6870x0217,"033 Nelson Club, Rachelshire, TN 04813",GB28FKAG92614293968562,REG-18501631,Office Supplies,2026-01-28,Yes,EMP015
+VEN046,Jacobs-Austin,contact@jacobs-austin.com,(850)347-7358x6629,"11426 Jodi Island Suite 110, Seanview, CT 17868",GB66CFNO88861015819956,REG-04661839,Logistics,2025-12-14,Yes,EMP088
+VEN047,"Jackson, James and Taylor",contact@jacksonjamesand.com,672-512-6464x715,"937 Derek Avenue Suite 596, Scottchester, GU 85833",GB86TEJK93752654793564,REG-65193982,Logistics,2025-04-29,No,EMP050
+VEN048,"Saunders, Johnson and Acosta",contact@saundersjohnson.com,674.416.7243,"79796 Stephens Turnpike Suite 891, Port Johnstad, GA 85304",GB60TBSU65610143888993,REG-75679825,Catering,2026-03-12,Yes,EMP068
+VEN049,Webb LLC,contact@webbllc.com,912-754-5738,"751 Williams Station Apt. 051, Lake John, HI 72840",GB58FKRN73622660937966,REG-03341918,Cleaning Services,2025-07-28,Yes,EMP088
+VEN050,Diaz and Sons,contact@diazandsons.com,347-785-9696,"249 Emily Island Apt. 341, West Heather, NY 51417",GB22NTES66278282742257,REG-90507236,Software Licensing,2025-08-29,No,EMP088
+VEN051,"Wagner, Simpson and Cohen",contact@wagnersimpsonan.com,001-677-421-9034x043,"819 Joseph Plains Suite 807, South Curtis, MP 86179",GB46YHJB74517133959629,REG-23309584,Cleaning Services,2025-07-27,No,EMP099
+VEN052,"Ryan, Morris and Padilla",contact@ryanmorrisandpa.com,001-448-512-6042,"67294 Brooks Club Apt. 684, Shawnfort, MD 76779",GB32AYXC75186363745458,REG-92975001,Catering,2025-04-20,No,EMP015
+VEN053,"Bowers, Stevens and Martinez",contact@bowersstevensan.com,(677)306-3242,"52064 Ruben Course Apt. 037, East Brittneyhaven, TX 58836",GB29AAWK16271361115542,REG-62218909,Logistics,2026-07-06,Yes,EMP021
+VEN054,"Martin, Bell and Lewis",contact@martinbellandle.com,(869)773-1121,"USNV Moody, FPO AE 36803",GB22UCHR99940438983640,REG-37613791,Cleaning Services,2026-04-12,No,EMP093
+VEN055,"Oneal, Smith and Ward",contact@onealsmithandwa.com,(269)365-8271,"06848 Henderson Locks, Lake Amandaberg, KY 11458",GB15JCQG28569146303161,REG-79904210,Printing & Packaging,2025-05-11,Yes,EMP065
+VEN056,"Taylor, Smith and Crawford",contact@taylorsmithandc.com,684.325.2410x56481,"79252 Ayala Ports Apt. 380, Port Michellebury, AZ 62336",GB43LMEF08635365419518,REG-02380617,IT Hardware,2025-06-04,No,EMP065
+VEN057,Ayala-Collins,contact@ayala-collins.com,+1-570-953-4949,"83206 Jesse Key Apt. 506, Daltonhaven, IA 55527",GB22PBEW41038657191826,REG-19906234,Software Licensing,2024-11-14,Yes,EMP082
+VEN058,Rosales-Howe,contact@rosales-howe.com,001-355-474-3132x912,"1853 Parker Greens Apt. 124, East Marymouth, FL 12456",GB73WHLM80442067883171,REG-21003236,Catering,2025-07-10,Yes,EMP020
+VEN059,Parks-Pace,contact@parks-pace.com,001-394-710-1372,"29667 Patrick Meadow Apt. 532, Joshuaberg, AZ 80993",GB44TTHU47687014626383,REG-80657875,Printing & Packaging,2024-11-12,Yes,EMP070
+VEN060,"Shaw, Price and White",contact@shawpriceandwhi.com,+1-530-540-7859x321,"96522 Brittany Valley, Robintown, VT 92324",GB86LSSE93784270103930,REG-87059325,Catering,2025-05-13,No,EMP077
+VEN061,"Thompson, Lang and Oneill",contact@thompsonlangand.com,8293218515,"26752 Walker Radial Apt. 644, East Jessica, UT 75583",GB18MYSB29593917251355,REG-21570433,IT Hardware,2024-10-24,No,EMP003
+VEN062,"Jones, Scott and Rodriguez",contact@jonesscottandro.com,8673626765,"71040 Green Cove, West Georgefurt, GA 96443",GB56CRCK99706296201533,REG-68844431,Office Supplies,2024-09-08,Yes,EMP040
+VEN063,Long PLC,contact@longplc.com,520.450.6149x7310,"1467 Jacobson Greens, Lake Amyburgh, MN 50497",GB92LFOB47743490211586,REG-93806868,Software Licensing,2026-06-22,Yes,EMP031
+VEN064,"Camacho, Wells and Keith",contact@camachowellsand.com,416-508-9899x2172,"61632 Flores Stream, North Paulfurt, OH 43247",GB43IQOA99861622999119,REG-14856467,Cleaning Services,2025-09-12,No,EMP011
+VEN065,"Lynch, Johnson and Hill",contact@lynchjohnsonand.com,+1-796-606-5307x450,"132 Mccann Mills Suite 469, East Scottchester, WA 64000",GB87YQLB82148628902330,REG-30705345,Printing & Packaging,2024-12-28,Yes,EMP009
+VEN066,Wagner-Reid,contact@wagner-reid.com,+1-603-357-9727x98552,"29333 Joseph Lodge Apt. 072, New Lauren, IN 33582",GB85TZJW46657437489691,REG-08589944,Cleaning Services,2024-12-13,No,EMP017
+VEN067,"Rodriguez, Brown and Mcneil",contact@rodriguezbrowna.com,944-643-2830x96520,"6099 Matthew Station Apt. 875, Meganside, HI 39007",GB98DPEX48251353465549,REG-47170999,Office Supplies,2026-01-18,No,EMP071
+VEN068,Kennedy and Sons,contact@kennedyandsons.com,768-846-0223,"Unit 7252 Box 1752, DPO AA 83666",GB67BAOI32927129666676,REG-00835058,Printing & Packaging,2025-10-01,No,EMP068
+VEN069,Smith Inc,contact@smithinc.com,001-233-654-2168x9421,"USCGC Luna, FPO AP 69198",GB06KNVE57532603323098,REG-21506489,Software Licensing,2026-01-07,Yes,EMP028
+VEN070,Wheeler Inc,contact@wheelerinc.com,600-916-7618,"046 Elaine Groves, South Maria, CT 67555",GB55XTDJ11739348356420,REG-87375300,Catering,2026-02-04,No,EMP092
+VEN071,"Davis, Rodriguez and Andrews",contact@davisrodrigueza.com,(618)911-4374,"45561 Melissa Cape, Port Devonburgh, MA 47362",GB77OTIX15521667467621,REG-20216979,Cleaning Services,2025-09-26,No,EMP086
+VEN072,"Kim, Carr and Maxwell",contact@kimcarrandmaxwe.com,6277716701,"588 Ryan Stream, South Michael, TX 84571",GB49MERT00287721753540,REG-83866317,Software Licensing,2025-12-26,No,EMP057
+VEN073,Solis-West,contact@solis-west.com,375.617.0166x0880,"755 Lisa Vista, Riverafort, VT 86637",GB29LWOD13055488510272,REG-61493316,Office Supplies,2026-07-05,Yes,EMP016
+VEN074,Bryant and Sons,contact@bryantandsons.com,216-809-1779x82708,"292 Dale Shoals Suite 866, West Raymond, MA 39058",GB43OZEE69848583339452,REG-28851587,Catering,2026-03-18,Yes,EMP009
+VEN075,"Duncan, Contreras and Butler",contact@duncancontreras.com,+1-246-208-1062,"4204 Karen Bypass, Lisaville, RI 89043",GB70XRHX86384066658004,REG-39735989,Software Licensing,2026-04-11,Yes,EMP076
+VEN076,Parsons and Sons,contact@parsonsandsons.com,621.422.8160x648,"57202 Carlson Trail Suite 798, Charlesmouth, NC 29331",GB78FQCZ82688615335554,REG-39878015,Office Supplies,2025-04-24,Yes,EMP076
+VEN077,Allen-May,contact@allen-may.com,+1-730-956-1648x408,"358 Stacy Expressway Apt. 133, Houstonborough, ND 92610",GB96XYNU12075011024819,REG-34667665,Cleaning Services,2026-08-22,Yes,EMP010
+VEN078,Price Inc,contact@priceinc.com,6916901581,"6607 Amanda Dale Suite 842, Ericastad, AL 73052",GB60REDB09968814353682,REG-22394312,IT Hardware,2025-10-28,Yes,EMP030
+VEN079,"Marsh, Phelps and York",contact@marshphelpsandy.com,+1-978-714-1413,"49135 Hayes Ridges, Heatherberg, OK 74800",GB05LZKN20533645257775,REG-47812914,IT Hardware,2026-09-02,Yes,EMP043
+VEN080,Vance and Sons,contact@vanceandsons.com,001-611-908-0996x9308,"6394 Steven Pass, South Michaeltown, TN 31811",GB06ZTVF82722992750373,REG-14530385,Cleaning Services,2025-03-31,No,EMP036
+VEN081,Harrison-Gibson,contact@harrison-gibson.com,4518844989,"184 Kaufman Fork Suite 557, Eatontown, NY 18715",GB94OFHC84322259136517,REG-77392603,Software Licensing,2024-10-14,Yes,EMP028
+VEN082,Anderson PLC,contact@andersonplc.com,(880)292-0242,"37977 Jeffrey Loop Apt. 929, Garymouth, NH 78689",GB96SCHM62103886291279,REG-90881172,Software Licensing,2025-01-11,No,EMP093
+VEN083,"Ryan, Smith and Pace",contact@ryansmithandpac.com,+1-368-865-0863x7659,"14986 Lopez Station Apt. 981, South Diamondmouth, MT 47984",GB84DENU94486959463688,REG-72588744,Printing & Packaging,2026-02-17,No,EMP032
+VEN084,"Cooper, Thornton and Fitzgerald",contact@cooperthorntona.com,+1-813-272-1386x58902,"9611 Walker Common, Lake Patrickfurt, RI 86507",GB03QJWT02770384309883,REG-92053021,Office Supplies,2026-07-04,Yes,EMP053
+VEN085,Chan-Gomez,contact@chan-gomez.com,(693)580-1184x8955,"6904 Richard Coves, New Kellyville, AS 67778",GB31IRZS47697357790714,REG-16335658,Cleaning Services,2025-07-11,No,EMP013
+VEN086,"Smith, Collier and Wright",contact@smithcollierand.com,(951)582-7553x9423,"3333 Moore Coves, North Emmafort, RI 01369",GB10YRBP59579472846392,REG-08678085,Logistics,2024-11-19,No,EMP046
+VEN087,Dalton-Parsons,contact@dalton-parsons.com,387-750-0369,"84347 Diaz Parks Suite 365, Melissaview, NV 24079",GB65SESV31438663227026,REG-72885744,Printing & Packaging,2025-08-29,Yes,EMP060
+VEN088,"Garrison, Williams and Garcia",contact@garrisonwilliam.com,7346717545,"59399 Tiffany Haven Suite 587, Prestonfurt, RI 38056",GB29OUEF56996112535544,REG-96475987,Cleaning Services,2025-01-12,Yes,EMP087
+VEN089,Jackson-Dickerson,contact@jackson-dickers.com,001-234-813-2611x1780,"49216 Perez Street, Scottberg, DC 69542",GB69FABV55778487282997,REG-96884578,Logistics,2024-12-14,No,EMP008
+VEN090,Ballard Group,contact@ballardgroup.com,(264)924-0082x547,"USCGC Evans, FPO AA 38894",GB59THZA85368663266341,REG-63894484,Office Supplies,2025-05-05,Yes,EMP014
+VEN091,Lopez-Jones,contact@lopez-jones.com,217-497-4973x5020,"Unit 4427 Box 0312, DPO AE 65195",GB33GKNJ75705120461872,REG-34601367,Software Licensing,2024-12-23,No,EMP025
+VEN092,Rojas Inc,contact@rojasinc.com,318.637.6452x088,"50313 Nguyen Expressway Suite 916, North Tanya, OR 91039",GB45PWTE51327195005281,REG-27358573,Logistics,2025-02-09,Yes,EMP018
+VEN093,Norris LLC,contact@norrisllc.com,(540)477-8487,"749 Casey Drives Suite 448, Shawnhaven, MS 96662",GB71FATL93518638782945,REG-65118102,Logistics,2026-03-24,Yes,EMP036
+VEN094,Russo and Sons,contact@russoandsons.com,531.309.6789x9405,"717 Michael Summit, Shortton, GU 81363",GB43IQBX14138113863383,REG-92886195,Logistics,2024-11-30,Yes,EMP010
+VEN095,"Ellis, Ortega and Andrade",contact@ellisortegaanda.com,(786)785-2897,"6659 Anna Forest Suite 845, Westfurt, AL 95700",GB35BJTA82404335048889,REG-92107522,Cleaning Services,2025-01-15,Yes,EMP007
+VEN096,Richardson-Perkins,contact@richardson-perk.com,341-696-9315x727,"05566 Molly Forks Apt. 604, West Amberberg, MD 66351",GB54WHEB67998136462251,REG-79086416,Printing & Packaging,2025-03-07,Yes,EMP012
+VEN097,"Hamilton, Wolfe and Gill",contact@hamiltonwolfean.com,+1-537-569-3898,"9116 Diaz Field Suite 590, Garystad, RI 58462",GB47TEOB33521103924051,REG-47705383,Logistics,2025-09-16,No,EMP022
+VEN098,Payne LLC,contact@paynellc.com,692.206.9804x2043,"64510 Dillon Run, Hallfurt, NY 93521",GB95DKPT81238780038457,REG-62055543,Office Supplies,2025-11-08,No,EMP062
+VEN099,"Hill, Brown and Scott",contact@hillbrownandsco.com,8845325621,"4957 Jamie Dam, Port Devin, UT 92924",GB43QENY29251881252056,REG-64742312,Office Supplies,2025-07-05,No,EMP008
+VEN100,Johnson PLC,contact@johnsonplc.com,499-993-9330x517,"67722 Jeremy Lodge Apt. 463, Port James, HI 58078",GB66TPWK73660965699988,REG-08177038,Logistics,2025-12-31,No,EMP001
+VEN101,"Foster, Moss and Grant",contact@fostermossandgr.com,001-403-947-6447x26490,"81298 Phillip Islands Suite 027, South Christopher, MD 91165",GB76UWZF11175186892686,REG-02592222,Catering,2025-10-13,No,EMP059
+VEN102,"Williams, Parker and Cross",contact@williamsparkera.com,221-923-0940x7778,"6719 John Plaza Suite 983, East Eddiestad, AZ 19555",GB63BVST45101622499982,REG-79501455,Cleaning Services,2025-08-20,No,EMP090
+VEN103,Wilkins-Chang,contact@wilkins-chang.com,+1-814-572-1458,"98179 Simmons Vista, Jordanshire, RI 46881",GB45ETSP87729343010713,REG-96605583,Office Supplies,2026-06-25,No,EMP020
+VEN104,Davidson Ltd,contact@davidsonltd.com,214-448-8501x556,"770 Timothy Road Suite 857, Reillyton, MP 68799",GB55JSXV58803955124056,REG-82996291,IT Hardware,2025-04-14,Yes,EMP028
+VEN105,Thornton-Edwards,contact@thornton-edward.com,361-773-5743x842,"78078 James Orchard, Kimberlyberg, WI 13379",GB43QVEG07681040915701,REG-84094353,Catering,2024-10-02,Yes,EMP096
+VEN106,Mitchell PLC,contact@mitchellplc.com,001-771-742-2410x98813,"321 Austin Junction Suite 020, Bergerton, CT 50780",GB19BCNM29979545381792,REG-17174773,Software Licensing,2025-05-13,No,EMP007
+VEN107,Thomas PLC,contact@thomasplc.com,(962)955-7701x715,"9928 Richard Station Apt. 581, Amandafurt, OR 54691",GB22HTHR27615396695832,REG-19719975,Printing & Packaging,2025-03-27,Yes,EMP065
+VEN108,"Davis, Wallace and Parker",contact@daviswallaceand.com,591-496-5701,"27846 Gonzalez Springs, Kevinport, PW 57481",GB34WLCS09862405800851,REG-40369656,Software Licensing,2025-07-20,Yes,EMP008
+VEN109,James-Gardner,contact@james-gardner.com,(672)438-6562,"027 Proctor Dale, East Dawnchester, VI 60273",GB33ZWTN92786876532690,REG-97384689,IT Hardware,2026-02-04,Yes,EMP024
+VEN110,Johnson-Johnson,contact@johnson-johnson.com,001-351-597-1284x781,"894 Rebecca Place, South Shawnfort, OK 96683",GB85KNLZ44209494079290,REG-49047128,Printing & Packaging,2025-09-18,Yes,EMP087
+VEN111,York LLC,contact@yorkllc.com,(494)944-0192,"3728 Matthew Corner, New Sarah, FL 65505",GB34YNYM37239504102767,REG-47836674,IT Hardware,2025-03-22,Yes,EMP052
+VEN112,Moreno Group,contact@morenogroup.com,676-658-0185x6945,"967 Jessica Radial Apt. 852, Amytown, MP 09407",GB51ANDQ17534430091093,REG-91119269,Software Licensing,2024-09-17,Yes,EMP075
+VEN113,Kemp Ltd,contact@kempltd.com,247-817-4654x214,"4271 Krause Flats, Whitefort, CT 19358",GB38RYNG91741011947072,REG-00642569,IT Hardware,2025-01-29,No,EMP080
+VEN114,Robertson Group,contact@robertsongroup.com,(861)283-0671x98554,"8517 Holland Fall, South Donnaport, UT 51632",GB13DUWL71732030937618,REG-47870050,Software Licensing,2025-09-14,No,EMP085
+VEN115,French-Williams,contact@french-williams.com,487.982.9310,"032 Gerald Causeway Suite 179, Port Brittany, GU 14438",GB39DPTZ93136565198253,REG-09251142,Office Supplies,2024-12-08,No,EMP034
+VEN116,Jackson-Wood,contact@jackson-wood.com,239.202.1962x071,"946 Schwartz Ford, Lake Joseph, NV 54506",GB89HFTW09279145608331,REG-81958837,Catering,2025-01-14,No,EMP031
+VEN117,"Hopkins, Hill and Lee",contact@hopkinshillandl.com,(577)822-0054,"10822 Todd Crescent Apt. 379, Robertmouth, IN 14936",GB88KHDH63631797062397,REG-26527354,Cleaning Services,2026-05-19,No,EMP017
+VEN118,Rogers Inc,contact@rogersinc.com,001-704-521-7762,"929 Christopher Walks, Atkinsborough, OR 62562",GB53OIAX63356939290600,REG-78068671,Catering,2026-02-27,Yes,EMP059
+VEN119,Simpson-Miller,contact@simpson-miller.com,9636254310,"907 Ingram Well Suite 257, Port Courtneyfurt, MH 91039",GB07KQBJ64989319508501,REG-65790552,Logistics,2026-04-15,Yes,EMP002
+VEN120,"Hansen, Jones and Fletcher",contact@hansenjonesandf.com,(753)781-7933,"PSC 8640, Box 1557, APO AA 66227",GB97QDPW88479513711624,REG-11241272,Software Licensing,2025-02-14,Yes,EMP010
+VEN121,Meyer Ltd,contact@meyerltd.com,568-727-5670x4310,"579 Ellis Port Apt. 424, South Nathan, LA 06703",GB32ELJO29284222231059,REG-27452380,Catering,2024-09-25,Yes,EMP065
+VEN122,"Stewart, Cooper and Watson",contact@stewartcooperan.com,(784)410-6727,"474 Lauren Stream Suite 517, East Ericaville, ME 03751",GB94MTHO51509398343018,REG-71863759,IT Hardware,2025-11-01,Yes,EMP045
+VEN123,"Hunt, Brown and Estrada",contact@huntbrownandest.com,(665)965-0455,"76742 Chandler Mall, Port Brenda, CO 19328",GB18GJPQ51961064628792,REG-32648704,Catering,2025-07-13,Yes,EMP048
+VEN124,"Torres, Hansen and Ford",contact@torreshansenand.com,9245471462,"1959 Cunningham Ways Suite 715, Port Jordanshire, AR 19655",GB82KOWE52045650448183,REG-21928554,Printing & Packaging,2024-09-28,No,EMP057
+VEN125,Jennings-Barker,contact@jennings-barker.com,+1-995-820-2845,"32833 Robert Club, Port Davidtown, NJ 46141",GB89JWLE79852401322342,REG-32161107,Printing & Packaging,2024-11-21,Yes,EMP079
+VEN126,Williams-Rodriguez,contact@williams-rodrig.com,+1-589-507-1401x40119,"12495 Martin Parkway Apt. 891, Port Belindatown, NC 28943",GB48WGJF80138759271256,REG-63836151,Printing & Packaging,2026-05-16,No,EMP086
+VEN127,Rodriguez-Taylor,contact@rodriguez-taylo.com,(648)901-5716x479,"6317 White Spring Suite 167, North Douglasfurt, UT 77906",GB03DXFC53539613674994,REG-65796784,IT Hardware,2026-04-23,Yes,EMP085
+VEN128,Tate Inc,contact@tateinc.com,877-732-0101x702,"87734 Henry Green, Lisaside, ND 02817",GB38YBND67567700284276,REG-24671978,IT Hardware,2024-12-11,Yes,EMP034
+VEN129,"Ryan, Harrison and Hart",contact@ryanharrisonand.com,206.447.9695x45009,"905 Davis Key Suite 650, East Jimmy, ME 78165",GB79CWCJ15208507698640,REG-79056965,Software Licensing,2025-01-07,Yes,EMP096
+VEN130,"Davis, Freeman and Vazquez",contact@davisfreemanand.com,678-652-9456x37183,"91919 Nelson Port Suite 635, Lake Madisonhaven, AS 39810",GB57NVRK36649878208297,REG-37489690,Catering,2025-02-14,Yes,EMP035
+VEN131,"Gonzalez, Ford and Allen",contact@gonzalezfordand.com,+1-846-565-1364x42493,"34778 Henderson Camp, East Joseph, AK 34369",GB47ZZIV82070015941651,REG-62319818,Catering,2026-04-10,Yes,EMP092
+VEN132,"Calderon, Herring and Huynh",contact@calderonherring.com,313.491.5596x3632,"6490 Ferguson Squares Apt. 586, Vegaview, FM 19494",GB45LPWL40900348645183,REG-76064413,Cleaning Services,2025-03-22,No,EMP088
+VEN133,Clark-Zamora,contact@clark-zamora.com,456.604.1776x561,"9857 Kathleen Row Apt. 720, Gonzalezport, MD 75973",GB26CDFH82965772429543,REG-16526693,Logistics,2026-08-20,No,EMP065
+VEN134,Vaughan PLC,contact@vaughanplc.com,+1-631-473-4206x969,"91086 Wilcox Park Apt. 333, Keithfort, MS 17566",GB45NGTG43626204439735,REG-97107256,IT Hardware,2026-01-23,No,EMP007
+VEN135,"Lewis, Reyes and Henderson",contact@lewisreyesandhe.com,211-280-0537x599,"6528 Beverly Green Apt. 875, Andersonmouth, VT 70024",GB44NEID50274564494856,REG-25728703,IT Hardware,2025-12-15,Yes,EMP036
+VEN136,Brown and Sons,contact@brownandsons.com,942.376.1707x5877,"51342 Karen View, Annashire, IL 76987",GB97AQYS26137150416591,REG-52017774,Printing & Packaging,2024-10-05,Yes,EMP043
+VEN137,"Barrett, Rivera and Williams",contact@barrettriveraan.com,859.323.0450x189,"61032 Chan Haven, North Kenneth, AS 57171",GB81XZJV92515837767499,REG-61659266,Catering,2026-01-04,Yes,EMP082
+VEN138,Williams LLC,contact@williamsllc.com,+1-432-678-8147x61742,"9081 William Pass Suite 617, Michaelshire, CO 66488",GB60ADXV72260164597794,REG-52321941,Logistics,2025-09-03,No,EMP095
+VEN139,Ferguson-Smith,contact@ferguson-smith.com,7278769749,"20310 Michele Fords, Wongbury, NE 82559",GB71ZRGC47276012277707,REG-93349605,IT Hardware,2024-12-07,Yes,EMP072
+VEN140,Garcia Ltd,contact@garcialtd.com,(579)298-4076x78997,"581 Orozco Mall Suite 179, Shanechester, AK 21647",GB46JXGP57383959724665,REG-72934172,Cleaning Services,2025-08-09,Yes,EMP010
+VEN141,Gonzalez PLC,contact@gonzalezplc.com,767-643-3800,"80156 Christina Crest, South Jonathan, MA 47063",GB89YBYR42891077119918,REG-08121352,IT Hardware,2025-09-25,No,EMP070
+VEN142,"Carter, Alexander and Hunter",contact@carteralexander.com,225-552-1376,"4821 Watson Throughway Suite 532, Cobbberg, AS 56707",GB10NNOQ50720811556260,REG-60290846,Software Licensing,2026-03-30,Yes,EMP075
+VEN143,Blackwell-Haynes,contact@blackwell-hayne.com,955-704-8926x7389,"41085 Hardy Streets Apt. 884, North William, ME 68833",GB91KYUF00894346810548,REG-51017490,Office Supplies,2026-07-18,Yes,EMP056
+VEN144,Morgan-Young,contact@morgan-young.com,001-498-893-5449,"58935 Garcia Station, Pooleland, CO 08652",GB26NEPG71586988649767,REG-76228277,Catering,2026-04-10,Yes,EMP040
+VEN145,Faulkner PLC,contact@faulknerplc.com,713.677.0285x19611,"54544 Johnson Divide, Port Brittany, AR 40499",GB63JGFX70185106794975,REG-67922877,Office Supplies,2026-07-10,Yes,EMP046
+VEN146,"Cole, Cline and Nguyen",contact@coleclineandngu.com,+1-496-263-6580x741,"181 Stephanie Plains Apt. 983, Shawtown, DE 86779",GB64RFAI33971895690705,REG-62608564,IT Hardware,2026-05-22,No,EMP086
+VEN147,Wilson Inc,contact@wilsoninc.com,(442)224-1246,"00461 Thomas Islands Suite 610, East Karen, OR 31498",GB78PQYQ61405786170630,REG-48913824,Software Licensing,2025-11-02,No,EMP100
+VEN148,"Russell, Miller and Fields",contact@russellmilleran.com,(258)223-8687,"200 Nelson Glen Suite 539, Brandonside, OK 09667",GB43JCMW12846398554743,REG-55379502,Cleaning Services,2025-02-13,Yes,EMP080
+VEN149,"Nielsen, Lynch and Smith",contact@nielsenlynchand.com,+1-826-787-6811x80715,"75370 Julia Trace, Erinstad, ID 12293",GB24TUJZ33750479303614,REG-98728399,Printing & Packaging,2024-09-15,Yes,EMP031
+VEN150,"Thompson, Chapman and Reese",contact@thompsonchapman.com,293-884-3089x487,"6641 Simpson Path, Lake Jeffreyview, PW 55559",GB84ROKA63519036133254,REG-11076095,Logistics,2024-12-15,Yes,EMP023
+VEN151,Wright-Wells,contact@wright-wells.com,9583319971,"65120 Brown Ridge, Joneston, OH 07343",GB05JMMD96399076769915,REG-07859311,Cleaning Services,2025-05-30,No,EMP023
+VEN152,Larson Inc,contact@larsoninc.com,992.484.5679,"24968 Collins Plains, East Terrance, PA 45445",GB70JLAQ92038806533315,REG-37795995,Printing & Packaging,2025-12-12,Yes,EMP053
+VEN153,"Evans, Murphy and Garcia",contact@evansmurphyandg.com,5739033793,"636 Margaret Avenue Suite 015, New Dariusport, NV 25981",GB46USYL00334234258323,REG-02410261,Office Supplies,2026-07-20,Yes,EMP035
+VEN154,Boyle-Torres,contact@boyle-torres.com,(852)789-6112x233,"309 Melissa Hill Apt. 530, Moniquehaven, OR 64593",GB32GXCZ79128685787255,REG-87774969,Printing & Packaging,2025-03-13,Yes,EMP049
+VEN155,"Johnson, Robinson and Harris",contact@johnsonrobinson.com,663.346.6925,"7853 Steven Road, Ronaldmouth, NE 54103",GB07LZPK46027341514888,REG-14311150,Office Supplies,2026-07-10,Yes,EMP061
+VEN156,"Gonzalez, Gonzalez and Murphy",contact@gonzalezgonzale.com,001-243-992-8404x4566,"3337 Zachary Turnpike, Sharpmouth, MA 11756",GB60KGNY63778052924075,REG-53666845,Catering,2025-05-01,No,EMP059
+VEN157,"Johnson, Floyd and Weeks",contact@johnsonfloydand.com,399-799-6636x18637,"412 Emily Fall Apt. 970, East Chad, MS 37701",GB50GHJV81705802566212,REG-86716323,Office Supplies,2025-01-05,Yes,EMP030
+VEN158,Reynolds-Mckinney,contact@reynolds-mckinn.com,(599)249-3874,"Unit 7169 Box 3859, DPO AA 60820",GB16OSBX14754692632967,REG-62916032,Office Supplies,2025-09-11,No,EMP085
+VEN159,Khan-Medina,contact@khan-medina.com,737-868-1511,"80701 James Summit Suite 360, West Dannyberg, MD 88357",GB95XOPO11837274220912,REG-41862104,Catering,2026-02-07,Yes,EMP043
+VEN160,Alexander and Sons,contact@alexanderandson.com,001-208-237-0816x470,"53310 Johnson Bridge, Loriland, IN 13162",GB60ZVFX20681558393866,REG-13315520,Catering,2025-02-23,No,EMP099
+VEN161,Valdez-Smith,contact@valdez-smith.com,931.349.5013x649,"1956 Martin Roads, Tiffanyfort, CA 44423",GB54ATSO68389030914363,REG-91025743,Software Licensing,2025-02-20,No,EMP083
+VEN162,Bennett Ltd,contact@bennettltd.com,897.652.4508,"553 Amber Shores, Port Grace, VA 29657",GB25TMQK27017130232129,REG-83381674,Printing & Packaging,2024-10-07,No,EMP087
+VEN163,Griffith and Sons,contact@griffithandsons.com,(993)344-9734,"USNV Sanders, FPO AE 62198",GB71ONQT62706614982824,REG-67474689,IT Hardware,2025-08-03,No,EMP004
+VEN164,Jones-Taylor,contact@jones-taylor.com,823.800.8576,"Unit 5674 Box 9160, DPO AE 50940",GB92SFGY64587506633705,REG-02497243,Software Licensing,2025-09-07,No,EMP023
+VEN165,"Lane, Bates and Martin",contact@lanebatesandmar.com,001-816-669-1836x26448,"95243 Hale Avenue, Port Travis, CT 09655",GB90YWNQ64622522372817,REG-93230234,IT Hardware,2024-12-07,No,EMP005
+VEN166,Alexander-Durham,contact@alexander-durha.com,+1-921-941-6141x5093,"04090 Jason Turnpike, South Carrieview, NM 62528",GB13YKTN55553566905510,REG-76209184,Cleaning Services,2024-12-01,No,EMP045
+VEN167,"Walton, Wright and Hayes",contact@waltonwrightand.com,+1-978-863-0505x05739,"6716 Lawson Station, Port Abigail, OK 94435",GB63QBEP14872717833321,REG-16025643,Software Licensing,2026-02-22,Yes,EMP056
+VEN168,"Scott, Alvarez and Merritt",contact@scottalvarezand.com,+1-828-571-5399x15668,"1115 Julie Crescent, Davidmouth, MS 76118",GB40XAJB98366552899316,REG-08752437,Software Licensing,2024-12-12,Yes,EMP050
+VEN169,"Bryant, Guzman and Thomas",contact@bryantguzmanand.com,001-609-854-8149x737,"33027 Evans Via Apt. 086, Robertofort, MI 99816",GB80MMCQ44386125904729,REG-27742333,IT Hardware,2026-02-06,No,EMP033
+VEN170,"Curtis, Cox and Chase",contact@curtiscoxandcha.com,+1-826-462-0157x20185,"01367 Watts Extensions Suite 176, Cynthiamouth, MN 02021",GB08DDCD78309997419267,REG-64921518,Software Licensing,2024-11-26,Yes,EMP001
+VEN171,Sullivan Ltd,contact@sullivanltd.com,(488)287-1898x1312,"02932 Anna Vista Apt. 118, Michaelside, GA 55951",GB43VAHJ08487297585988,REG-31030324,Logistics,2024-09-23,Yes,EMP047
+VEN172,Bernard PLC,contact@bernardplc.com,695.642.9618,"7146 Amanda Cliffs, Wandaborough, VT 49278",GB70SVUQ92625660931418,REG-18615155,Catering,2025-11-10,No,EMP086
+VEN173,Thomas-Yates,contact@thomas-yates.com,6169361128,"948 Lawson Causeway Apt. 562, Lindaside, OH 78438",GB18MPSE40822269405396,REG-72757844,Printing & Packaging,2025-04-08,Yes,EMP085
+VEN174,Meyer-Higgins,contact@meyer-higgins.com,541.346.5111,"48706 Timothy Passage, South Alexanderborough, PW 98269",GB72AWNW85389097283215,REG-28506762,Catering,2026-08-26,No,EMP093
+VEN175,Booker-Morgan,contact@booker-morgan.com,281.844.7443,"807 Brown Avenue Suite 545, North Michaelburgh, MO 46970",GB45ADNP31882617024376,REG-54562841,Logistics,2026-02-17,No,EMP086
+VEN176,Douglas-Gonzales,contact@douglas-gonzale.com,(760)253-1340x266,"4167 Marsh Station, West Karen, WI 52913",GB80QXXM21102258030569,REG-06744716,Cleaning Services,2024-12-25,No,EMP052
+VEN177,Williamson Ltd,contact@williamsonltd.com,(334)414-3637,"12604 Sarah Meadow, New Jameston, MS 53886",GB94QJWU33567086041454,REG-56350200,Office Supplies,2025-10-10,Yes,EMP071
+VEN178,Guerrero LLC,contact@guerrerollc.com,374-291-6247x5541,"5598 Allen Harbor, New Patrick, FM 14442",GB30EUXT10933711895473,REG-82023684,Cleaning Services,2025-02-19,No,EMP054
+VEN179,"Hester, Jacobson and West",contact@hesterjacobsona.com,661-476-8802,"367 Gabriel Terrace, Hartfurt, MO 80090",GB94IGFA29390878844344,REG-81230834,Cleaning Services,2026-03-19,Yes,EMP087
+VEN180,Bowman LLC,contact@bowmanllc.com,(740)733-8105,"269 Nguyen Centers Apt. 534, West Teresa, ND 86656",GB98YYSD64983735439627,REG-36527172,Software Licensing,2026-08-29,No,EMP079
+VEN181,Lopez-Huffman,contact@lopez-huffman.com,001-572-340-4226,"76182 Carrie Lane Suite 010, East Johnland, KY 19196",GB08UTAZ01851327972457,REG-23084810,Software Licensing,2025-02-01,Yes,EMP052
+VEN182,Garcia LLC,contact@garciallc.com,362.903.0366x25436,"14519 Wilson Corner, New Edwardchester, NC 44389",GB07TFVN24945147541022,REG-52677119,Catering,2024-11-26,Yes,EMP039
+VEN183,Moyer-Ramirez,contact@moyer-ramirez.com,822-865-5767x69523,"836 Bianca Manor Apt. 135, East Victoriatown, MN 73688",GB68PEDB55247286333021,REG-26065019,Printing & Packaging,2024-11-17,No,EMP056
+VEN184,Woods PLC,contact@woodsplc.com,(802)452-1310,"284 Jenkins Junction Suite 041, North Nicole, AZ 79691",GB08YFQF06678498436241,REG-86236903,Logistics,2026-07-16,No,EMP060
+VEN185,White-Reese,contact@white-reese.com,+1-617-375-6620x563,"503 Martin Coves Apt. 390, Jacobborough, SC 04743",GB56HICS90970051405468,REG-35652156,Office Supplies,2025-11-16,No,EMP087
+VEN186,"Gordon, Shaw and Hampton",contact@gordonshawandha.com,001-367-390-4227,"USNS Wilkerson, FPO AP 86250",GB88EYWF88985725459606,REG-33991297,Office Supplies,2024-09-26,Yes,EMP095
+VEN187,Ballard and Sons,contact@ballardandsons.com,781-771-7524x2149,"747 Hines Mills, North Teresa, NM 05690",GB59LJMN92758955168740,REG-90380214,Software Licensing,2026-04-26,No,EMP037
+VEN188,Moore-Ross,contact@moore-ross.com,367.315.7787,"6365 Logan Rapids, Lewisfort, DE 36988",GB58OBRE72359096056730,REG-30644212,Printing & Packaging,2024-11-03,Yes,EMP012
+VEN189,Hill Inc,contact@hillinc.com,001-476-583-4201x654,"7826 Gaines Ports Suite 089, North Jennifer, OR 81308",GB07EKVX50272751648072,REG-79103368,Catering,2025-04-27,Yes,EMP087
+VEN190,Burke and Sons,contact@burkeandsons.com,339.905.5044,"6558 Mills Track Suite 127, Brooksside, PA 21820",GB76RNMJ64911110961798,REG-17890463,Office Supplies,2025-06-05,Yes,EMP026
+VEN191,Frank PLC,contact@frankplc.com,737-515-7660,"446 Adam Mall Apt. 002, Maryhaven, GU 97657",GB15TKKF96386396096262,REG-65826312,Office Supplies,2025-06-30,No,EMP006
+VEN192,"Wilson, Ray and Myers",contact@wilsonrayandmye.com,+1-248-325-3110x6092,"275 John Forges, Jamesbury, VA 50060",GB98YIVB41209117911244,REG-21175361,Printing & Packaging,2026-04-22,Yes,EMP079
+VEN193,Pope-Gutierrez,contact@pope-gutierrez.com,+1-213-366-5722x4029,"Unit 5799 Box 8028, DPO AP 33858",GB92DGTA80882351305231,REG-24473158,Logistics,2025-09-20,Yes,EMP059
+VEN194,"Phillips, Mcgee and Simpson",contact@phillipsmcgeean.com,(934)823-4619x9423,"459 Catherine Meadow Apt. 955, South Garyton, NY 33670",GB69SNJT85601256253135,REG-52510505,Cleaning Services,2025-10-11,No,EMP092
+VEN195,Marshall LLC,contact@marshallllc.com,381.664.9383,"665 Gonzalez Causeway, Jimenezview, MT 16132",GB09DOFT59639040907426,REG-08805017,Logistics,2026-08-07,Yes,EMP064
+VEN196,Gallegos Group,contact@gallegosgroup.com,945-956-1857x9064,"9103 Margaret Dam, West Michellechester, IN 22808",GB87CGXZ58004010414596,REG-42297125,Cleaning Services,2026-03-23,Yes,EMP019
+VEN197,Mullins Group,contact@mullinsgroup.com,318.683.9774x573,"8331 Teresa Circle, North Ellen, NH 50971",GB95GPDK39885472812356,REG-79836314,Printing & Packaging,2026-01-15,Yes,EMP097
+VEN198,Martin-Parker,contact@martin-parker.com,001-412-671-1307,"4181 Reynolds Drive Suite 868, Brianview, MN 13321",GB27BUMX63436294897861,REG-03131009,Logistics,2026-07-15,Yes,EMP100
+VEN199,Allen-Patel,contact@allen-patel.com,596.466.1347,"494 Clinton Parkway Suite 432, Erinburgh, HI 44037",GB58OEAV76502412095790,REG-73710094,Printing & Packaging,2025-04-09,No,EMP023
+VEN200,Fox and Sons,contact@foxandsons.com,(611)945-7758,"54589 Rodriguez Spur Apt. 263, West Tyler, IA 76206",GB61XWNL31361487824556,REG-96443098,Software Licensing,2026-04-17,Yes,EMP007
+VEN201,"Cooper, Salazar and Hamilton",contact@coopersalazaran.com,001-654-410-7272,"40703 Petersen Crossing Apt. 740, Belltown, AR 33456",GB72ELJZ88214236914307,REG-53666144,Logistics,2025-08-27,Yes,EMP016
+VEN202,"Collins, Elliott and Shelton",contact@collinselliotta.com,001-623-342-6834,"266 Dillon Mills Suite 857, Ronaldchester, MT 60962",GB16ARAY61294398529894,REG-06260787,Cleaning Services,2025-05-16,No,EMP060
+VEN203,Miller LLC,contact@millerllc.com,+1-215-591-4975x0198,"32440 Hanson Flats Apt. 102, New Collinborough, CT 62595",GB70AQOM01467238497916,REG-20223288,Logistics,2026-06-14,No,EMP097
+VEN204,Alvarez LLC,contact@alvarezllc.com,+1-619-975-4661x76620,"94097 Rebecca Knoll Apt. 774, East Michaelhaven, IL 46223",GB28WQMQ12259572446176,REG-79298842,Logistics,2025-04-20,Yes,EMP071
+VEN205,"Nguyen, Moses and Bailey",contact@nguyenmosesandb.com,(310)402-3117x7533,"1094 Benjamin Summit Apt. 759, East Manuelmouth, MS 17961",GB25USRG34774332683190,REG-13020569,Printing & Packaging,2025-12-31,No,EMP096
+VEN206,"Lin, Peterson and Fleming",contact@linpetersonandf.com,001-387-933-9785x5982,"91284 David Fort Apt. 985, East Loriport, MP 33450",GB46MWLC24189389846908,REG-19740056,Catering,2026-08-16,Yes,EMP058
+VEN207,Gonzalez-Barron,contact@gonzalez-barron.com,(238)750-3719,"Unit 6991 Box 8724, DPO AP 05972",GB53DBPQ35674300038960,REG-87066266,Catering,2024-10-24,No,EMP082
+VEN208,"Taylor, Kim and Prince",contact@taylorkimandpri.com,(853)256-0331x903,"Unit 0301 Box 0272, DPO AA 06231",GB23KLTU34296711148375,REG-37458438,Office Supplies,2026-08-10,No,EMP081
+VEN209,Flores-Weaver,contact@flores-weaver.com,5566974132,"52037 Benton Brooks, Huffview, KY 77602",GB66MJCB49670667033626,REG-80408509,IT Hardware,2024-11-28,No,EMP057
+VEN210,Livingston-Solomon,contact@livingston-solo.com,001-993-805-9660x18648,"67320 Marsh Harbor Apt. 384, Ashleyton, RI 36450",GB24LIVI90149542770707,REG-05783609,Catering,2026-05-30,No,EMP031
+VEN211,Hill PLC,contact@hillplc.com,517-324-4472x32290,"879 Williams Stravenue, North Stephanie, KS 34244",GB11AVLR09351187181335,REG-95616420,Software Licensing,2025-11-10,Yes,EMP041
+VEN212,Lawson-Ward,contact@lawson-ward.com,+1-357-549-0250x4290,"69026 Stephanie Fork Suite 818, New Thomashaven, NC 58306",GB49KIGS43535375137651,REG-58815793,Office Supplies,2025-07-22,Yes,EMP018
+VEN213,Hartman-Hall,contact@hartman-hall.com,(783)769-2944,"8297 Rachel Wells Suite 021, Bakerside, VT 62086",GB92XDEB60212886652683,REG-41559991,Cleaning Services,2026-06-12,Yes,EMP050
+VEN214,"Williams, Rodgers and Kelly",contact@williamsrodgers.com,(776)947-2298x12099,"89413 Snyder Causeway Suite 456, Katherineberg, AZ 96789",GB59XGNQ49951542144773,REG-24491342,Office Supplies,2025-08-22,Yes,EMP091
+VEN215,Clark PLC,contact@clarkplc.com,(209)708-8307,"782 Phillips Creek Apt. 767, Christopherberg, KY 96397",GB22VDLZ13152854781506,REG-18538003,Logistics,2026-04-17,No,EMP054
+VEN216,Willis and Sons,contact@willisandsons.com,547.327.2742,"USNS Smith, FPO AE 64816",GB04RTGW20649693578243,REG-47769587,Logistics,2026-02-13,No,EMP070
+VEN217,Davis-Rodriguez,contact@davis-rodriguez.com,001-446-975-3612x75156,"630 Adams Forge Suite 085, Emilychester, MO 58428",GB33NMIB47350476392831,REG-99529800,Office Supplies,2026-07-24,No,EMP008
+VEN218,Davis-Bush,contact@davis-bush.com,(581)608-3583x286,"6383 Barry Brooks Apt. 867, East Justintown, IN 83280",GB88YWHB41662411186008,REG-92196394,Printing & Packaging,2026-08-17,Yes,EMP050
+VEN219,Coleman-Paul,contact@coleman-paul.com,873-614-9764x613,"0765 Shaun Ports, South Kelliemouth, MN 62996",GB32SDUJ52118237931269,REG-78930746,Software Licensing,2025-04-30,No,EMP098
+VEN220,Yang-Flowers,contact@yang-flowers.com,999-960-4387x87535,"61620 April Crossing, East Samuel, DE 05620",GB71NPFU87286604164485,REG-95922483,IT Hardware,2024-10-06,No,EMP062
+VEN221,"Crane, Watson and Munoz",contact@cranewatsonandm.com,935.322.8705x622,"Unit 0433 Box 1875, DPO AE 08510",GB76TOTF15835034469459,REG-64883192,Printing & Packaging,2025-09-09,No,EMP039
+VEN222,Cross LLC,contact@crossllc.com,991-528-9659x994,"19222 Baxter Islands, North Derrickmouth, NE 87643",GB66PKJQ13866675485819,REG-32426877,Software Licensing,2025-01-24,Yes,EMP054
+VEN223,"Mccormick, Jennings and Grant",contact@mccormickjennin.com,+1-752-405-7563x9836,"USS Gonzalez, FPO AA 69445",GB73GASJ51548094047604,REG-40907977,Office Supplies,2025-08-12,No,EMP063
+VEN224,Wells Ltd,contact@wellsltd.com,+1-310-850-9222,"70518 Lucero Fields, West Marymouth, MH 93471",GB08FSXL80660138241270,REG-49386204,Logistics,2026-04-13,Yes,EMP056
+VEN225,Castro-Wilson,contact@castro-wilson.com,001-419-771-1121,"03571 Kyle Springs, Lake Katelyn, DC 41197",GB10BMWJ24295633432447,REG-41759558,Catering,2025-09-05,No,EMP050
+VEN226,Gallegos-Mcdaniel,contact@gallegos-mcdani.com,6965289365,"83437 Johnson Crescent Apt. 727, Nathanfurt, TN 77622",GB97BKWD50267551254278,REG-20797996,Office Supplies,2025-01-18,No,EMP093
+VEN227,"Ross, Flowers and King",contact@rossflowersandk.com,+1-857-264-0381x664,"9839 David Isle, North Kyleberg, AS 45865",GB53OMFO02324412336132,REG-85072517,Software Licensing,2025-06-24,Yes,EMP017
+VEN228,"Mcdaniel, Hale and Durham",contact@mcdanielhaleand.com,(873)316-2526x5469,"92355 Mason Alley, Melendezbury, DC 66030",GB30GBGJ61562624467046,REG-22681715,Software Licensing,2026-02-09,Yes,EMP051
+VEN229,"Oconnor, Rios and Sullivan",contact@oconnorriosands.com,9258298670,"6419 Shaw Tunnel, Josephside, MN 15138",GB61ZFNR61205943897607,REG-40177509,Cleaning Services,2026-05-27,No,EMP011
+VEN230,"Wood, Simmons and Leonard",contact@woodsimmonsandl.com,7846245607,"0863 Christopher Court, Lake Duane, NM 57006",GB78ILOW93897015502916,REG-81546602,Printing & Packaging,2026-04-26,No,EMP018
+VEN231,"Scott, Delgado and Andrade",contact@scottdelgadoand.com,(513)894-4988x30597,"8096 Erika Groves, South Jamiechester, TN 17509",GB68IIOT51330531949796,REG-95867805,IT Hardware,2026-06-20,No,EMP024
+VEN232,Flores-Carson,contact@flores-carson.com,773.382.6460x917,"4577 Eric Prairie Apt. 959, Perrytown, WV 37710",GB58RXPH68269116331942,REG-26865369,Catering,2025-01-03,Yes,EMP049
+VEN233,Flores-Cox,contact@flores-cox.com,+1-858-688-6367x74722,"2169 Mccann Loop Apt. 093, New Christine, CO 79087",GB50SXNA59329715096883,REG-27532735,Catering,2024-11-29,No,EMP059
+VEN234,Carter Inc,contact@carterinc.com,001-377-739-7327,"71006 Atkins Cliffs, Rosarioside, DE 94321",GB09YTUR07704605687611,REG-24912565,Logistics,2025-02-15,No,EMP098
+VEN235,Durham Group,contact@durhamgroup.com,915-617-7345x475,"28403 Elliott Station, Kristopherburgh, OK 83586",GB11JPWO42229464303942,REG-90458867,Printing & Packaging,2025-02-18,No,EMP097
+VEN236,"Yoder, Compton and Schneider",contact@yodercomptonand.com,758.556.7287x27601,"49135 Stevens Route, Port Juliehaven, MH 30434",GB62XGLV06158148881079,REG-83342337,Printing & Packaging,2025-12-08,Yes,EMP033
+VEN237,Williams PLC,contact@williamsplc.com,+1-541-531-2840,"1805 James Crescent Suite 173, New Bridgetfort, ME 75124",GB64ASND73997046947258,REG-78444835,IT Hardware,2025-04-02,Yes,EMP061
+VEN238,Byrd-Gordon,contact@byrd-gordon.com,812.670.5877x221,"8231 Jason Parkway Suite 587, Lake Kevinborough, OK 88566",GB90EKFG62292587964347,REG-45245557,Office Supplies,2026-01-07,Yes,EMP045
+VEN239,Coleman-Long,contact@coleman-long.com,5605652740,"5056 Nguyen Points Apt. 398, Gatesville, CA 32369",GB88FKXP97067349960105,REG-48574172,Cleaning Services,2025-07-28,Yes,EMP100
+VEN240,"Jones, Rowland and Oconnor",contact@jonesrowlandand.com,(529)749-3817,"840 Kelsey Cliff Suite 573, West Taylor, NH 47975",GB20KGVW44902166670808,REG-50960858,IT Hardware,2026-06-10,Yes,EMP097
+VEN241,Campbell-Cook,contact@campbell-cook.com,001-519-318-1828x1979,"7725 Hunter Ports Suite 786, South Autumntown, RI 51612",GB32AAHK62439587395923,REG-23421089,Printing & Packaging,2024-10-30,Yes,EMP026
+VEN242,Chan PLC,contact@chanplc.com,655-533-3426,"USNS Barton, FPO AE 18498",GB85ODMA73607763369112,REG-89812317,Office Supplies,2025-06-05,Yes,EMP080
+VEN243,"Jacobs, Brady and Stewart",contact@jacobsbradyands.com,218.257.4817,"1554 Ryan Vista Suite 316, Smithview, VA 85351",GB09KBEH29028227009345,REG-96262282,Logistics,2025-02-03,Yes,EMP017
+VEN244,"Pacheco, Barnett and Diaz",contact@pachecobarnetta.com,720-273-4654,"70260 Farmer Stravenue Apt. 210, Phyllisland, MT 09194",GB87DPON87290477425859,REG-17793238,Office Supplies,2026-08-27,No,EMP073
+VEN245,Trujillo and Sons,contact@trujilloandsons.com,+1-611-464-9133x42457,"290 Welch Underpass Apt. 202, Port Lauraburgh, MO 42775",GB57ASPP53967379487148,REG-55245787,Catering,2025-03-02,No,EMP090
+VEN246,"Davis, Chase and Hines",contact@davischaseandhi.com,356-308-2137,"54768 Tammy Parkways Apt. 683, Port Erin, WI 02692",GB83GXXL89298808583825,REG-21293289,Software Licensing,2025-03-31,Yes,EMP022
+VEN247,Garrison-Ramirez,contact@garrison-ramire.com,668-567-7524x0148,"PSC 9910, Box 6227, APO AE 32281",GB06MZFU66933513426192,REG-37245018,Printing & Packaging,2025-07-16,Yes,EMP100
+VEN248,Warren-Ingram,contact@warren-ingram.com,837.641.8972x1540,"9274 Alexandra Corners Suite 376, Brownville, VI 37227",GB90XXII85645101739739,REG-64178996,IT Hardware,2025-12-16,Yes,EMP040
+VEN249,"Stone, Schaefer and Reyes",contact@stoneschaeferan.com,891-891-1359,"7798 Shelby Via, Caldwelltown, IL 74809",GB47FAUK14607455534705,REG-74238856,Software Licensing,2025-12-19,No,EMP040
+VEN250,Norman-Jackson,contact@norman-jackson.com,355-898-3541,"263 Chase Oval Suite 575, East Marcus, DE 25377",GB96SJQW84882691311964,REG-25856261,Cleaning Services,2025-10-01,Yes,EMP051
+VEN251,"Olsen, Clay and Carter",contact@olsenclayandcar.com,253-970-3824,"37320 Sanchez Brooks, Masseychester, OH 72751",GB82SGNF89696454655358,REG-51253892,Software Licensing,2025-11-24,Yes,EMP010
+VEN252,Pollard PLC,contact@pollardplc.com,985.919.3583x7490,"20878 Paula Neck Apt. 151, Ashleytown, VT 78847",GB33PNWY26374845398628,REG-95090591,Cleaning Services,2026-03-12,No,EMP014
+VEN253,Austin PLC,contact@austinplc.com,001-823-839-2207x1511,"725 Cody Knoll Apt. 647, East Jorgeborough, IN 46533",GB59UUCK71840908051208,REG-00564099,Software Licensing,2025-07-26,Yes,EMP088
+VEN254,Villarreal-Sosa,contact@villarreal-sosa.com,+1-997-428-3512x9592,"90814 Rodriguez Springs Apt. 982, South Jamesberg, RI 44724",GB20OVRM71815352373605,REG-07918158,Printing & Packaging,2025-02-01,Yes,EMP073
+VEN255,"Andrews, Patel and Long",contact@andrewspateland.com,+1-934-252-7346x6661,"796 Jimenez Turnpike Suite 080, North Kurt, OR 98523",GB43SRFU50800463580688,REG-28503172,Software Licensing,2025-11-06,No,EMP045
+VEN256,Joseph Inc,contact@josephinc.com,373.699.0063,"526 Nathan Villages, Williamsberg, PA 32767",GB34TVIN94346066643749,REG-06072311,Catering,2026-03-16,Yes,EMP085
+VEN257,Moore Group,contact@mooregroup.com,(685)624-6484,"3187 David Camp, Mendozaville, IN 05485",GB26MFCY13695727908335,REG-09025425,Cleaning Services,2024-10-29,No,EMP065
+VEN258,Gonzalez-Schneider,contact@gonzalez-schnei.com,(524)681-3235x7071,"501 Robert Place, New Jennifermouth, MN 05538",GB64EDVH06090691309810,REG-79649673,Printing & Packaging,2025-07-08,No,EMP002
+VEN259,"Henry, Wright and Baird",contact@henrywrightandb.com,472.778.5324x264,"2076 Vanessa Crossroad Suite 366, Murraymouth, NV 51414",GB74OLKK62833339395786,REG-54362718,IT Hardware,2026-01-15,No,EMP063
+VEN260,"Chavez, Conway and Sosa",contact@chavezconwayand.com,+1-960-233-5826x862,"249 Danielle Ports Apt. 265, Sanchezberg, WV 64291",GB28KTYT80111000515532,REG-34159597,Cleaning Services,2026-07-15,No,EMP047
+VEN261,Morgan-Thompson,contact@morgan-thompson.com,882-422-6189,"431 Regina Court Apt. 267, Woodstown, OR 90694",GB86LOSS27079551512294,REG-62135415,Office Supplies,2025-05-01,No,EMP091
+VEN262,"Terrell, Simpson and Howell",contact@terrellsimpsona.com,(625)643-8480x75203,"0471 Arnold Curve Apt. 904, Gonzalezfort, MS 51408",GB61BWVI65586652548374,REG-41715810,Cleaning Services,2025-12-10,No,EMP023
+VEN263,Drake Inc,contact@drakeinc.com,225-212-9311,"129 Welch Isle Apt. 910, East Samantha, CO 24824",GB17CWCA63301658373792,REG-74907280,Printing & Packaging,2025-03-15,No,EMP079
+VEN264,Thompson and Sons,contact@thompsonandsons.com,(589)431-1325,"684 Ronald Views Suite 380, Juanburgh, CA 08577",GB39CPLX09617015959194,REG-57575747,Logistics,2025-03-31,No,EMP060
+VEN265,Gardner-Mcgee,contact@gardner-mcgee.com,001-920-956-7756,"660 Kristina Light, South Michael, NE 87240",GB92FESF31067245307624,REG-84337976,Printing & Packaging,2025-03-04,Yes,EMP042
+VEN266,Valentine-Moore,contact@valentine-moore.com,5519157942,"0425 Sutton Meadow Apt. 928, Matthewstad, AS 90745",GB71ELSP10756335357485,REG-95325939,Catering,2026-02-07,No,EMP012
+VEN267,"Young, Weiss and Burns",contact@youngweissandbu.com,9589162951,"76342 Abbott Circle Suite 330, Michaelfort, OH 19653",GB38ZIKP59833991403884,REG-36604432,Printing & Packaging,2025-09-07,No,EMP032
+VEN268,Johnson-Pearson,contact@johnson-pearson.com,(915)672-7682x97514,"2925 David Ways Suite 875, West Marie, MS 72607",GB30AUNU56259045990802,REG-71122182,Software Licensing,2026-04-23,No,EMP073
+VEN269,"Young, Fischer and Compton",contact@youngfischerand.com,865-817-6808,"72143 Brian Springs, North Dawnbury, NJ 06057",GB11BHYH22855660847068,REG-10390339,IT Hardware,2025-05-28,No,EMP044
+VEN270,Smith-Miles,contact@smith-miles.com,(782)863-2809x448,"453 Hurst Lock, Lake Justintown, NV 79585",GB35UVQY63210613394394,REG-57039438,Office Supplies,2025-12-03,No,EMP042
+VEN271,Collins and Sons,contact@collinsandsons.com,(453)976-5769,"319 Nicole Walk Apt. 900, Sarahport, NV 50494",GB31XSFD05336514604014,REG-24731072,Catering,2026-06-14,No,EMP028
+VEN272,Rodriguez Ltd,contact@rodriguezltd.com,898.844.0971x231,"7620 Diane Trail Suite 473, Andrewview, VI 25151",GB64HWOZ00968730451957,REG-78255882,Catering,2025-03-09,No,EMP044
+VEN273,Moss-Reed,contact@moss-reed.com,001-865-775-4278,"USS Guzman, FPO AE 44122",GB54LUOO82058295829236,REG-16188081,IT Hardware,2025-01-21,Yes,EMP072
+VEN274,"Smith, Michael and Ortega",contact@smithmichaeland.com,001-735-871-5586x8639,"72308 Tyler Cliffs, Johnfurt, ME 27927",GB03RUDG00041321147165,REG-60945653,Office Supplies,2025-01-13,No,EMP011
+VEN275,Patterson-Lawrence,contact@patterson-lawre.com,+1-399-807-0755x0476,"706 Sydney Trace Apt. 748, North Johnville, NH 50288",GB05XKHT70548739610290,REG-87182749,Software Licensing,2025-09-14,Yes,EMP063
+VEN276,Solis-Nichols,contact@solis-nichols.com,4492187274,"1213 Tucker Avenue Suite 260, Ianmouth, VI 90027",GB69SPHW71122299077560,REG-85816704,Logistics,2026-03-24,No,EMP089
+VEN277,Grant-Henderson,contact@grant-henderson.com,245-476-8321,"378 Grant Neck, Port Dianashire, MT 15685",GB20RBHG24260508018498,REG-04253733,Printing & Packaging,2024-10-28,Yes,EMP058
+VEN278,"Wells, Mendoza and Garcia",contact@wellsmendozaand.com,+1-381-422-8217,"534 Brown Meadows Apt. 560, Lake Jessica, MN 51720",GB54OTHX27986239847169,REG-06181205,Catering,2025-07-06,Yes,EMP012
+VEN279,Long-Marshall,contact@long-marshall.com,448-995-4787x69899,"8891 Soto Groves Suite 983, Saramouth, PW 31881",GB06SGLJ35864496392435,REG-88537982,Cleaning Services,2026-05-27,Yes,EMP052
+VEN280,Hardy LLC,contact@hardyllc.com,939.652.7536,"USCGC Medina, FPO AE 33888",GB46TCID68601347789489,REG-63406791,Cleaning Services,2026-01-17,No,EMP040
+VEN281,Kim-Edwards,contact@kim-edwards.com,(615)400-1418,"09001 Davila Stravenue Suite 463, East Christine, OK 99031",GB54IRLH20895326389021,REG-99471136,Software Licensing,2024-12-25,No,EMP061
+VEN282,Allen PLC,contact@allenplc.com,(834)910-3469,"67726 Johnson Track, Jamiefort, NE 69174",GB90KKAP89679352196263,REG-35564343,Cleaning Services,2025-01-14,No,EMP055
+VEN283,Burke-Harrison,contact@burke-harrison.com,+1-993-817-0695x56076,"3454 Moore Forges Apt. 065, Port Jeremyburgh, CO 81169",GB64WRBI18472426423642,REG-81319092,Cleaning Services,2024-09-26,No,EMP046
+VEN284,Kelley-Mcmahon,contact@kelley-mcmahon.com,(430)339-1114,"228 John Branch Suite 248, New Williamton, MO 18189",GB77FBPE23959473721329,REG-01620478,Catering,2026-08-04,No,EMP035
+VEN285,Byrd-Foster,contact@byrd-foster.com,001-968-478-5996x4862,"95419 Reyes Hills, Andrewfort, ID 98845",GB42AGNY27924632037476,REG-77537260,IT Hardware,2025-11-02,Yes,EMP030
+VEN286,Gould Ltd,contact@gouldltd.com,645-705-7661,"71553 Weeks Expressway Apt. 128, Brianhaven, IL 83164",GB95QLAO65975954508917,REG-76808981,IT Hardware,2026-08-25,Yes,EMP041
+VEN287,Fitzpatrick Group,contact@fitzpatrickgrou.com,+1-674-222-3196x46300,"USNS Barnes, FPO AE 55235",GB59ZENR94301204713727,REG-11759574,Office Supplies,2025-05-22,No,EMP025
+VEN288,"Hansen, Small and Olsen",contact@hansensmallando.com,+1-658-729-8493x3067,"USNV Porter, FPO AP 53547",GB47BSJZ41283337218856,REG-66954132,Cleaning Services,2025-05-22,No,EMP036
+VEN289,"Olson, Hebert and Jones",contact@olsonhebertandj.com,7663626705,"6936 Atkinson Heights Apt. 925, New Mark, MS 11364",GB48DCCZ02867120072024,REG-55910245,Printing & Packaging,2025-05-09,Yes,EMP013
+VEN290,Williams PLC,contact@williamsplc.com,6903326714,"17942 Tyler Fork Suite 065, Lake Thomas, NV 47523",GB91QJJU66345337220109,REG-12172214,Office Supplies,2024-11-10,No,EMP038
+VEN291,Watts-Riley,contact@watts-riley.com,566.718.9437x0526,"6277 Bowers Wall, Shannonmouth, WA 93219",GB02NVKY92024617520238,REG-97432600,Catering,2026-03-20,Yes,EMP023
+VEN292,"Ward, Cooper and Mendez",contact@wardcooperandme.com,6178833258,"0798 Ryan Throughway, Williamsmouth, AK 53891",GB26SUZC76799359374403,REG-94640830,Software Licensing,2025-05-27,Yes,EMP091
+VEN293,Crane Group,contact@cranegroup.com,(206)901-4886x0849,"Unit 3884 Box 1368, DPO AP 43569",GB92FRUG06153701242446,REG-26325144,IT Hardware,2025-03-12,Yes,EMP036
+VEN294,"Holt, Fowler and Jones",contact@holtfowlerandjo.com,303-914-2175,"941 Mccormick Knoll Apt. 638, Jessicaland, CA 21772",GB84EKFQ83750566186323,REG-97913787,Catering,2025-01-06,Yes,EMP071
+VEN295,Morris-Wood,contact@morris-wood.com,7078309505,"7121 Brittany Mountains, Spencerside, VA 45157",GB19DTZB53486401042462,REG-45618517,Printing & Packaging,2026-08-08,No,EMP082
+VEN296,Rodgers-Russell,contact@rodgers-russell.com,752-712-8991x5114,"391 Brandon Inlet, Port Jennifershire, VI 91003",GB69RJRV41604615402119,REG-01707568,Printing & Packaging,2024-09-28,Yes,EMP014
+VEN297,Baker PLC,contact@bakerplc.com,+1-931-552-2910,"83608 Ray Stream, South Amy, AR 56825",GB06GTVM38452696944391,REG-64970169,Catering,2026-09-07,No,EMP074
+VEN298,Francis Ltd,contact@francisltd.com,001-229-313-2033,"41903 Maria Bridge, Rodriguezborough, NV 19425",GB20EXUZ15566847323653,REG-37746040,Logistics,2024-12-16,No,EMP062
+VEN299,Ford-Brown,contact@ford-brown.com,6786436142,"8197 Turner Fork, Harrisview, MP 63000",GB60MIFP37203763882145,REG-84148460,IT Hardware,2026-07-30,No,EMP024
+VEN300,Bradley Inc,contact@bradleyinc.com,743-889-9827x8020,"3214 King Unions, Brendafurt, TN 79350",GB37SSLD67933505573857,REG-36801192,IT Hardware,2025-03-14,Yes,EMP062
+VEN301,Shell Vendor 1,richard.jones@sentinelcorp.com,488-635-5231,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000000,UNVERIFIED,IT Hardware,2026-01-01,No,EMP082
+VEN302,Shell Vendor 2,amber.perez@sentinelcorp.com,731-564-7525,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000001,UNVERIFIED,Catering,2026-01-02,No,EMP004
+VEN303,Shell Vendor 3,christina.smith@sentinelcorp.com,427.319.3745,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000002,UNVERIFIED,IT Hardware,2026-01-03,No,EMP036
+VEN304,Shell Vendor 4,nicole.chambers@sentinelcorp.com,820.503.7917,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000003,UNVERIFIED,IT Hardware,2026-01-04,No,EMP029
+VEN305,Shell Vendor 5,monica.rose@sentinelcorp.com,001-243-541-0369x71179,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000004,UNVERIFIED,IT Hardware,2026-01-05,No,EMP095
+VEN306,Shell Vendor 6,amy.mccoy@sentinelcorp.com,751-386-4492,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000005,UNVERIFIED,Catering,2026-01-06,No,EMP087
+VEN307,Shell Vendor 7,alexis.baker@sentinelcorp.com,001-568-211-7758x9178,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000006,UNVERIFIED,IT Hardware,2026-01-07,No,EMP070
+VEN308,Shell Vendor 8,michael.parker@sentinelcorp.com,(802)829-6120x183,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000007,UNVERIFIED,Office Supplies,2026-01-08,No,EMP076
+VEN309,Shell Vendor 9,mia.sutton@sentinelcorp.com,+1-528-232-7648x350,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000008,UNVERIFIED,IT Hardware,2026-01-09,No,EMP005
+VEN310,Shell Vendor 10,michael.brown@sentinelcorp.com,4519834738,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000009,UNVERIFIED,IT Hardware,2026-01-10,No,EMP012
+VEN311,Shell Vendor 11,janet.ross@sentinelcorp.com,+1-401-963-2870x8317,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000010,UNVERIFIED,Catering,2026-01-11,No,EMP030
+VEN312,Shell Vendor 12,paul.wilson@sentinelcorp.com,249-278-4036,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000011,UNVERIFIED,IT Hardware,2026-01-12,No,EMP078
+VEN313,Shell Vendor 13,marcus.richards@sentinelcorp.com,(998)547-8961x1836,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000012,UNVERIFIED,IT Hardware,2026-01-13,No,EMP072
+VEN314,Shell Vendor 14,rebecca.taylor@sentinelcorp.com,4756818141,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000013,UNVERIFIED,Catering,2026-01-14,No,EMP092
+VEN315,Shell Vendor 15,christopher.schwartz@sentinelcorp.com,(970)565-3794,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000014,UNVERIFIED,Catering,2026-01-15,No,EMP090
+VEN316,NewCo Traders 0,contact@newco0.com,0000000000,Unregistered Address,GB00NEWCO000000000,PENDING,IT Hardware,2026-06-01,No,EMP068
+VEN317,NewCo Traders 1,contact@newco1.com,0000000000,Unregistered Address,GB00NEWCO000000001,PENDING,IT Hardware,2026-06-02,No,EMP042
+VEN318,NewCo Traders 2,contact@newco2.com,0000000000,Unregistered Address,GB00NEWCO000000002,PENDING,IT Hardware,2026-06-03,No,EMP047
+VEN319,NewCo Traders 3,contact@newco3.com,0000000000,Unregistered Address,GB00NEWCO000000003,PENDING,IT Hardware,2026-06-04,No,EMP031
+VEN320,NewCo Traders 4,contact@newco4.com,0000000000,Unregistered Address,GB00NEWCO000000004,PENDING,IT Hardware,2026-06-05,No,EMP011
+VEN321,NewCo Traders 5,contact@newco5.com,0000000000,Unregistered Address,GB00NEWCO000000005,PENDING,IT Hardware,2026-06-06,No,EMP009
+VEN322,NewCo Traders 6,contact@newco6.com,0000000000,Unregistered Address,GB00NEWCO000000006,PENDING,IT Hardware,2026-06-07,No,EMP099
+VEN323,NewCo Traders 7,contact@newco7.com,0000000000,Unregistered Address,GB00NEWCO000000007,PENDING,IT Hardware,2026-06-08,No,EMP061
+VEN324,NewCo Traders 8,contact@newco8.com,0000000000,Unregistered Address,GB00NEWCO000000008,PENDING,IT Hardware,2026-06-09,No,EMP034
+VEN325,NewCo Traders 9,contact@newco9.com,0000000000,Unregistered Address,GB00NEWCO000000009,PENDING,IT Hardware,2026-06-10,No,EMP055
+VEN326,NewCo Traders 10,contact@newco10.com,0000000000,Unregistered Address,GB00NEWCO0000000010,PENDING,IT Hardware,2026-06-11,No,EMP097
+VEN327,NewCo Traders 11,contact@newco11.com,0000000000,Unregistered Address,GB00NEWCO0000000011,PENDING,IT Hardware,2026-06-12,No,EMP092
+VEN328,NewCo Traders 12,contact@newco12.com,0000000000,Unregistered Address,GB00NEWCO0000000012,PENDING,IT Hardware,2026-06-13,No,EMP084
+VEN329,NewCo Traders 13,contact@newco13.com,0000000000,Unregistered Address,GB00NEWCO0000000013,PENDING,IT Hardware,2026-06-14,No,EMP058
+VEN330,NewCo Traders 14,contact@newco14.com,0000000000,Unregistered Address,GB00NEWCO0000000014,PENDING,IT Hardware,2026-06-15,No,EMP009
+VEN331,Independent Supplier 0,mr..david.little.md@sentinelcorp.com,9990000000,Freelance Office Space,GB00INDEP00000000,REG-UNKNOWN,Office Supplies,2026-04-01,No,EMP032
+VEN332,Independent Supplier 1,theresa.miller@sentinelcorp.com,9990000001,Freelance Office Space,GB00INDEP00000001,REG-UNKNOWN,Office Supplies,2026-04-02,No,EMP057
+VEN333,Independent Supplier 2,susan.hopkins@sentinelcorp.com,9990000002,Freelance Office Space,GB00INDEP00000002,REG-UNKNOWN,Office Supplies,2026-04-03,No,EMP013
+VEN334,Independent Supplier 3,jennifer.robinson@sentinelcorp.com,9990000003,Freelance Office Space,GB00INDEP00000003,REG-UNKNOWN,Office Supplies,2026-04-04,No,EMP084
+VEN335,Independent Supplier 4,alexis.baker@sentinelcorp.com,9990000004,Freelance Office Space,GB00INDEP00000004,REG-UNKNOWN,Office Supplies,2026-04-05,No,EMP002
+VEN336,Independent Supplier 5,michael.brown@sentinelcorp.com,9990000005,Freelance Office Space,GB00INDEP00000005,REG-UNKNOWN,Office Supplies,2026-04-06,No,EMP097
+VEN337,Independent Supplier 6,victoria.larson@sentinelcorp.com,9990000006,Freelance Office Space,GB00INDEP00000006,REG-UNKNOWN,Office Supplies,2026-04-07,No,EMP022
+VEN338,Independent Supplier 7,michael.martinez@sentinelcorp.com,9990000007,Freelance Office Space,GB00INDEP00000007,REG-UNKNOWN,Office Supplies,2026-04-08,No,EMP063
+VEN339,Independent Supplier 8,stephanie.parsons@sentinelcorp.com,9990000008,Freelance Office Space,GB00INDEP00000008,REG-UNKNOWN,Office Supplies,2026-04-09,No,EMP028
+VEN340,Independent Supplier 9,jennifer.robertson@sentinelcorp.com,9990000009,Freelance Office Space,GB00INDEP00000009,REG-UNKNOWN,Office Supplies,2026-04-10,No,EMP008
+VEN341,Independent Supplier 10,ashley.landry@sentinelcorp.com,9990000010,Freelance Office Space,GB00INDEP000000010,REG-UNKNOWN,Office Supplies,2026-04-11,No,EMP049
+VEN342,Independent Supplier 11,allison.hill@sentinelcorp.com,9990000011,Freelance Office Space,GB00INDEP000000011,REG-UNKNOWN,Office Supplies,2026-04-12,No,EMP050
+VEN343,Independent Supplier 12,jeffrey.johnson@sentinelcorp.com,9990000012,Freelance Office Space,GB00INDEP000000012,REG-UNKNOWN,Office Supplies,2026-04-13,No,EMP059
+VEN344,Independent Supplier 13,carla.collins@sentinelcorp.com,9990000013,Freelance Office Space,GB00INDEP000000013,REG-UNKNOWN,Office Supplies,2026-04-14,No,EMP055
+VEN345,Independent Supplier 14,christopher.schwartz@sentinelcorp.com,9990000014,Freelance Office Space,GB00INDEP000000014,REG-UNKNOWN,Office Supplies,2026-04-15,No,EMP094

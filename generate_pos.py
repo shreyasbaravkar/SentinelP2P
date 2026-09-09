@@ -7,42 +7,52 @@ fake = Faker()
 Faker.seed(42)
 random.seed(42)
 
-# Step1: Read employee IDs
-employee_ids = []
-with open("employees.csv","r") as f:
+ITEM_CATEGORIES = ["IT Hardware", "Office Supplies", "Catering", "Logistics",
+                    "Software Licensing", "Cleaning Services", "Printing & Packaging"]
+
+PAYMENT_TERMS = ["Net 15", "Net 30", "Net 45", "Net 60"]
+
+# Read employees and vendors
+employees = []
+with open("employees.csv", "r") as f:
     reader = csv.DictReader(f)
     for row in reader:
-        employee_ids.append(row["employee_id"])
+        employees.append(row)
 
-# Step 2: Read vendor IDs
-vendor_ids= []
-with open("vendors.csv","r") as f:
+vendors = []
+with open("vendors.csv", "r") as f:
     reader = csv.DictReader(f)
     for row in reader:
-        vendor_ids.append(row["vendor_id"])
+        vendors.append(row)
 
-# Step 3: Generate 100 POs
 pos = []
-start_date = datetime(2026, 1, 1)
+start_date = datetime(2025, 1, 1)
 
+for i in range(1, 701):  # scaled up from 104 to 700
+    po_id = f"PO{i:04d}"
+    random_days = random.randint(0, 600)
+    po_date = start_date + timedelta(days=random_days)
 
-for i in range (1,101):
-    po_id = f"Po{i:04d}"
-    random_days = random.randint(0,200)
-    po_date= start_date + timedelta(days=random_days)
-
+    vendor = random.choice(vendors)
+    creator = random.choice(employees)
+    approver = random.choice(employees)  # usually different, but sometimes same (fraud signal)
 
     pos.append({
         "po_id": po_id,
-        "vendor_id": random.choice(vendor_ids),
-        "amount": round(random.uniform(500,25000), 2),
+        "vendor_id": vendor["vendor_id"],
+        "amount": round(random.uniform(500, 25000), 2),
+        "item_category": vendor["vendor_category"],  # matches vendor's category by default
         "date": po_date.strftime("%Y-%m-%d"),
-        "created_by_employee_id": random.choice(employee_ids)
-                })
+        "created_by_employee_id": creator["employee_id"],
+        "approved_by_employee_id": approver["employee_id"],
+        "payment_terms": random.choice(PAYMENT_TERMS)
+    })
 
-# Step 4: Save to CSV
-with open ("purchase_orders.csv","w",newline="") as f:
-    writer = csv.DictWriter(f, fieldnames=["po_id","vendor_id","amount","date","created_by_employee_id"])
+fieldnames = ["po_id", "vendor_id", "amount", "item_category", "date",
+              "created_by_employee_id", "approved_by_employee_id", "payment_terms"]
+
+with open("purchase_orders.csv", "w", newline="", encoding="utf-8") as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(pos)
 

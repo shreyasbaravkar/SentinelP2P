@@ -1,103 +1,681 @@
-invoice_id,po_id,amount,description,date
-INV0001,Po0001,1112.76,Office stationery supply,2026-06-24
-INV0002,Po0002,3918.68,Printing and packaging materials,2026-03-05
-INV0003,Po0003,22358.4,IT hardware procurrement,2026-06-28
-INV0004,Po0004,1278.68,IT hardware procurrement,2026-06-05
-INV0005,Po0005,12881.2,Office stationery supply,2026-03-09
-INV0006,Po0006,18042.48,Printing and packaging materials,2026-06-04
-INV0007,Po0007,11505.62,Catering services,2026-05-03
-INV0008,Po0008,20242.57,Catering services,2026-01-04
-INV0009,Po0009,4309.25,Office stationery supply,2026-04-05
-INV0010,Po0010,9808.22,Office stationery supply,2026-01-28
-INV0011,Po0011,6980.76,IT hardware procurrement,2026-04-03
-INV0012,Po0012,13637.59,Catering services,2026-07-15
-INV0013,Po0013,7682.87,Catering services,2026-01-22
-INV0014,Po0014,5211.07,Printing and packaging materials,2026-04-07
-INV0015,Po0015,6083.51,Printing and packaging materials,2026-01-23
-INV0016,Po0016,6203.38,Software license renewal,2026-01-30
-INV0017,Po0017,11608.55,Software license renewal,2026-04-12
-INV0018,Po0018,9204.13,Cleaning services,2026-02-21
-INV0019,Po0019,17246.92,Logistics and courier services,2026-07-12
-INV0020,Po0020,4692.9,Logistics and courier services,2026-06-06
-INV0021,Po0021,9796.66,IT hardware procurrement,2026-02-24
-INV0022,Po0022,8444.93,Software license renewal,2026-03-10
-INV0023,Po0023,1286.46,Cleaning services,2026-03-06
-INV0024,Po0024,2121.62,IT hardware procurrement,2026-04-16
-INV0025,Po0025,5709.35,Cleaning services,2026-07-16
-INV0026,Po0026,22906.42,Office stationery supply,2026-04-14
-INV0027,Po0027,3920.94,Office stationery supply,2026-02-13
-INV0028,Po0028,18801.84,Logistics and courier services,2026-05-24
-INV0029,Po0029,9368.91,Catering services,2026-06-05
-INV0030,Po0030,2727.28,Logistics and courier services,2026-05-16
-INV0031,Po0031,15872.43,Printing and packaging materials,2026-01-30
-INV0032,Po0032,9926.8,Catering services,2026-06-10
-INV0033,Po0033,6659.65,Software license renewal,2026-05-02
-INV0034,Po0034,18157.68,Catering services,2026-01-05
-INV0035,Po0035,19330.67,Logistics and courier services,2026-07-17
-INV0036,Po0036,11151.75,Catering services,2026-02-09
-INV0037,Po0037,21958.4,Logistics and courier services,2026-01-16
-INV0038,Po0038,4876.97,Catering services,2026-05-15
-INV0039,Po0039,21120.9,Printing and packaging materials,2026-06-14
-INV0040,Po0040,4244.56,Office stationery supply,2026-06-07
-INV0041,Po0041,23099.63,IT hardware procurrement,2026-05-30
-INV0042,Po0042,12470.84,Cleaning services,2026-06-16
-INV0043,Po0043,24640.37,Logistics and courier services,2026-04-05
-INV0044,Po0044,6401.35,Logistics and courier services,2026-03-07
-INV0045,Po0045,18431.74,Software license renewal,2026-01-23
-INV0046,Po0046,19262.94,Software license renewal,2026-07-19
-INV0047,Po0047,23697.79,Logistics and courier services,2026-06-29
-INV0048,Po0048,21874.61,IT hardware procurrement,2026-03-15
-INV0049,Po0049,13712.75,Cleaning services,2026-03-02
-INV0050,Po0050,10275.31,Printing and packaging materials,2026-07-06
-INV0051,Po0051,13180.61,Printing and packaging materials,2026-04-28
-INV0052,Po0052,2068.63,Printing and packaging materials,2026-03-20
-INV0053,Po0053,6137.81,Office stationery supply,2026-06-11
-INV0054,Po0054,17842.1,Printing and packaging materials,2026-01-12
-INV0055,Po0055,22682.79,Catering services,2026-03-03
-INV0056,Po0056,6331.11,IT hardware procurrement,2026-01-31
-INV0057,Po0057,3741.64,Software license renewal,2026-02-27
-INV0058,Po0058,6453.43,Cleaning services,2026-06-04
-INV0059,Po0059,2810.98,Printing and packaging materials,2026-04-30
-INV0060,Po0060,10572.01,Catering services,2026-04-13
-INV0061,Po0061,24612.05,Printing and packaging materials,2026-06-26
-INV0062,Po0062,18341.23,Logistics and courier services,2026-01-22
-INV0063,Po0063,5160.12,Logistics and courier services,2026-03-18
-INV0064,Po0064,4995.46,IT hardware procurrement,2026-02-06
-INV0065,Po0065,23120.01,Office stationery supply,2026-03-19
-INV0066,Po0066,1739.41,Cleaning services,2026-06-03
-INV0067,Po0067,23195.99,Cleaning services,2026-01-11
-INV0068,Po0068,12398.21,IT hardware procurrement,2026-02-14
-INV0069,Po0069,1936.57,Catering services,2026-04-28
-INV0070,Po0070,6997.47,Printing and packaging materials,2026-01-16
-INV0071,Po0071,17566.49,IT hardware procurrement,2026-03-21
-INV0072,Po0072,12423.45,Software license renewal,2026-06-30
-INV0073,Po0073,24233.38,Printing and packaging materials,2026-03-24
-INV0074,Po0074,1993.46,IT hardware procurrement,2026-07-16
-INV0075,Po0075,14812.35,IT hardware procurrement,2026-01-20
-INV0076,Po0076,1893.55,Printing and packaging materials,2026-05-20
-INV0077,Po0077,5052.71,Catering services,2026-01-30
-INV0078,Po0078,21614.57,Printing and packaging materials,2026-01-23
-INV0079,Po0079,14457.05,Software license renewal,2026-02-10
-INV0080,Po0080,15674.85,Catering services,2026-06-17
-INV0081,Po0081,14348.06,Cleaning services,2026-06-25
-INV0082,Po0082,16908.29,IT hardware procurrement,2026-03-12
-INV0083,Po0083,10196.75,Software license renewal,2026-03-12
-INV0084,Po0084,23260.95,Logistics and courier services,2026-04-30
-INV0085,Po0085,15718.4,Logistics and courier services,2026-01-04
-INV0086,Po0086,13672.04,IT hardware procurrement,2026-01-28
-INV0087,Po0087,23364.85,IT hardware procurrement,2026-03-20
-INV0088,Po0088,7482.19,Printing and packaging materials,2026-03-17
-INV0089,Po0089,7911.67,Catering services,2026-05-27
-INV0090,Po0090,20519.05,Software license renewal,2026-01-05
-INV0091,Po0091,23503.79,Catering services,2026-06-26
-INV0092,Po0092,22297.96,Catering services,2026-03-17
-INV0093,Po0093,7403.03,Catering services,2026-02-14
-INV0094,Po0094,5488.13,Office stationery supply,2026-07-17
-INV0095,Po0095,6652.47,Printing and packaging materials,2026-05-21
-INV0096,Po0096,10877.61,Printing and packaging materials,2026-01-26
-INV0097,Po0097,8672.14,Catering services,2026-01-27
-INV0098,Po0098,4458.76,Cleaning services,2026-06-26
-INV0099,Po0099,10978.33,Printing and packaging materials,2026-06-04
-INV0100,Po0100,23653.75,Office stationery supply,2026-02-04
-INV0101,Po0018,9204.13,Cleaning services (resubmitted),2026-02-21
-INV0102,Po0095,6652.47,Printing and packaging materials (resubmitted),2026-05-21
+invoice_id,po_id,amount,item_category,description,date,payment_status,submitted_by_employee_id
+INV0001,PO0655,7004.29,Logistics,Printing and packaging materials,2026-07-28,Pending,EMP046
+INV0002,PO0115,22099.96,Printing & Packaging,Software license renewal,2025-12-06,Pending,EMP096
+INV0003,PO0026,669.36,Cleaning Services,Office stationery supply,2025-09-07,Pending,EMP035
+INV0004,PO0282,14588.66,Logistics,Printing and packaging materials,2026-07-09,Overdue,EMP086
+INV0005,PO0251,23889.23,Printing & Packaging,Office stationery supply,2026-06-07,Pending,EMP060
+INV0006,PO0229,19532.47,Catering,Office stationery supply,2026-01-24,Paid,EMP073
+INV0007,PO0143,7950.23,Cleaning Services,Cleaning services,2026-04-06,Pending,EMP055
+INV0008,PO0105,5606.85,IT Hardware,Catering services,2025-02-04,Paid,EMP007
+INV0009,PO0559,4311.94,Catering,Printing and packaging materials,2026-02-16,Pending,EMP042
+INV0010,PO0090,21076.64,Logistics,Furniture purchase,2026-04-19,Paid,EMP054
+INV0011,PO0605,15379.28,Printing & Packaging,Office stationery supply,2025-02-09,Pending,EMP003
+INV0012,PO0433,6033.5,Office Supplies,IT hardware procurement,2026-04-20,Overdue,EMP084
+INV0013,PO0033,1097.98,Logistics,Software license renewal,2025-03-12,Paid,EMP097
+INV0014,PO0031,18364.94,Catering,Software license renewal,2025-09-02,Paid,EMP003
+INV0015,PO0096,11234.73,Logistics,Software license renewal,2026-08-21,Pending,EMP086
+INV0016,PO0224,7388.33,Office Supplies,Cleaning services,2025-05-10,Overdue,EMP033
+INV0017,PO0239,14548.29,Software Licensing,IT hardware procurement,2025-03-31,Paid,EMP096
+INV0018,PO0518,19225.99,Logistics,Furniture purchase,2025-01-15,Overdue,EMP014
+INV0019,PO0617,12168.43,Office Supplies,Printing and packaging materials,2026-07-14,Overdue,EMP049
+INV0020,PO0028,13428.01,Cleaning Services,Software license renewal,2026-05-06,Paid,EMP010
+INV0021,PO0575,16298.87,Printing & Packaging,IT hardware procurement,2025-08-20,Overdue,EMP099
+INV0022,PO0204,5790.81,Catering,Catering services,2025-03-25,Overdue,EMP006
+INV0023,PO0666,614.39,IT Hardware,Catering services,2026-02-25,Paid,EMP085
+INV0024,PO0692,1936.84,Printing & Packaging,Catering services,2025-05-05,Paid,EMP083
+INV0025,PO0430,11049.04,Printing & Packaging,Logistics and courier services,2025-02-01,Paid,EMP054
+INV0026,PO0226,21811.64,Software Licensing,Logistics and courier services,2025-12-21,Overdue,EMP047
+INV0027,PO0460,6893.19,Printing & Packaging,Furniture purchase,2026-08-16,Overdue,EMP056
+INV0028,PO0604,4594.51,Catering,Logistics and courier services,2025-06-27,Pending,EMP069
+INV0029,PO0285,1993.77,Printing & Packaging,Catering services,2026-02-18,Paid,EMP094
+INV0030,PO0007,5852.64,Printing & Packaging,Logistics and courier services,2025-10-12,Paid,EMP012
+INV0031,PO0164,8520.53,Catering,Printing and packaging materials,2025-07-26,Pending,EMP060
+INV0032,PO0689,7073.58,Logistics,Catering services,2025-12-04,Paid,EMP064
+INV0033,PO0349,7082.41,Printing & Packaging,Furniture purchase,2025-06-09,Pending,EMP028
+INV0034,PO0672,20325.82,Software Licensing,Furniture purchase,2025-12-22,Overdue,EMP077
+INV0035,PO0160,19430.54,Catering,Software license renewal,2026-06-06,Paid,EMP067
+INV0036,PO0221,7897.55,Software Licensing,Software license renewal,2025-05-10,Overdue,EMP093
+INV0037,PO0345,17008.26,Logistics,Logistics and courier services,2026-05-10,Pending,EMP083
+INV0038,PO0693,4091.58,Office Supplies,Software license renewal,2025-04-30,Pending,EMP003
+INV0039,PO0095,22668.54,Software Licensing,Furniture purchase,2025-03-17,Overdue,EMP032
+INV0040,PO0390,1136.12,Catering,Catering services,2025-09-28,Pending,EMP048
+INV0041,PO0100,5854.4,Logistics,Logistics and courier services,2026-07-13,Pending,EMP071
+INV0042,PO0368,4179.11,Office Supplies,Software license renewal,2025-07-04,Pending,EMP033
+INV0043,PO0353,11490.54,Logistics,Cleaning services,2026-06-25,Paid,EMP096
+INV0044,PO0619,24318.04,Printing & Packaging,Logistics and courier services,2025-05-08,Pending,EMP095
+INV0045,PO0271,20513.84,Catering,Furniture purchase,2026-06-11,Paid,EMP076
+INV0046,PO0045,655.55,Cleaning Services,Catering services,2025-12-02,Paid,EMP025
+INV0047,PO0471,3414.74,Printing & Packaging,Cleaning services,2026-04-07,Pending,EMP002
+INV0048,PO0550,23239.14,Office Supplies,Cleaning services,2026-04-23,Overdue,EMP007
+INV0049,PO0128,1615.13,Office Supplies,Logistics and courier services,2025-01-29,Paid,EMP097
+INV0050,PO0388,10677.9,Catering,Furniture purchase,2025-03-12,Pending,EMP002
+INV0051,PO0081,23978.21,Printing & Packaging,Office stationery supply,2025-07-01,Pending,EMP057
+INV0052,PO0566,1569.33,IT Hardware,IT hardware procurement,2025-12-16,Pending,EMP062
+INV0053,PO0301,16306.49,Logistics,Office stationery supply,2025-05-18,Paid,EMP010
+INV0054,PO0644,11745.45,Office Supplies,Furniture purchase,2025-10-12,Paid,EMP073
+INV0055,PO0634,8122.52,Logistics,Printing and packaging materials,2025-03-03,Overdue,EMP016
+INV0056,PO0371,13345.8,Catering,Software license renewal,2025-10-29,Overdue,EMP080
+INV0057,PO0592,20785.61,Cleaning Services,Furniture purchase,2026-03-31,Overdue,EMP058
+INV0058,PO0197,18301.68,Logistics,Office stationery supply,2026-07-15,Overdue,EMP040
+INV0059,PO0072,8969.33,Logistics,Software license renewal,2025-02-21,Overdue,EMP013
+INV0060,PO0047,6532.28,Logistics,IT hardware procurement,2025-09-02,Paid,EMP034
+INV0061,PO0234,10183.95,Office Supplies,IT hardware procurement,2026-06-28,Paid,EMP023
+INV0062,PO0297,9112.9,Logistics,Logistics and courier services,2026-03-14,Overdue,EMP053
+INV0063,PO0082,6073.11,Office Supplies,Software license renewal,2025-04-16,Pending,EMP061
+INV0064,PO0684,3847.73,Software Licensing,Logistics and courier services,2026-08-23,Paid,EMP037
+INV0065,PO0104,19640.21,Office Supplies,Furniture purchase,2026-01-05,Overdue,EMP030
+INV0066,PO0661,24686.19,Office Supplies,Software license renewal,2025-05-31,Pending,EMP085
+INV0067,PO0667,20914.1,Office Supplies,Software license renewal,2026-01-20,Overdue,EMP070
+INV0068,PO0465,24772.17,Cleaning Services,Cleaning services,2026-03-13,Paid,EMP035
+INV0069,PO0374,13877.87,Printing & Packaging,Furniture purchase,2025-12-13,Pending,EMP022
+INV0070,PO0167,22805.82,Office Supplies,Furniture purchase,2025-04-15,Overdue,EMP060
+INV0071,PO0380,8118.96,Printing & Packaging,Logistics and courier services,2026-02-27,Pending,EMP035
+INV0072,PO0364,24458.81,Cleaning Services,Office stationery supply,2025-04-15,Pending,EMP077
+INV0073,PO0215,25328.55,Printing & Packaging,Office stationery supply,2025-04-24,Paid,EMP042
+INV0074,PO0274,2746.98,Printing & Packaging,Office stationery supply,2026-04-10,Overdue,EMP087
+INV0075,PO0074,6115.81,Printing & Packaging,Cleaning services,2025-10-02,Pending,EMP035
+INV0076,PO0624,15671.64,Cleaning Services,Furniture purchase,2025-05-05,Paid,EMP084
+INV0077,PO0176,11798.17,IT Hardware,Logistics and courier services,2026-06-04,Paid,EMP056
+INV0078,PO0547,22938.44,IT Hardware,Printing and packaging materials,2025-08-26,Pending,EMP045
+INV0079,PO0696,21774.14,Software Licensing,IT hardware procurement,2025-10-01,Paid,EMP086
+INV0080,PO0168,2333.29,Catering,Logistics and courier services,2025-06-03,Pending,EMP053
+INV0081,PO0474,2353.88,IT Hardware,Office stationery supply,2026-06-29,Pending,EMP052
+INV0082,PO0389,22980.5,IT Hardware,IT hardware procurement,2026-07-29,Pending,EMP041
+INV0083,PO0277,1438.43,Catering,Office stationery supply,2025-04-26,Overdue,EMP066
+INV0084,PO0571,24930.45,Logistics,Logistics and courier services,2026-09-03,Pending,EMP070
+INV0085,PO0225,17716.12,Printing & Packaging,Catering services,2025-10-02,Overdue,EMP025
+INV0086,PO0333,11702.15,Logistics,Logistics and courier services,2025-02-06,Paid,EMP064
+INV0087,PO0058,586.87,Office Supplies,Cleaning services,2025-04-09,Pending,EMP035
+INV0088,PO0235,4799.46,Catering,Office stationery supply,2025-01-16,Overdue,EMP090
+INV0089,PO0688,16752.2,Catering,Cleaning services,2025-04-18,Pending,EMP031
+INV0090,PO0324,6066.23,Printing & Packaging,IT hardware procurement,2026-07-22,Paid,EMP002
+INV0091,PO0411,2765.37,Software Licensing,Logistics and courier services,2025-12-19,Paid,EMP015
+INV0092,PO0275,22123.57,Cleaning Services,Furniture purchase,2026-04-18,Overdue,EMP020
+INV0093,PO0068,16068.03,Office Supplies,Logistics and courier services,2026-01-06,Pending,EMP035
+INV0094,PO0217,15923.84,Cleaning Services,Printing and packaging materials,2026-02-17,Paid,EMP059
+INV0095,PO0581,15211.24,Catering,Cleaning services,2025-02-15,Paid,EMP077
+INV0096,PO0323,14083.49,IT Hardware,Printing and packaging materials,2025-08-09,Pending,EMP099
+INV0097,PO0218,3200.95,Printing & Packaging,Office stationery supply,2025-10-04,Pending,EMP065
+INV0098,PO0512,11684.69,Cleaning Services,Logistics and courier services,2025-01-29,Paid,EMP039
+INV0099,PO0406,5551.16,IT Hardware,Catering services,2026-03-22,Overdue,EMP069
+INV0100,PO0470,17191.55,IT Hardware,Catering services,2025-05-02,Paid,EMP070
+INV0101,PO0147,1987.82,Printing & Packaging,Software license renewal,2025-07-11,Pending,EMP031
+INV0102,PO0272,21915.87,Cleaning Services,Logistics and courier services,2025-09-15,Overdue,EMP041
+INV0103,PO0694,11708.14,Logistics,Cleaning services,2025-07-20,Pending,EMP049
+INV0104,PO0253,7782.37,IT Hardware,Catering services,2026-05-30,Paid,EMP017
+INV0105,PO0680,23488.34,Printing & Packaging,Logistics and courier services,2025-10-31,Paid,EMP057
+INV0106,PO0552,22281.95,Office Supplies,Cleaning services,2025-09-18,Paid,EMP019
+INV0107,PO0270,13190.95,IT Hardware,Printing and packaging materials,2026-01-20,Overdue,EMP034
+INV0108,PO0439,19793.24,Printing & Packaging,Printing and packaging materials,2025-01-19,Pending,EMP043
+INV0109,PO0409,15862.37,Catering,Logistics and courier services,2025-11-15,Overdue,EMP092
+INV0110,PO0645,3059.78,Office Supplies,Furniture purchase,2026-04-24,Paid,EMP080
+INV0111,PO0616,20550.93,Catering,Printing and packaging materials,2025-09-02,Paid,EMP012
+INV0112,PO0142,19919.4,Cleaning Services,IT hardware procurement,2025-06-08,Pending,EMP082
+INV0113,PO0522,15887.96,Software Licensing,Furniture purchase,2026-03-30,Paid,EMP089
+INV0114,PO0506,17520.24,Logistics,Office stationery supply,2026-02-18,Pending,EMP042
+INV0115,PO0094,15644.95,Cleaning Services,Software license renewal,2025-03-13,Overdue,EMP048
+INV0116,PO0049,4938.2,Catering,Cleaning services,2025-10-02,Paid,EMP073
+INV0117,PO0113,2556.59,IT Hardware,Printing and packaging materials,2026-04-19,Overdue,EMP011
+INV0118,PO0157,24941.36,Printing & Packaging,Cleaning services,2025-08-30,Paid,EMP031
+INV0119,PO0670,8730.96,Printing & Packaging,Furniture purchase,2025-06-29,Overdue,EMP082
+INV0120,PO0669,12831.74,Office Supplies,Furniture purchase,2025-11-17,Overdue,EMP060
+INV0121,PO0066,22682.71,IT Hardware,Catering services,2026-03-07,Overdue,EMP021
+INV0122,PO0395,10129.94,IT Hardware,Printing and packaging materials,2025-12-28,Overdue,EMP082
+INV0123,PO0391,26156.89,Office Supplies,Software license renewal,2026-03-15,Pending,EMP059
+INV0124,PO0480,12330.35,Software Licensing,Printing and packaging materials,2026-03-30,Overdue,EMP062
+INV0125,PO0542,5971.34,Printing & Packaging,Furniture purchase,2025-10-03,Paid,EMP074
+INV0126,PO0258,8286.54,Catering,Office stationery supply,2025-11-01,Overdue,EMP085
+INV0127,PO0567,7821.6,Printing & Packaging,Office stationery supply,2026-02-24,Overdue,EMP088
+INV0128,PO0012,17278.65,Cleaning Services,Furniture purchase,2025-03-27,Paid,EMP064
+INV0129,PO0118,14568.17,Catering,Software license renewal,2025-12-25,Overdue,EMP046
+INV0130,PO0653,12929.21,Office Supplies,Cleaning services,2026-07-07,Overdue,EMP087
+INV0131,PO0627,4024.39,Logistics,Office stationery supply,2025-02-10,Pending,EMP081
+INV0132,PO0668,6912.53,Office Supplies,Catering services,2025-02-01,Overdue,EMP057
+INV0133,PO0699,8840.45,IT Hardware,Catering services,2025-06-05,Overdue,EMP012
+INV0134,PO0648,13970.15,Software Licensing,Catering services,2025-12-18,Overdue,EMP023
+INV0135,PO0446,6091.83,IT Hardware,Furniture purchase,2025-11-08,Pending,EMP035
+INV0136,PO0162,20456.93,Software Licensing,Catering services,2026-08-30,Paid,EMP038
+INV0137,PO0633,19107.59,IT Hardware,Cleaning services,2025-08-13,Paid,EMP010
+INV0138,PO0004,14937.01,Logistics,Printing and packaging materials,2026-07-27,Overdue,EMP087
+INV0139,PO0594,23745.31,Software Licensing,Printing and packaging materials,2025-05-17,Paid,EMP012
+INV0140,PO0513,4394.95,Printing & Packaging,IT hardware procurement,2025-08-01,Pending,EMP069
+INV0141,PO0183,15373.09,Software Licensing,Furniture purchase,2026-05-30,Overdue,EMP087
+INV0142,PO0520,3859.67,Software Licensing,Catering services,2025-04-23,Paid,EMP082
+INV0143,PO0109,11382.83,Logistics,Catering services,2026-08-24,Overdue,EMP030
+INV0144,PO0306,6877.1,IT Hardware,IT hardware procurement,2026-08-03,Overdue,EMP083
+INV0145,PO0677,12122.71,Cleaning Services,Furniture purchase,2026-02-08,Overdue,EMP060
+INV0146,PO0679,18109.77,Logistics,Cleaning services,2025-05-28,Paid,EMP015
+INV0147,PO0583,23412.55,Printing & Packaging,Logistics and courier services,2025-08-14,Paid,EMP039
+INV0148,PO0383,13669.18,Cleaning Services,Cleaning services,2026-03-04,Pending,EMP031
+INV0149,PO0166,7973.86,IT Hardware,Printing and packaging materials,2026-02-08,Overdue,EMP048
+INV0150,PO0544,3371.67,Catering,Printing and packaging materials,2025-04-28,Overdue,EMP094
+INV0151,PO0001,1282.12,Catering,Furniture purchase,2025-04-27,Paid,EMP063
+INV0152,PO0332,22037.35,Logistics,Software license renewal,2026-06-07,Pending,EMP048
+INV0153,PO0501,26892.88,Logistics,IT hardware procurement,2025-12-06,Overdue,EMP031
+INV0154,PO0020,8719.04,IT Hardware,Catering services,2026-02-01,Paid,EMP070
+INV0155,PO0568,18827.92,Office Supplies,Software license renewal,2025-02-08,Paid,EMP036
+INV0156,PO0372,7742.87,IT Hardware,Software license renewal,2026-06-15,Overdue,EMP059
+INV0157,PO0315,24323.3,Printing & Packaging,Office stationery supply,2026-03-07,Paid,EMP077
+INV0158,PO0246,12605.87,Software Licensing,Software license renewal,2025-04-01,Paid,EMP043
+INV0159,PO0060,18187.15,IT Hardware,Software license renewal,2026-08-11,Overdue,EMP073
+INV0160,PO0247,4198.46,Cleaning Services,Catering services,2026-08-06,Paid,EMP030
+INV0161,PO0650,18171.44,Software Licensing,Office stationery supply,2026-03-03,Pending,EMP077
+INV0162,PO0088,23775.97,Office Supplies,Cleaning services,2026-07-12,Overdue,EMP019
+INV0163,PO0498,5642.02,IT Hardware,IT hardware procurement,2026-03-31,Overdue,EMP023
+INV0164,PO0071,14724.45,Catering,Cleaning services,2025-02-12,Paid,EMP004
+INV0165,PO0129,25895.56,Logistics,Office stationery supply,2026-07-27,Paid,EMP031
+INV0166,PO0132,8562.34,Printing & Packaging,Printing and packaging materials,2025-05-02,Overdue,EMP007
+INV0167,PO0487,5050.97,Printing & Packaging,IT hardware procurement,2025-05-24,Pending,EMP096
+INV0168,PO0170,19217.14,Cleaning Services,IT hardware procurement,2025-11-29,Pending,EMP100
+INV0169,PO0599,531.39,Cleaning Services,Office stationery supply,2026-01-03,Overdue,EMP029
+INV0170,PO0434,2950.52,Catering,Logistics and courier services,2025-02-15,Overdue,EMP085
+INV0171,PO0607,13733.07,Catering,Logistics and courier services,2026-02-25,Pending,EMP008
+INV0172,PO0206,5496.74,Printing & Packaging,Logistics and courier services,2025-05-21,Paid,EMP088
+INV0173,PO0320,2789.0,Catering,Catering services,2025-05-24,Overdue,EMP011
+INV0174,PO0647,21797.66,Office Supplies,Catering services,2026-08-01,Pending,EMP009
+INV0175,PO0553,23343.74,Printing & Packaging,Furniture purchase,2026-07-24,Pending,EMP068
+INV0176,PO0449,11059.0,Printing & Packaging,Printing and packaging materials,2025-04-24,Paid,EMP078
+INV0177,PO0463,24120.7,Logistics,Software license renewal,2026-04-07,Pending,EMP090
+INV0178,PO0124,22236.24,Software Licensing,Logistics and courier services,2025-11-18,Pending,EMP030
+INV0179,PO0254,1458.98,IT Hardware,IT hardware procurement,2025-04-04,Pending,EMP094
+INV0180,PO0231,14165.19,Software Licensing,Catering services,2025-10-13,Paid,EMP041
+INV0181,PO0580,6710.47,IT Hardware,IT hardware procurement,2026-02-13,Paid,EMP061
+INV0182,PO0347,18174.3,Catering,Catering services,2025-10-06,Paid,EMP013
+INV0183,PO0022,11616.23,Cleaning Services,Catering services,2025-05-04,Overdue,EMP008
+INV0184,PO0236,2062.68,Software Licensing,Printing and packaging materials,2025-10-26,Overdue,EMP053
+INV0185,PO0675,17221.6,Catering,Catering services,2026-01-21,Paid,EMP037
+INV0186,PO0008,15653.73,Cleaning Services,Software license renewal,2025-04-01,Paid,EMP065
+INV0187,PO0073,22537.87,Cleaning Services,Software license renewal,2026-04-03,Paid,EMP062
+INV0188,PO0061,14036.86,Software Licensing,Catering services,2026-07-19,Paid,EMP072
+INV0189,PO0613,24730.5,Cleaning Services,Printing and packaging materials,2026-01-28,Overdue,EMP036
+INV0190,PO0035,24696.52,Logistics,Office stationery supply,2025-09-19,Overdue,EMP080
+INV0191,PO0464,6429.52,Software Licensing,Furniture purchase,2026-06-11,Paid,EMP085
+INV0192,PO0017,9368.91,IT Hardware,Furniture purchase,2026-08-25,Pending,EMP035
+INV0193,PO0441,9625.2,Software Licensing,Cleaning services,2026-07-14,Overdue,EMP001
+INV0194,PO0533,20964.15,Catering,Office stationery supply,2026-03-21,Paid,EMP052
+INV0195,PO0037,19883.67,IT Hardware,Printing and packaging materials,2025-04-23,Pending,EMP068
+INV0196,PO0264,4296.16,Office Supplies,Catering services,2026-05-19,Pending,EMP021
+INV0197,PO0122,14060.09,Logistics,IT hardware procurement,2025-11-22,Paid,EMP042
+INV0198,PO0598,5637.26,Cleaning Services,Office stationery supply,2025-12-13,Overdue,EMP021
+INV0199,PO0343,24770.09,Software Licensing,Logistics and courier services,2025-12-04,Overdue,EMP035
+INV0200,PO0249,11812.69,Cleaning Services,Logistics and courier services,2026-01-03,Pending,EMP063
+INV0201,PO0110,3387.91,Office Supplies,IT hardware procurement,2025-04-20,Pending,EMP028
+INV0202,PO0618,22561.15,IT Hardware,Furniture purchase,2026-02-16,Overdue,EMP015
+INV0203,PO0608,1316.04,IT Hardware,Furniture purchase,2025-11-12,Paid,EMP076
+INV0204,PO0591,8403.78,Catering,Office stationery supply,2026-08-28,Paid,EMP051
+INV0205,PO0479,22135.89,Printing & Packaging,Software license renewal,2026-02-14,Paid,EMP039
+INV0206,PO0452,7013.18,Printing & Packaging,IT hardware procurement,2026-08-09,Paid,EMP033
+INV0207,PO0293,24356.23,Office Supplies,Printing and packaging materials,2026-02-22,Paid,EMP096
+INV0208,PO0296,7743.18,Software Licensing,Software license renewal,2025-04-19,Overdue,EMP049
+INV0209,PO0243,4619.25,Software Licensing,Catering services,2025-12-23,Paid,EMP086
+INV0210,PO0125,10392.49,Software Licensing,Office stationery supply,2025-05-10,Pending,EMP095
+INV0211,PO0402,15267.22,Software Licensing,Printing and packaging materials,2026-07-22,Overdue,EMP010
+INV0212,PO0492,26087.42,Logistics,Furniture purchase,2025-08-21,Paid,EMP091
+INV0213,PO0414,20106.87,Printing & Packaging,Cleaning services,2026-05-13,Overdue,EMP003
+INV0214,PO0209,9369.95,Office Supplies,Catering services,2025-03-15,Paid,EMP089
+INV0215,PO0098,12398.23,IT Hardware,Software license renewal,2026-05-22,Pending,EMP014
+INV0216,PO0585,803.63,Software Licensing,Printing and packaging materials,2025-02-08,Pending,EMP052
+INV0217,PO0050,7849.93,Printing & Packaging,Software license renewal,2026-02-22,Pending,EMP044
+INV0218,PO0338,9888.88,Cleaning Services,IT hardware procurement,2026-08-03,Overdue,EMP022
+INV0219,PO0665,3010.38,Logistics,Catering services,2026-05-26,Pending,EMP025
+INV0220,PO0182,19883.41,Logistics,Software license renewal,2025-10-21,Paid,EMP083
+INV0221,PO0530,19186.79,Cleaning Services,Software license renewal,2026-01-13,Paid,EMP033
+INV0222,PO0211,13706.01,Catering,IT hardware procurement,2026-04-25,Paid,EMP020
+INV0223,PO0240,24928.39,IT Hardware,Logistics and courier services,2025-11-06,Overdue,EMP081
+INV0224,PO0443,23921.17,Logistics,Catering services,2025-12-30,Overdue,EMP073
+INV0225,PO0632,4312.32,Office Supplies,Logistics and courier services,2025-10-09,Pending,EMP020
+INV0226,PO0681,17734.2,Software Licensing,Furniture purchase,2025-10-08,Overdue,EMP039
+INV0227,PO0664,4620.9,Software Licensing,Furniture purchase,2025-10-09,Pending,EMP046
+INV0228,PO0335,21255.72,Software Licensing,Office stationery supply,2026-05-05,Pending,EMP005
+INV0229,PO0331,5773.94,Printing & Packaging,IT hardware procurement,2025-12-16,Overdue,EMP037
+INV0230,PO0051,18685.81,Logistics,Office stationery supply,2025-03-26,Pending,EMP065
+INV0231,PO0032,6253.82,Cleaning Services,Catering services,2025-08-29,Overdue,EMP074
+INV0232,PO0207,14926.9,Office Supplies,Cleaning services,2025-05-23,Paid,EMP065
+INV0233,PO0373,18105.66,Printing & Packaging,Catering services,2025-06-24,Overdue,EMP014
+INV0234,PO0174,14365.24,Printing & Packaging,Cleaning services,2025-06-01,Paid,EMP065
+INV0235,PO0410,6450.03,Catering,Logistics and courier services,2026-07-29,Pending,EMP091
+INV0236,PO0442,11208.66,Cleaning Services,Cleaning services,2026-06-06,Pending,EMP067
+INV0237,PO0056,22679.16,Office Supplies,Catering services,2025-10-12,Overdue,EMP037
+INV0238,PO0652,14081.95,IT Hardware,Catering services,2026-08-31,Paid,EMP007
+INV0239,PO0099,21092.39,Office Supplies,Printing and packaging materials,2025-12-17,Pending,EMP013
+INV0240,PO0486,3484.35,Printing & Packaging,Cleaning services,2025-07-12,Pending,EMP093
+INV0241,PO0609,15677.02,Cleaning Services,Catering services,2025-06-09,Pending,EMP075
+INV0242,PO0230,15637.04,Cleaning Services,Printing and packaging materials,2025-03-06,Paid,EMP090
+INV0243,PO0642,17213.89,Logistics,IT hardware procurement,2026-06-20,Pending,EMP091
+INV0244,PO0577,9153.5,Office Supplies,Catering services,2025-03-13,Paid,EMP049
+INV0245,PO0586,14732.21,Catering,IT hardware procurement,2026-05-31,Overdue,EMP090
+INV0246,PO0503,24221.37,IT Hardware,Office stationery supply,2025-05-27,Pending,EMP055
+INV0247,PO0237,17739.95,Office Supplies,Software license renewal,2025-07-04,Pending,EMP024
+INV0248,PO0524,21492.9,Printing & Packaging,Cleaning services,2025-05-20,Paid,EMP063
+INV0249,PO0448,7793.13,Office Supplies,IT hardware procurement,2025-04-06,Overdue,EMP038
+INV0250,PO0039,7459.32,Office Supplies,Office stationery supply,2025-07-20,Overdue,EMP070
+INV0251,PO0227,22534.75,Office Supplies,Printing and packaging materials,2025-03-19,Paid,EMP099
+INV0252,PO0488,3937.27,Logistics,Cleaning services,2026-07-26,Overdue,EMP024
+INV0253,PO0564,21385.81,Office Supplies,Printing and packaging materials,2026-04-16,Pending,EMP006
+INV0254,PO0593,9302.76,Office Supplies,Logistics and courier services,2025-08-28,Overdue,EMP093
+INV0255,PO0697,17664.21,Catering,Logistics and courier services,2025-12-18,Paid,EMP097
+INV0256,PO0654,5612.76,Logistics,Logistics and courier services,2026-08-04,Paid,EMP031
+INV0257,PO0698,25774.25,IT Hardware,Logistics and courier services,2026-03-26,Pending,EMP087
+INV0258,PO0334,1738.24,IT Hardware,Printing and packaging materials,2025-08-22,Overdue,EMP037
+INV0259,PO0499,19728.81,Cleaning Services,Cleaning services,2026-03-24,Paid,EMP054
+INV0260,PO0429,13625.58,Catering,Cleaning services,2025-01-31,Pending,EMP078
+INV0261,PO0515,18286.71,Logistics,Logistics and courier services,2025-02-24,Pending,EMP083
+INV0262,PO0048,14348.06,Logistics,IT hardware procurement,2025-04-03,Pending,EMP014
+INV0263,PO0386,10584.85,Software Licensing,Logistics and courier services,2026-08-12,Overdue,EMP098
+INV0264,PO0435,17871.47,Logistics,Software license renewal,2025-03-02,Pending,EMP056
+INV0265,PO0504,20988.34,Software Licensing,Printing and packaging materials,2026-02-22,Paid,EMP045
+INV0266,PO0086,19298.41,Printing & Packaging,Printing and packaging materials,2025-04-27,Paid,EMP065
+INV0267,PO0534,13026.97,Office Supplies,Office stationery supply,2025-10-18,Pending,EMP029
+INV0268,PO0548,3425.32,Cleaning Services,Catering services,2025-10-20,Paid,EMP013
+INV0269,PO0541,12791.44,Catering,Logistics and courier services,2025-05-04,Overdue,EMP005
+INV0270,PO0500,11950.44,Software Licensing,Logistics and courier services,2025-03-16,Pending,EMP018
+INV0271,PO0529,24278.51,Software Licensing,Office stationery supply,2026-07-05,Pending,EMP001
+INV0272,PO0687,10936.88,Office Supplies,Printing and packaging materials,2025-10-29,Paid,EMP020
+INV0273,PO0085,16573.42,Printing & Packaging,Software license renewal,2026-06-04,Pending,EMP037
+INV0274,PO0195,24900.22,Catering,Software license renewal,2025-05-26,Pending,EMP007
+INV0275,PO0002,10837.08,Cleaning Services,Logistics and courier services,2025-04-26,Paid,EMP080
+INV0276,PO0200,13839.41,Cleaning Services,Office stationery supply,2026-01-09,Overdue,EMP064
+INV0277,PO0136,11079.45,Software Licensing,Cleaning services,2025-11-18,Pending,EMP074
+INV0278,PO0490,12626.76,Cleaning Services,Catering services,2026-02-05,Paid,EMP001
+INV0279,PO0423,955.78,Printing & Packaging,IT hardware procurement,2026-05-28,Overdue,EMP054
+INV0280,PO0233,20087.82,Software Licensing,Office stationery supply,2026-03-23,Pending,EMP009
+INV0281,PO0600,12580.51,Logistics,Office stationery supply,2026-04-08,Overdue,EMP061
+INV0282,PO0457,11477.39,Logistics,Office stationery supply,2025-12-14,Pending,EMP048
+INV0283,PO0357,2602.98,Software Licensing,IT hardware procurement,2025-12-04,Overdue,EMP009
+INV0284,PO0375,2625.08,Software Licensing,Catering services,2026-03-04,Paid,EMP097
+INV0285,PO0422,8770.32,Cleaning Services,Catering services,2026-05-28,Overdue,EMP046
+INV0286,PO0646,16097.18,Logistics,Logistics and courier services,2026-08-25,Overdue,EMP100
+INV0287,PO0339,9643.36,Cleaning Services,IT hardware procurement,2025-05-05,Overdue,EMP018
+INV0288,PO0659,21753.69,Logistics,Office stationery supply,2026-05-12,Pending,EMP059
+INV0289,PO0250,7520.44,Catering,Office stationery supply,2025-03-04,Pending,EMP006
+INV0290,PO0080,13862.14,Software Licensing,Logistics and courier services,2026-05-07,Pending,EMP040
+INV0291,PO0461,25486.24,Printing & Packaging,Furniture purchase,2026-01-10,Pending,EMP097
+INV0292,PO0152,16612.68,Catering,Office stationery supply,2025-05-13,Overdue,EMP100
+INV0293,PO0112,11121.32,Logistics,IT hardware procurement,2025-01-19,Pending,EMP035
+INV0294,PO0030,3431.85,Printing & Packaging,Printing and packaging materials,2026-02-20,Pending,EMP052
+INV0295,PO0639,4506.08,Cleaning Services,Logistics and courier services,2026-05-04,Pending,EMP064
+INV0296,PO0377,21738.99,Printing & Packaging,IT hardware procurement,2025-10-10,Overdue,EMP067
+INV0297,PO0278,1947.17,Printing & Packaging,Cleaning services,2025-05-30,Overdue,EMP011
+INV0298,PO0601,20805.77,Cleaning Services,IT hardware procurement,2025-12-31,Paid,EMP042
+INV0299,PO0526,3168.38,Office Supplies,Logistics and courier services,2025-02-03,Overdue,EMP085
+INV0300,PO0161,7429.56,Cleaning Services,Cleaning services,2025-12-27,Overdue,EMP055
+INV0301,PO0407,10502.35,Software Licensing,Logistics and courier services,2026-06-30,Paid,EMP045
+INV0302,PO0444,14049.42,Cleaning Services,Printing and packaging materials,2026-04-19,Pending,EMP046
+INV0303,PO0300,14077.72,Catering,Printing and packaging materials,2025-02-12,Pending,EMP008
+INV0304,PO0245,16085.09,IT Hardware,Office stationery supply,2025-09-08,Paid,EMP096
+INV0305,PO0596,8613.63,Cleaning Services,Logistics and courier services,2026-08-17,Paid,EMP078
+INV0306,PO0532,17959.41,Cleaning Services,Software license renewal,2026-02-15,Overdue,EMP009
+INV0307,PO0540,19637.54,Office Supplies,Printing and packaging materials,2025-06-26,Overdue,EMP047
+INV0308,PO0400,15051.63,Software Licensing,Cleaning services,2025-09-05,Overdue,EMP078
+INV0309,PO0261,19895.72,Office Supplies,Catering services,2025-11-22,Pending,EMP048
+INV0310,PO0042,552.81,Logistics,Cleaning services,2026-02-28,Overdue,EMP010
+INV0311,PO0686,21966.08,Office Supplies,Furniture purchase,2025-10-04,Paid,EMP051
+INV0312,PO0036,21664.0,Office Supplies,Cleaning services,2025-12-31,Pending,EMP004
+INV0313,PO0305,6366.34,Logistics,IT hardware procurement,2025-05-06,Pending,EMP050
+INV0314,PO0511,19705.3,Catering,Logistics and courier services,2025-03-04,Paid,EMP034
+INV0315,PO0346,15916.88,Office Supplies,Logistics and courier services,2026-08-31,Paid,EMP037
+INV0316,PO0121,5929.11,Logistics,IT hardware procurement,2026-04-06,Pending,EMP018
+INV0317,PO0469,24160.06,Printing & Packaging,Logistics and courier services,2026-08-03,Paid,EMP092
+INV0318,PO0062,15168.78,Catering,Catering services,2025-05-24,Overdue,EMP088
+INV0319,PO0292,9453.13,Software Licensing,Furniture purchase,2025-02-24,Pending,EMP091
+INV0320,PO0127,9341.59,Logistics,Cleaning services,2025-04-27,Pending,EMP021
+INV0321,PO0602,8173.41,Catering,Software license renewal,2025-06-25,Paid,EMP029
+INV0322,PO0651,10012.74,IT Hardware,Office stationery supply,2025-11-03,Pending,EMP064
+INV0323,PO0021,10924.87,Software Licensing,Cleaning services,2025-05-07,Overdue,EMP074
+INV0324,PO0318,23401.08,Cleaning Services,IT hardware procurement,2025-11-23,Pending,EMP012
+INV0325,PO0578,24966.16,IT Hardware,Printing and packaging materials,2026-06-30,Pending,EMP092
+INV0326,PO0628,6320.69,Logistics,IT hardware procurement,2025-02-23,Paid,EMP074
+INV0327,PO0337,20979.14,Catering,Logistics and courier services,2025-02-22,Overdue,EMP083
+INV0328,PO0299,20126.85,Office Supplies,Cleaning services,2025-03-27,Overdue,EMP045
+INV0329,PO0290,10256.49,Printing & Packaging,Cleaning services,2025-02-23,Paid,EMP076
+INV0330,PO0268,19703.11,IT Hardware,Office stationery supply,2026-04-07,Paid,EMP065
+INV0331,PO0565,15280.91,Catering,Furniture purchase,2025-06-20,Paid,EMP020
+INV0332,PO0134,8871.1,IT Hardware,Software license renewal,2025-05-05,Pending,EMP042
+INV0333,PO0663,1921.33,Software Licensing,IT hardware procurement,2025-12-16,Pending,EMP037
+INV0334,PO0502,8541.94,Software Licensing,Furniture purchase,2025-05-23,Paid,EMP082
+INV0335,PO0401,10355.5,Printing & Packaging,IT hardware procurement,2025-03-02,Overdue,EMP039
+INV0336,PO0123,17719.95,Cleaning Services,Cleaning services,2026-03-23,Paid,EMP022
+INV0337,PO0424,22964.04,Cleaning Services,Catering services,2025-06-04,Overdue,EMP080
+INV0338,PO0203,23963.15,Logistics,Furniture purchase,2025-02-22,Overdue,EMP004
+INV0339,PO0538,10124.2,Office Supplies,Office stationery supply,2025-07-03,Pending,EMP099
+INV0340,PO0344,12501.24,Cleaning Services,Furniture purchase,2025-12-26,Overdue,EMP081
+INV0341,PO0472,1213.71,Catering,Printing and packaging materials,2025-12-25,Pending,EMP062
+INV0342,PO0154,13955.88,Cleaning Services,Office stationery supply,2026-04-06,Paid,EMP010
+INV0343,PO0603,4667.58,Cleaning Services,Logistics and courier services,2025-10-03,Pending,EMP054
+INV0344,PO0370,17095.3,Catering,Catering services,2025-11-06,Overdue,EMP044
+INV0345,PO0038,11491.03,Office Supplies,Catering services,2025-09-18,Pending,EMP094
+INV0346,PO0005,4309.25,Office Supplies,Catering services,2025-06-16,Overdue,EMP098
+INV0347,PO0358,13995.09,Software Licensing,Logistics and courier services,2025-10-31,Paid,EMP014
+INV0348,PO0319,6639.83,Catering,Software license renewal,2025-12-26,Paid,EMP058
+INV0349,PO0289,5438.98,Printing & Packaging,Furniture purchase,2025-03-08,Pending,EMP007
+INV0350,PO0052,6997.41,Logistics,Printing and packaging materials,2025-03-31,Paid,EMP079
+INV0351,PO0356,11026.08,Cleaning Services,Catering services,2025-11-15,Paid,EMP021
+INV0352,PO0276,7125.05,Logistics,Logistics and courier services,2025-09-12,Pending,EMP021
+INV0353,PO0431,6403.74,Software Licensing,Logistics and courier services,2025-05-05,Paid,EMP040
+INV0354,PO0260,5002.88,Logistics,Software license renewal,2025-11-16,Paid,EMP051
+INV0355,PO0629,20525.96,Office Supplies,Office stationery supply,2025-10-13,Paid,EMP046
+INV0356,PO0362,8554.68,Catering,Logistics and courier services,2025-04-27,Pending,EMP064
+INV0357,PO0179,20659.94,Printing & Packaging,Printing and packaging materials,2025-11-12,Paid,EMP002
+INV0358,PO0657,11862.14,IT Hardware,Catering services,2026-01-31,Pending,EMP034
+INV0359,PO0126,14397.3,Software Licensing,Software license renewal,2026-05-17,Pending,EMP006
+INV0360,PO0190,7819.95,IT Hardware,Logistics and courier services,2026-02-20,Overdue,EMP037
+INV0361,PO0146,20624.82,Logistics,IT hardware procurement,2026-08-18,Paid,EMP080
+INV0362,PO0394,21926.57,Logistics,Catering services,2026-01-22,Pending,EMP051
+INV0363,PO0590,9652.97,Office Supplies,Cleaning services,2025-05-03,Paid,EMP047
+INV0364,PO0279,13945.7,Cleaning Services,Printing and packaging materials,2025-01-30,Overdue,EMP066
+INV0365,PO0155,24342.1,Software Licensing,Office stationery supply,2026-03-26,Paid,EMP006
+INV0366,PO0314,24473.14,Logistics,Logistics and courier services,2025-11-25,Paid,EMP043
+INV0367,PO0656,10801.58,Office Supplies,Cleaning services,2026-01-09,Pending,EMP066
+INV0368,PO0355,14173.12,Office Supplies,Catering services,2026-05-26,Paid,EMP079
+INV0369,PO0284,25410.33,Printing & Packaging,Furniture purchase,2025-07-18,Overdue,EMP079
+INV0370,PO0359,19080.72,Software Licensing,Logistics and courier services,2025-12-26,Overdue,EMP065
+INV0371,PO0054,18937.29,Logistics,Office stationery supply,2026-07-06,Pending,EMP039
+INV0372,PO0069,24188.78,IT Hardware,IT hardware procurement,2026-02-19,Pending,EMP087
+INV0373,PO0438,19661.19,Cleaning Services,Office stationery supply,2025-10-25,Overdue,EMP040
+INV0374,PO0576,12722.84,Printing & Packaging,Software license renewal,2025-02-13,Overdue,EMP034
+INV0375,PO0055,23411.9,Printing & Packaging,Printing and packaging materials,2025-05-19,Paid,EMP075
+INV0376,PO0549,23874.95,Office Supplies,Software license renewal,2025-07-17,Paid,EMP088
+INV0377,PO0610,5570.35,Office Supplies,IT hardware procurement,2026-05-17,Paid,EMP090
+INV0378,PO0140,23135.82,Cleaning Services,Catering services,2026-04-11,Pending,EMP057
+INV0379,PO0145,1133.69,Cleaning Services,Software license renewal,2026-03-22,Pending,EMP053
+INV0380,PO0310,6462.2,Software Licensing,Logistics and courier services,2025-11-13,Overdue,EMP100
+INV0381,PO0108,1129.12,Catering,Cleaning services,2025-06-29,Overdue,EMP008
+INV0382,PO0625,24850.24,Printing & Packaging,Logistics and courier services,2025-04-23,Overdue,EMP072
+INV0383,PO0413,18245.48,Logistics,Cleaning services,2025-03-23,Pending,EMP041
+INV0384,PO0328,8318.34,Logistics,Catering services,2026-01-30,Overdue,EMP069
+INV0385,PO0259,3965.0,Logistics,Furniture purchase,2025-12-14,Overdue,EMP087
+INV0386,PO0622,14025.33,Printing & Packaging,Software license renewal,2025-04-08,Pending,EMP025
+INV0387,PO0536,19257.84,Logistics,Furniture purchase,2025-11-23,Pending,EMP039
+INV0388,PO0027,19262.94,Office Supplies,Logistics and courier services,2026-05-25,Pending,EMP027
+INV0389,PO0447,2538.55,IT Hardware,Furniture purchase,2026-02-02,Pending,EMP045
+INV0390,PO0419,4934.55,Catering,Printing and packaging materials,2025-11-26,Pending,EMP074
+INV0391,PO0589,4118.94,Cleaning Services,Cleaning services,2025-07-15,Pending,EMP045
+INV0392,PO0023,10462.23,Logistics,IT hardware procurement,2026-05-29,Pending,EMP037
+INV0393,PO0426,2165.21,Cleaning Services,Furniture purchase,2026-03-14,Overdue,EMP057
+INV0394,PO0171,11132.3,Cleaning Services,Software license renewal,2025-10-30,Overdue,EMP028
+INV0395,PO0067,5663.87,Office Supplies,Cleaning services,2026-02-01,Paid,EMP072
+INV0396,PO0135,12057.93,Logistics,Software license renewal,2026-06-30,Paid,EMP095
+INV0397,PO0083,1210.17,Catering,Software license renewal,2025-06-11,Paid,EMP068
+INV0398,PO0450,5853.96,Logistics,Logistics and courier services,2025-04-18,Paid,EMP053
+INV0399,PO0283,9143.99,IT Hardware,Cleaning services,2025-11-06,Paid,EMP099
+INV0400,PO0219,24216.05,Printing & Packaging,Logistics and courier services,2025-04-13,Pending,EMP021
+INV0401,PO0288,23425.02,Office Supplies,Furniture purchase,2025-07-10,Pending,EMP026
+INV0402,PO0615,8922.89,Software Licensing,Office stationery supply,2025-06-09,Paid,EMP083
+INV0403,PO0614,20559.19,Cleaning Services,Office stationery supply,2026-04-07,Paid,EMP074
+INV0404,PO0451,24372.63,Software Licensing,Office stationery supply,2026-02-06,Pending,EMP023
+INV0405,PO0077,12697.06,Printing & Packaging,Furniture purchase,2026-03-02,Paid,EMP064
+INV0406,PO0280,10647.29,Cleaning Services,IT hardware procurement,2025-04-25,Pending,EMP039
+INV0407,PO0019,15112.02,Software Licensing,Logistics and courier services,2025-06-11,Paid,EMP059
+INV0408,PO0341,16753.95,Cleaning Services,Software license renewal,2026-06-11,Paid,EMP065
+INV0409,PO0302,17401.88,Catering,Furniture purchase,2026-02-03,Overdue,EMP021
+INV0410,PO0076,1754.43,Printing & Packaging,Furniture purchase,2025-05-11,Overdue,EMP002
+INV0411,PO0482,16932.18,Printing & Packaging,Software license renewal,2025-08-01,Paid,EMP097
+INV0412,PO0556,10785.49,Software Licensing,Printing and packaging materials,2025-04-27,Pending,EMP082
+INV0413,PO0683,5885.61,Catering,IT hardware procurement,2025-12-14,Paid,EMP042
+INV0414,PO0158,24903.26,Logistics,Software license renewal,2026-05-29,Paid,EMP062
+INV0415,PO0187,13505.88,Printing & Packaging,Software license renewal,2025-07-30,Pending,EMP050
+INV0416,PO0378,780.18,IT Hardware,Catering services,2025-11-19,Pending,EMP035
+INV0417,PO0184,17105.23,Office Supplies,Office stationery supply,2025-08-23,Pending,EMP093
+INV0418,PO0528,7327.9,Logistics,Office stationery supply,2026-06-02,Overdue,EMP047
+INV0419,PO0453,7075.97,Software Licensing,Furniture purchase,2025-06-25,Paid,EMP060
+INV0420,PO0053,4364.8,Printing & Packaging,Furniture purchase,2025-03-19,Overdue,EMP088
+INV0421,PO0481,6530.04,Printing & Packaging,Furniture purchase,2025-03-08,Pending,EMP082
+INV0422,PO0531,5785.7,Logistics,Software license renewal,2025-01-28,Paid,EMP029
+INV0423,PO0611,24132.71,Logistics,Catering services,2025-04-02,Pending,EMP020
+INV0424,PO0436,23019.23,Office Supplies,Logistics and courier services,2025-12-18,Overdue,EMP071
+INV0425,PO0084,16558.37,Cleaning Services,Software license renewal,2026-04-25,Overdue,EMP086
+INV0426,PO0091,7227.64,Software Licensing,IT hardware procurement,2026-07-01,Overdue,EMP077
+INV0427,PO0212,2300.52,Cleaning Services,Catering services,2025-04-29,Paid,EMP068
+INV0428,PO0013,6757.73,IT Hardware,Software license renewal,2026-02-08,Overdue,EMP073
+INV0429,PO0092,5956.94,Catering,Logistics and courier services,2025-10-29,Paid,EMP020
+INV0430,PO0307,5404.37,Software Licensing,Logistics and courier services,2025-08-19,Paid,EMP027
+INV0431,PO0496,15548.53,Logistics,Office stationery supply,2026-03-27,Pending,EMP066
+INV0432,PO0649,19254.12,Logistics,Printing and packaging materials,2025-11-05,Pending,EMP066
+INV0433,PO0137,10127.98,IT Hardware,Furniture purchase,2025-08-11,Overdue,EMP008
+INV0434,PO0638,15054.07,Printing & Packaging,Furniture purchase,2025-02-02,Paid,EMP051
+INV0435,PO0510,6225.75,Printing & Packaging,Office stationery supply,2026-07-27,Pending,EMP028
+INV0436,PO0196,5864.55,Catering,Office stationery supply,2025-04-16,Paid,EMP090
+INV0437,PO0623,15764.92,Printing & Packaging,Office stationery supply,2026-07-02,Pending,EMP061
+INV0438,PO0241,18325.97,Office Supplies,Printing and packaging materials,2026-04-24,Pending,EMP024
+INV0439,PO0114,2233.65,IT Hardware,Printing and packaging materials,2026-07-21,Pending,EMP049
+INV0440,PO0103,12022.52,Logistics,Cleaning services,2025-10-14,Overdue,EMP088
+INV0441,PO0517,13226.38,Printing & Packaging,IT hardware procurement,2025-04-04,Paid,EMP045
+INV0442,PO0180,22602.36,Printing & Packaging,Software license renewal,2025-08-01,Paid,EMP051
+INV0443,PO0554,15039.78,Catering,Logistics and courier services,2025-09-09,Overdue,EMP003
+INV0444,PO0117,10990.59,Software Licensing,Printing and packaging materials,2026-06-03,Paid,EMP070
+INV0445,PO0546,9587.84,Logistics,Furniture purchase,2025-06-07,Paid,EMP059
+INV0446,PO0671,22255.36,IT Hardware,IT hardware procurement,2026-07-02,Paid,EMP093
+INV0447,PO0169,23153.95,Logistics,Office stationery supply,2025-12-26,Paid,EMP085
+INV0448,PO0484,754.05,Software Licensing,Office stationery supply,2025-12-27,Pending,EMP009
+INV0449,PO0392,23232.71,Office Supplies,Office stationery supply,2025-03-22,Paid,EMP087
+INV0450,PO0428,14015.27,Logistics,Printing and packaging materials,2026-05-27,Pending,EMP006
+INV0451,PO0458,5420.86,IT Hardware,Software license renewal,2025-11-08,Paid,EMP070
+INV0452,PO0222,11303.79,Cleaning Services,Software license renewal,2025-02-25,Overdue,EMP065
+INV0453,PO0018,3779.1,Software Licensing,Catering services,2026-06-16,Paid,EMP041
+INV0454,PO0198,21147.9,Software Licensing,Software license renewal,2025-04-17,Pending,EMP019
+INV0455,PO0412,15321.75,Logistics,Office stationery supply,2025-02-27,Overdue,EMP036
+INV0456,PO0691,7556.11,Logistics,Printing and packaging materials,2025-10-16,Overdue,EMP095
+INV0457,PO0165,17778.08,IT Hardware,Catering services,2025-02-22,Overdue,EMP007
+INV0458,PO0131,25039.47,Cleaning Services,Catering services,2025-12-26,Overdue,EMP049
+INV0459,PO0252,12816.6,IT Hardware,Printing and packaging materials,2026-04-13,Paid,EMP053
+INV0460,PO0467,22439.79,Software Licensing,Logistics and courier services,2026-07-24,Paid,EMP069
+INV0461,PO0216,8400.54,Catering,Cleaning services,2026-03-31,Pending,EMP029
+INV0462,PO0138,565.56,Cleaning Services,Printing and packaging materials,2025-07-12,Pending,EMP008
+INV0463,PO0551,6826.91,Catering,Software license renewal,2025-01-18,Pending,EMP068
+INV0464,PO0440,1732.11,Printing & Packaging,Logistics and courier services,2025-03-24,Pending,EMP043
+INV0465,PO0393,3422.77,Printing & Packaging,Software license renewal,2026-03-09,Paid,EMP069
+INV0466,PO0483,15477.06,Software Licensing,Office stationery supply,2026-06-30,Paid,EMP049
+INV0467,PO0557,15387.65,Catering,Software license renewal,2025-05-30,Pending,EMP098
+INV0468,PO0046,2178.77,Office Supplies,Furniture purchase,2025-03-04,Paid,EMP043
+INV0469,PO0149,23625.2,Cleaning Services,IT hardware procurement,2026-05-01,Overdue,EMP025
+INV0470,PO0620,15058.42,Catering,Software license renewal,2025-05-23,Pending,EMP062
+INV0471,PO0010,9813.09,Software Licensing,Catering services,2025-11-08,Pending,EMP031
+INV0472,PO0475,20349.56,Logistics,Catering services,2025-11-30,Pending,EMP060
+INV0473,PO0153,15339.15,Cleaning Services,Logistics and courier services,2026-03-05,Pending,EMP047
+INV0474,PO0408,23926.93,Cleaning Services,Catering services,2026-01-23,Paid,EMP093
+INV0475,PO0089,22481.6,Software Licensing,Printing and packaging materials,2026-06-07,Paid,EMP041
+INV0476,PO0286,8947.66,Logistics,Cleaning services,2025-09-27,Paid,EMP029
+INV0477,PO0202,10680.45,IT Hardware,Printing and packaging materials,2025-04-09,Pending,EMP071
+INV0478,PO0525,14246.11,Software Licensing,Printing and packaging materials,2025-09-14,Overdue,EMP026
+INV0479,PO0303,2383.69,Office Supplies,Logistics and courier services,2026-01-29,Overdue,EMP032
+INV0480,PO0156,14030.16,Catering,Catering services,2025-06-23,Pending,EMP088
+INV0481,PO0489,16355.67,Cleaning Services,Logistics and courier services,2026-04-20,Pending,EMP063
+INV0482,PO0519,9885.21,Catering,Catering services,2025-05-19,Paid,EMP094
+INV0483,PO0462,6043.94,Logistics,Cleaning services,2026-07-21,Overdue,EMP093
+INV0484,PO0148,9034.22,IT Hardware,IT hardware procurement,2025-07-16,Overdue,EMP008
+INV0485,PO0485,14886.03,Software Licensing,Cleaning services,2025-03-29,Overdue,EMP098
+INV0486,PO0352,14241.73,Cleaning Services,Cleaning services,2025-03-09,Paid,EMP009
+INV0487,PO0573,7444.87,Printing & Packaging,Office stationery supply,2025-02-25,Overdue,EMP065
+INV0488,PO0295,13864.12,Printing & Packaging,Logistics and courier services,2025-04-02,Overdue,EMP086
+INV0489,PO0606,14204.97,Cleaning Services,Printing and packaging materials,2025-06-18,Paid,EMP003
+INV0490,PO0682,17380.06,Cleaning Services,Furniture purchase,2025-06-15,Paid,EMP068
+INV0491,PO0369,17213.81,Printing & Packaging,Cleaning services,2026-06-01,Paid,EMP090
+INV0492,PO0384,13440.24,Logistics,Cleaning services,2025-09-26,Paid,EMP013
+INV0493,PO0637,12875.6,IT Hardware,Furniture purchase,2025-07-27,Pending,EMP080
+INV0494,PO0658,14367.21,Cleaning Services,Printing and packaging materials,2026-05-02,Pending,EMP051
+INV0495,PO0185,18040.33,Cleaning Services,Software license renewal,2025-04-20,Pending,EMP032
+INV0496,PO0494,3298.06,Cleaning Services,Office stationery supply,2026-07-28,Paid,EMP011
+INV0497,PO0189,8086.93,IT Hardware,Logistics and courier services,2025-05-05,Paid,EMP049
+INV0498,PO0172,542.5,Software Licensing,IT hardware procurement,2025-04-24,Pending,EMP002
+INV0499,PO0445,17142.26,Office Supplies,Catering services,2026-04-02,Overdue,EMP056
+INV0500,PO0456,7964.12,Printing & Packaging,Office stationery supply,2025-08-03,Paid,EMP013
+INV0501,PO0111,23693.12,IT Hardware,Logistics and courier services,2025-12-26,Pending,EMP089
+INV0502,PO0248,14204.29,Software Licensing,Furniture purchase,2026-04-27,Overdue,EMP010
+INV0503,PO0477,6678.71,Printing & Packaging,Catering services,2025-09-17,Paid,EMP085
+INV0504,PO0238,22210.83,Logistics,Printing and packaging materials,2025-03-19,Paid,EMP076
+INV0505,PO0678,19185.03,Logistics,Printing and packaging materials,2025-08-04,Overdue,EMP021
+INV0506,PO0223,12403.79,Printing & Packaging,Cleaning services,2025-06-23,Overdue,EMP070
+INV0507,PO0507,19615.39,Cleaning Services,Catering services,2026-04-23,Paid,EMP011
+INV0508,PO0403,15148.98,Printing & Packaging,Software license renewal,2025-08-30,Paid,EMP056
+INV0509,PO0676,3336.85,Logistics,Printing and packaging materials,2025-04-27,Pending,EMP078
+INV0510,PO0493,19427.42,Printing & Packaging,Furniture purchase,2025-06-23,Pending,EMP082
+INV0511,PO0130,22433.79,Software Licensing,Printing and packaging materials,2025-04-24,Pending,EMP030
+INV0512,PO0404,3307.1,Office Supplies,Printing and packaging materials,2025-09-03,Paid,EMP088
+INV0513,PO0432,11675.02,Catering,Software license renewal,2026-01-11,Overdue,EMP080
+INV0514,PO0405,23738.75,IT Hardware,Furniture purchase,2025-11-06,Paid,EMP011
+INV0515,PO0569,24835.11,IT Hardware,Cleaning services,2025-04-14,Overdue,EMP092
+INV0516,PO0636,23698.17,IT Hardware,IT hardware procurement,2025-03-08,Paid,EMP041
+INV0517,PO0361,17556.2,Logistics,Catering services,2025-07-31,Pending,EMP057
+INV0518,PO0291,5182.03,Software Licensing,IT hardware procurement,2025-09-19,Paid,EMP017
+INV0519,PO0321,2537.26,IT Hardware,Printing and packaging materials,2026-08-25,Paid,EMP058
+INV0520,PO0612,22977.14,Printing & Packaging,IT hardware procurement,2026-05-17,Overdue,EMP012
+INV0521,PO0597,16086.58,Cleaning Services,Printing and packaging materials,2025-09-11,Paid,EMP042
+INV0522,PO0382,2474.96,IT Hardware,IT hardware procurement,2026-05-10,Overdue,EMP053
+INV0523,PO0188,18790.7,Cleaning Services,Software license renewal,2025-07-03,Overdue,EMP072
+INV0524,PO0466,22980.15,Catering,Cleaning services,2026-08-29,Paid,EMP022
+INV0525,PO0263,17034.37,Office Supplies,Cleaning services,2025-01-24,Paid,EMP039
+INV0526,PO0700,1902.65,Printing & Packaging,Furniture purchase,2026-06-05,Pending,EMP056
+INV0527,PO0287,25008.79,Logistics,Software license renewal,2026-09-01,Overdue,EMP010
+INV0528,PO0340,14189.31,Printing & Packaging,Software license renewal,2026-08-06,Pending,EMP064
+INV0529,PO0078,11185.13,Software Licensing,Printing and packaging materials,2025-06-30,Pending,EMP018
+INV0530,PO0192,24035.18,Cleaning Services,Catering services,2026-09-05,Pending,EMP080
+INV0531,PO0141,26101.74,Printing & Packaging,Cleaning services,2026-03-18,Pending,EMP056
+INV0532,PO0562,9591.95,IT Hardware,Software license renewal,2025-05-26,Pending,EMP078
+INV0533,PO0363,8592.19,Cleaning Services,Printing and packaging materials,2025-09-02,Pending,EMP023
+INV0534,PO0626,24148.95,Printing & Packaging,Logistics and courier services,2026-03-02,Overdue,EMP095
+INV0535,PO0330,21933.87,Printing & Packaging,Furniture purchase,2025-11-07,Pending,EMP032
+INV0536,PO0425,1688.6,IT Hardware,Software license renewal,2026-06-27,Overdue,EMP015
+INV0537,PO0232,6884.25,Cleaning Services,Office stationery supply,2026-03-10,Overdue,EMP024
+INV0538,PO0545,21943.59,Software Licensing,Furniture purchase,2025-02-23,Overdue,EMP091
+INV0539,PO0304,14351.49,Printing & Packaging,Cleaning services,2026-06-29,Overdue,EMP053
+INV0540,PO0120,16324.62,Printing & Packaging,Furniture purchase,2026-07-28,Overdue,EMP031
+INV0541,PO0262,2908.2,Catering,Printing and packaging materials,2026-06-27,Paid,EMP092
+INV0542,PO0265,20960.44,Cleaning Services,Logistics and courier services,2025-04-22,Overdue,EMP077
+INV0543,PO0326,2252.78,IT Hardware,Printing and packaging materials,2026-03-09,Overdue,EMP069
+INV0544,PO0220,5728.08,IT Hardware,IT hardware procurement,2025-05-15,Paid,EMP047
+INV0545,PO0495,14524.79,Catering,Catering services,2026-07-23,Paid,EMP032
+INV0546,PO0044,24233.38,Office Supplies,Office stationery supply,2025-06-19,Overdue,EMP079
+INV0547,PO0398,5117.77,Cleaning Services,Printing and packaging materials,2026-04-28,Pending,EMP087
+INV0548,PO0514,9610.17,Office Supplies,IT hardware procurement,2025-04-19,Paid,EMP056
+INV0549,PO0535,10685.4,Software Licensing,Software license renewal,2025-06-11,Pending,EMP034
+INV0550,PO0437,16741.57,Catering,Cleaning services,2025-08-11,Pending,EMP051
+INV0551,PO0024,19181.51,Cleaning Services,IT hardware procurement,2026-06-05,Pending,EMP062
+INV0552,PO0561,6223.48,IT Hardware,IT hardware procurement,2025-12-08,Overdue,EMP011
+INV0553,PO0555,16113.96,IT Hardware,Logistics and courier services,2025-12-13,Paid,EMP045
+INV0554,PO0298,24510.67,Office Supplies,Catering services,2026-01-06,Pending,EMP062
+INV0555,PO0685,11690.41,Cleaning Services,Logistics and courier services,2025-04-16,Pending,EMP057
+INV0556,PO0350,2516.13,Office Supplies,IT hardware procurement,2025-07-17,Paid,EMP039
+INV0557,PO0255,4389.28,IT Hardware,IT hardware procurement,2026-04-09,Overdue,EMP044
+INV0558,PO0214,12886.0,Catering,Software license renewal,2026-02-08,Overdue,EMP022
+INV0559,PO0063,4386.36,Software Licensing,Printing and packaging materials,2026-01-05,Pending,EMP071
+INV0560,PO0163,9741.65,Cleaning Services,Cleaning services,2025-12-11,Paid,EMP052
+INV0561,PO0294,7141.51,Catering,Office stationery supply,2026-06-05,Overdue,EMP085
+INV0562,PO0257,8990.21,Printing & Packaging,Printing and packaging materials,2025-12-19,Pending,EMP026
+INV0563,PO0107,4610.83,Cleaning Services,Software license renewal,2026-04-23,Paid,EMP091
+INV0564,PO0316,22035.75,Cleaning Services,IT hardware procurement,2026-04-11,Overdue,EMP097
+INV0565,PO0673,24629.55,Cleaning Services,Cleaning services,2025-01-22,Pending,EMP069
+INV0566,PO0381,7168.34,Catering,Furniture purchase,2025-11-05,Overdue,EMP026
+INV0567,PO0242,22464.14,Catering,Catering services,2026-04-06,Overdue,EMP063
+INV0568,PO0213,1637.11,Office Supplies,IT hardware procurement,2025-12-03,Pending,EMP079
+INV0569,PO0322,14441.19,Catering,Furniture purchase,2026-08-07,Overdue,EMP059
+INV0570,PO0308,8870.8,Office Supplies,Catering services,2025-03-27,Paid,EMP011
+INV0571,PO0695,18513.68,Cleaning Services,Catering services,2026-05-14,Overdue,EMP040
+INV0572,PO0558,14728.88,Printing & Packaging,Printing and packaging materials,2026-01-20,Pending,EMP066
+INV0573,PO0057,22680.74,IT Hardware,Printing and packaging materials,2025-10-08,Pending,EMP018
+INV0574,PO0309,13974.93,Cleaning Services,Cleaning services,2025-11-27,Overdue,EMP063
+INV0575,PO0210,1562.44,Printing & Packaging,Furniture purchase,2026-04-11,Paid,EMP063
+INV0576,PO0365,5386.67,Office Supplies,Logistics and courier services,2026-02-24,Overdue,EMP041
+INV0577,PO0397,20961.1,Printing & Packaging,Logistics and courier services,2026-07-13,Paid,EMP046
+INV0578,PO0640,1716.45,IT Hardware,Logistics and courier services,2025-04-07,Pending,EMP050
+INV0579,PO0327,24396.67,Software Licensing,Printing and packaging materials,2025-11-28,Overdue,EMP063
+INV0580,PO0144,11225.09,Cleaning Services,Logistics and courier services,2025-10-20,Paid,EMP057
+INV0581,PO0543,13336.35,Catering,Software license renewal,2025-02-28,Pending,EMP073
+INV0582,PO0193,1210.01,Catering,Furniture purchase,2026-04-29,Paid,EMP036
+INV0583,PO0572,3501.93,Cleaning Services,Logistics and courier services,2026-04-13,Overdue,EMP059
+INV0584,PO0473,22387.84,Office Supplies,Furniture purchase,2025-05-08,Overdue,EMP015
+INV0585,PO0016,3920.94,Printing & Packaging,Office stationery supply,2026-02-24,Overdue,EMP047
+INV0586,PO0059,14016.17,Printing & Packaging,Software license renewal,2025-10-04,Pending,EMP070
+INV0587,PO0199,17410.9,Office Supplies,Software license renewal,2025-02-05,Pending,EMP095
+INV0588,PO0342,15353.38,Catering,Logistics and courier services,2026-05-15,Pending,EMP005
+INV0589,PO0194,22378.08,Office Supplies,IT hardware procurement,2025-03-12,Paid,EMP012
+INV0590,PO0151,8205.67,Software Licensing,Catering services,2026-07-22,Overdue,EMP095
+INV0591,PO0521,707.63,Office Supplies,Printing and packaging materials,2025-06-06,Paid,EMP081
+INV0592,PO0366,22744.46,Software Licensing,Software license renewal,2025-12-05,Paid,EMP018
+INV0593,PO0191,11252.78,Software Licensing,Furniture purchase,2025-10-11,Overdue,EMP008
+INV0594,PO0041,1284.59,Office Supplies,Furniture purchase,2025-04-15,Pending,EMP022
+INV0595,PO0097,18498.53,Logistics,IT hardware procurement,2026-02-14,Paid,EMP035
+INV0596,PO0269,8951.2,Catering,Furniture purchase,2026-07-14,Overdue,EMP053
+INV0597,PO0079,19751.09,Software Licensing,Cleaning services,2025-11-11,Paid,EMP090
+INV0598,PO0093,7577.22,IT Hardware,Software license renewal,2025-05-25,Overdue,EMP092
+INV0599,PO0065,4894.34,IT Hardware,Cleaning services,2025-06-23,Overdue,EMP063
+INV0600,PO0476,17089.91,Cleaning Services,Printing and packaging materials,2025-02-04,Pending,EMP035
+INV0601,PO0537,15416.39,Catering,IT hardware procurement,2026-03-29,Pending,EMP010
+INV0602,PO0420,23401.58,Logistics,Furniture purchase,2025-06-08,Overdue,EMP096
+INV0603,PO0415,18798.54,Office Supplies,Logistics and courier services,2025-08-20,Pending,EMP048
+INV0604,PO0635,4756.57,IT Hardware,Office stationery supply,2025-05-25,Overdue,EMP075
+INV0605,PO0582,6408.24,Catering,Logistics and courier services,2025-06-15,Overdue,EMP094
+INV0606,PO0317,13765.99,Software Licensing,IT hardware procurement,2025-05-24,Overdue,EMP090
+INV0607,PO0034,27099.36,Printing & Packaging,Software license renewal,2026-05-20,Pending,EMP028
+INV0608,PO0119,18141.83,Office Supplies,Furniture purchase,2026-06-19,Pending,EMP042
+INV0609,PO0267,9425.34,Catering,Cleaning services,2025-06-28,Overdue,EMP074
+INV0610,PO0367,22593.25,Logistics,Office stationery supply,2026-08-25,Paid,EMP063
+INV0611,PO0491,548.75,Software Licensing,Logistics and courier services,2026-03-04,Paid,EMP081
+INV0612,PO0133,6182.02,Cleaning Services,Office stationery supply,2025-06-07,Pending,EMP021
+INV0613,PO0427,15367.58,Software Licensing,Furniture purchase,2025-01-14,Paid,EMP089
+INV0614,PO0508,10244.04,Logistics,IT hardware procurement,2026-04-29,Overdue,EMP036
+INV0615,PO0674,9481.49,IT Hardware,IT hardware procurement,2025-01-29,Pending,EMP033
+INV0616,PO0354,17700.63,Catering,Printing and packaging materials,2026-07-25,Overdue,EMP084
+INV0617,PO0459,24114.73,Logistics,Software license renewal,2025-07-06,Pending,EMP093
+INV0618,PO0587,20595.98,Software Licensing,Office stationery supply,2025-03-10,Paid,EMP012
+INV0619,PO0087,7892.17,IT Hardware,Software license renewal,2025-03-01,Overdue,EMP010
+INV0620,PO0387,12476.29,Software Licensing,Office stationery supply,2025-05-11,Paid,EMP057
+INV0621,PO0043,17566.49,Catering,IT hardware procurement,2025-10-11,Pending,EMP044
+INV0622,PO0208,23402.46,Printing & Packaging,Software license renewal,2025-07-10,Pending,EMP017
+INV0623,PO0070,24538.17,Office Supplies,IT hardware procurement,2025-12-28,Paid,EMP094
+INV0624,PO0011,3218.89,Office Supplies,Cleaning services,2026-01-15,Pending,EMP048
+INV0625,PO0159,7632.71,Printing & Packaging,Cleaning services,2026-05-12,Paid,EMP097
+INV0626,PO0505,8030.46,Catering,Cleaning services,2026-01-29,Pending,EMP073
+INV0627,PO0574,12648.8,Catering,Cleaning services,2026-05-30,Pending,EMP093
+INV0628,PO0497,21623.89,IT Hardware,Logistics and courier services,2025-02-13,Paid,EMP088
+INV0629,PO0075,23058.89,Printing & Packaging,Cleaning services,2026-01-10,Paid,EMP013
+INV0630,PO0205,1635.04,Office Supplies,Printing and packaging materials,2025-12-13,Pending,EMP094
+INV0631,PO0009,1622.7,Office Supplies,Software license renewal,2026-08-28,Pending,EMP018
+INV0632,PO0595,1135.44,Logistics,Furniture purchase,2026-08-16,Overdue,EMP011
+INV0633,PO0281,20998.85,Printing & Packaging,Furniture purchase,2026-03-07,Paid,EMP085
+INV0634,PO0311,24635.75,Office Supplies,Software license renewal,2026-01-15,Overdue,EMP078
+INV0635,PO0570,9619.87,Office Supplies,Office stationery supply,2025-08-23,Paid,EMP038
+INV0636,PO0329,11353.35,Catering,Logistics and courier services,2025-05-14,Overdue,EMP050
+INV0637,PO0454,10817.01,Logistics,Office stationery supply,2025-03-16,Pending,EMP010
+INV0638,PO0014,16751.36,Catering,Printing and packaging materials,2025-03-14,Pending,EMP041
+INV0639,PO0102,2006.9,Software Licensing,Logistics and courier services,2026-02-02,Paid,EMP088
+INV0640,PO0313,22164.04,Cleaning Services,IT hardware procurement,2026-04-25,Paid,EMP076
+INV0641,PO0025,18414.87,Software Licensing,Office stationery supply,2025-12-03,Pending,EMP028
+INV0642,PO0662,19584.06,Printing & Packaging,Printing and packaging materials,2025-06-05,Pending,EMP037
+INV0643,PO0228,15571.04,IT Hardware,Cleaning services,2026-07-10,Pending,EMP052
+INV0644,PO0527,12488.12,Printing & Packaging,Software license renewal,2026-02-08,Paid,EMP040
+INV0645,PO0175,9519.65,Office Supplies,IT hardware procurement,2025-07-03,Pending,EMP042
+INV0646,PO0396,1178.96,Catering,Software license renewal,2025-08-29,Paid,EMP056
+INV0647,PO0478,23025.74,Logistics,IT hardware procurement,2026-04-23,Pending,EMP012
+INV0648,PO0418,2915.9,Printing & Packaging,Office stationery supply,2026-01-14,Pending,EMP078
+INV0649,PO0417,21892.63,Cleaning Services,Cleaning services,2026-02-05,Paid,EMP095
+INV0650,PO0579,2522.07,Software Licensing,Office stationery supply,2026-01-04,Paid,EMP091
+INV0651,PO0197,18301.68,Logistics,Office stationery supply (resubmitted),2026-07-15,Pending,EMP034
+INV0652,PO0410,6450.03,Catering,Logistics and courier services (resubmitted),2026-07-29,Pending,EMP018
+INV0653,PO0349,7082.41,Printing & Packaging,Furniture purchase (resubmitted),2025-06-09,Pending,EMP032
+INV0654,PO0318,23401.08,Cleaning Services,IT hardware procurement (resubmitted),2025-11-23,Pending,EMP096
+INV0655,PO0482,16932.18,Printing & Packaging,Software license renewal (resubmitted),2025-08-01,Pending,EMP072
+INV0656,PO0002,10837.08,Cleaning Services,Logistics and courier services (resubmitted),2025-04-26,Pending,EMP069
+INV0657,PO0465,24772.17,Cleaning Services,Cleaning services (resubmitted),2026-03-13,Pending,EMP034
+INV0658,PO0050,7849.93,Printing & Packaging,Software license renewal (resubmitted),2026-02-22,Pending,EMP096
+INV0659,PO0543,13336.35,Catering,Software license renewal (resubmitted),2025-02-28,Pending,EMP075
+INV0660,PO0021,10924.87,Software Licensing,Cleaning services (resubmitted),2025-05-07,Pending,EMP055
+INV0661,PO0338,9888.88,Cleaning Services,IT hardware procurement (resubmitted),2026-08-03,Pending,EMP075
+INV0662,PO0404,3307.1,Office Supplies,Printing and packaging materials (resubmitted),2025-09-03,Pending,EMP052
+INV0663,PO0280,10647.29,Cleaning Services,IT hardware procurement (resubmitted),2025-04-25,Pending,EMP047
+INV0664,PO0620,15058.42,Catering,Software license renewal (resubmitted),2025-05-23,Pending,EMP029
+INV0665,PO0583,23412.55,Printing & Packaging,Logistics and courier services (resubmitted),2025-08-14,Pending,EMP018
+INV0666,PO0533,47343.8,Catering,Contract rate mismatch case,2026-03-10,Pending,EMP028
+INV0667,PO0216,17214.85,Catering,Contract rate mismatch case,2026-03-17,Pending,EMP093
+INV0668,PO0562,21391.37,IT Hardware,Contract rate mismatch case,2025-05-20,Pending,EMP074
+INV0669,PO0206,11811.69,Printing & Packaging,Contract rate mismatch case,2025-05-14,Pending,EMP032
+INV0670,PO0007,13481.08,Printing & Packaging,Contract rate mismatch case,2025-09-28,Pending,EMP053
+INV0671,PO0068,26830.91,Office Supplies,Contract rate mismatch case,2025-12-25,Pending,EMP013
+INV0672,PO0695,41311.6,Cleaning Services,Contract rate mismatch case,2026-05-10,Pending,EMP046
+INV0673,PO0608,2474.61,IT Hardware,Contract rate mismatch case,2025-11-01,Pending,EMP060
+INV0674,PO0056,53178.43,Office Supplies,Contract rate mismatch case,2025-10-06,Pending,EMP007
+INV0675,PO0066,51294.21,IT Hardware,Contract rate mismatch case,2026-02-26,Pending,EMP083
+INV0676,PO0030,5167.73,Printing & Packaging,Contract rate mismatch case,2026-02-13,Pending,EMP052
+INV0677,PO0317,30559.48,Software Licensing,Contract rate mismatch case,2025-05-13,Pending,EMP014
+INV0678,PO0492,43610.91,Catering,Contract rate mismatch case,2025-08-14,Pending,EMP025
+INV0679,PO0220,11053.37,IT Hardware,Contract rate mismatch case,2025-05-14,Pending,EMP018
+INV0680,PO0253,14587.1,IT Hardware,Contract rate mismatch case,2026-05-29,Pending,EMP036
