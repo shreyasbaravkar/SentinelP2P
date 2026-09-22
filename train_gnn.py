@@ -1,0 +1,145 @@
+import torch
+import torch.nn.functional as F
+from torch_geometric.nn import HeteroConv, SAGEConv, Linear
+
+# ============================================================
+# LOAD THE SAVED GRAPH
+# ============================================================
+
+data = torch.load("graph_data.pt", weights_only=False)
+print("Graph loaded:")
+print(data)
+
+# ============================================================
+# DEFINE THE GNN MODEL
+# ============================================================
+
+class FraudGNN(torch.nn.Module):
+    def __init__(self, hidden_channels, out_channels):
+        super().__init__()
+
+        # Layer 1: each node type learns from its direct neighbors
+        self.conv1 = HeteroConv({
+            edge_type: SAGEConv((-1, -1), hidden_channels)
+            for edge_type in data.edge_types
+        }, aggr="sum")
+        # Layer 2: each node type learns from neighbors-of-neighbors
+        self.conv2 = HeteroConv({
+            edge_type: SAGEConv((-1, -1), hidden_channels)
+            for edge_type in data.edge_types
+        }, aggr="sum")
+
+        # Layer 3: extends reach further (e.g. lets Contract info reach Invoice)
+        self.conv3 = HeteroConv({
+            edge_type: SAGEConv((-1, -1), hidden_channels)
+            for edge_type in data.edge_types
+        }, aggr="sum")
+
+        #Final layer: turns invoice's learned representation into a risk score
+        self.classifier = Linear(hidden_channels, out_channels)
+
+       
+    def forward(self, x_dict, edge_index_dict):
+        x_dict = self.conv1(x_dict, edge_index_dict)
+        x_dict = {key: F.relu(x) for key, x in x_dict.items()}
+
+        x_dict = self.conv2(x_dict, edge_index_dict)
+        x_dict = {key: F.relu(x) for key, x in x_dict.items()}
+
+        x_dict = self.conv3(x_dict, edge_index_dict)
+        x_dict = {key: F.relu(x) for key, x in x_dict.items()}
+
+        # We only care about predicting risk for invoices
+        out = self.classifier(x_dict["invoice"])
+        return out
+
+model = FraudGNN(hidden_channels=32, out_channels=2)
+print()
+print(model)
+
+# ============================================================
+# TRAINING SETUP
+# ============================================================
+
+optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
+
+train_mask = data["invoice"].train_mask
+test_mask = data["invoice"].test_mask
+labels = data["invoice"].y
+
+# ============================================================
+# CALCULATE CLASS WEIGHTS (to fix class imbalance)
+# ============================================================
+
+train_labels = labels[train_mask]
+num_not_risky = (train_labels == 0).sum().item()
+num_risky = (train_labels == 1).sum().item()
+
+# Give the minority class (risky) a proportionally higher weight
+class_weights = torch.tensor([
+    1.0,                              # weight for "not risky"
+    num_not_risky / num_risky         # weight for "risky" — higher since it's rarer
+], dtype=torch.float)
+
+print(f"Class weights -> Not Risky: {class_weights[0]:.2f}, Risky: {class_weights[1]:.2f}")
+
+def train_one_epoch():
+    model.train()
+    optimizer.zero_grad()
+    out = model(data.x_dict, data.edge_index_dict)
+    loss = F.cross_entropy(out[train_mask], labels[train_mask], weight=class_weights)
+    loss.backward()
+    optimizer.step()
+    return loss.item()
+
+def evaluate():
+    model.eval()
+    with torch.no_grad():
+        out = model(data.x_dict, data.edge_index_dict)
+        preds = out.argmax(dim=1)
+
+        train_acc = (preds[train_mask] == labels[train_mask]).float().mean().item()
+        test_acc = (preds[test_mask] == labels[test_mask]).float().mean().item()
+
+    return train_acc, test_acc
+
+# ============================================================
+# TRAINING LOOP
+# ============================================================
+
+print()
+print("Training...")
+for epoch in range(1, 101):
+    loss = train_one_epoch()
+    if epoch % 10 == 0:
+        train_acc, test_acc = evaluate()
+        print(f"Epoch {epoch:3d} | Loss: {loss:.4f} | Train Acc: {train_acc:.3f} | Test Acc: {test_acc:.3f}")
+
+print()
+print("Training complete!")
+
+from sklearn.metrics import classification_report, confusion_matrix
+
+# ============================================================
+# DETAILED EVALUATION (accuracy alone is misleading here)
+# ============================================================
+
+model.eval()
+with torch.no_grad():
+    out = model(data.x_dict, data.edge_index_dict)
+    preds = out.argmax(dim=1)
+
+test_preds = preds[test_mask].numpy()
+test_labels = labels[test_mask].numpy()
+
+print()
+print("=" * 60)
+print("DETAILED TEST SET RESULTS")
+print("=" * 60)
+print(classification_report(test_labels, test_preds, target_names=["Not Risky", "Risky"]))
+
+print("Confusion Matrix:")
+cm = confusion_matrix(test_labels, test_preds)
+print(f"                Predicted Not-Risky   Predicted Risky")
+print(f"Actual Not-Risky        {cm[0][0]:>4}                {cm[0][1]:>4}")
+print(f"Actual Risky            {cm[1][0]:>4}                {cm[1][1]:>4}")
