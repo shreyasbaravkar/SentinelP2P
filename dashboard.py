@@ -60,6 +60,8 @@ display_cols = [
     "invoice_id", "amount", "item_category", "description", "date",
     "overall_status", "num_rules_flagged", "gnn_risk_score", "rag_status",
 ]
+filtered = filtered.copy()
+filtered["gnn_risk_score"] = filtered["gnn_risk_score"].apply(lambda x: f"{x:.1%}")
 st.dataframe(filtered[display_cols], use_container_width=True, hide_index=True)
 
 # --- Invoice detail view ---
@@ -81,10 +83,10 @@ if selected_id:
 
     with c2:
         st.write("**Risk Signals**")
-        st.write(f"GNN risk score: {row['gnn_risk_score']:.3f}")
+        st.write(f"GNN risk score: {row['gnn_risk_score']:.1%}")
         st.write(f"RAG status: {row['rag_status']}")
         if pd.notna(row.get("similarity")):
-            st.write(f"RAG similarity: {row['similarity']:.3f}")
+            st.write(f"RAG similarity: {row['similarity']:.1%}")
 
         rule_cols = [c for c in df.columns if c.startswith("rule_")]
         fired_rules = [c.replace("rule_", "") for c in rule_cols if row[c]]
