@@ -91,3 +91,38 @@ if selected_id:
         rule_cols = [c for c in df.columns if c.startswith("rule_")]
         fired_rules = [c.replace("rule_", "") for c in rule_cols if row[c]]
         st.write(f"Rules fired: {', '.join(fired_rules) if fired_rules else 'None'}")
+
+# ============================================================
+# Contract Search — semantic search over our own contract index
+# (built by build_contract_index.py, collection "contracts")
+# ============================================================
+from qdrant_client import QdrantClient
+from sentence_transformers import SentenceTransformer
+
+st.divider()
+st.subheader("🔍 Contract Search (Investigator Tool)")
+st.caption("Ask a question about the contracts on file — e.g. 'which contract covers catering services?'")
+
+@st.cache_resource
+def load_search_index():
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+    client = QdrantClient(path="./qdrant_data")
+    return model, client
+
+search_model, search_client = load_search_index()
+
+query = st.text_input("Search contracts")
+
+if query:
+    query_vec = search_model.encode(query).tolist()
+    hits = search_client.query_points(
+        collection_name="contracts",
+        query=query_vec,
+        limit=15,
+    ).points
+
+    for hit in hits:
+        payload = hit.payload
+        st.write(f"**{payload['contract_id']}** — Vendor: {payload['vendor_id']} (score: {hit.score:.1%})")
+        st.write(payload["contract_text"])
+        st.write("---")        
