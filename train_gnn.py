@@ -143,3 +143,39 @@ cm = confusion_matrix(test_labels, test_preds)
 print(f"                Predicted Not-Risky   Predicted Risky")
 print(f"Actual Not-Risky        {cm[0][0]:>4}                {cm[0][1]:>4}")
 print(f"Actual Risky            {cm[1][0]:>4}                {cm[1][1]:>4}")
+
+# ============================================================
+# GENERALIZATION TEST — HIDDEN CONTRACT-RATE RULE
+# Check both hard predictions AND raw risk scores
+# ============================================================
+hidden_mask = data["invoice"].hidden_test_mask
+
+model.eval()
+with torch.no_grad():
+    out = model(data.x_dict, data.edge_index_dict)
+    probs = F.softmax(out, dim=1)[:, 1]   # probability of "risky" per invoice
+    preds = out.argmax(dim=1)
+
+hidden_preds = preds[hidden_mask]
+hidden_probs = probs[hidden_mask]
+num_hidden = hidden_mask.sum().item()
+num_caught = (hidden_preds == 1).sum().item()
+
+# Compare: average risk score for hidden cases vs. average for normal invoices
+normal_mask = (data["invoice"].y == 0) & (~hidden_mask)
+avg_hidden_prob = hidden_probs.mean().item()
+avg_normal_prob = probs[normal_mask].mean().item()
+
+print()
+print("=" * 60)
+print("GENERALIZATION TEST — HIDDEN CONTRACT-RATE RULE")
+print("=" * 60)
+print(f"Hidden fraud cases (never trained on): {num_hidden}")
+print(f"Caught by GNN (hard prediction): {num_caught}")
+print(f"Generalization rate: {num_caught / num_hidden:.1%}")
+print()
+print(f"Avg risk score on hidden cases:  {avg_hidden_prob:.3f}")
+print(f"Avg risk score on normal invoices: {avg_normal_prob:.3f}")
+print()
+print("Individual hidden-case risk scores:")
+print(sorted(hidden_probs.tolist(), reverse=True))
