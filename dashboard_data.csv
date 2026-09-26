@@ -1,0 +1,681 @@
+invoice_id,po_id,amount,item_category,description,date,payment_status,submitted_by_employee_id,rule_duplicate_invoice,rule_category_mismatch,rule_contract_rate_mismatch,rule_split_po,rule_conflict_of_interest,rule_shell_vendor,rule_expired_contract,rule_no_contract_high_value,gnn_risk_score,gnn_prediction,similarity,rag_status,any_rule_flagged,num_rules_flagged,overall_status
+INV0001,PO0655,7004.29,Logistics,Printing and packaging materials,2026-07-28,Pending,EMP046,False,False,False,False,False,False,False,False,0.0001412532728863,0,0.3641982078552246,ok,False,0,Clear
+INV0002,PO0115,22099.96,Printing & Packaging,Software license renewal,2025-12-06,Pending,EMP096,False,False,False,False,False,False,False,False,0.0093497391790151,0,,no_contract_on_file,False,0,Clear
+INV0003,PO0026,669.36,Cleaning Services,Office stationery supply,2025-09-07,Pending,EMP035,False,False,False,False,False,False,False,False,8.563722647680905e-12,0,0.2183687686920166,ok,False,0,Clear
+INV0004,PO0282,14588.66,Logistics,Printing and packaging materials,2026-07-09,Overdue,EMP086,False,False,False,False,False,False,False,False,1.1940411333288823e-11,0,,no_contract_on_file,False,0,Clear
+INV0005,PO0251,23889.23,Printing & Packaging,Office stationery supply,2026-06-07,Pending,EMP060,False,False,False,False,False,False,False,False,0.0060028498992323,0,0.4206530749797821,ok,False,0,Clear
+INV0006,PO0229,19532.47,Catering,Office stationery supply,2026-01-24,Paid,EMP073,False,False,False,False,False,False,False,False,4.443822660959995e-07,0,,no_contract_on_file,False,0,Clear
+INV0007,PO0143,7950.23,Cleaning Services,Cleaning services,2026-04-06,Pending,EMP055,False,False,False,False,False,False,False,False,0.0489544868469238,0,,no_contract_on_file,False,0,Clear
+INV0008,PO0105,5606.85,IT Hardware,Catering services,2025-02-04,Paid,EMP007,False,False,False,False,False,False,False,False,0.0030715274624526,0,0.1296831220388412,ok,False,0,Clear
+INV0009,PO0559,4311.94,Catering,Printing and packaging materials,2026-02-16,Pending,EMP042,False,False,False,False,False,False,False,False,7.332381937885657e-05,0,0.1854585409164428,ok,False,0,Clear
+INV0010,PO0090,21076.64,Logistics,Furniture purchase,2026-04-19,Paid,EMP054,False,False,False,False,False,False,False,False,0.0040409476496279,0,,no_contract_on_file,False,0,Clear
+INV0011,PO0605,15379.28,Printing & Packaging,Office stationery supply,2025-02-09,Pending,EMP003,False,False,False,False,False,False,False,False,4.558859245662462e-08,0,,no_contract_on_file,False,0,Clear
+INV0012,PO0433,6033.5,Office Supplies,IT hardware procurement,2026-04-20,Overdue,EMP084,False,False,False,False,False,False,False,False,4.038252075347538e-17,0,,no_contract_on_file,False,0,Clear
+INV0013,PO0033,1097.98,Logistics,Software license renewal,2025-03-12,Paid,EMP097,False,False,False,False,False,False,False,False,1.81905705776142e-11,0,0.1180163100361824,ok,False,0,Clear
+INV0014,PO0031,18364.94,Catering,Software license renewal,2025-09-02,Paid,EMP003,False,False,False,False,False,False,False,False,7.707323675276712e-05,0,0.1296909749507904,ok,False,0,Clear
+INV0015,PO0096,11234.73,Logistics,Software license renewal,2026-08-21,Pending,EMP086,False,False,False,False,False,False,False,False,0.8975939750671387,1,0.1312835812568664,ok,False,0,Flagged
+INV0016,PO0224,7388.33,Office Supplies,Cleaning services,2025-05-10,Overdue,EMP033,False,False,False,False,False,False,False,False,3.672871073945316e-08,0,0.1060137003660202,ok,False,0,Clear
+INV0017,PO0239,14548.29,Software Licensing,IT hardware procurement,2025-03-31,Paid,EMP096,False,False,False,False,False,False,False,False,8.890827274399271e-08,0,,no_contract_on_file,False,0,Clear
+INV0018,PO0518,19225.99,Logistics,Furniture purchase,2025-01-15,Overdue,EMP014,False,False,False,False,False,False,False,False,2.6917517104152463e-08,0,0.2560649812221527,ok,False,0,Clear
+INV0019,PO0617,12168.43,Office Supplies,Printing and packaging materials,2026-07-14,Overdue,EMP049,False,False,False,False,False,False,False,False,1.812520728124156e-12,0,,no_contract_on_file,False,0,Clear
+INV0020,PO0028,13428.01,Cleaning Services,Software license renewal,2026-05-06,Paid,EMP010,False,False,False,False,False,False,False,False,2.915530785685405e-05,0,,no_contract_on_file,False,0,Clear
+INV0021,PO0575,16298.87,Printing & Packaging,IT hardware procurement,2025-08-20,Overdue,EMP099,False,False,False,False,True,False,False,False,1.2894695373688592e-06,0,0.2857609391212463,ok,True,1,Flagged
+INV0022,PO0204,5790.81,Catering,Catering services,2025-03-25,Overdue,EMP006,False,False,False,False,False,False,False,False,0.0144499707967042,0,,no_contract_on_file,False,0,Clear
+INV0023,PO0666,614.39,IT Hardware,Catering services,2026-02-25,Paid,EMP085,False,False,False,False,False,False,False,False,1.3011773949966887e-11,0,,no_contract_on_file,False,0,Clear
+INV0024,PO0692,1936.84,Printing & Packaging,Catering services,2025-05-05,Paid,EMP083,False,False,False,False,False,False,False,False,5.4729207683802336e-14,0,,no_contract_on_file,False,0,Clear
+INV0025,PO0430,11049.04,Printing & Packaging,Logistics and courier services,2025-02-01,Paid,EMP054,False,False,False,False,False,False,False,False,4.02556379073063e-13,0,,no_contract_on_file,False,0,Clear
+INV0026,PO0226,21811.64,Software Licensing,Logistics and courier services,2025-12-21,Overdue,EMP047,False,False,False,False,False,False,False,False,5.283806725486784e-10,0,,no_contract_on_file,False,0,Clear
+INV0027,PO0460,6893.19,Printing & Packaging,Furniture purchase,2026-08-16,Overdue,EMP056,False,False,False,False,False,False,False,False,1.2675342546397685e-12,0,0.330336719751358,ok,False,0,Clear
+INV0028,PO0604,4594.51,Catering,Logistics and courier services,2025-06-27,Pending,EMP069,False,False,False,False,False,False,False,False,0.0002604276814963,0,0.3168407082557678,ok,False,0,Clear
+INV0029,PO0285,1993.77,Printing & Packaging,Catering services,2026-02-18,Paid,EMP094,False,False,False,False,False,False,False,False,9.50632784224581e-06,0,0.2053956836462021,ok,False,0,Clear
+INV0030,PO0007,5852.64,Printing & Packaging,Logistics and courier services,2025-10-12,Paid,EMP012,False,False,False,False,False,False,False,False,3.8119816548123913e-13,0,0.4175555408000946,ok,False,0,Clear
+INV0031,PO0164,8520.53,Catering,Printing and packaging materials,2025-07-26,Pending,EMP060,False,False,False,False,False,False,False,False,0.0044758911244571,0,0.1705125570297241,ok,False,0,Clear
+INV0032,PO0689,7073.58,Logistics,Catering services,2025-12-04,Paid,EMP064,False,False,False,False,False,False,False,False,1.958920620381832e-06,0,,no_contract_on_file,False,0,Clear
+INV0033,PO0349,7082.41,Printing & Packaging,Furniture purchase,2025-06-09,Pending,EMP028,False,False,False,False,False,False,False,False,0.99361389875412,1,0.330336719751358,ok,False,0,Flagged
+INV0034,PO0672,20325.82,Software Licensing,Furniture purchase,2025-12-22,Overdue,EMP077,False,False,False,False,False,False,False,False,1.0449754066818616e-18,0,0.1396287679672241,ok,False,0,Clear
+INV0035,PO0160,19430.54,Catering,Software license renewal,2026-06-06,Paid,EMP067,False,False,False,False,False,False,False,False,1.6995942431208277e-08,0,,no_contract_on_file,False,0,Clear
+INV0036,PO0221,7897.55,Software Licensing,Software license renewal,2025-05-10,Overdue,EMP093,False,False,False,False,False,False,False,False,7.176291774158017e-07,0,0.6991788148880005,ok,False,0,Clear
+INV0037,PO0345,17008.26,Logistics,Logistics and courier services,2026-05-10,Pending,EMP083,False,False,False,False,False,False,False,False,0.0027806616853922,0,,no_contract_on_file,False,0,Clear
+INV0038,PO0693,4091.58,Office Supplies,Software license renewal,2025-04-30,Pending,EMP003,False,False,False,False,False,False,False,False,0.0075883148238062,0,0.199401393532753,ok,False,0,Clear
+INV0039,PO0095,22668.54,Software Licensing,Furniture purchase,2025-03-17,Overdue,EMP032,False,False,False,False,False,False,False,False,7.413136415834742e-08,0,,no_contract_on_file,False,0,Clear
+INV0040,PO0390,1136.12,Catering,Catering services,2025-09-28,Pending,EMP048,False,False,False,False,False,False,False,False,3.767637243856648e-12,0,0.6000819206237793,ok,False,0,Clear
+INV0041,PO0100,5854.4,Logistics,Logistics and courier services,2026-07-13,Pending,EMP071,False,False,False,False,False,False,False,False,4.2474943701131807e-11,0,0.6310453414916992,ok,False,0,Clear
+INV0042,PO0368,4179.11,Office Supplies,Software license renewal,2025-07-04,Pending,EMP033,False,False,False,False,False,False,False,False,0.0027539297007024,0,0.1994014084339141,ok,False,0,Clear
+INV0043,PO0353,11490.54,Logistics,Cleaning services,2026-06-25,Paid,EMP096,False,False,False,False,False,False,False,False,3.209228452760726e-05,0,0.1335764974355697,ok,False,0,Clear
+INV0044,PO0619,24318.04,Printing & Packaging,Logistics and courier services,2025-05-08,Pending,EMP095,False,False,False,False,False,False,False,True,4.911011728836456e-06,0,,no_contract_on_file,True,1,Flagged
+INV0045,PO0271,20513.84,Catering,Furniture purchase,2026-06-11,Paid,EMP076,False,False,False,False,False,False,False,False,5.511121344170533e-06,0,,no_contract_on_file,False,0,Clear
+INV0046,PO0045,655.55,Cleaning Services,Catering services,2025-12-02,Paid,EMP025,False,False,False,False,False,False,False,False,7.196294254940838e-11,0,0.2656998932361603,ok,False,0,Clear
+INV0047,PO0471,3414.74,Printing & Packaging,Cleaning services,2026-04-07,Pending,EMP002,False,False,False,False,False,False,False,False,3.276202733104583e-06,0,0.0528691709041595,mismatch,False,0,Flagged
+INV0048,PO0550,23239.14,Office Supplies,Cleaning services,2026-04-23,Overdue,EMP007,False,False,False,False,False,False,False,False,4.5642464101547375e-06,0,0.1049062684178352,ok,False,0,Clear
+INV0049,PO0128,1615.13,Office Supplies,Logistics and courier services,2025-01-29,Paid,EMP097,False,False,False,False,False,False,False,False,2.7468178329242264e-18,0,,no_contract_on_file,False,0,Clear
+INV0050,PO0388,10677.9,Catering,Furniture purchase,2025-03-12,Pending,EMP002,False,False,False,False,False,False,False,False,5.078177127870731e-05,0,,no_contract_on_file,False,0,Clear
+INV0051,PO0081,23978.21,Printing & Packaging,Office stationery supply,2025-07-01,Pending,EMP057,False,False,False,False,False,False,False,False,9.717002593181978e-13,0,0.410711795091629,ok,False,0,Clear
+INV0052,PO0566,1569.33,IT Hardware,IT hardware procurement,2025-12-16,Pending,EMP062,False,True,False,False,False,False,False,False,0.999440848827362,1,0.3141256272792816,ok,True,1,Flagged
+INV0053,PO0301,16306.49,Logistics,Office stationery supply,2025-05-18,Paid,EMP010,False,False,False,False,False,False,False,False,7.565486612293171e-06,0,,no_contract_on_file,False,0,Clear
+INV0054,PO0644,11745.45,Office Supplies,Furniture purchase,2025-10-12,Paid,EMP073,False,False,False,False,False,False,False,False,1.0022051633029603e-08,0,,no_contract_on_file,False,0,Clear
+INV0055,PO0634,8122.52,Logistics,Printing and packaging materials,2025-03-03,Overdue,EMP016,False,False,False,False,False,False,False,False,1.7457776890772436e-10,0,,no_contract_on_file,False,0,Clear
+INV0056,PO0371,13345.8,Catering,Software license renewal,2025-10-29,Overdue,EMP080,False,False,False,False,False,False,False,False,7.960016534802604e-10,0,,no_contract_on_file,False,0,Clear
+INV0057,PO0592,20785.61,Cleaning Services,Furniture purchase,2026-03-31,Overdue,EMP058,False,False,False,False,False,False,False,False,8.560500100245164e-17,0,0.2468169629573822,ok,False,0,Clear
+INV0058,PO0197,18301.68,Logistics,Office stationery supply,2026-07-15,Overdue,EMP040,False,False,False,False,False,False,False,False,0.9995162487030028,1,,no_contract_on_file,False,0,Flagged
+INV0059,PO0072,8969.33,Logistics,Software license renewal,2025-02-21,Overdue,EMP013,False,True,False,False,False,False,False,False,0.9977638721466064,1,,no_contract_on_file,True,1,Flagged
+INV0060,PO0047,6532.28,Logistics,IT hardware procurement,2025-09-02,Paid,EMP034,False,True,False,False,False,False,False,False,0.9999997615814208,1,,no_contract_on_file,True,1,Flagged
+INV0061,PO0234,10183.95,Office Supplies,IT hardware procurement,2026-06-28,Paid,EMP023,False,False,False,False,False,False,False,False,4.339568634992297e-12,0,,no_contract_on_file,False,0,Clear
+INV0062,PO0297,9112.9,Logistics,Logistics and courier services,2026-03-14,Overdue,EMP053,False,False,False,False,False,False,False,False,1.6352398601870988e-10,0,,no_contract_on_file,False,0,Clear
+INV0063,PO0082,6073.11,Office Supplies,Software license renewal,2025-04-16,Pending,EMP061,False,True,False,False,False,False,False,False,0.0454291142523288,0,0.1291444599628448,ok,True,1,Flagged
+INV0064,PO0684,3847.73,Software Licensing,Logistics and courier services,2026-08-23,Paid,EMP037,False,False,False,False,False,False,False,False,7.595664541781844e-09,0,0.173447698354721,ok,False,0,Clear
+INV0065,PO0104,19640.21,Office Supplies,Furniture purchase,2026-01-05,Overdue,EMP030,False,False,False,False,False,False,False,False,0.0004736908886115,0,,no_contract_on_file,False,0,Clear
+INV0066,PO0661,24686.19,Office Supplies,Software license renewal,2025-05-31,Pending,EMP085,False,False,False,False,False,False,False,True,0.0003311510663479,0,,no_contract_on_file,True,1,Flagged
+INV0067,PO0667,20914.1,Office Supplies,Software license renewal,2026-01-20,Overdue,EMP070,False,False,False,False,False,False,False,False,6.09732140333108e-08,0,,no_contract_on_file,False,0,Clear
+INV0068,PO0465,24772.17,Cleaning Services,Cleaning services,2026-03-13,Paid,EMP035,False,False,False,False,False,False,False,True,0.99870502948761,1,,no_contract_on_file,True,1,Flagged
+INV0069,PO0374,13877.87,Printing & Packaging,Furniture purchase,2025-12-13,Pending,EMP022,False,False,False,False,False,False,False,False,3.4882471910968604e-11,0,0.3301346600055694,ok,False,0,Clear
+INV0070,PO0167,22805.82,Office Supplies,Furniture purchase,2025-04-15,Overdue,EMP060,False,False,False,False,False,False,False,False,1.6364138932800643e-09,0,,no_contract_on_file,False,0,Clear
+INV0071,PO0380,8118.96,Printing & Packaging,Logistics and courier services,2026-02-27,Pending,EMP035,False,False,False,False,False,False,False,False,1.0157249797108568e-14,0,,no_contract_on_file,False,0,Clear
+INV0072,PO0364,24458.81,Cleaning Services,Office stationery supply,2025-04-15,Pending,EMP077,False,False,False,False,False,False,False,True,4.766920937981922e-07,0,,no_contract_on_file,True,1,Flagged
+INV0073,PO0215,25328.55,Printing & Packaging,Office stationery supply,2025-04-24,Paid,EMP042,False,False,False,False,True,False,False,False,0.0005530859343707,0,0.4024729430675506,ok,True,1,Flagged
+INV0074,PO0274,2746.98,Printing & Packaging,Office stationery supply,2026-04-10,Overdue,EMP087,False,False,False,False,False,False,False,False,7.469989071751114e-10,0,,no_contract_on_file,False,0,Clear
+INV0075,PO0074,6115.81,Printing & Packaging,Cleaning services,2025-10-02,Pending,EMP035,False,False,False,False,False,False,False,False,1.5495673676629374e-17,0,0.0575321055948734,mismatch,False,0,Flagged
+INV0076,PO0624,15671.64,Cleaning Services,Furniture purchase,2025-05-05,Paid,EMP084,False,False,False,False,False,False,False,False,1.904054336421268e-08,0,0.238378569483757,ok,False,0,Clear
+INV0077,PO0176,11798.17,IT Hardware,Logistics and courier services,2026-06-04,Paid,EMP056,False,False,False,False,False,False,False,False,7.181575711001642e-06,0,,no_contract_on_file,False,0,Clear
+INV0078,PO0547,22938.44,IT Hardware,Printing and packaging materials,2025-08-26,Pending,EMP045,False,False,False,False,False,False,False,False,0.0221839919686317,0,,no_contract_on_file,False,0,Clear
+INV0079,PO0696,21774.14,Software Licensing,IT hardware procurement,2025-10-01,Paid,EMP086,False,False,False,False,False,False,False,False,0.000801972055342,0,,no_contract_on_file,False,0,Clear
+INV0080,PO0168,2333.29,Catering,Logistics and courier services,2025-06-03,Pending,EMP053,False,False,False,False,False,False,False,False,0.0004388089000713,0,,no_contract_on_file,False,0,Clear
+INV0081,PO0474,2353.88,IT Hardware,Office stationery supply,2026-06-29,Pending,EMP052,False,False,False,False,False,False,False,False,2.6430181827852284e-12,0,0.2756972312927246,ok,False,0,Clear
+INV0082,PO0389,22980.5,IT Hardware,IT hardware procurement,2026-07-29,Pending,EMP041,False,False,False,False,False,False,False,False,0.0047569149173796,0,0.5610232949256897,ok,False,0,Clear
+INV0083,PO0277,1438.43,Catering,Office stationery supply,2025-04-26,Overdue,EMP066,False,False,False,False,False,False,False,False,6.166718958411366e-05,0,,no_contract_on_file,False,0,Clear
+INV0084,PO0571,24930.45,Logistics,Logistics and courier services,2026-09-03,Pending,EMP070,False,False,False,False,False,False,False,True,1.529885958007071e-05,0,,no_contract_on_file,True,1,Flagged
+INV0085,PO0225,17716.12,Printing & Packaging,Catering services,2025-10-02,Overdue,EMP025,False,False,False,False,False,False,False,False,0.0019991772715002,0,,no_contract_on_file,False,0,Clear
+INV0086,PO0333,11702.15,Logistics,Logistics and courier services,2025-02-06,Paid,EMP064,False,False,False,False,False,False,False,False,2.8375601868191325e-10,0,,no_contract_on_file,False,0,Clear
+INV0087,PO0058,586.87,Office Supplies,Cleaning services,2025-04-09,Pending,EMP035,False,False,False,False,False,False,False,False,6.897769607285085e-15,0,,no_contract_on_file,False,0,Clear
+INV0088,PO0235,4799.46,Catering,Office stationery supply,2025-01-16,Overdue,EMP090,False,False,False,False,False,False,False,False,1.3069977455870685e-07,0,0.2312620133161544,ok,False,0,Clear
+INV0089,PO0688,16752.2,Catering,Cleaning services,2025-04-18,Pending,EMP031,False,False,False,False,False,False,False,False,4.087890556547791e-05,0,,no_contract_on_file,False,0,Clear
+INV0090,PO0324,6066.23,Printing & Packaging,IT hardware procurement,2026-07-22,Paid,EMP002,False,False,False,False,False,False,False,False,9.625045443821535e-14,0,0.2928570508956909,ok,False,0,Clear
+INV0091,PO0411,2765.37,Software Licensing,Logistics and courier services,2025-12-19,Paid,EMP015,False,False,False,False,False,False,False,False,3.6183489913338163e-16,0,,no_contract_on_file,False,0,Clear
+INV0092,PO0275,22123.57,Cleaning Services,Furniture purchase,2026-04-18,Overdue,EMP020,False,False,False,False,False,False,False,False,3.344908634517197e-07,0,0.2426080405712127,ok,False,0,Clear
+INV0093,PO0068,16068.03,Office Supplies,Logistics and courier services,2026-01-06,Pending,EMP035,False,False,False,False,False,False,False,False,1.8940452233950217e-13,0,0.3387451767921448,ok,False,0,Clear
+INV0094,PO0217,15923.84,Cleaning Services,Printing and packaging materials,2026-02-17,Paid,EMP059,False,False,False,False,False,False,False,False,6.644953828072175e-05,0,0.1399105489253997,ok,False,0,Clear
+INV0095,PO0581,15211.24,Catering,Cleaning services,2025-02-15,Paid,EMP077,False,False,False,False,False,False,False,False,1.9678059182126613e-09,0,0.1704630851745605,ok,False,0,Clear
+INV0096,PO0323,14083.49,IT Hardware,Printing and packaging materials,2025-08-09,Pending,EMP099,False,False,False,False,False,False,False,False,0.011215491220355,0,0.2353208065032959,ok,False,0,Clear
+INV0097,PO0218,3200.95,Printing & Packaging,Office stationery supply,2025-10-04,Pending,EMP065,False,False,False,False,False,False,False,False,0.0208276025950908,0,0.4064487814903259,ok,False,0,Clear
+INV0098,PO0512,11684.69,Cleaning Services,Logistics and courier services,2025-01-29,Paid,EMP039,False,False,False,False,False,False,False,False,2.372203880440793e-06,0,,no_contract_on_file,False,0,Clear
+INV0099,PO0406,5551.16,IT Hardware,Catering services,2026-03-22,Overdue,EMP069,False,False,False,False,False,False,False,False,4.991451874047925e-08,0,0.1456623077392578,ok,False,0,Clear
+INV0100,PO0470,17191.55,IT Hardware,Catering services,2025-05-02,Paid,EMP070,False,False,False,False,False,False,False,False,0.0199448782950639,0,0.1474904417991638,ok,False,0,Clear
+INV0101,PO0147,1987.82,Printing & Packaging,Software license renewal,2025-07-11,Pending,EMP031,False,False,False,False,False,False,False,False,3.261229480910899e-11,0,0.1695068031549453,ok,False,0,Clear
+INV0102,PO0272,21915.87,Cleaning Services,Logistics and courier services,2025-09-15,Overdue,EMP041,False,False,False,False,False,False,False,False,2.798049769311972e-12,0,,no_contract_on_file,False,0,Clear
+INV0103,PO0694,11708.14,Logistics,Cleaning services,2025-07-20,Pending,EMP049,False,False,False,False,False,False,False,False,3.0402272386709228e-05,0,0.129044771194458,ok,False,0,Clear
+INV0104,PO0253,7782.37,IT Hardware,Catering services,2026-05-30,Paid,EMP017,False,False,False,False,False,False,False,False,1.3423358019744314e-14,0,0.1441598385572433,ok,False,0,Clear
+INV0105,PO0680,23488.34,Printing & Packaging,Logistics and courier services,2025-10-31,Paid,EMP057,False,False,False,False,False,False,False,False,7.309239435926429e-08,0,0.3926274478435516,ok,False,0,Clear
+INV0106,PO0552,22281.95,Office Supplies,Cleaning services,2025-09-18,Paid,EMP019,False,False,False,False,False,False,False,False,0.205431193113327,0,0.1088450774550437,ok,False,0,Clear
+INV0107,PO0270,13190.95,IT Hardware,Printing and packaging materials,2026-01-20,Overdue,EMP034,False,False,False,False,False,False,False,False,1.9029040743134829e-07,0,0.2353208065032959,ok,False,0,Clear
+INV0108,PO0439,19793.24,Printing & Packaging,Printing and packaging materials,2025-01-19,Pending,EMP043,False,False,False,False,False,False,False,False,1.511499530138655e-13,0,0.6066819429397583,ok,False,0,Clear
+INV0109,PO0409,15862.37,Catering,Logistics and courier services,2025-11-15,Overdue,EMP092,False,False,False,False,False,False,False,False,2.2408755830041787e-28,0,0.3154807984828949,ok,False,0,Clear
+INV0110,PO0645,3059.78,Office Supplies,Furniture purchase,2026-04-24,Paid,EMP080,False,False,False,False,False,False,False,False,2.906564691620289e-13,0,0.3664129972457886,ok,False,0,Clear
+INV0111,PO0616,20550.93,Catering,Printing and packaging materials,2025-09-02,Paid,EMP012,False,False,False,False,False,False,False,False,1.928611621532933e-13,0,,no_contract_on_file,False,0,Clear
+INV0112,PO0142,19919.4,Cleaning Services,IT hardware procurement,2025-06-08,Pending,EMP082,False,False,False,False,False,False,False,False,3.8248692407760736e-11,0,,no_contract_on_file,False,0,Clear
+INV0113,PO0522,15887.96,Software Licensing,Furniture purchase,2026-03-30,Paid,EMP089,False,False,False,False,False,False,False,False,2.2325173654191843e-10,0,,no_contract_on_file,False,0,Clear
+INV0114,PO0506,17520.24,Logistics,Office stationery supply,2026-02-18,Pending,EMP042,False,False,False,False,False,False,False,False,3.669709940368193e-06,0,,no_contract_on_file,False,0,Clear
+INV0115,PO0094,15644.95,Cleaning Services,Software license renewal,2025-03-13,Overdue,EMP048,False,False,False,False,False,False,False,False,9.98925679596141e-06,0,0.1982955187559127,ok,False,0,Clear
+INV0116,PO0049,4938.2,Catering,Cleaning services,2025-10-02,Paid,EMP073,False,False,False,False,False,False,False,False,0.0004436956951394,0,0.1787487864494323,ok,False,0,Clear
+INV0117,PO0113,2556.59,IT Hardware,Printing and packaging materials,2026-04-19,Overdue,EMP011,False,False,False,False,False,False,False,False,1.2776059676617314e-14,0,0.2276400923728943,ok,False,0,Clear
+INV0118,PO0157,24941.36,Printing & Packaging,Cleaning services,2025-08-30,Paid,EMP031,False,False,False,False,False,False,False,False,6.713549737469293e-06,0,0.0484479628503322,mismatch,False,0,Flagged
+INV0119,PO0670,8730.96,Printing & Packaging,Furniture purchase,2025-06-29,Overdue,EMP082,False,False,False,False,False,False,False,False,0.0164325777441263,0,0.3272930383682251,ok,False,0,Clear
+INV0120,PO0669,12831.74,Office Supplies,Furniture purchase,2025-11-17,Overdue,EMP060,False,False,False,False,False,False,False,False,4.042886303068372e-06,0,,no_contract_on_file,False,0,Clear
+INV0121,PO0066,22682.71,IT Hardware,Catering services,2026-03-07,Overdue,EMP021,False,False,False,False,False,False,False,False,3.138596866847365e-07,0,0.1301452219486236,ok,False,0,Clear
+INV0122,PO0395,10129.94,IT Hardware,Printing and packaging materials,2025-12-28,Overdue,EMP082,False,False,False,False,False,False,False,False,1.8675496262290925e-13,0,,no_contract_on_file,False,0,Clear
+INV0123,PO0391,26156.89,Office Supplies,Software license renewal,2026-03-15,Pending,EMP059,False,False,False,False,False,False,False,False,0.000943599443417,0,0.2078181058168411,ok,False,0,Clear
+INV0124,PO0480,12330.35,Software Licensing,Printing and packaging materials,2026-03-30,Overdue,EMP062,False,False,False,False,False,False,False,False,8.37900068610415e-15,0,0.1275859922170639,ok,False,0,Clear
+INV0125,PO0542,5971.34,Printing & Packaging,Furniture purchase,2025-10-03,Paid,EMP074,False,False,False,False,False,False,False,False,2.824507172068244e-15,0,0.3162963390350342,ok,False,0,Clear
+INV0126,PO0258,8286.54,Catering,Office stationery supply,2025-11-01,Overdue,EMP085,False,False,False,False,False,False,False,False,1.4335522786972353e-33,0,0.2360501587390899,ok,False,0,Clear
+INV0127,PO0567,7821.6,Printing & Packaging,Office stationery supply,2026-02-24,Overdue,EMP088,False,False,False,False,False,False,False,False,4.6342893984685677e-20,0,,no_contract_on_file,False,0,Clear
+INV0128,PO0012,17278.65,Cleaning Services,Furniture purchase,2025-03-27,Paid,EMP064,False,False,False,False,False,False,False,False,0.0001579229574417,0,0.2392755597829818,ok,False,0,Clear
+INV0129,PO0118,14568.17,Catering,Software license renewal,2025-12-25,Overdue,EMP046,False,False,False,False,False,False,False,False,2.0747425045347656e-12,0,0.1297816634178161,ok,False,0,Clear
+INV0130,PO0653,12929.21,Office Supplies,Cleaning services,2026-07-07,Overdue,EMP087,False,False,False,False,False,False,False,False,1.4100696610341856e-08,0,,no_contract_on_file,False,0,Clear
+INV0131,PO0627,4024.39,Logistics,Office stationery supply,2025-02-10,Pending,EMP081,False,False,False,False,False,False,False,False,4.079970210568717e-07,0,,no_contract_on_file,False,0,Clear
+INV0132,PO0668,6912.53,Office Supplies,Catering services,2025-02-01,Overdue,EMP057,False,False,False,False,False,False,False,False,6.920492282534718e-14,0,0.1668676733970642,ok,False,0,Clear
+INV0133,PO0699,8840.45,IT Hardware,Catering services,2025-06-05,Overdue,EMP012,False,False,False,False,False,False,False,False,2.4686948433871062e-24,0,0.1419639438390731,ok,False,0,Clear
+INV0134,PO0648,13970.15,Software Licensing,Catering services,2025-12-18,Overdue,EMP023,False,False,False,False,False,False,False,False,1.4524936204907135e-06,0,0.0677997469902038,mismatch,False,0,Flagged
+INV0135,PO0446,6091.83,IT Hardware,Furniture purchase,2025-11-08,Pending,EMP035,False,False,False,False,False,False,False,False,1.0718515113694592e-05,0,0.3329067826271057,ok,False,0,Clear
+INV0136,PO0162,20456.93,Software Licensing,Catering services,2026-08-30,Paid,EMP038,False,False,False,False,False,False,False,False,4.1016605223376246e-08,0,0.0613872557878494,mismatch,False,0,Flagged
+INV0137,PO0633,19107.59,IT Hardware,Cleaning services,2025-08-13,Paid,EMP010,False,False,False,False,False,False,False,False,0.0047522536478936,0,,no_contract_on_file,False,0,Clear
+INV0138,PO0004,14937.01,Logistics,Printing and packaging materials,2026-07-27,Overdue,EMP087,False,False,False,False,False,False,False,False,1.7489381054502926e-09,0,,no_contract_on_file,False,0,Clear
+INV0139,PO0594,23745.31,Software Licensing,Printing and packaging materials,2025-05-17,Paid,EMP012,False,False,False,False,False,False,False,True,5.442070794003939e-09,0,,no_contract_on_file,True,1,Flagged
+INV0140,PO0513,4394.95,Printing & Packaging,IT hardware procurement,2025-08-01,Pending,EMP069,False,False,False,False,False,False,False,False,1.9254845114169417e-12,0,,no_contract_on_file,False,0,Clear
+INV0141,PO0183,15373.09,Software Licensing,Furniture purchase,2026-05-30,Overdue,EMP087,False,False,False,False,False,False,False,False,0.0117917703464627,0,,no_contract_on_file,False,0,Clear
+INV0142,PO0520,3859.67,Software Licensing,Catering services,2025-04-23,Paid,EMP082,False,False,False,False,False,False,False,False,6.236484553207208e-17,0,,no_contract_on_file,False,0,Clear
+INV0143,PO0109,11382.83,Logistics,Catering services,2026-08-24,Overdue,EMP030,False,False,False,False,False,False,False,False,1.3062664283580714e-09,0,0.2618198096752167,ok,False,0,Clear
+INV0144,PO0306,6877.1,IT Hardware,IT hardware procurement,2026-08-03,Overdue,EMP083,False,False,False,False,False,False,False,False,3.267500405987854e-14,0,,no_contract_on_file,False,0,Clear
+INV0145,PO0677,12122.71,Cleaning Services,Furniture purchase,2026-02-08,Overdue,EMP060,False,False,False,False,False,False,False,False,7.985083357198164e-05,0,,no_contract_on_file,False,0,Clear
+INV0146,PO0679,18109.77,Logistics,Cleaning services,2025-05-28,Paid,EMP015,False,False,False,False,False,False,False,False,4.1722122978704585e-10,0,,no_contract_on_file,False,0,Clear
+INV0147,PO0583,23412.55,Printing & Packaging,Logistics and courier services,2025-08-14,Paid,EMP039,False,False,False,False,False,False,False,False,0.9973987340927124,1,,no_contract_on_file,False,0,Flagged
+INV0148,PO0383,13669.18,Cleaning Services,Cleaning services,2026-03-04,Pending,EMP031,False,False,False,False,False,False,False,False,0.0005517158424481,0,,no_contract_on_file,False,0,Clear
+INV0149,PO0166,7973.86,IT Hardware,Printing and packaging materials,2026-02-08,Overdue,EMP048,False,False,False,False,False,False,False,False,3.832809347681376e-10,0,0.2288565337657928,ok,False,0,Clear
+INV0150,PO0544,3371.67,Catering,Printing and packaging materials,2025-04-28,Overdue,EMP094,False,False,False,False,False,False,False,False,1.3123698794359482e-09,0,0.1819277703762054,ok,False,0,Clear
+INV0151,PO0001,1282.12,Catering,Furniture purchase,2025-04-27,Paid,EMP063,False,False,False,False,False,False,False,False,4.475494961297954e-07,0,0.2714315056800842,ok,False,0,Clear
+INV0152,PO0332,22037.35,Logistics,Software license renewal,2026-06-07,Pending,EMP048,False,False,False,False,False,False,False,False,3.057924459426431e-06,0,,no_contract_on_file,False,0,Clear
+INV0153,PO0501,26892.88,Logistics,IT hardware procurement,2025-12-06,Overdue,EMP031,False,False,False,False,False,False,False,False,1.9314013570692623e-06,0,0.293040007352829,ok,False,0,Clear
+INV0154,PO0020,8719.04,IT Hardware,Catering services,2026-02-01,Paid,EMP070,False,False,False,False,False,False,False,False,8.937854545365553e-06,0,0.1355379819869995,ok,False,0,Clear
+INV0155,PO0568,18827.92,Office Supplies,Software license renewal,2025-02-08,Paid,EMP036,False,False,False,False,False,False,False,False,2.4151542987738143e-08,0,,no_contract_on_file,False,0,Clear
+INV0156,PO0372,7742.87,IT Hardware,Software license renewal,2026-06-15,Overdue,EMP059,False,False,False,False,False,False,False,False,6.117728480603546e-05,0,0.139331117272377,ok,False,0,Clear
+INV0157,PO0315,24323.3,Printing & Packaging,Office stationery supply,2026-03-07,Paid,EMP077,False,False,False,False,False,False,False,True,1.1255463505221996e-05,0,,no_contract_on_file,True,1,Flagged
+INV0158,PO0246,12605.87,Software Licensing,Software license renewal,2025-04-01,Paid,EMP043,False,False,False,False,False,False,False,False,1.3846248521076632e-06,0,,no_contract_on_file,False,0,Clear
+INV0159,PO0060,18187.15,IT Hardware,Software license renewal,2026-08-11,Overdue,EMP073,False,True,False,False,False,False,False,False,0.9951062202453612,1,0.1166863292455673,ok,True,1,Flagged
+INV0160,PO0247,4198.46,Cleaning Services,Catering services,2026-08-06,Paid,EMP030,False,False,False,False,False,False,False,False,5.637277866732403e-10,0,,no_contract_on_file,False,0,Clear
+INV0161,PO0650,18171.44,Software Licensing,Office stationery supply,2026-03-03,Pending,EMP077,False,False,False,False,False,False,False,False,1.4352949619933495e-06,0,,no_contract_on_file,False,0,Clear
+INV0162,PO0088,23775.97,Office Supplies,Cleaning services,2026-07-12,Overdue,EMP019,False,False,False,False,False,False,False,True,8.984505257103592e-05,0,,no_contract_on_file,True,1,Flagged
+INV0163,PO0498,5642.02,IT Hardware,IT hardware procurement,2026-03-31,Overdue,EMP023,False,False,False,False,False,False,False,False,9.444903347038936e-16,0,,no_contract_on_file,False,0,Clear
+INV0164,PO0071,14724.45,Catering,Cleaning services,2025-02-12,Paid,EMP004,False,False,False,False,False,False,False,False,8.591373396517302e-19,0,,no_contract_on_file,False,0,Clear
+INV0165,PO0129,25895.56,Logistics,Office stationery supply,2026-07-27,Paid,EMP031,False,False,False,False,False,False,False,False,1.6212085029110312e-05,0,0.29956915974617,ok,False,0,Clear
+INV0166,PO0132,8562.34,Printing & Packaging,Printing and packaging materials,2025-05-02,Overdue,EMP007,False,False,False,False,False,False,False,False,4.75352984174982e-15,0,0.6167377829551697,ok,False,0,Clear
+INV0167,PO0487,5050.97,Printing & Packaging,IT hardware procurement,2025-05-24,Pending,EMP096,False,False,False,False,False,False,False,False,1.789148444765193e-18,0,,no_contract_on_file,False,0,Clear
+INV0168,PO0170,19217.14,Cleaning Services,IT hardware procurement,2025-11-29,Pending,EMP100,False,False,False,False,False,False,False,False,0.0128050614148378,0,0.2163690626621246,ok,False,0,Clear
+INV0169,PO0599,531.39,Cleaning Services,Office stationery supply,2026-01-03,Overdue,EMP029,False,False,False,False,False,False,False,False,1.058670262565897e-09,0,,no_contract_on_file,False,0,Clear
+INV0170,PO0434,2950.52,Catering,Logistics and courier services,2025-02-15,Overdue,EMP085,False,False,False,False,False,False,False,False,2.4572142573205515e-16,0,0.3229277729988098,ok,False,0,Clear
+INV0171,PO0607,13733.07,Catering,Logistics and courier services,2026-02-25,Pending,EMP008,False,False,False,False,False,False,False,False,0.9540892243385316,1,,no_contract_on_file,False,0,Flagged
+INV0172,PO0206,5496.74,Printing & Packaging,Logistics and courier services,2025-05-21,Paid,EMP088,False,False,False,False,False,False,False,False,6.829619877447847e-14,0,0.3906604349613189,ok,False,0,Clear
+INV0173,PO0320,2789.0,Catering,Catering services,2025-05-24,Overdue,EMP011,False,False,False,False,False,False,False,False,1.3805409901262759e-15,0,,no_contract_on_file,False,0,Clear
+INV0174,PO0647,21797.66,Office Supplies,Catering services,2026-08-01,Pending,EMP009,False,False,False,False,False,False,False,False,3.0492490168398945e-06,0,0.1391314417123794,ok,False,0,Clear
+INV0175,PO0553,23343.74,Printing & Packaging,Furniture purchase,2026-07-24,Pending,EMP068,False,False,False,False,False,False,False,False,0.0001508578279754,0,,no_contract_on_file,False,0,Clear
+INV0176,PO0449,11059.0,Printing & Packaging,Printing and packaging materials,2025-04-24,Paid,EMP078,False,False,False,False,False,False,False,False,6.996783152857232e-10,0,,no_contract_on_file,False,0,Clear
+INV0177,PO0463,24120.7,Logistics,Software license renewal,2026-04-07,Pending,EMP090,False,False,False,False,False,False,False,False,0.0016406617360189,0,0.1564177274703979,ok,False,0,Clear
+INV0178,PO0124,22236.24,Software Licensing,Logistics and courier services,2025-11-18,Pending,EMP030,False,False,False,False,False,False,False,False,5.51639871559928e-08,0,0.1359306573867797,ok,False,0,Clear
+INV0179,PO0254,1458.98,IT Hardware,IT hardware procurement,2025-04-04,Pending,EMP094,False,False,False,False,False,False,False,False,2.7972546154386717e-12,0,,no_contract_on_file,False,0,Clear
+INV0180,PO0231,14165.19,Software Licensing,Catering services,2025-10-13,Paid,EMP041,False,False,False,False,False,False,False,False,8.553914683778058e-15,0,0.0595958679914474,mismatch,False,0,Flagged
+INV0181,PO0580,6710.47,IT Hardware,IT hardware procurement,2026-02-13,Paid,EMP061,False,False,False,False,False,False,False,False,2.574555499346154e-11,0,0.5943276882171631,ok,False,0,Clear
+INV0182,PO0347,18174.3,Catering,Catering services,2025-10-06,Paid,EMP013,False,False,False,False,False,False,False,False,7.729724529781379e-06,0,,no_contract_on_file,False,0,Clear
+INV0183,PO0022,11616.23,Cleaning Services,Catering services,2025-05-04,Overdue,EMP008,False,False,False,False,False,False,False,False,2.4232167561422102e-06,0,,no_contract_on_file,False,0,Clear
+INV0184,PO0236,2062.68,Software Licensing,Printing and packaging materials,2025-10-26,Overdue,EMP053,False,False,False,False,False,False,False,False,2.357474437886253e-09,0,0.1348461657762527,ok,False,0,Clear
+INV0185,PO0675,17221.6,Catering,Catering services,2026-01-21,Paid,EMP037,False,False,False,False,False,False,False,False,3.141024308206397e-06,0,0.6004249453544617,ok,False,0,Clear
+INV0186,PO0008,15653.73,Cleaning Services,Software license renewal,2025-04-01,Paid,EMP065,False,False,False,False,False,False,False,False,0.0011341727804392,0,,no_contract_on_file,False,0,Clear
+INV0187,PO0073,22537.87,Cleaning Services,Software license renewal,2026-04-03,Paid,EMP062,False,False,False,False,False,False,False,False,6.843538926659676e-07,0,,no_contract_on_file,False,0,Clear
+INV0188,PO0061,14036.86,Software Licensing,Catering services,2026-07-19,Paid,EMP072,False,False,False,False,False,False,False,False,0.0003295329515822,0,,no_contract_on_file,False,0,Clear
+INV0189,PO0613,24730.5,Cleaning Services,Printing and packaging materials,2026-01-28,Overdue,EMP036,False,False,False,False,False,False,False,False,6.304708932702853e-08,0,0.1283840388059616,ok,False,0,Clear
+INV0190,PO0035,24696.52,Logistics,Office stationery supply,2025-09-19,Overdue,EMP080,False,False,False,False,False,False,False,False,3.7070663921369434e-13,0,0.2984346747398376,ok,False,0,Clear
+INV0191,PO0464,6429.52,Software Licensing,Furniture purchase,2026-06-11,Paid,EMP085,False,False,False,False,False,False,False,False,4.616684423018722e-18,0,,no_contract_on_file,False,0,Clear
+INV0192,PO0017,9368.91,IT Hardware,Furniture purchase,2026-08-25,Pending,EMP035,False,False,False,False,False,False,False,False,1.604002335398036e-07,0,,no_contract_on_file,False,0,Clear
+INV0193,PO0441,9625.2,Software Licensing,Cleaning services,2026-07-14,Overdue,EMP001,False,False,False,False,False,False,False,False,7.97306711319834e-07,0,0.0556143410503864,mismatch,False,0,Flagged
+INV0194,PO0533,20964.15,Catering,Office stationery supply,2026-03-21,Paid,EMP052,False,False,False,False,False,False,False,False,2.9941210101525058e-12,0,0.2191195785999298,ok,False,0,Clear
+INV0195,PO0037,19883.67,IT Hardware,Printing and packaging materials,2025-04-23,Pending,EMP068,False,True,False,False,False,False,False,False,0.9981326460838318,1,0.1307641118764877,ok,True,1,Flagged
+INV0196,PO0264,4296.16,Office Supplies,Catering services,2026-05-19,Pending,EMP021,False,False,False,False,False,False,False,False,7.68098895576573e-14,0,,no_contract_on_file,False,0,Clear
+INV0197,PO0122,14060.09,Logistics,IT hardware procurement,2025-11-22,Paid,EMP042,False,False,False,False,False,False,False,False,1.9471310963581345e-07,0,,no_contract_on_file,False,0,Clear
+INV0198,PO0598,5637.26,Cleaning Services,Office stationery supply,2025-12-13,Overdue,EMP021,False,False,False,False,False,False,False,False,2.3116153435864814e-10,0,,no_contract_on_file,False,0,Clear
+INV0199,PO0343,24770.09,Software Licensing,Logistics and courier services,2025-12-04,Overdue,EMP035,False,False,False,False,False,False,False,True,1.3964184290671255e-05,0,,no_contract_on_file,True,1,Flagged
+INV0200,PO0249,11812.69,Cleaning Services,Logistics and courier services,2026-01-03,Pending,EMP063,False,False,False,False,False,False,False,False,0.9998435974121094,1,,no_contract_on_file,False,0,Flagged
+INV0201,PO0110,3387.91,Office Supplies,IT hardware procurement,2025-04-20,Pending,EMP028,False,False,False,False,False,False,False,False,9.337499662365191e-09,0,0.30841264128685,ok,False,0,Clear
+INV0202,PO0618,22561.15,IT Hardware,Furniture purchase,2026-02-16,Overdue,EMP015,False,False,False,False,False,False,False,False,3.534386905812425e-06,0,,no_contract_on_file,False,0,Clear
+INV0203,PO0608,1316.04,IT Hardware,Furniture purchase,2025-11-12,Paid,EMP076,False,False,False,False,False,False,False,False,3.384546653251164e-05,0,0.3299941718578338,ok,False,0,Clear
+INV0204,PO0591,8403.78,Catering,Office stationery supply,2026-08-28,Paid,EMP051,False,False,False,False,False,False,False,False,7.794508860570204e-07,0,,no_contract_on_file,False,0,Clear
+INV0205,PO0479,22135.89,Printing & Packaging,Software license renewal,2026-02-14,Paid,EMP039,False,False,False,False,False,False,False,False,0.0005960912676528,0,,no_contract_on_file,False,0,Clear
+INV0206,PO0452,7013.18,Printing & Packaging,IT hardware procurement,2026-08-09,Paid,EMP033,False,False,False,False,False,False,False,False,3.539345935853473e-24,0,0.2885772883892059,ok,False,0,Clear
+INV0207,PO0293,24356.23,Office Supplies,Printing and packaging materials,2026-02-22,Paid,EMP096,False,False,False,False,False,False,False,True,0.0007609059102833,0,,no_contract_on_file,True,1,Flagged
+INV0208,PO0296,7743.18,Software Licensing,Software license renewal,2025-04-19,Overdue,EMP049,False,False,False,False,False,False,False,False,9.893590910162462e-19,0,,no_contract_on_file,False,0,Clear
+INV0209,PO0243,4619.25,Software Licensing,Catering services,2025-12-23,Paid,EMP086,False,False,False,False,False,False,False,False,1.200606734053111e-15,0,,no_contract_on_file,False,0,Clear
+INV0210,PO0125,10392.49,Software Licensing,Office stationery supply,2025-05-10,Pending,EMP095,False,False,False,False,False,False,False,False,2.6218522524486948e-14,0,0.2491652965545654,ok,False,0,Clear
+INV0211,PO0402,15267.22,Software Licensing,Printing and packaging materials,2026-07-22,Overdue,EMP010,False,False,False,False,False,False,False,False,2.418086576173764e-15,0,0.1213357970118522,ok,False,0,Clear
+INV0212,PO0492,26087.42,Logistics,Furniture purchase,2025-08-21,Paid,EMP091,False,False,False,False,False,False,False,False,0.0005346271209418,0,0.264877438545227,ok,False,0,Clear
+INV0213,PO0414,20106.87,Printing & Packaging,Cleaning services,2026-05-13,Overdue,EMP003,False,False,False,False,False,False,False,False,1.9055131588174843e-06,0,0.0397181324660778,mismatch,False,0,Flagged
+INV0214,PO0209,9369.95,Office Supplies,Catering services,2025-03-15,Paid,EMP089,False,False,False,False,False,False,False,False,2.738132637292168e-12,0,,no_contract_on_file,False,0,Clear
+INV0215,PO0098,12398.23,IT Hardware,Software license renewal,2026-05-22,Pending,EMP014,False,False,False,False,False,False,False,False,0.0065415860153734,0,,no_contract_on_file,False,0,Clear
+INV0216,PO0585,803.63,Software Licensing,Printing and packaging materials,2025-02-08,Pending,EMP052,False,False,False,False,True,False,False,False,6.487908416498417e-18,0,0.1174887716770172,ok,True,1,Flagged
+INV0217,PO0050,7849.93,Printing & Packaging,Software license renewal,2026-02-22,Pending,EMP044,False,False,False,False,False,False,False,False,0.9998610019683838,1,,no_contract_on_file,False,0,Flagged
+INV0218,PO0338,9888.88,Cleaning Services,IT hardware procurement,2026-08-03,Overdue,EMP022,False,False,False,False,False,False,False,False,0.9988059997558594,1,0.2162647545337677,ok,False,0,Flagged
+INV0219,PO0665,3010.38,Logistics,Catering services,2026-05-26,Pending,EMP025,False,False,False,False,False,False,False,False,6.841837096871473e-10,0,0.245529443025589,ok,False,0,Clear
+INV0220,PO0182,19883.41,Logistics,Software license renewal,2025-10-21,Paid,EMP083,False,False,False,False,False,False,False,False,1.026964218908688e-05,0,0.1166863515973091,ok,False,0,Clear
+INV0221,PO0530,19186.79,Cleaning Services,Software license renewal,2026-01-13,Paid,EMP033,False,False,False,False,False,False,False,False,1.1168305036335369e-07,0,,no_contract_on_file,False,0,Clear
+INV0222,PO0211,13706.01,Catering,IT hardware procurement,2026-04-25,Paid,EMP020,False,False,False,False,False,False,False,False,2.468880028926369e-19,0,0.2066041678190231,ok,False,0,Clear
+INV0223,PO0240,24928.39,IT Hardware,Logistics and courier services,2025-11-06,Overdue,EMP081,False,True,False,False,False,False,False,False,0.9999957084655762,1,0.3926274478435516,ok,True,1,Flagged
+INV0224,PO0443,23921.17,Logistics,Catering services,2025-12-30,Overdue,EMP073,False,False,False,False,False,False,False,False,3.9279135499725726e-12,0,0.2275918424129486,ok,False,0,Clear
+INV0225,PO0632,4312.32,Office Supplies,Logistics and courier services,2025-10-09,Pending,EMP020,False,False,False,False,False,False,False,False,1.2017519424034616e-08,0,0.3448675572872162,ok,False,0,Clear
+INV0226,PO0681,17734.2,Software Licensing,Furniture purchase,2025-10-08,Overdue,EMP039,False,False,False,False,False,False,False,False,1.0689438667554896e-08,0,,no_contract_on_file,False,0,Clear
+INV0227,PO0664,4620.9,Software Licensing,Furniture purchase,2025-10-09,Pending,EMP046,False,False,False,False,False,False,False,False,5.623522543481733e-17,0,0.1413789093494415,ok,False,0,Clear
+INV0228,PO0335,21255.72,Software Licensing,Office stationery supply,2026-05-05,Pending,EMP005,False,False,False,False,False,False,False,False,0.9949389696121216,1,,no_contract_on_file,False,0,Flagged
+INV0229,PO0331,5773.94,Printing & Packaging,IT hardware procurement,2025-12-16,Overdue,EMP037,False,False,False,False,False,False,False,False,5.549638439766857e-13,0,0.2848068475723266,ok,False,0,Clear
+INV0230,PO0051,18685.81,Logistics,Office stationery supply,2025-03-26,Pending,EMP065,False,False,False,False,False,False,False,False,0.9991455078125,1,0.3056767582893371,ok,False,0,Flagged
+INV0231,PO0032,6253.82,Cleaning Services,Catering services,2025-08-29,Overdue,EMP074,False,False,False,False,False,False,False,False,2.2884145437274128e-05,0,0.2669945359230041,ok,False,0,Clear
+INV0232,PO0207,14926.9,Office Supplies,Cleaning services,2025-05-23,Paid,EMP065,False,False,False,False,False,False,False,False,5.683426351765775e-08,0,,no_contract_on_file,False,0,Clear
+INV0233,PO0373,18105.66,Printing & Packaging,Catering services,2025-06-24,Overdue,EMP014,False,False,False,False,False,False,False,False,1.265492599600293e-09,0,,no_contract_on_file,False,0,Clear
+INV0234,PO0174,14365.24,Printing & Packaging,Cleaning services,2025-06-01,Paid,EMP065,False,False,False,False,False,False,False,False,6.2479462030751165e-06,0,,no_contract_on_file,False,0,Clear
+INV0235,PO0410,6450.03,Catering,Logistics and courier services,2026-07-29,Pending,EMP091,False,False,False,False,False,False,False,False,0.9981385469436646,1,,no_contract_on_file,False,0,Flagged
+INV0236,PO0442,11208.66,Cleaning Services,Cleaning services,2026-06-06,Pending,EMP067,False,False,False,False,False,False,False,False,6.45627721951314e-07,0,,no_contract_on_file,False,0,Clear
+INV0237,PO0056,22679.16,Office Supplies,Catering services,2025-10-12,Overdue,EMP037,False,False,False,False,False,False,False,False,8.470845358488077e-09,0,0.1391314417123794,ok,False,0,Clear
+INV0238,PO0652,14081.95,IT Hardware,Catering services,2026-08-31,Paid,EMP007,False,False,False,False,False,False,False,False,1.5827349386654532e-07,0,0.1468070298433303,ok,False,0,Clear
+INV0239,PO0099,21092.39,Office Supplies,Printing and packaging materials,2025-12-17,Pending,EMP013,False,False,False,False,False,False,False,False,4.0683684687792265e-07,0,,no_contract_on_file,False,0,Clear
+INV0240,PO0486,3484.35,Printing & Packaging,Cleaning services,2025-07-12,Pending,EMP093,False,False,False,False,False,False,False,False,2.522045513240773e-14,0,0.0528691448271274,mismatch,False,0,Flagged
+INV0241,PO0609,15677.02,Cleaning Services,Catering services,2025-06-09,Pending,EMP075,False,False,False,False,False,False,False,False,7.010348213043471e-08,0,0.2656717300415039,ok,False,0,Clear
+INV0242,PO0230,15637.04,Cleaning Services,Printing and packaging materials,2025-03-06,Paid,EMP090,False,False,False,False,False,False,False,False,0.0058283857069909,0,,no_contract_on_file,False,0,Clear
+INV0243,PO0642,17213.89,Logistics,IT hardware procurement,2026-06-20,Pending,EMP091,False,False,False,False,False,False,False,False,3.6837084493868125e-09,0,,no_contract_on_file,False,0,Clear
+INV0244,PO0577,9153.5,Office Supplies,Catering services,2025-03-13,Paid,EMP049,False,False,False,False,False,False,False,False,4.04905300399605e-08,0,0.1667173504829406,ok,False,0,Clear
+INV0245,PO0586,14732.21,Catering,IT hardware procurement,2026-05-31,Overdue,EMP090,False,False,False,False,False,False,False,False,6.1511931368642524e-31,0,0.2090619504451751,ok,False,0,Clear
+INV0246,PO0503,24221.37,IT Hardware,Office stationery supply,2025-05-27,Pending,EMP055,False,False,False,False,False,False,False,False,0.0003888844221364,0,0.2795783579349518,ok,False,0,Clear
+INV0247,PO0237,17739.95,Office Supplies,Software license renewal,2025-07-04,Pending,EMP024,False,False,False,False,False,False,False,False,0.0254049785435199,0,,no_contract_on_file,False,0,Clear
+INV0248,PO0524,21492.9,Printing & Packaging,Cleaning services,2025-05-20,Paid,EMP063,False,False,False,False,False,False,False,False,7.379756553502964e-16,0,0.0546542555093765,mismatch,False,0,Flagged
+INV0249,PO0448,7793.13,Office Supplies,IT hardware procurement,2025-04-06,Overdue,EMP038,False,False,False,False,False,False,False,False,0.0001494041207479,0,0.313464343547821,ok,False,0,Clear
+INV0250,PO0039,7459.32,Office Supplies,Office stationery supply,2025-07-20,Overdue,EMP070,False,False,False,False,False,False,False,False,2.676996473383042e-06,0,0.5666161179542542,ok,False,0,Clear
+INV0251,PO0227,22534.75,Office Supplies,Printing and packaging materials,2025-03-19,Paid,EMP099,False,False,False,False,False,False,False,False,1.666629032115452e-05,0,0.2478973269462585,ok,False,0,Clear
+INV0252,PO0488,3937.27,Logistics,Cleaning services,2026-07-26,Overdue,EMP024,False,False,False,False,False,False,False,False,4.606003512624968e-12,0,,no_contract_on_file,False,0,Clear
+INV0253,PO0564,21385.81,Office Supplies,Printing and packaging materials,2026-04-16,Pending,EMP006,False,False,False,False,False,False,False,False,0.0002745630335994,0,,no_contract_on_file,False,0,Clear
+INV0254,PO0593,9302.76,Office Supplies,Logistics and courier services,2025-08-28,Overdue,EMP093,False,False,False,False,False,False,False,False,2.0304827264006062e-10,0,0.3397537171840668,ok,False,0,Clear
+INV0255,PO0697,17664.21,Catering,Logistics and courier services,2025-12-18,Paid,EMP097,False,False,False,False,False,False,False,False,1.3580779729960302e-11,0,,no_contract_on_file,False,0,Clear
+INV0256,PO0654,5612.76,Logistics,Logistics and courier services,2026-08-04,Paid,EMP031,False,False,False,False,False,False,False,False,0.0006754339556209,0,0.6107489466667175,ok,False,0,Clear
+INV0257,PO0698,25774.25,IT Hardware,Logistics and courier services,2026-03-26,Pending,EMP087,False,False,False,False,False,False,False,False,0.0004895910387858,0,0.3058009445667267,ok,False,0,Clear
+INV0258,PO0334,1738.24,IT Hardware,Printing and packaging materials,2025-08-22,Overdue,EMP037,False,False,False,False,False,False,False,False,1.5789227564289021e-12,0,,no_contract_on_file,False,0,Clear
+INV0259,PO0499,19728.81,Cleaning Services,Cleaning services,2026-03-24,Paid,EMP054,False,False,False,False,False,False,False,False,0.0008146751788444,0,,no_contract_on_file,False,0,Clear
+INV0260,PO0429,13625.58,Catering,Cleaning services,2025-01-31,Pending,EMP078,False,False,False,False,False,False,False,False,0.0008724556537345,0,,no_contract_on_file,False,0,Clear
+INV0261,PO0515,18286.71,Logistics,Logistics and courier services,2025-02-24,Pending,EMP083,False,False,False,False,False,False,False,False,5.801504812552594e-06,0,,no_contract_on_file,False,0,Clear
+INV0262,PO0048,14348.06,Logistics,IT hardware procurement,2025-04-03,Pending,EMP014,False,False,False,False,False,False,False,False,9.396780242809656e-09,0,,no_contract_on_file,False,0,Clear
+INV0263,PO0386,10584.85,Software Licensing,Logistics and courier services,2026-08-12,Overdue,EMP098,False,False,False,False,False,False,False,False,1.350547976980475e-15,0,0.1608317494392395,ok,False,0,Clear
+INV0264,PO0435,17871.47,Logistics,Software license renewal,2025-03-02,Pending,EMP056,False,False,False,False,False,False,False,False,4.996175348437326e-12,0,0.1166863292455673,ok,False,0,Clear
+INV0265,PO0504,20988.34,Software Licensing,Printing and packaging materials,2026-02-22,Paid,EMP045,False,False,False,False,False,False,False,False,0.0018756354693323,0,0.1324591636657714,ok,False,0,Clear
+INV0266,PO0086,19298.41,Printing & Packaging,Printing and packaging materials,2025-04-27,Paid,EMP065,False,False,False,False,False,False,False,False,8.600012080250964e-08,0,0.6038158535957336,ok,False,0,Clear
+INV0267,PO0534,13026.97,Office Supplies,Office stationery supply,2025-10-18,Pending,EMP029,False,False,False,False,False,False,False,False,1.3574681378969442e-09,0,,no_contract_on_file,False,0,Clear
+INV0268,PO0548,3425.32,Cleaning Services,Catering services,2025-10-20,Paid,EMP013,False,False,False,False,False,False,False,False,2.983562064073908e-09,0,,no_contract_on_file,False,0,Clear
+INV0269,PO0541,12791.44,Catering,Logistics and courier services,2025-05-04,Overdue,EMP005,False,False,False,False,False,False,False,False,2.352782030006352e-15,0,0.3068391978740692,ok,False,0,Clear
+INV0270,PO0500,11950.44,Software Licensing,Logistics and courier services,2025-03-16,Pending,EMP018,False,False,False,False,False,False,False,False,3.2747020156306816e-13,0,0.172207698225975,ok,False,0,Clear
+INV0271,PO0529,24278.51,Software Licensing,Office stationery supply,2026-07-05,Pending,EMP001,False,False,False,False,False,False,False,False,1.1231942754211719e-15,0,0.2402964979410171,ok,False,0,Clear
+INV0272,PO0687,10936.88,Office Supplies,Printing and packaging materials,2025-10-29,Paid,EMP020,False,False,False,False,False,False,False,False,3.3899073059728835e-06,0,,no_contract_on_file,False,0,Clear
+INV0273,PO0085,16573.42,Printing & Packaging,Software license renewal,2026-06-04,Pending,EMP037,False,False,False,False,False,False,False,False,2.5873941877918583e-11,0,,no_contract_on_file,False,0,Clear
+INV0274,PO0195,24900.22,Catering,Software license renewal,2025-05-26,Pending,EMP007,False,False,False,False,False,False,False,True,0.0108356270939111,0,,no_contract_on_file,True,1,Flagged
+INV0275,PO0002,10837.08,Cleaning Services,Logistics and courier services,2025-04-26,Paid,EMP080,False,False,False,False,False,False,False,False,0.9988449811935424,1,,no_contract_on_file,False,0,Flagged
+INV0276,PO0200,13839.41,Cleaning Services,Office stationery supply,2026-01-09,Overdue,EMP064,False,False,False,False,False,False,False,False,6.954092413025137e-09,0,,no_contract_on_file,False,0,Clear
+INV0277,PO0136,11079.45,Software Licensing,Cleaning services,2025-11-18,Pending,EMP074,False,False,False,False,False,False,False,False,6.182887591421604e-05,0,0.0561966300010681,mismatch,False,0,Flagged
+INV0278,PO0490,12626.76,Cleaning Services,Catering services,2026-02-05,Paid,EMP001,False,False,False,False,False,False,False,False,0.0101277101784944,0,,no_contract_on_file,False,0,Clear
+INV0279,PO0423,955.78,Printing & Packaging,IT hardware procurement,2026-05-28,Overdue,EMP054,False,False,False,False,False,False,False,False,0.0008356116595678,0,0.2835842370986938,ok,False,0,Clear
+INV0280,PO0233,20087.82,Software Licensing,Office stationery supply,2026-03-23,Pending,EMP009,False,False,False,False,False,False,False,False,1.4937762138345079e-09,0,0.2403114736080169,ok,False,0,Clear
+INV0281,PO0600,12580.51,Logistics,Office stationery supply,2026-04-08,Overdue,EMP061,False,False,False,False,False,False,False,False,6.121103979239706e-07,0,,no_contract_on_file,False,0,Clear
+INV0282,PO0457,11477.39,Logistics,Office stationery supply,2025-12-14,Pending,EMP048,False,False,False,False,False,False,False,False,1.7752238481300033e-12,0,0.3024015426635742,ok,False,0,Clear
+INV0283,PO0357,2602.98,Software Licensing,IT hardware procurement,2025-12-04,Overdue,EMP009,False,False,False,False,False,False,False,False,2.877674498431154e-14,0,0.262094646692276,ok,False,0,Clear
+INV0284,PO0375,2625.08,Software Licensing,Catering services,2026-03-04,Paid,EMP097,False,False,False,False,False,False,False,False,1.1894891809808433e-13,0,,no_contract_on_file,False,0,Clear
+INV0285,PO0422,8770.32,Cleaning Services,Catering services,2026-05-28,Overdue,EMP046,False,False,False,False,False,False,False,False,0.0005749955307692,0,,no_contract_on_file,False,0,Clear
+INV0286,PO0646,16097.18,Logistics,Logistics and courier services,2026-08-25,Overdue,EMP100,False,False,False,False,False,False,False,False,3.261798337916844e-05,0,0.614165186882019,ok,False,0,Clear
+INV0287,PO0339,9643.36,Cleaning Services,IT hardware procurement,2025-05-05,Overdue,EMP018,False,False,False,False,False,False,False,False,0.0018557311268523,0,,no_contract_on_file,False,0,Clear
+INV0288,PO0659,21753.69,Logistics,Office stationery supply,2026-05-12,Pending,EMP059,False,False,False,False,False,False,False,False,1.114736824092688e-05,0,,no_contract_on_file,False,0,Clear
+INV0289,PO0250,7520.44,Catering,Office stationery supply,2025-03-04,Pending,EMP006,False,False,False,False,False,False,False,False,6.09036487908554e-10,0,0.2295594215393066,ok,False,0,Clear
+INV0290,PO0080,13862.14,Software Licensing,Logistics and courier services,2026-05-07,Pending,EMP040,False,False,False,False,False,False,False,False,2.1506638023735838e-17,0,0.1659232079982757,ok,False,0,Clear
+INV0291,PO0461,25486.24,Printing & Packaging,Furniture purchase,2026-01-10,Pending,EMP097,False,False,False,False,False,False,False,False,6.779118932875859e-11,0,0.3204832375049591,ok,False,0,Clear
+INV0292,PO0152,16612.68,Catering,Office stationery supply,2025-05-13,Overdue,EMP100,False,False,False,False,False,False,False,False,1.3041897810591858e-17,0,,no_contract_on_file,False,0,Clear
+INV0293,PO0112,11121.32,Logistics,IT hardware procurement,2025-01-19,Pending,EMP035,False,False,False,False,False,False,False,False,2.246819397200284e-10,0,,no_contract_on_file,False,0,Clear
+INV0294,PO0030,3431.85,Printing & Packaging,Printing and packaging materials,2026-02-20,Pending,EMP052,False,False,False,False,False,False,False,False,3.1928131464926587e-18,0,0.6206812262535095,ok,False,0,Clear
+INV0295,PO0639,4506.08,Cleaning Services,Logistics and courier services,2026-05-04,Pending,EMP064,False,False,False,False,True,False,False,False,1.5241682831401704e-06,0,,no_contract_on_file,True,1,Flagged
+INV0296,PO0377,21738.99,Printing & Packaging,IT hardware procurement,2025-10-10,Overdue,EMP067,False,False,False,False,False,False,False,False,1.120562416190296e-07,0,0.2722702324390411,ok,False,0,Clear
+INV0297,PO0278,1947.17,Printing & Packaging,Cleaning services,2025-05-30,Overdue,EMP011,False,False,False,False,False,False,False,False,2.2437382978305802e-23,0,0.0495304130017757,mismatch,False,0,Flagged
+INV0298,PO0601,20805.77,Cleaning Services,IT hardware procurement,2025-12-31,Paid,EMP042,False,False,False,False,False,False,False,False,9.405439413967542e-06,0,,no_contract_on_file,False,0,Clear
+INV0299,PO0526,3168.38,Office Supplies,Logistics and courier services,2025-02-03,Overdue,EMP085,False,False,False,False,False,False,False,False,4.711310899489765e-20,0,0.3376363813877105,ok,False,0,Clear
+INV0300,PO0161,7429.56,Cleaning Services,Cleaning services,2025-12-27,Overdue,EMP055,False,False,False,False,False,False,False,False,0.0007485017413273,0,,no_contract_on_file,False,0,Clear
+INV0301,PO0407,10502.35,Software Licensing,Logistics and courier services,2026-06-30,Paid,EMP045,False,False,False,False,False,False,False,False,6.461373320068575e-13,0,,no_contract_on_file,False,0,Clear
+INV0302,PO0444,14049.42,Cleaning Services,Printing and packaging materials,2026-04-19,Pending,EMP046,False,False,False,False,False,False,False,False,0.012899181805551,0,,no_contract_on_file,False,0,Clear
+INV0303,PO0300,14077.72,Catering,Printing and packaging materials,2025-02-12,Pending,EMP008,False,False,False,False,False,False,False,False,0.0036286197137087,0,0.175762191414833,ok,False,0,Clear
+INV0304,PO0245,16085.09,IT Hardware,Office stationery supply,2025-09-08,Paid,EMP096,False,True,False,False,False,False,False,False,2.361781099580185e-07,0,0.293157011270523,ok,True,1,Flagged
+INV0305,PO0596,8613.63,Cleaning Services,Logistics and courier services,2026-08-17,Paid,EMP078,False,False,False,False,False,False,False,False,5.9738091226688175e-21,0,,no_contract_on_file,False,0,Clear
+INV0306,PO0532,17959.41,Cleaning Services,Software license renewal,2026-02-15,Overdue,EMP009,False,False,False,False,False,False,False,False,0.002238372573629,0,,no_contract_on_file,False,0,Clear
+INV0307,PO0540,19637.54,Office Supplies,Printing and packaging materials,2025-06-26,Overdue,EMP047,False,False,False,False,False,False,False,False,0.0014240803429856,0,,no_contract_on_file,False,0,Clear
+INV0308,PO0400,15051.63,Software Licensing,Cleaning services,2025-09-05,Overdue,EMP078,False,False,False,False,False,False,False,False,3.0972885269875405e-06,0,,no_contract_on_file,False,0,Clear
+INV0309,PO0261,19895.72,Office Supplies,Catering services,2025-11-22,Pending,EMP048,False,False,False,False,False,False,False,False,0.0036826496943831,0,,no_contract_on_file,False,0,Clear
+INV0310,PO0042,552.81,Logistics,Cleaning services,2026-02-28,Overdue,EMP010,False,False,False,False,False,False,False,False,4.9815701280329615e-19,0,,no_contract_on_file,False,0,Clear
+INV0311,PO0686,21966.08,Office Supplies,Furniture purchase,2025-10-04,Paid,EMP051,False,False,False,False,False,False,False,False,0.0003845946339424,0,0.3788506984710693,ok,False,0,Clear
+INV0312,PO0036,21664.0,Office Supplies,Cleaning services,2025-12-31,Pending,EMP004,False,False,False,False,False,False,False,False,7.977189852681477e-06,0,,no_contract_on_file,False,0,Clear
+INV0313,PO0305,6366.34,Logistics,IT hardware procurement,2025-05-06,Pending,EMP050,False,False,False,False,False,False,False,False,9.64284822657646e-07,0,0.3099779784679413,ok,False,0,Clear
+INV0314,PO0511,19705.3,Catering,Logistics and courier services,2025-03-04,Paid,EMP034,False,False,False,False,False,False,False,False,9.71281540439184e-13,0,,no_contract_on_file,False,0,Clear
+INV0315,PO0346,15916.88,Office Supplies,Logistics and courier services,2026-08-31,Paid,EMP037,False,False,False,False,False,False,False,False,0.0002868929004762,0,,no_contract_on_file,False,0,Clear
+INV0316,PO0121,5929.11,Logistics,IT hardware procurement,2026-04-06,Pending,EMP018,False,False,False,False,False,False,False,False,1.7115972923420486e-06,0,,no_contract_on_file,False,0,Clear
+INV0317,PO0469,24160.06,Printing & Packaging,Logistics and courier services,2026-08-03,Paid,EMP092,False,False,False,False,False,False,False,True,4.413453098095488e-06,0,,no_contract_on_file,True,1,Flagged
+INV0318,PO0062,15168.78,Catering,Catering services,2025-05-24,Overdue,EMP088,False,False,False,False,False,False,False,False,6.781705058633847e-11,0,0.6040481925010681,ok,False,0,Clear
+INV0319,PO0292,9453.13,Software Licensing,Furniture purchase,2025-02-24,Pending,EMP091,False,False,False,False,False,False,False,False,7.894039981692913e-07,0,0.1389369666576385,ok,False,0,Clear
+INV0320,PO0127,9341.59,Logistics,Cleaning services,2025-04-27,Pending,EMP021,False,False,False,False,False,False,False,False,6.907946226419881e-05,0,,no_contract_on_file,False,0,Clear
+INV0321,PO0602,8173.41,Catering,Software license renewal,2025-06-25,Paid,EMP029,False,False,False,False,False,False,False,False,3.076949360547587e-05,0,0.1485384106636047,ok,False,0,Clear
+INV0322,PO0651,10012.74,IT Hardware,Office stationery supply,2025-11-03,Pending,EMP064,False,True,False,False,False,False,False,False,0.9995484948158264,1,,no_contract_on_file,True,1,Flagged
+INV0323,PO0021,10924.87,Software Licensing,Cleaning services,2025-05-07,Overdue,EMP074,False,False,False,False,False,False,False,False,0.9987288117408752,1,0.0440861321985721,mismatch,False,0,Flagged
+INV0324,PO0318,23401.08,Cleaning Services,IT hardware procurement,2025-11-23,Pending,EMP012,False,False,False,False,False,False,False,False,0.9973594546318054,1,,no_contract_on_file,False,0,Flagged
+INV0325,PO0578,24966.16,IT Hardware,Printing and packaging materials,2026-06-30,Pending,EMP092,False,False,False,False,False,False,False,False,0.0001385770447086,0,0.227928951382637,ok,False,0,Clear
+INV0326,PO0628,6320.69,Logistics,IT hardware procurement,2025-02-23,Paid,EMP074,False,False,False,False,False,False,False,False,1.3593291825486632e-08,0,,no_contract_on_file,False,0,Clear
+INV0327,PO0337,20979.14,Catering,Logistics and courier services,2025-02-22,Overdue,EMP083,False,False,False,False,False,False,False,False,5.367068567352362e-09,0,0.2818441689014435,ok,False,0,Clear
+INV0328,PO0299,20126.85,Office Supplies,Cleaning services,2025-03-27,Overdue,EMP045,False,False,False,False,False,False,False,False,1.6045170747602808e-10,0,,no_contract_on_file,False,0,Clear
+INV0329,PO0290,10256.49,Printing & Packaging,Cleaning services,2025-02-23,Paid,EMP076,False,False,False,False,False,False,False,False,6.952927122260864e-16,0,,no_contract_on_file,False,0,Clear
+INV0330,PO0268,19703.11,IT Hardware,Office stationery supply,2026-04-07,Paid,EMP065,False,False,False,False,False,False,False,False,1.8848979834729107e-06,0,,no_contract_on_file,False,0,Clear
+INV0331,PO0565,15280.91,Catering,Furniture purchase,2025-06-20,Paid,EMP020,False,False,False,False,False,False,False,False,8.028813454075134e-07,0,,no_contract_on_file,False,0,Clear
+INV0332,PO0134,8871.1,IT Hardware,Software license renewal,2025-05-05,Pending,EMP042,False,False,False,False,False,False,False,False,0.0036425341386348,0,0.1535433083772659,ok,False,0,Clear
+INV0333,PO0663,1921.33,Software Licensing,IT hardware procurement,2025-12-16,Pending,EMP037,False,False,False,False,False,False,False,False,3.2735090406634827e-17,0,,no_contract_on_file,False,0,Clear
+INV0334,PO0502,8541.94,Software Licensing,Furniture purchase,2025-05-23,Paid,EMP082,False,False,False,False,False,False,False,False,0.0001302986784139,0,0.1419138461351394,ok,False,0,Clear
+INV0335,PO0401,10355.5,Printing & Packaging,IT hardware procurement,2025-03-02,Overdue,EMP039,False,False,False,False,False,False,False,False,1.8470011298177272e-08,0,,no_contract_on_file,False,0,Clear
+INV0336,PO0123,17719.95,Cleaning Services,Cleaning services,2026-03-23,Paid,EMP022,False,False,False,False,False,False,False,False,3.4259792300872505e-06,0,,no_contract_on_file,False,0,Clear
+INV0337,PO0424,22964.04,Cleaning Services,Catering services,2025-06-04,Overdue,EMP080,False,False,False,False,False,False,False,False,2.0727787541918727e-10,0,,no_contract_on_file,False,0,Clear
+INV0338,PO0203,23963.15,Logistics,Furniture purchase,2025-02-22,Overdue,EMP004,False,False,False,False,False,False,False,False,0.0037508206441998,0,0.2643564641475677,ok,False,0,Clear
+INV0339,PO0538,10124.2,Office Supplies,Office stationery supply,2025-07-03,Pending,EMP099,False,False,False,False,False,False,False,False,2.5706835850281256e-15,0,0.5726087093353271,ok,False,0,Clear
+INV0340,PO0344,12501.24,Cleaning Services,Furniture purchase,2025-12-26,Overdue,EMP081,False,False,False,False,False,False,False,False,7.770213414914906e-05,0,,no_contract_on_file,False,0,Clear
+INV0341,PO0472,1213.71,Catering,Printing and packaging materials,2025-12-25,Pending,EMP062,False,False,False,False,False,False,False,False,0.0103002283722162,0,0.1778026968240738,ok,False,0,Clear
+INV0342,PO0154,13955.88,Cleaning Services,Office stationery supply,2026-04-06,Paid,EMP010,False,False,False,False,False,False,False,False,0.0004454595327842,0,,no_contract_on_file,False,0,Clear
+INV0343,PO0603,4667.58,Cleaning Services,Logistics and courier services,2025-10-03,Pending,EMP054,False,False,False,False,False,False,False,False,0.0009862573351711,0,,no_contract_on_file,False,0,Clear
+INV0344,PO0370,17095.3,Catering,Catering services,2025-11-06,Overdue,EMP044,False,False,False,False,False,False,False,False,8.386499757762067e-06,0,0.5899064540863037,ok,False,0,Clear
+INV0345,PO0038,11491.03,Office Supplies,Catering services,2025-09-18,Pending,EMP094,False,False,False,False,False,False,False,False,1.556592792439915e-07,0,,no_contract_on_file,False,0,Clear
+INV0346,PO0005,4309.25,Office Supplies,Catering services,2025-06-16,Overdue,EMP098,False,False,False,False,False,False,False,False,3.788864205489517e-06,0,,no_contract_on_file,False,0,Clear
+INV0347,PO0358,13995.09,Software Licensing,Logistics and courier services,2025-10-31,Paid,EMP014,False,False,False,False,False,False,False,False,4.676740900322329e-06,0,0.1719921380281448,ok,False,0,Clear
+INV0348,PO0319,6639.83,Catering,Software license renewal,2025-12-26,Paid,EMP058,False,False,False,False,False,False,False,False,2.7314312270321217e-11,0,,no_contract_on_file,False,0,Clear
+INV0349,PO0289,5438.98,Printing & Packaging,Furniture purchase,2025-03-08,Pending,EMP007,False,False,False,False,False,False,False,False,8.009727325841708e-10,0,,no_contract_on_file,False,0,Clear
+INV0350,PO0052,6997.41,Logistics,Printing and packaging materials,2025-03-31,Paid,EMP079,False,False,False,False,False,False,False,False,9.578643656027452e-09,0,,no_contract_on_file,False,0,Clear
+INV0351,PO0356,11026.08,Cleaning Services,Catering services,2025-11-15,Paid,EMP021,False,False,False,False,False,False,False,False,0.0001479405618738,0,0.2808024883270263,ok,False,0,Clear
+INV0352,PO0276,7125.05,Logistics,Logistics and courier services,2025-09-12,Pending,EMP021,False,False,False,False,False,False,False,False,1.4693847333546728e-05,0,0.6296646595001221,ok,False,0,Clear
+INV0353,PO0431,6403.74,Software Licensing,Logistics and courier services,2025-05-05,Paid,EMP040,False,False,False,False,False,False,False,False,5.322740026514339e-10,0,,no_contract_on_file,False,0,Clear
+INV0354,PO0260,5002.88,Logistics,Software license renewal,2025-11-16,Paid,EMP051,False,False,False,False,False,False,False,False,2.5230850742019584e-10,0,0.1490329205989837,ok,False,0,Clear
+INV0355,PO0629,20525.96,Office Supplies,Office stationery supply,2025-10-13,Paid,EMP046,False,False,False,False,False,False,False,False,1.2520247594238756e-07,0,,no_contract_on_file,False,0,Clear
+INV0356,PO0362,8554.68,Catering,Logistics and courier services,2025-04-27,Pending,EMP064,False,False,False,False,False,False,False,False,2.430881678031156e-19,0,0.3063448369503021,ok,False,0,Clear
+INV0357,PO0179,20659.94,Printing & Packaging,Printing and packaging materials,2025-11-12,Paid,EMP002,False,False,False,False,False,False,False,False,7.947750901848849e-08,0,0.6038158535957336,ok,False,0,Clear
+INV0358,PO0657,11862.14,IT Hardware,Catering services,2026-01-31,Pending,EMP034,False,False,False,False,False,False,False,False,1.5721981583283198e-07,0,,no_contract_on_file,False,0,Clear
+INV0359,PO0126,14397.3,Software Licensing,Software license renewal,2026-05-17,Pending,EMP006,False,False,False,False,False,False,False,False,0.9989789724349976,1,0.6852679252624512,ok,False,0,Flagged
+INV0360,PO0190,7819.95,IT Hardware,Logistics and courier services,2026-02-20,Overdue,EMP037,False,False,False,False,False,False,False,False,3.05694411508739e-05,0,0.3122094273567199,ok,False,0,Clear
+INV0361,PO0146,20624.82,Logistics,IT hardware procurement,2026-08-18,Paid,EMP080,False,False,False,False,False,False,False,False,1.2070348054393776e-09,0,,no_contract_on_file,False,0,Clear
+INV0362,PO0394,21926.57,Logistics,Catering services,2026-01-22,Pending,EMP051,False,False,False,False,False,False,False,False,0.0055160135962069,0,,no_contract_on_file,False,0,Clear
+INV0363,PO0590,9652.97,Office Supplies,Cleaning services,2025-05-03,Paid,EMP047,False,False,False,False,False,False,False,False,2.7364276887183528e-14,0,,no_contract_on_file,False,0,Clear
+INV0364,PO0279,13945.7,Cleaning Services,Printing and packaging materials,2025-01-30,Overdue,EMP066,False,False,False,False,False,False,False,False,0.0031839802395552,0,,no_contract_on_file,False,0,Clear
+INV0365,PO0155,24342.1,Software Licensing,Office stationery supply,2026-03-26,Paid,EMP006,False,False,False,False,False,False,False,True,2.5032451111961507e-10,0,,no_contract_on_file,True,1,Flagged
+INV0366,PO0314,24473.14,Logistics,Logistics and courier services,2025-11-25,Paid,EMP043,False,False,False,False,False,False,False,False,0.004223866853863,0,0.6137264370918274,ok,False,0,Clear
+INV0367,PO0656,10801.58,Office Supplies,Cleaning services,2026-01-09,Pending,EMP066,False,False,False,False,False,False,False,False,7.010043934219111e-11,0,,no_contract_on_file,False,0,Clear
+INV0368,PO0355,14173.12,Office Supplies,Catering services,2026-05-26,Paid,EMP079,False,False,False,False,False,False,False,False,9.219303365171072e-07,0,,no_contract_on_file,False,0,Clear
+INV0369,PO0284,25410.33,Printing & Packaging,Furniture purchase,2025-07-18,Overdue,EMP079,False,False,False,False,False,False,False,False,2.115006433878186e-11,0,0.3086368441581726,ok,False,0,Clear
+INV0370,PO0359,19080.72,Software Licensing,Logistics and courier services,2025-12-26,Overdue,EMP065,False,False,False,False,False,False,False,False,2.490904704721686e-10,0,0.1700580269098281,ok,False,0,Clear
+INV0371,PO0054,18937.29,Logistics,Office stationery supply,2026-07-06,Pending,EMP039,False,False,False,False,False,False,False,False,3.4345401522806185e-11,0,0.3056767582893371,ok,False,0,Clear
+INV0372,PO0069,24188.78,IT Hardware,IT hardware procurement,2026-02-19,Pending,EMP087,False,False,False,False,False,False,False,True,0.0077114044688642,0,,no_contract_on_file,True,1,Flagged
+INV0373,PO0438,19661.19,Cleaning Services,Office stationery supply,2025-10-25,Overdue,EMP040,False,False,False,False,False,False,False,False,7.831965759502275e-20,0,0.2192694246768951,ok,False,0,Clear
+INV0374,PO0576,12722.84,Printing & Packaging,Software license renewal,2025-02-13,Overdue,EMP034,False,False,False,False,False,False,False,False,3.618589260699634e-13,0,,no_contract_on_file,False,0,Clear
+INV0375,PO0055,23411.9,Printing & Packaging,Printing and packaging materials,2025-05-19,Paid,EMP075,False,False,False,False,False,False,False,False,0.0003739572421181,0,0.6262325048446655,ok,False,0,Clear
+INV0376,PO0549,23874.95,Office Supplies,Software license renewal,2025-07-17,Paid,EMP088,False,False,False,False,False,False,False,True,0.0103041371330618,0,,no_contract_on_file,True,1,Flagged
+INV0377,PO0610,5570.35,Office Supplies,IT hardware procurement,2026-05-17,Paid,EMP090,False,False,False,False,False,False,False,False,8.54310327187177e-19,0,,no_contract_on_file,False,0,Clear
+INV0378,PO0140,23135.82,Cleaning Services,Catering services,2026-04-11,Pending,EMP057,False,False,False,False,False,False,False,False,0.0221609771251678,0,,no_contract_on_file,False,0,Clear
+INV0379,PO0145,1133.69,Cleaning Services,Software license renewal,2026-03-22,Pending,EMP053,False,False,False,False,False,False,False,False,0.0021444936282932,0,,no_contract_on_file,False,0,Clear
+INV0380,PO0310,6462.2,Software Licensing,Logistics and courier services,2025-11-13,Overdue,EMP100,False,False,False,False,False,False,False,False,0.0461128056049346,0,0.1707584708929062,ok,False,0,Clear
+INV0381,PO0108,1129.12,Catering,Cleaning services,2025-06-29,Overdue,EMP008,False,False,False,False,False,False,False,False,1.7090102357633512e-17,0,,no_contract_on_file,False,0,Clear
+INV0382,PO0625,24850.24,Printing & Packaging,Logistics and courier services,2025-04-23,Overdue,EMP072,False,False,False,False,False,False,False,False,6.633253360632807e-05,0,0.3905806839466095,ok,False,0,Clear
+INV0383,PO0413,18245.48,Logistics,Cleaning services,2025-03-23,Pending,EMP041,False,False,False,False,False,False,False,False,2.9333550699561783e-08,0,,no_contract_on_file,False,0,Clear
+INV0384,PO0328,8318.34,Logistics,Catering services,2026-01-30,Overdue,EMP069,False,False,False,False,False,False,False,False,8.888209868348461e-17,0,,no_contract_on_file,False,0,Clear
+INV0385,PO0259,3965.0,Logistics,Furniture purchase,2025-12-14,Overdue,EMP087,False,False,False,False,False,False,False,False,1.5264547438553766e-13,0,,no_contract_on_file,False,0,Clear
+INV0386,PO0622,14025.33,Printing & Packaging,Software license renewal,2025-04-08,Pending,EMP025,False,False,False,False,False,False,False,False,1.9995397698702174e-11,0,,no_contract_on_file,False,0,Clear
+INV0387,PO0536,19257.84,Logistics,Furniture purchase,2025-11-23,Pending,EMP039,False,False,False,False,False,False,False,False,1.1787528418627513e-12,0,0.2664008736610412,ok,False,0,Clear
+INV0388,PO0027,19262.94,Office Supplies,Logistics and courier services,2026-05-25,Pending,EMP027,False,False,False,False,False,False,False,False,0.0013802383327856,0,,no_contract_on_file,False,0,Clear
+INV0389,PO0447,2538.55,IT Hardware,Furniture purchase,2026-02-02,Pending,EMP045,False,False,False,False,False,False,False,False,0.0008076694793999,0,0.3419735133647918,ok,False,0,Clear
+INV0390,PO0419,4934.55,Catering,Printing and packaging materials,2025-11-26,Pending,EMP074,False,False,False,False,False,False,False,False,4.4161126311337284e-07,0,0.1806432157754898,ok,False,0,Clear
+INV0391,PO0589,4118.94,Cleaning Services,Cleaning services,2025-07-15,Pending,EMP045,False,False,False,False,False,False,False,False,0.0043658651411533,0,,no_contract_on_file,False,0,Clear
+INV0392,PO0023,10462.23,Logistics,IT hardware procurement,2026-05-29,Pending,EMP037,False,False,False,False,False,False,False,False,9.03839318198152e-05,0,0.2911266982555389,ok,False,0,Clear
+INV0393,PO0426,2165.21,Cleaning Services,Furniture purchase,2026-03-14,Overdue,EMP057,False,False,False,False,False,False,False,False,2.9242885446478798e-08,0,,no_contract_on_file,False,0,Clear
+INV0394,PO0171,11132.3,Cleaning Services,Software license renewal,2025-10-30,Overdue,EMP028,False,False,False,False,False,False,False,False,8.065995871220366e-09,0,,no_contract_on_file,False,0,Clear
+INV0395,PO0067,5663.87,Office Supplies,Cleaning services,2026-02-01,Paid,EMP072,False,False,False,False,False,False,False,False,4.935285460305749e-07,0,0.1113874018192291,ok,False,0,Clear
+INV0396,PO0135,12057.93,Logistics,Software license renewal,2026-06-30,Paid,EMP095,False,False,False,False,False,False,False,False,6.729397312825458e-13,0,0.131283551454544,ok,False,0,Clear
+INV0397,PO0083,1210.17,Catering,Software license renewal,2025-06-11,Paid,EMP068,False,False,False,False,False,False,False,False,1.9732498890464347e-26,0,0.1171336024999618,ok,False,0,Clear
+INV0398,PO0450,5853.96,Logistics,Logistics and courier services,2025-04-18,Paid,EMP053,False,False,False,False,False,False,False,False,1.0227390703221315e-06,0,0.631045401096344,ok,False,0,Clear
+INV0399,PO0283,9143.99,IT Hardware,Cleaning services,2025-11-06,Paid,EMP099,False,False,False,False,False,False,False,False,7.51724460457126e-09,0,,no_contract_on_file,False,0,Clear
+INV0400,PO0219,24216.05,Printing & Packaging,Logistics and courier services,2025-04-13,Pending,EMP021,False,False,False,False,False,False,False,False,2.608525839775666e-09,0,0.3924948573112488,ok,False,0,Clear
+INV0401,PO0288,23425.02,Office Supplies,Furniture purchase,2025-07-10,Pending,EMP026,False,False,False,False,False,False,False,False,0.0062275812961161,0,0.3788506984710693,ok,False,0,Clear
+INV0402,PO0615,8922.89,Software Licensing,Office stationery supply,2025-06-09,Paid,EMP083,False,False,False,False,False,False,False,False,2.0887460649987592e-09,0,,no_contract_on_file,False,0,Clear
+INV0403,PO0614,20559.19,Cleaning Services,Office stationery supply,2026-04-07,Paid,EMP074,False,False,False,False,False,False,False,False,1.2220185752198633e-08,0,0.2303302884101867,ok,False,0,Clear
+INV0404,PO0451,24372.63,Software Licensing,Office stationery supply,2026-02-06,Pending,EMP023,False,False,False,False,False,False,False,False,2.4793405373202404e-06,0,0.2402964979410171,ok,False,0,Clear
+INV0405,PO0077,12697.06,Printing & Packaging,Furniture purchase,2026-03-02,Paid,EMP064,False,False,False,False,False,False,False,False,6.020506142234705e-12,0,0.3301346004009247,ok,False,0,Clear
+INV0406,PO0280,10647.29,Cleaning Services,IT hardware procurement,2025-04-25,Pending,EMP039,False,False,False,False,False,False,False,False,0.99955552816391,1,0.2162647545337677,ok,False,0,Flagged
+INV0407,PO0019,15112.02,Software Licensing,Logistics and courier services,2025-06-11,Paid,EMP059,False,False,False,False,False,False,False,False,3.914094742762941e-11,0,,no_contract_on_file,False,0,Clear
+INV0408,PO0341,16753.95,Cleaning Services,Software license renewal,2026-06-11,Paid,EMP065,False,False,False,False,False,False,False,False,1.368021003145259e-07,0,0.2108312994241714,ok,False,0,Clear
+INV0409,PO0302,17401.88,Catering,Furniture purchase,2026-02-03,Overdue,EMP021,False,False,False,False,False,False,False,False,3.9027059361984574e-10,0,0.2715704143047333,ok,False,0,Clear
+INV0410,PO0076,1754.43,Printing & Packaging,Furniture purchase,2025-05-11,Overdue,EMP002,False,False,False,False,False,False,False,False,0.4806947112083435,0,0.3234816491603851,ok,False,0,Clear
+INV0411,PO0482,16932.18,Printing & Packaging,Software license renewal,2025-08-01,Paid,EMP097,False,False,False,False,False,False,False,False,0.9995809197425842,1,,no_contract_on_file,False,0,Flagged
+INV0412,PO0556,10785.49,Software Licensing,Printing and packaging materials,2025-04-27,Pending,EMP082,False,False,False,False,False,False,False,False,2.1336174493846727e-10,0,,no_contract_on_file,False,0,Clear
+INV0413,PO0683,5885.61,Catering,IT hardware procurement,2025-12-14,Paid,EMP042,False,False,False,False,False,False,False,False,1.4351507527178675e-17,0,0.2017211318016052,ok,False,0,Clear
+INV0414,PO0158,24903.26,Logistics,Software license renewal,2026-05-29,Paid,EMP062,False,False,False,False,False,False,False,False,0.0002330158604308,0,0.1564177274703979,ok,False,0,Clear
+INV0415,PO0187,13505.88,Printing & Packaging,Software license renewal,2025-07-30,Pending,EMP050,False,False,False,False,False,False,False,False,1.1643647823689209e-08,0,,no_contract_on_file,False,0,Clear
+INV0416,PO0378,780.18,IT Hardware,Catering services,2025-11-19,Pending,EMP035,False,False,False,False,False,False,False,False,5.1554206237369726e-08,0,,no_contract_on_file,False,0,Clear
+INV0417,PO0184,17105.23,Office Supplies,Office stationery supply,2025-08-23,Pending,EMP093,False,False,False,False,False,False,False,False,0.0010911620920524,0,,no_contract_on_file,False,0,Clear
+INV0418,PO0528,7327.9,Logistics,Office stationery supply,2026-06-02,Overdue,EMP047,False,False,False,False,False,False,False,False,8.616186823928729e-05,0,0.2960223257541656,ok,False,0,Clear
+INV0419,PO0453,7075.97,Software Licensing,Furniture purchase,2025-06-25,Paid,EMP060,False,False,False,False,False,False,False,False,2.193099722897106e-16,0,,no_contract_on_file,False,0,Clear
+INV0420,PO0053,4364.8,Printing & Packaging,Furniture purchase,2025-03-19,Overdue,EMP088,False,False,False,False,False,False,False,False,6.507940887578999e-13,0,,no_contract_on_file,False,0,Clear
+INV0421,PO0481,6530.04,Printing & Packaging,Furniture purchase,2025-03-08,Pending,EMP082,False,False,False,False,False,False,False,False,2.19987050797954e-08,0,0.3162963390350342,ok,False,0,Clear
+INV0422,PO0531,5785.7,Logistics,Software license renewal,2025-01-28,Paid,EMP029,False,False,False,False,False,False,False,False,1.008171590655138e-08,0,,no_contract_on_file,False,0,Clear
+INV0423,PO0611,24132.71,Logistics,Catering services,2025-04-02,Pending,EMP020,False,False,False,False,False,False,False,False,0.0175472814589738,0,0.2434951961040496,ok,False,0,Clear
+INV0424,PO0436,23019.23,Office Supplies,Logistics and courier services,2025-12-18,Overdue,EMP071,False,False,False,False,False,False,False,False,1.1557040879850431e-09,0,,no_contract_on_file,False,0,Clear
+INV0425,PO0084,16558.37,Cleaning Services,Software license renewal,2026-04-25,Overdue,EMP086,False,False,False,False,False,False,False,False,0.0002972176880575,0,0.1982955187559127,ok,False,0,Clear
+INV0426,PO0091,7227.64,Software Licensing,IT hardware procurement,2026-07-01,Overdue,EMP077,False,False,False,False,False,False,False,False,7.39550620471487e-17,0,,no_contract_on_file,False,0,Clear
+INV0427,PO0212,2300.52,Cleaning Services,Catering services,2025-04-29,Paid,EMP068,False,False,False,False,False,False,False,False,5.58563334474016e-11,0,,no_contract_on_file,False,0,Clear
+INV0428,PO0013,6757.73,IT Hardware,Software license renewal,2026-02-08,Overdue,EMP073,False,False,False,False,False,False,False,False,0.003895946079865,0,0.1471633464097976,ok,False,0,Clear
+INV0429,PO0092,5956.94,Catering,Logistics and courier services,2025-10-29,Paid,EMP020,False,False,False,False,False,False,False,False,1.4720794583311656e-09,0,0.3150272369384765,ok,False,0,Clear
+INV0430,PO0307,5404.37,Software Licensing,Logistics and courier services,2025-08-19,Paid,EMP027,False,False,False,False,False,False,False,False,2.7848479883349663e-14,0,,no_contract_on_file,False,0,Clear
+INV0431,PO0496,15548.53,Logistics,Office stationery supply,2026-03-27,Pending,EMP066,False,False,False,False,False,False,False,False,0.0009150268160738,0,0.293157011270523,ok,False,0,Clear
+INV0432,PO0649,19254.12,Logistics,Printing and packaging materials,2025-11-05,Pending,EMP066,False,False,False,False,False,False,False,False,2.860819677152904e-06,0,,no_contract_on_file,False,0,Clear
+INV0433,PO0137,10127.98,IT Hardware,Furniture purchase,2025-08-11,Overdue,EMP008,False,False,False,False,False,False,False,False,2.4252193135676503e-14,0,0.3368256688117981,ok,False,0,Clear
+INV0434,PO0638,15054.07,Printing & Packaging,Furniture purchase,2025-02-02,Paid,EMP051,False,False,False,False,False,False,False,False,0.0026829128619283,0,,no_contract_on_file,False,0,Clear
+INV0435,PO0510,6225.75,Printing & Packaging,Office stationery supply,2026-07-27,Pending,EMP028,False,False,False,False,False,False,False,False,0.8310142755508423,1,0.4086132049560547,ok,False,0,Flagged
+INV0436,PO0196,5864.55,Catering,Office stationery supply,2025-04-16,Paid,EMP090,False,False,False,False,False,False,False,False,6.104101599180289e-13,0,0.2221842259168625,ok,False,0,Clear
+INV0437,PO0623,15764.92,Printing & Packaging,Office stationery supply,2026-07-02,Pending,EMP061,False,False,False,False,False,False,False,False,5.93669369663985e-07,0,,no_contract_on_file,False,0,Clear
+INV0438,PO0241,18325.97,Office Supplies,Printing and packaging materials,2026-04-24,Pending,EMP024,False,False,False,False,False,False,False,False,3.807354369200766e-05,0,0.2726041972637176,ok,False,0,Clear
+INV0439,PO0114,2233.65,IT Hardware,Printing and packaging materials,2026-07-21,Pending,EMP049,False,False,False,False,False,False,False,False,0.0105221131816506,0,0.2128887176513672,ok,False,0,Clear
+INV0440,PO0103,12022.52,Logistics,Cleaning services,2025-10-14,Overdue,EMP088,False,False,False,False,False,False,False,False,5.1502994577457e-12,0,,no_contract_on_file,False,0,Clear
+INV0441,PO0517,13226.38,Printing & Packaging,IT hardware procurement,2025-04-04,Paid,EMP045,False,False,False,False,False,False,False,False,4.753397120360603e-10,0,,no_contract_on_file,False,0,Clear
+INV0442,PO0180,22602.36,Printing & Packaging,Software license renewal,2025-08-01,Paid,EMP051,False,False,False,False,False,False,False,False,2.4501180733688057e-17,0,0.1812397837638855,ok,False,0,Clear
+INV0443,PO0554,15039.78,Catering,Logistics and courier services,2025-09-09,Overdue,EMP003,False,False,False,False,False,False,False,False,5.052952685175721e-14,0,0.3158672451972961,ok,False,0,Clear
+INV0444,PO0117,10990.59,Software Licensing,Printing and packaging materials,2026-06-03,Paid,EMP070,False,False,False,False,False,False,False,False,3.4545288721613e-13,0,0.1322496831417083,ok,False,0,Clear
+INV0445,PO0546,9587.84,Logistics,Furniture purchase,2025-06-07,Paid,EMP059,False,False,False,False,False,False,False,False,0.0001182488922495,0,0.2624471187591553,ok,False,0,Clear
+INV0446,PO0671,22255.36,IT Hardware,IT hardware procurement,2026-07-02,Paid,EMP093,False,False,False,False,False,False,False,False,0.0303194429725408,0,,no_contract_on_file,False,0,Clear
+INV0447,PO0169,23153.95,Logistics,Office stationery supply,2025-12-26,Paid,EMP085,False,False,False,False,False,False,False,False,1.0620543662298587e-06,0,0.3182138800621032,ok,False,0,Clear
+INV0448,PO0484,754.05,Software Licensing,Office stationery supply,2025-12-27,Pending,EMP009,False,False,False,False,False,False,False,False,2.787123830338967e-13,0,0.2264770269393921,ok,False,0,Clear
+INV0449,PO0392,23232.71,Office Supplies,Office stationery supply,2025-03-22,Paid,EMP087,False,False,False,False,False,False,False,False,0.0192480888217687,0,0.5730907917022705,ok,False,0,Clear
+INV0450,PO0428,14015.27,Logistics,Printing and packaging materials,2026-05-27,Pending,EMP006,False,False,False,False,False,False,False,False,5.6600457654099046e-09,0,,no_contract_on_file,False,0,Clear
+INV0451,PO0458,5420.86,IT Hardware,Software license renewal,2025-11-08,Paid,EMP070,False,False,False,False,False,False,False,False,0.0002932685310952,0,,no_contract_on_file,False,0,Clear
+INV0452,PO0222,11303.79,Cleaning Services,Software license renewal,2025-02-25,Overdue,EMP065,False,False,False,False,False,False,False,False,1.357037149318785e-07,0,0.2215652018785476,ok,False,0,Clear
+INV0453,PO0018,3779.1,Software Licensing,Catering services,2026-06-16,Paid,EMP041,False,False,False,False,False,False,False,False,4.5833183168891845e-14,0,0.057899709790945,mismatch,False,0,Flagged
+INV0454,PO0198,21147.9,Software Licensing,Software license renewal,2025-04-17,Pending,EMP019,False,False,False,False,False,False,False,False,0.0639688447117805,0,0.6870237588882446,ok,False,0,Clear
+INV0455,PO0412,15321.75,Logistics,Office stationery supply,2025-02-27,Overdue,EMP036,False,False,False,False,False,False,False,False,6.4292074980064766e-15,0,,no_contract_on_file,False,0,Clear
+INV0456,PO0691,7556.11,Logistics,Printing and packaging materials,2025-10-16,Overdue,EMP095,False,False,False,False,False,False,False,False,5.10578547618934e-06,0,0.3568733930587768,ok,False,0,Clear
+INV0457,PO0165,17778.08,IT Hardware,Catering services,2025-02-22,Overdue,EMP007,False,False,False,False,False,False,False,False,2.2396790200218677e-07,0,,no_contract_on_file,False,0,Clear
+INV0458,PO0131,25039.47,Cleaning Services,Catering services,2025-12-26,Overdue,EMP049,False,False,False,False,False,False,False,False,3.681252565002069e-07,0,0.2459852695465088,ok,False,0,Clear
+INV0459,PO0252,12816.6,IT Hardware,Printing and packaging materials,2026-04-13,Paid,EMP053,False,False,False,False,False,False,False,False,0.0011327421525493,0,0.2353208065032959,ok,False,0,Clear
+INV0460,PO0467,22439.79,Software Licensing,Logistics and courier services,2026-07-24,Paid,EMP069,False,False,False,False,False,False,False,False,0.027178319171071,0,,no_contract_on_file,False,0,Clear
+INV0461,PO0216,8400.54,Catering,Cleaning services,2026-03-31,Pending,EMP029,False,False,False,False,False,False,False,False,0.0082973875105381,0,0.167061373591423,ok,False,0,Clear
+INV0462,PO0138,565.56,Cleaning Services,Printing and packaging materials,2025-07-12,Pending,EMP008,False,False,False,False,False,False,False,False,0.0033083162270486,0,,no_contract_on_file,False,0,Clear
+INV0463,PO0551,6826.91,Catering,Software license renewal,2025-01-18,Pending,EMP068,False,False,False,False,False,False,False,False,2.9649632779182863e-05,0,0.1348098814487457,ok,False,0,Clear
+INV0464,PO0440,1732.11,Printing & Packaging,Logistics and courier services,2025-03-24,Pending,EMP043,False,False,False,False,False,False,False,False,2.907343810143459e-11,0,0.4164897799491882,ok,False,0,Clear
+INV0465,PO0393,3422.77,Printing & Packaging,Software license renewal,2026-03-09,Paid,EMP069,False,False,False,False,False,False,False,False,3.4369371348930144e-08,0,0.1583572477102279,ok,False,0,Clear
+INV0466,PO0483,15477.06,Software Licensing,Office stationery supply,2026-06-30,Paid,EMP049,False,False,False,False,False,False,False,False,0.0015794999198988,0,,no_contract_on_file,False,0,Clear
+INV0467,PO0557,15387.65,Catering,Software license renewal,2025-05-30,Pending,EMP098,False,False,False,False,False,False,False,False,0.052573449909687,0,0.1297816634178161,ok,False,0,Clear
+INV0468,PO0046,2178.77,Office Supplies,Furniture purchase,2025-03-04,Paid,EMP043,False,False,False,False,False,False,False,False,8.526472861092316e-10,0,,no_contract_on_file,False,0,Clear
+INV0469,PO0149,23625.2,Cleaning Services,IT hardware procurement,2026-05-01,Overdue,EMP025,False,False,False,False,False,False,False,False,1.2229294996373569e-13,0,0.1999684870243072,ok,False,0,Clear
+INV0470,PO0620,15058.42,Catering,Software license renewal,2025-05-23,Pending,EMP062,False,False,False,False,False,False,False,False,0.9979451298713684,1,0.1259888559579849,ok,False,0,Flagged
+INV0471,PO0010,9813.09,Software Licensing,Catering services,2025-11-08,Pending,EMP031,False,False,False,False,False,False,False,False,1.41600438041678e-08,0,,no_contract_on_file,False,0,Clear
+INV0472,PO0475,20349.56,Logistics,Catering services,2025-11-30,Pending,EMP060,False,False,False,False,False,False,False,False,8.214846616283467e-07,0,,no_contract_on_file,False,0,Clear
+INV0473,PO0153,15339.15,Cleaning Services,Logistics and courier services,2026-03-05,Pending,EMP047,False,False,False,False,False,False,False,False,9.392057173217975e-15,0,0.2909117341041565,ok,False,0,Clear
+INV0474,PO0408,23926.93,Cleaning Services,Catering services,2026-01-23,Paid,EMP093,False,False,False,False,False,False,False,False,0.0002685309736989,0,0.2459852695465088,ok,False,0,Clear
+INV0475,PO0089,22481.6,Software Licensing,Printing and packaging materials,2026-06-07,Paid,EMP041,False,False,False,False,False,False,False,False,4.856936357100494e-06,0,,no_contract_on_file,False,0,Clear
+INV0476,PO0286,8947.66,Logistics,Cleaning services,2025-09-27,Paid,EMP029,False,False,False,False,False,False,False,False,5.550962356437594e-09,0,,no_contract_on_file,False,0,Clear
+INV0477,PO0202,10680.45,IT Hardware,Printing and packaging materials,2025-04-09,Pending,EMP071,False,False,False,False,False,False,False,False,4.6937060460550135e-08,0,0.231885939836502,ok,False,0,Clear
+INV0478,PO0525,14246.11,Software Licensing,Printing and packaging materials,2025-09-14,Overdue,EMP026,False,False,False,False,False,False,False,False,2.3020831943081137e-19,0,0.1277071833610534,ok,False,0,Clear
+INV0479,PO0303,2383.69,Office Supplies,Logistics and courier services,2026-01-29,Overdue,EMP032,False,False,False,False,False,False,False,False,3.8707616755936924e-14,0,,no_contract_on_file,False,0,Clear
+INV0480,PO0156,14030.16,Catering,Catering services,2025-06-23,Pending,EMP088,False,False,False,False,False,False,False,False,0.0363662168383598,0,,no_contract_on_file,False,0,Clear
+INV0481,PO0489,16355.67,Cleaning Services,Logistics and courier services,2026-04-20,Pending,EMP063,False,False,False,False,False,False,False,False,0.3166441619396209,0,0.2909117341041565,ok,False,0,Clear
+INV0482,PO0519,9885.21,Catering,Catering services,2025-05-19,Paid,EMP094,False,False,False,False,False,False,False,False,0.9738600254058838,1,,no_contract_on_file,False,0,Flagged
+INV0483,PO0462,6043.94,Logistics,Cleaning services,2026-07-21,Overdue,EMP093,False,False,False,False,False,False,False,False,3.84156635391264e-08,0,0.1158381924033165,ok,False,0,Clear
+INV0484,PO0148,9034.22,IT Hardware,IT hardware procurement,2025-07-16,Overdue,EMP008,False,False,False,False,False,False,False,False,1.3971856787975412e-05,0,0.5817731022834778,ok,False,0,Clear
+INV0485,PO0485,14886.03,Software Licensing,Cleaning services,2025-03-29,Overdue,EMP098,False,False,False,False,False,False,False,False,1.0989413936278573e-18,0,0.0493545681238174,mismatch,False,0,Flagged
+INV0486,PO0352,14241.73,Cleaning Services,Cleaning services,2025-03-09,Paid,EMP009,False,False,False,False,False,False,False,False,2.4846685846569017e-06,0,,no_contract_on_file,False,0,Clear
+INV0487,PO0573,7444.87,Printing & Packaging,Office stationery supply,2025-02-25,Overdue,EMP065,False,False,False,False,False,False,False,False,0.0001954555918928,0,0.4100991487503052,ok,False,0,Clear
+INV0488,PO0295,13864.12,Printing & Packaging,Logistics and courier services,2025-04-02,Overdue,EMP086,False,False,False,False,False,False,False,False,2.3447444874591383e-08,0,,no_contract_on_file,False,0,Clear
+INV0489,PO0606,14204.97,Cleaning Services,Printing and packaging materials,2025-06-18,Paid,EMP003,False,False,False,False,False,False,False,False,0.0028712716884911,0,0.1330944597721099,ok,False,0,Clear
+INV0490,PO0682,17380.06,Cleaning Services,Furniture purchase,2025-06-15,Paid,EMP068,False,False,False,False,False,False,False,False,0.0003483625769149,0,0.2467714548110962,ok,False,0,Clear
+INV0491,PO0369,17213.81,Printing & Packaging,Cleaning services,2026-06-01,Paid,EMP090,False,False,False,False,False,False,False,False,8.33063677418977e-06,0,0.035659622400999,mismatch,False,0,Flagged
+INV0492,PO0384,13440.24,Logistics,Cleaning services,2025-09-26,Paid,EMP013,False,False,False,False,False,False,False,False,3.804752850555815e-06,0,,no_contract_on_file,False,0,Clear
+INV0493,PO0637,12875.6,IT Hardware,Furniture purchase,2025-07-27,Pending,EMP080,False,False,False,False,False,False,False,False,5.248473371466389e-06,0,,no_contract_on_file,False,0,Clear
+INV0494,PO0658,14367.21,Cleaning Services,Printing and packaging materials,2026-05-02,Pending,EMP051,False,False,False,False,False,False,False,False,0.1601581871509552,0,0.1330944597721099,ok,False,0,Clear
+INV0495,PO0185,18040.33,Cleaning Services,Software license renewal,2025-04-20,Pending,EMP032,False,False,False,False,False,False,False,False,1.4555206462318893e-06,0,0.2108312994241714,ok,False,0,Clear
+INV0496,PO0494,3298.06,Cleaning Services,Office stationery supply,2026-07-28,Paid,EMP011,False,False,False,False,False,False,False,False,0.0003385886375326,0,,no_contract_on_file,False,0,Clear
+INV0497,PO0189,8086.93,IT Hardware,Logistics and courier services,2025-05-05,Paid,EMP049,False,False,False,False,False,False,False,False,8.705685478060943e-12,0,0.3012488782405853,ok,False,0,Clear
+INV0498,PO0172,542.5,Software Licensing,IT hardware procurement,2025-04-24,Pending,EMP002,False,False,False,False,False,False,False,False,9.825789959450049e-09,0,0.2632442414760589,ok,False,0,Clear
+INV0499,PO0445,17142.26,Office Supplies,Catering services,2026-04-02,Overdue,EMP056,False,True,False,False,False,False,False,False,0.9948137998580932,1,0.2072482407093048,ok,True,1,Flagged
+INV0500,PO0456,7964.12,Printing & Packaging,Office stationery supply,2025-08-03,Paid,EMP013,False,False,False,False,False,False,False,False,3.98845222662203e-05,0,,no_contract_on_file,False,0,Clear
+INV0501,PO0111,23693.12,IT Hardware,Logistics and courier services,2025-12-26,Pending,EMP089,False,False,False,False,False,False,False,False,1.122963718664833e-21,0,0.2957441210746765,ok,False,0,Clear
+INV0502,PO0248,14204.29,Software Licensing,Furniture purchase,2026-04-27,Overdue,EMP010,False,False,False,False,False,False,False,False,6.204276701282652e-07,0,0.1313041448593139,ok,False,0,Clear
+INV0503,PO0477,6678.71,Printing & Packaging,Catering services,2025-09-17,Paid,EMP085,False,False,False,False,False,False,False,False,1.658767383584578e-19,0,0.2007000893354416,ok,False,0,Clear
+INV0504,PO0238,22210.83,Logistics,Printing and packaging materials,2025-03-19,Paid,EMP076,False,False,False,False,False,False,False,False,7.208324603880102e-08,0,0.3553231656551361,ok,False,0,Clear
+INV0505,PO0678,19185.03,Logistics,Printing and packaging materials,2025-08-04,Overdue,EMP021,False,False,False,False,False,False,False,False,4.041291035150607e-08,0,0.3489795625209808,ok,False,0,Clear
+INV0506,PO0223,12403.79,Printing & Packaging,Cleaning services,2025-06-23,Overdue,EMP070,False,False,False,False,False,False,False,False,8.943678614992798e-18,0,0.0561618171632289,mismatch,False,0,Flagged
+INV0507,PO0507,19615.39,Cleaning Services,Catering services,2026-04-23,Paid,EMP011,False,False,False,False,False,False,False,False,4.351661826024199e-12,0,0.2736370265483856,ok,False,0,Clear
+INV0508,PO0403,15148.98,Printing & Packaging,Software license renewal,2025-08-30,Paid,EMP056,False,False,False,False,False,False,False,False,5.041605355415868e-09,0,,no_contract_on_file,False,0,Clear
+INV0509,PO0676,3336.85,Logistics,Printing and packaging materials,2025-04-27,Pending,EMP078,False,False,False,False,False,False,False,False,1.376020743746112e-13,0,,no_contract_on_file,False,0,Clear
+INV0510,PO0493,19427.42,Printing & Packaging,Furniture purchase,2025-06-23,Pending,EMP082,False,False,False,False,False,False,False,False,4.221604103804566e-05,0,,no_contract_on_file,False,0,Clear
+INV0511,PO0130,22433.79,Software Licensing,Printing and packaging materials,2025-04-24,Pending,EMP030,False,False,False,False,False,False,False,False,0.0077407700009644,0,0.1263434439897537,ok,False,0,Clear
+INV0512,PO0404,3307.1,Office Supplies,Printing and packaging materials,2025-09-03,Paid,EMP088,False,False,False,False,False,False,False,False,0.9999105930328368,1,0.2769910395145416,ok,False,0,Flagged
+INV0513,PO0432,11675.02,Catering,Software license renewal,2026-01-11,Overdue,EMP080,False,False,False,False,False,False,False,False,4.388480551176244e-11,0,0.1269664913415908,ok,False,0,Clear
+INV0514,PO0405,23738.75,IT Hardware,Furniture purchase,2025-11-06,Paid,EMP011,False,False,False,False,False,False,False,True,4.287391622281866e-12,0,,no_contract_on_file,True,1,Flagged
+INV0515,PO0569,24835.11,IT Hardware,Cleaning services,2025-04-14,Overdue,EMP092,False,False,False,False,False,False,False,False,4.309294467930158e-07,0,0.0712335929274559,mismatch,False,0,Flagged
+INV0516,PO0636,23698.17,IT Hardware,IT hardware procurement,2025-03-08,Paid,EMP041,False,False,False,False,False,False,False,False,5.491437718521722e-22,0,0.5850909352302551,ok,False,0,Clear
+INV0517,PO0361,17556.2,Logistics,Catering services,2025-07-31,Pending,EMP057,False,False,False,False,False,False,False,False,0.0001756643177941,0,,no_contract_on_file,False,0,Clear
+INV0518,PO0291,5182.03,Software Licensing,IT hardware procurement,2025-09-19,Paid,EMP017,False,False,False,False,False,False,False,False,3.0586872010879285e-13,0,,no_contract_on_file,False,0,Clear
+INV0519,PO0321,2537.26,IT Hardware,Printing and packaging materials,2026-08-25,Paid,EMP058,False,False,False,False,False,False,False,False,2.777017634605721e-15,0,0.2276401221752166,ok,False,0,Clear
+INV0520,PO0612,22977.14,Printing & Packaging,IT hardware procurement,2026-05-17,Overdue,EMP012,False,False,False,False,False,False,False,False,7.169687760155695e-11,0,0.2912148833274841,ok,False,0,Clear
+INV0521,PO0597,16086.58,Cleaning Services,Printing and packaging materials,2025-09-11,Paid,EMP042,False,False,False,False,False,False,False,False,4.5454549846279946e-11,0,,no_contract_on_file,False,0,Clear
+INV0522,PO0382,2474.96,IT Hardware,IT hardware procurement,2026-05-10,Overdue,EMP053,False,False,False,False,False,False,False,False,6.269216526797296e-15,0,0.5808296799659729,ok,False,0,Clear
+INV0523,PO0188,18790.7,Cleaning Services,Software license renewal,2025-07-03,Overdue,EMP072,False,False,False,False,False,False,False,False,2.1855992571317984e-09,0,,no_contract_on_file,False,0,Clear
+INV0524,PO0466,22980.15,Catering,Cleaning services,2026-08-29,Paid,EMP022,False,False,False,False,False,False,False,False,1.656296944929636e-06,0,0.1738479286432266,ok,False,0,Clear
+INV0525,PO0263,17034.37,Office Supplies,Cleaning services,2025-01-24,Paid,EMP039,False,False,False,False,False,False,False,False,3.313653564873676e-07,0,0.1048483923077583,ok,False,0,Clear
+INV0526,PO0700,1902.65,Printing & Packaging,Furniture purchase,2026-06-05,Pending,EMP056,False,False,False,False,False,False,False,False,1.634582497567899e-13,0,0.3207959234714508,ok,False,0,Clear
+INV0527,PO0287,25008.79,Logistics,Software license renewal,2026-09-01,Overdue,EMP010,False,False,False,False,False,False,False,False,8.748614679920939e-12,0,0.1509878039360046,ok,False,0,Clear
+INV0528,PO0340,14189.31,Printing & Packaging,Software license renewal,2026-08-06,Pending,EMP064,False,False,False,False,False,False,False,False,1.4782564113980764e-19,0,0.1308908462524414,ok,False,0,Clear
+INV0529,PO0078,11185.13,Software Licensing,Printing and packaging materials,2025-06-30,Pending,EMP018,False,False,False,False,False,False,False,False,0.3752694129943847,0,0.1274369359016418,ok,False,0,Clear
+INV0530,PO0192,24035.18,Cleaning Services,Catering services,2026-09-05,Pending,EMP080,False,False,False,False,False,False,False,False,2.9077309591230005e-06,0,0.2582566440105438,ok,False,0,Clear
+INV0531,PO0141,26101.74,Printing & Packaging,Cleaning services,2026-03-18,Pending,EMP056,False,False,False,False,False,False,False,False,1.0872096822822641e-07,0,0.0484479628503322,mismatch,False,0,Flagged
+INV0532,PO0562,9591.95,IT Hardware,Software license renewal,2025-05-26,Pending,EMP078,False,False,False,False,False,False,False,False,2.0450424926821142e-06,0,0.152008056640625,ok,False,0,Clear
+INV0533,PO0363,8592.19,Cleaning Services,Printing and packaging materials,2025-09-02,Pending,EMP023,False,False,False,False,False,False,False,False,1.7622277255213703e-06,0,,no_contract_on_file,False,0,Clear
+INV0534,PO0626,24148.95,Printing & Packaging,Logistics and courier services,2026-03-02,Overdue,EMP095,False,False,False,False,False,False,False,False,1.6116073753291715e-11,0,0.3905746638774872,ok,False,0,Clear
+INV0535,PO0330,21933.87,Printing & Packaging,Furniture purchase,2025-11-07,Pending,EMP032,False,False,False,False,False,False,False,False,1.359770607223254e-07,0,0.3228594958782196,ok,False,0,Clear
+INV0536,PO0425,1688.6,IT Hardware,Software license renewal,2026-06-27,Overdue,EMP015,False,False,False,False,False,False,False,False,1.395512351509698e-11,0,,no_contract_on_file,False,0,Clear
+INV0537,PO0232,6884.25,Cleaning Services,Office stationery supply,2026-03-10,Overdue,EMP024,False,False,False,False,False,False,False,False,1.6825418924781843e-06,0,0.2197910994291305,ok,False,0,Clear
+INV0538,PO0545,21943.59,Software Licensing,Furniture purchase,2025-02-23,Overdue,EMP091,False,False,False,False,False,False,False,False,3.924618442729955e-12,0,0.1393027454614639,ok,False,0,Clear
+INV0539,PO0304,14351.49,Printing & Packaging,Cleaning services,2026-06-29,Overdue,EMP053,False,False,False,False,False,False,False,False,2.6176787741860608e-06,0,0.0522609651088714,mismatch,False,0,Flagged
+INV0540,PO0120,16324.62,Printing & Packaging,Furniture purchase,2026-07-28,Overdue,EMP031,False,False,False,False,False,False,False,False,2.539869683459983e-07,0,,no_contract_on_file,False,0,Clear
+INV0541,PO0262,2908.2,Catering,Printing and packaging materials,2026-06-27,Paid,EMP092,False,False,False,False,False,False,False,False,3.4238975277403457e-19,0,0.1798470914363861,ok,False,0,Clear
+INV0542,PO0265,20960.44,Cleaning Services,Logistics and courier services,2025-04-22,Overdue,EMP077,False,False,False,False,False,False,False,False,0.0088415322825312,0,,no_contract_on_file,False,0,Clear
+INV0543,PO0326,2252.78,IT Hardware,Printing and packaging materials,2026-03-09,Overdue,EMP069,False,False,False,False,False,False,False,False,1.1430165404528172e-15,0,0.212888702750206,ok,False,0,Clear
+INV0544,PO0220,5728.08,IT Hardware,IT hardware procurement,2025-05-15,Paid,EMP047,False,False,False,False,False,False,False,False,9.60730994847836e-06,0,0.5907223224639893,ok,False,0,Clear
+INV0545,PO0495,14524.79,Catering,Catering services,2026-07-23,Paid,EMP032,False,False,False,False,False,False,False,False,9.857926919210058e-09,0,0.6040481925010681,ok,False,0,Clear
+INV0546,PO0044,24233.38,Office Supplies,Office stationery supply,2025-06-19,Overdue,EMP079,False,False,False,False,False,False,False,True,1.4119784736976726e-06,0,,no_contract_on_file,True,1,Flagged
+INV0547,PO0398,5117.77,Cleaning Services,Printing and packaging materials,2026-04-28,Pending,EMP087,False,False,False,False,False,False,False,False,4.7862052099389985e-09,0,,no_contract_on_file,False,0,Clear
+INV0548,PO0514,9610.17,Office Supplies,IT hardware procurement,2025-04-19,Paid,EMP056,False,False,False,False,False,False,False,False,8.394388733656919e-15,0,,no_contract_on_file,False,0,Clear
+INV0549,PO0535,10685.4,Software Licensing,Software license renewal,2025-06-11,Pending,EMP034,False,False,False,False,False,False,False,False,0.0042836372740566,0,0.7111450433731079,ok,False,0,Clear
+INV0550,PO0437,16741.57,Catering,Cleaning services,2025-08-11,Pending,EMP051,False,False,False,False,False,False,False,False,0.0002754676388576,0,0.163486048579216,ok,False,0,Clear
+INV0551,PO0024,19181.51,Cleaning Services,IT hardware procurement,2026-06-05,Pending,EMP062,False,False,False,False,False,False,False,False,0.0041295066475868,0,,no_contract_on_file,False,0,Clear
+INV0552,PO0561,6223.48,IT Hardware,IT hardware procurement,2025-12-08,Overdue,EMP011,False,False,False,False,False,False,False,False,8.850753463462978e-10,0,,no_contract_on_file,False,0,Clear
+INV0553,PO0555,16113.96,IT Hardware,Logistics and courier services,2025-12-13,Paid,EMP045,False,False,False,False,False,False,False,False,4.902822752228531e-07,0,0.3123396337032318,ok,False,0,Clear
+INV0554,PO0298,24510.67,Office Supplies,Catering services,2026-01-06,Pending,EMP062,False,False,False,False,False,False,False,True,0.0006616876344196,0,,no_contract_on_file,True,1,Flagged
+INV0555,PO0685,11690.41,Cleaning Services,Logistics and courier services,2025-04-16,Pending,EMP057,False,False,False,False,False,False,False,False,1.684696599113522e-06,0,,no_contract_on_file,False,0,Clear
+INV0556,PO0350,2516.13,Office Supplies,IT hardware procurement,2025-07-17,Paid,EMP039,False,True,False,False,False,False,False,False,0.0126414010301232,0,0.274828553199768,ok,True,1,Flagged
+INV0557,PO0255,4389.28,IT Hardware,IT hardware procurement,2026-04-09,Overdue,EMP044,False,False,False,False,False,False,False,False,2.6221714036211985e-11,0,,no_contract_on_file,False,0,Clear
+INV0558,PO0214,12886.0,Catering,Software license renewal,2026-02-08,Overdue,EMP022,False,False,False,False,False,False,False,False,1.0751374233204497e-23,0,,no_contract_on_file,False,0,Clear
+INV0559,PO0063,4386.36,Software Licensing,Printing and packaging materials,2026-01-05,Pending,EMP071,False,False,False,False,False,False,False,False,4.027962674513219e-08,0,0.1417225152254104,ok,False,0,Clear
+INV0560,PO0163,9741.65,Cleaning Services,Cleaning services,2025-12-11,Paid,EMP052,False,False,False,False,False,False,False,False,1.1169299796165433e-05,0,,no_contract_on_file,False,0,Clear
+INV0561,PO0294,7141.51,Catering,Office stationery supply,2026-06-05,Overdue,EMP085,False,False,False,False,False,False,False,False,1.0060779363101972e-19,0,0.2295594215393066,ok,False,0,Clear
+INV0562,PO0257,8990.21,Printing & Packaging,Printing and packaging materials,2025-12-19,Pending,EMP026,False,False,False,False,False,False,False,False,1.257830506418145e-09,0,0.6167377829551697,ok,False,0,Clear
+INV0563,PO0107,4610.83,Cleaning Services,Software license renewal,2026-04-23,Paid,EMP091,False,False,False,False,False,False,False,False,2.4654948447278e-06,0,,no_contract_on_file,False,0,Clear
+INV0564,PO0316,22035.75,Cleaning Services,IT hardware procurement,2026-04-11,Overdue,EMP097,False,False,False,False,False,False,False,False,1.988483532683351e-26,0,0.2118564844131469,ok,False,0,Clear
+INV0565,PO0673,24629.55,Cleaning Services,Cleaning services,2025-01-22,Pending,EMP069,False,False,False,False,False,False,False,True,0.000275032245554,0,,no_contract_on_file,True,1,Flagged
+INV0566,PO0381,7168.34,Catering,Furniture purchase,2025-11-05,Overdue,EMP026,False,False,False,False,False,False,False,False,1.7724518183457116e-32,0,0.276810735464096,ok,False,0,Clear
+INV0567,PO0242,22464.14,Catering,Catering services,2026-04-06,Overdue,EMP063,False,False,False,False,False,False,False,False,1.6525669721545458e-13,0,0.595538318157196,ok,False,0,Clear
+INV0568,PO0213,1637.11,Office Supplies,IT hardware procurement,2025-12-03,Pending,EMP079,False,False,False,False,False,False,False,False,1.86621256642594e-11,0,0.3141256272792816,ok,False,0,Clear
+INV0569,PO0322,14441.19,Catering,Furniture purchase,2026-08-07,Overdue,EMP059,False,False,False,False,False,False,False,False,2.6768169902879894e-08,0,0.2747738659381866,ok,False,0,Clear
+INV0570,PO0308,8870.8,Office Supplies,Catering services,2025-03-27,Paid,EMP011,False,True,False,False,False,False,False,False,1.0,1,0.6016207337379456,ok,True,1,Flagged
+INV0571,PO0695,18513.68,Cleaning Services,Catering services,2026-05-14,Overdue,EMP040,False,False,False,False,False,False,False,False,0.0001127845825976,0,0.2736370265483856,ok,False,0,Clear
+INV0572,PO0558,14728.88,Printing & Packaging,Printing and packaging materials,2026-01-20,Pending,EMP066,False,False,False,False,False,False,False,False,9.105895482086623e-10,0,,no_contract_on_file,False,0,Clear
+INV0573,PO0057,22680.74,IT Hardware,Printing and packaging materials,2025-10-08,Pending,EMP018,False,False,False,False,False,False,False,False,0.0002666095097083,0,,no_contract_on_file,False,0,Clear
+INV0574,PO0309,13974.93,Cleaning Services,Cleaning services,2025-11-27,Overdue,EMP063,False,False,False,False,False,False,False,False,1.1953783740636936e-08,0,,no_contract_on_file,False,0,Clear
+INV0575,PO0210,1562.44,Printing & Packaging,Furniture purchase,2026-04-11,Paid,EMP063,False,False,False,False,False,False,False,False,1.1548564507415748e-19,0,,no_contract_on_file,False,0,Clear
+INV0576,PO0365,5386.67,Office Supplies,Logistics and courier services,2026-02-24,Overdue,EMP041,False,False,False,False,False,False,False,False,4.449491071102033e-16,0,,no_contract_on_file,False,0,Clear
+INV0577,PO0397,20961.1,Printing & Packaging,Logistics and courier services,2026-07-13,Paid,EMP046,False,False,False,False,False,False,False,False,0.011321329511702,0,0.3769455254077911,ok,False,0,Clear
+INV0578,PO0640,1716.45,IT Hardware,Logistics and courier services,2025-04-07,Pending,EMP050,False,False,False,False,False,False,False,False,2.3427327633385172e-08,0,,no_contract_on_file,False,0,Clear
+INV0579,PO0327,24396.67,Software Licensing,Printing and packaging materials,2025-11-28,Overdue,EMP063,False,False,False,False,False,False,False,True,0.0001254763337783,0,,no_contract_on_file,True,1,Flagged
+INV0580,PO0144,11225.09,Cleaning Services,Logistics and courier services,2025-10-20,Paid,EMP057,False,False,False,False,False,False,False,False,1.6954755741732665e-12,0,,no_contract_on_file,False,0,Clear
+INV0581,PO0543,13336.35,Catering,Software license renewal,2025-02-28,Pending,EMP073,False,False,False,False,False,False,False,False,0.9970608353614808,1,0.1198725923895835,ok,False,0,Flagged
+INV0582,PO0193,1210.01,Catering,Furniture purchase,2026-04-29,Paid,EMP036,False,False,False,False,False,False,False,False,6.63689000530763e-29,0,0.2714315056800842,ok,False,0,Clear
+INV0583,PO0572,3501.93,Cleaning Services,Logistics and courier services,2026-04-13,Overdue,EMP059,False,False,False,False,False,False,False,False,1.6152757950638197e-11,0,,no_contract_on_file,False,0,Clear
+INV0584,PO0473,22387.84,Office Supplies,Furniture purchase,2025-05-08,Overdue,EMP015,False,False,False,False,False,False,False,False,1.6651132028755455e-08,0,0.3639196157455444,ok,False,0,Clear
+INV0585,PO0016,3920.94,Printing & Packaging,Office stationery supply,2026-02-24,Overdue,EMP047,False,False,False,False,False,False,False,False,2.049149877558776e-10,0,,no_contract_on_file,False,0,Clear
+INV0586,PO0059,14016.17,Printing & Packaging,Software license renewal,2025-10-04,Pending,EMP070,False,False,False,False,False,False,False,False,0.0006022927700541,0,,no_contract_on_file,False,0,Clear
+INV0587,PO0199,17410.9,Office Supplies,Software license renewal,2025-02-05,Pending,EMP095,False,False,False,False,False,False,False,False,0.0007283754530362,0,0.1935303658246994,ok,False,0,Clear
+INV0588,PO0342,15353.38,Catering,Logistics and courier services,2026-05-15,Pending,EMP005,False,False,False,False,False,False,False,False,1.8894459330454083e-08,0,,no_contract_on_file,False,0,Clear
+INV0589,PO0194,22378.08,Office Supplies,IT hardware procurement,2025-03-12,Paid,EMP012,False,False,False,False,False,False,False,False,7.58619833618468e-08,0,0.3132220208644867,ok,False,0,Clear
+INV0590,PO0151,8205.67,Software Licensing,Catering services,2026-07-22,Overdue,EMP095,False,False,False,False,False,False,False,False,1.816752857094345e-13,0,,no_contract_on_file,False,0,Clear
+INV0591,PO0521,707.63,Office Supplies,Printing and packaging materials,2025-06-06,Paid,EMP081,False,False,False,False,False,False,False,False,1.1253940890298963e-08,0,,no_contract_on_file,False,0,Clear
+INV0592,PO0366,22744.46,Software Licensing,Software license renewal,2025-12-05,Paid,EMP018,False,False,False,False,False,False,False,False,7.146355035514418e-11,0,,no_contract_on_file,False,0,Clear
+INV0593,PO0191,11252.78,Software Licensing,Furniture purchase,2025-10-11,Overdue,EMP008,False,False,False,False,False,False,False,False,1.8646199489051946e-17,0,0.139946773648262,ok,False,0,Clear
+INV0594,PO0041,1284.59,Office Supplies,Furniture purchase,2025-04-15,Pending,EMP022,False,True,False,False,False,False,False,False,0.9997881054878236,1,0.3299942016601562,ok,True,1,Flagged
+INV0595,PO0097,18498.53,Logistics,IT hardware procurement,2026-02-14,Paid,EMP035,False,False,False,False,False,False,False,False,0.9990729093551636,1,,no_contract_on_file,False,0,Flagged
+INV0596,PO0269,8951.2,Catering,Furniture purchase,2026-07-14,Overdue,EMP053,False,False,False,False,False,False,False,False,5.123969692988339e-09,0,0.2704121470451355,ok,False,0,Clear
+INV0597,PO0079,19751.09,Software Licensing,Cleaning services,2025-11-11,Paid,EMP090,False,False,False,False,False,False,False,False,0.0002915712248068,0,,no_contract_on_file,False,0,Clear
+INV0598,PO0093,7577.22,IT Hardware,Software license renewal,2025-05-25,Overdue,EMP092,False,False,False,False,False,False,False,False,3.8899193896213546e-05,0,0.1393748968839645,ok,False,0,Clear
+INV0599,PO0065,4894.34,IT Hardware,Cleaning services,2025-06-23,Overdue,EMP063,False,True,False,False,False,False,False,False,0.9999533891677856,1,,no_contract_on_file,True,1,Flagged
+INV0600,PO0476,17089.91,Cleaning Services,Printing and packaging materials,2025-02-04,Pending,EMP035,False,False,False,False,False,False,False,False,3.720807273399629e-10,0,,no_contract_on_file,False,0,Clear
+INV0601,PO0537,15416.39,Catering,IT hardware procurement,2026-03-29,Pending,EMP010,False,False,False,False,False,False,False,False,1.2736199096252676e-05,0,,no_contract_on_file,False,0,Clear
+INV0602,PO0420,23401.58,Logistics,Furniture purchase,2025-06-08,Overdue,EMP096,False,False,False,False,False,False,False,False,3.183884473401122e-05,0,,no_contract_on_file,False,0,Clear
+INV0603,PO0415,18798.54,Office Supplies,Logistics and courier services,2025-08-20,Pending,EMP048,False,False,False,False,False,False,False,False,1.4346162060974166e-05,0,,no_contract_on_file,False,0,Clear
+INV0604,PO0635,4756.57,IT Hardware,Office stationery supply,2025-05-25,Overdue,EMP075,False,False,False,False,False,False,False,False,3.841306988943563e-17,0,,no_contract_on_file,False,0,Clear
+INV0605,PO0582,6408.24,Catering,Logistics and courier services,2025-06-15,Overdue,EMP094,False,False,False,False,False,False,False,False,3.619832833411547e-20,0,,no_contract_on_file,False,0,Clear
+INV0606,PO0317,13765.99,Software Licensing,IT hardware procurement,2025-05-24,Overdue,EMP090,False,False,False,False,False,False,False,False,1.5474706477162925e-13,0,0.2682525813579559,ok,False,0,Clear
+INV0607,PO0034,27099.36,Printing & Packaging,Software license renewal,2026-05-20,Pending,EMP028,False,False,False,False,False,False,False,False,0.0008098651305772,0,0.176237553358078,ok,False,0,Clear
+INV0608,PO0119,18141.83,Office Supplies,Furniture purchase,2026-06-19,Pending,EMP042,False,False,False,False,False,False,False,False,0.0002078709949273,0,,no_contract_on_file,False,0,Clear
+INV0609,PO0267,9425.34,Catering,Cleaning services,2025-06-28,Overdue,EMP074,False,False,False,False,False,False,False,False,5.84922099733376e-06,0,,no_contract_on_file,False,0,Clear
+INV0610,PO0367,22593.25,Logistics,Office stationery supply,2026-08-25,Paid,EMP063,False,False,False,False,False,False,False,False,5.926364678998652e-07,0,0.3009146153926849,ok,False,0,Clear
+INV0611,PO0491,548.75,Software Licensing,Logistics and courier services,2026-03-04,Paid,EMP081,False,False,False,False,False,False,False,False,8.543318670026396e-22,0,0.166246011853218,ok,False,0,Clear
+INV0612,PO0133,6182.02,Cleaning Services,Office stationery supply,2025-06-07,Pending,EMP021,False,False,False,False,False,False,False,False,9.580291049360312e-08,0,0.2127996236085891,ok,False,0,Clear
+INV0613,PO0427,15367.58,Software Licensing,Furniture purchase,2025-01-14,Paid,EMP089,False,False,False,False,False,False,False,False,1.6708480927670948e-17,0,0.1455003470182418,ok,False,0,Clear
+INV0614,PO0508,10244.04,Logistics,IT hardware procurement,2026-04-29,Overdue,EMP036,False,False,False,False,False,False,False,False,1.1238635124755092e-06,0,,no_contract_on_file,False,0,Clear
+INV0615,PO0674,9481.49,IT Hardware,IT hardware procurement,2025-01-29,Pending,EMP033,False,False,False,False,False,False,False,False,3.1018057455867165e-08,0,,no_contract_on_file,False,0,Clear
+INV0616,PO0354,17700.63,Catering,Printing and packaging materials,2026-07-25,Overdue,EMP084,False,False,False,False,False,False,False,False,8.529216050069071e-15,0,0.1699632853269577,ok,False,0,Clear
+INV0617,PO0459,24114.73,Logistics,Software license renewal,2025-07-06,Pending,EMP093,False,False,False,False,False,False,False,False,8.184225589502603e-05,0,0.1316173672676086,ok,False,0,Clear
+INV0618,PO0587,20595.98,Software Licensing,Office stationery supply,2025-03-10,Paid,EMP012,False,False,False,False,False,False,False,False,4.732732899876237e-18,0,0.2155135720968246,ok,False,0,Clear
+INV0619,PO0087,7892.17,IT Hardware,Software license renewal,2025-03-01,Overdue,EMP010,False,False,False,False,False,False,False,False,3.0839608200494695e-08,0,0.1535433083772659,ok,False,0,Clear
+INV0620,PO0387,12476.29,Software Licensing,Office stationery supply,2025-05-11,Paid,EMP057,False,False,False,False,False,False,False,False,6.751764885848388e-05,0,,no_contract_on_file,False,0,Clear
+INV0621,PO0043,17566.49,Catering,IT hardware procurement,2025-10-11,Pending,EMP044,False,False,False,False,False,False,False,False,2.6634338610165287e-06,0,,no_contract_on_file,False,0,Clear
+INV0622,PO0208,23402.46,Printing & Packaging,Software license renewal,2025-07-10,Pending,EMP017,False,False,False,False,False,False,False,False,5.206165042181965e-06,0,0.1470626294612884,ok,False,0,Clear
+INV0623,PO0070,24538.17,Office Supplies,IT hardware procurement,2025-12-28,Paid,EMP094,False,False,False,False,False,False,False,True,2.1152759543952016e-08,0,,no_contract_on_file,True,1,Flagged
+INV0624,PO0011,3218.89,Office Supplies,Cleaning services,2026-01-15,Pending,EMP048,False,False,False,False,False,False,False,False,7.315720837279549e-13,0,0.0950873866677284,mismatch,False,0,Flagged
+INV0625,PO0159,7632.71,Printing & Packaging,Cleaning services,2026-05-12,Paid,EMP097,False,False,False,False,False,False,False,False,2.2244940726448006e-16,0,0.0466565117239952,mismatch,False,0,Flagged
+INV0626,PO0505,8030.46,Catering,Cleaning services,2026-01-29,Pending,EMP073,False,False,False,False,False,False,False,False,0.0009589114342816,0,0.1670613288879394,ok,False,0,Clear
+INV0627,PO0574,12648.8,Catering,Cleaning services,2026-05-30,Pending,EMP093,False,False,False,False,False,False,False,False,0.0001759360457072,0,0.1767515242099762,ok,False,0,Clear
+INV0628,PO0497,21623.89,IT Hardware,Logistics and courier services,2025-02-13,Paid,EMP088,False,False,False,False,False,False,False,False,5.397763743530959e-06,0,,no_contract_on_file,False,0,Clear
+INV0629,PO0075,23058.89,Printing & Packaging,Cleaning services,2026-01-10,Paid,EMP013,False,False,False,False,False,False,False,False,0.0001287408231291,0,,no_contract_on_file,False,0,Clear
+INV0630,PO0205,1635.04,Office Supplies,Printing and packaging materials,2025-12-13,Pending,EMP094,False,False,False,False,False,False,False,False,0.9980328679084778,1,0.283133715391159,ok,False,0,Flagged
+INV0631,PO0009,1622.7,Office Supplies,Software license renewal,2026-08-28,Pending,EMP018,False,False,False,False,False,False,False,False,4.211264149900362e-12,0,,no_contract_on_file,False,0,Clear
+INV0632,PO0595,1135.44,Logistics,Furniture purchase,2026-08-16,Overdue,EMP011,False,False,False,False,False,False,False,False,2.3263837823370503e-14,0,0.2641138136386871,ok,False,0,Clear
+INV0633,PO0281,20998.85,Printing & Packaging,Furniture purchase,2026-03-07,Paid,EMP085,False,False,False,False,False,False,False,False,7.768503895722034e-11,0,,no_contract_on_file,False,0,Clear
+INV0634,PO0311,24635.75,Office Supplies,Software license renewal,2026-01-15,Overdue,EMP078,False,False,False,False,False,False,False,True,2.173353550460888e-06,0,,no_contract_on_file,True,1,Flagged
+INV0635,PO0570,9619.87,Office Supplies,Office stationery supply,2025-08-23,Paid,EMP038,False,False,False,False,False,False,False,False,0.0001149698655353,0,,no_contract_on_file,False,0,Clear
+INV0636,PO0329,11353.35,Catering,Logistics and courier services,2025-05-14,Overdue,EMP050,False,False,False,False,False,False,False,False,8.620293714955984e-12,0,0.3082948327064514,ok,False,0,Clear
+INV0637,PO0454,10817.01,Logistics,Office stationery supply,2025-03-16,Pending,EMP010,False,False,False,False,False,False,False,False,1.1899976559703871e-09,0,,no_contract_on_file,False,0,Clear
+INV0638,PO0014,16751.36,Catering,Printing and packaging materials,2025-03-14,Pending,EMP041,False,False,False,False,False,False,False,False,1.1096171981250793e-08,0,0.1765688359737396,ok,False,0,Clear
+INV0639,PO0102,2006.9,Software Licensing,Logistics and courier services,2026-02-02,Paid,EMP088,False,False,False,False,False,False,False,False,1.7301584316122494e-17,0,0.1677784174680709,ok,False,0,Clear
+INV0640,PO0313,22164.04,Cleaning Services,IT hardware procurement,2026-04-25,Paid,EMP076,False,False,False,False,False,False,False,False,0.0002292831777594,0,,no_contract_on_file,False,0,Clear
+INV0641,PO0025,18414.87,Software Licensing,Office stationery supply,2025-12-03,Pending,EMP028,False,False,False,False,False,False,False,False,4.094055389841644e-12,0,0.226431131362915,ok,False,0,Clear
+INV0642,PO0662,19584.06,Printing & Packaging,Printing and packaging materials,2025-06-05,Pending,EMP037,False,False,False,False,False,False,False,False,0.0004849727265536,0,,no_contract_on_file,False,0,Clear
+INV0643,PO0228,15571.04,IT Hardware,Cleaning services,2026-07-10,Pending,EMP052,False,False,False,False,False,False,False,False,2.422037687210832e-05,0,0.0692215636372566,mismatch,False,0,Flagged
+INV0644,PO0527,12488.12,Printing & Packaging,Software license renewal,2026-02-08,Paid,EMP040,False,False,False,False,False,False,False,False,1.7551212039279562e-08,0,0.1406956762075424,ok,False,0,Clear
+INV0645,PO0175,9519.65,Office Supplies,IT hardware procurement,2025-07-03,Pending,EMP042,False,False,False,False,False,False,False,False,0.0008732503629289,0,0.2973796129226684,ok,False,0,Clear
+INV0646,PO0396,1178.96,Catering,Software license renewal,2025-08-29,Paid,EMP056,False,False,False,False,False,False,False,False,1.4529160097254135e-09,0,0.1130996346473693,ok,False,0,Clear
+INV0647,PO0478,23025.74,Logistics,IT hardware procurement,2026-04-23,Pending,EMP012,False,False,False,False,False,False,False,False,0.0001076535045285,0,0.2799138724803924,ok,False,0,Clear
+INV0648,PO0418,2915.9,Printing & Packaging,Office stationery supply,2026-01-14,Pending,EMP078,False,False,False,False,False,False,False,False,4.071993231491433e-08,0,,no_contract_on_file,False,0,Clear
+INV0649,PO0417,21892.63,Cleaning Services,Cleaning services,2026-02-05,Paid,EMP095,False,False,False,False,False,False,False,False,8.07485800446983e-10,0,0.6083426475524902,ok,False,0,Clear
+INV0650,PO0579,2522.07,Software Licensing,Office stationery supply,2026-01-04,Paid,EMP091,False,False,False,False,False,False,False,False,1.038826034742424e-12,0,0.2311305701732635,ok,False,0,Clear
+INV0651,PO0197,18301.68,Logistics,Office stationery supply (resubmitted),2026-07-15,Pending,EMP034,True,False,False,False,False,False,False,False,0.9991138577461244,1,,no_contract_on_file,True,1,Flagged
+INV0652,PO0410,6450.03,Catering,Logistics and courier services (resubmitted),2026-07-29,Pending,EMP018,True,False,False,False,False,False,False,False,0.9981385469436646,1,,no_contract_on_file,True,1,Flagged
+INV0653,PO0349,7082.41,Printing & Packaging,Furniture purchase (resubmitted),2025-06-09,Pending,EMP032,True,False,False,False,False,False,False,False,0.99361389875412,1,0.3338347375392914,ok,True,1,Flagged
+INV0654,PO0318,23401.08,Cleaning Services,IT hardware procurement (resubmitted),2025-11-23,Pending,EMP096,True,False,False,False,False,False,False,False,0.9973594546318054,1,,no_contract_on_file,True,1,Flagged
+INV0655,PO0482,16932.18,Printing & Packaging,Software license renewal (resubmitted),2025-08-01,Pending,EMP072,True,False,False,False,False,False,False,False,0.9991194605827332,1,,no_contract_on_file,True,1,Flagged
+INV0656,PO0002,10837.08,Cleaning Services,Logistics and courier services (resubmitted),2025-04-26,Pending,EMP069,True,False,False,False,False,False,False,False,0.9989879727363586,1,,no_contract_on_file,True,1,Flagged
+INV0657,PO0465,24772.17,Cleaning Services,Cleaning services (resubmitted),2026-03-13,Pending,EMP034,True,False,False,False,False,False,False,True,0.999818742275238,1,,no_contract_on_file,True,2,Flagged
+INV0658,PO0050,7849.93,Printing & Packaging,Software license renewal (resubmitted),2026-02-22,Pending,EMP096,True,False,False,False,False,False,False,False,0.9998610019683838,1,,no_contract_on_file,True,1,Flagged
+INV0659,PO0543,13336.35,Catering,Software license renewal (resubmitted),2025-02-28,Pending,EMP075,True,False,False,False,False,False,False,False,0.9970608353614808,1,0.0896289572119712,mismatch,True,1,Flagged
+INV0660,PO0021,10924.87,Software Licensing,Cleaning services (resubmitted),2025-05-07,Pending,EMP055,True,False,False,False,False,False,False,False,0.9986881613731384,1,0.0403631664812564,mismatch,True,1,Flagged
+INV0661,PO0338,9888.88,Cleaning Services,IT hardware procurement (resubmitted),2026-08-03,Pending,EMP075,True,False,False,False,False,False,False,False,0.998388409614563,1,0.2160379141569137,ok,True,1,Flagged
+INV0662,PO0404,3307.1,Office Supplies,Printing and packaging materials (resubmitted),2025-09-03,Pending,EMP052,True,False,False,False,False,False,False,False,0.999942183494568,1,0.3076213896274566,ok,True,1,Flagged
+INV0663,PO0280,10647.29,Cleaning Services,IT hardware procurement (resubmitted),2025-04-25,Pending,EMP047,True,False,False,False,False,False,False,False,0.99955552816391,1,0.2160379141569137,ok,True,1,Flagged
+INV0664,PO0620,15058.42,Catering,Software license renewal (resubmitted),2025-05-23,Pending,EMP029,True,False,False,False,False,False,False,False,0.9979451298713684,1,0.0896337404847145,mismatch,True,1,Flagged
+INV0665,PO0583,23412.55,Printing & Packaging,Logistics and courier services (resubmitted),2025-08-14,Pending,EMP018,True,False,False,False,False,False,False,False,0.9971891045570374,1,,no_contract_on_file,True,1,Flagged
+INV0666,PO0533,47343.8,Catering,Contract rate mismatch case,2026-03-10,Pending,EMP028,False,False,True,False,False,False,False,False,1.1800248075227206e-14,0,0.3015428781509399,ok,True,1,Flagged
+INV0667,PO0216,17214.85,Catering,Contract rate mismatch case,2026-03-17,Pending,EMP093,False,False,True,False,False,False,False,False,0.0018359317909926,0,0.3075706362724304,ok,True,1,Flagged
+INV0668,PO0562,21391.37,IT Hardware,Contract rate mismatch case,2025-05-20,Pending,EMP074,False,False,True,False,False,False,False,False,2.8851691240561195e-06,0,0.2839322388172149,ok,True,1,Flagged
+INV0669,PO0206,11811.69,Printing & Packaging,Contract rate mismatch case,2025-05-14,Pending,EMP032,False,False,True,False,False,False,False,False,9.188679819197717e-14,0,0.3070643246173858,ok,True,1,Flagged
+INV0670,PO0007,13481.08,Printing & Packaging,Contract rate mismatch case,2025-09-28,Pending,EMP053,False,False,True,False,False,False,False,False,4.186315194238538e-13,0,0.2935688495635986,ok,True,1,Flagged
+INV0671,PO0068,26830.91,Office Supplies,Contract rate mismatch case,2025-12-25,Pending,EMP013,False,False,True,False,False,False,False,False,2.1444747832968097e-13,0,0.3402019739151001,ok,True,1,Flagged
+INV0672,PO0695,41311.6,Cleaning Services,Contract rate mismatch case,2026-05-10,Pending,EMP046,False,False,True,False,False,False,False,False,7.55957074716207e-10,0,0.3245591223239898,ok,True,1,Flagged
+INV0673,PO0608,2474.61,IT Hardware,Contract rate mismatch case,2025-11-01,Pending,EMP060,False,False,True,False,False,False,False,False,1.5666255421820097e-05,0,0.3036834299564361,ok,True,1,Flagged
+INV0674,PO0056,53178.43,Office Supplies,Contract rate mismatch case,2025-10-06,Pending,EMP007,False,False,True,False,False,False,False,False,3.140188482575468e-06,0,0.330148845911026,ok,True,1,Flagged
+INV0675,PO0066,51294.21,IT Hardware,Contract rate mismatch case,2026-02-26,Pending,EMP083,False,False,True,False,False,False,False,False,3.721329733252787e-07,0,0.2990055084228515,ok,True,1,Flagged
+INV0676,PO0030,5167.73,Printing & Packaging,Contract rate mismatch case,2026-02-13,Pending,EMP052,False,False,True,False,False,False,False,False,3.0763370172584543e-18,0,0.3057545721530914,ok,True,1,Flagged
+INV0677,PO0317,30559.48,Software Licensing,Contract rate mismatch case,2025-05-13,Pending,EMP014,False,False,True,False,False,False,False,False,1.270050416831564e-13,0,0.2779811024665832,ok,True,1,Flagged
+INV0678,PO0492,43610.91,Catering,Contract rate mismatch case,2025-08-14,Pending,EMP025,False,True,True,False,False,False,False,False,0.9999891519546508,1,0.3762363195419311,ok,True,2,Flagged
+INV0679,PO0220,11053.37,IT Hardware,Contract rate mismatch case,2025-05-14,Pending,EMP018,False,False,True,False,False,False,False,False,8.932622222346254e-06,0,0.2974470257759094,ok,True,1,Flagged
+INV0680,PO0253,14587.1,IT Hardware,Contract rate mismatch case,2026-05-29,Pending,EMP036,False,False,True,False,False,False,False,False,5.702334898759556e-14,0,0.2965371906757355,ok,True,1,Flagged
