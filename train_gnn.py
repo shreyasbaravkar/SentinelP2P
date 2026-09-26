@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 from torch_geometric.nn import HeteroConv, SAGEConv, Linear
-
+import pandas as pd 
 # ============================================================
 # LOAD THE SAVED GRAPH
 # ============================================================
@@ -179,3 +179,25 @@ print(f"Avg risk score on normal invoices: {avg_normal_prob:.3f}")
 print()
 print("Individual hidden-case risk scores:")
 print(sorted(hidden_probs.tolist(), reverse=True))
+
+# ============================================================
+# Save per-invoice GNN scores for dashboard use
+# ============================================================
+# invoice_id order must match the graph's invoice node order —
+# this assumes invoices were loaded into the graph in the same
+# row order as invoices.csv (true if you built the graph via a
+# straight pandas read with no reordering/filtering)
+invoices_df = pd.read_csv("invoices.csv")
+
+assert len(invoices_df) == probs.shape[0], (
+    f"Mismatch: {len(invoices_df)} invoices in CSV vs {probs.shape[0]} nodes in graph — "
+    "invoice_id order may not line up, do not trust this output until fixed"
+)
+
+gnn_results = pd.DataFrame({
+    "invoice_id": invoices_df["invoice_id"],
+    "gnn_risk_score": probs.tolist(),
+    "gnn_prediction": preds.tolist(),  # 1 = risky, 0 = not risky
+})
+gnn_results.to_csv("gnn_scores.csv", index=False)
+print(f"\nSaved {len(gnn_results)} GNN scores to gnn_scores.csv")
