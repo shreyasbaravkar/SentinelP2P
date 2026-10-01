@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelP2P | Multi-Layered Procurement Fraud Detection</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom smooth hover micro-interactions */
+        .micro-card {
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), 
+                        border-color 0.3s ease, 
+                        box-shadow 0.3s ease;
+        }
+        .micro-card:hover {
+            transform: translateY(-6px);
+            border-color: #2563eb; /* blue-600 */
+            box-shadow: 0 20px 25px -5px rgba(37, 99, 235, 0.1), 0 10px 10px -5px rgba(37, 99, 235, 0.04);
+        }
+        .icon-box {
+            transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+        }
+        .micro-card:hover .icon-box {
+            transform: scale(1.1) rotate(4deg);
+            background-color: #2563eb;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-blue-600 selection:text-white overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3 group cursor-pointer">
+                <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center shadow-md shadow-blue-600/20 transition-transform group-hover:scale-105">
+                    <i class="fa-solid fa-shield-halved text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold tracking-wide text-slate-900">SentinelP2P</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#features" class="hover:text-blue-600 transition-colors">Features</a>
+                <a href="#architecture" class="hover:text-blue-600 transition-colors">Architecture</a>
+                <a href="#taxonomy" class="hover:text-blue-600 transition-colors">Fraud Taxonomy</a>
+                <a href="#quickstart" class="hover:text-blue-600 transition-colors">Quickstart</a>
+            </div>
+            <div>
+                <a href="#quickstart" class="px-5 py-2.5 rounded-xl bg-blue-600 text-white font-semibold text-sm shadow-md shadow-blue-600/20 hover:bg-blue-700 hover:shadow-lg transition-all active:scale-95">
+                    Launch App
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-36 pb-24 overflow-hidden bg-white">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+            <div class="lg:col-span-7 space-y-6" data-aos="fade-up" data-aos-duration="1000">
+                <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold uppercase tracking-wider">
+                    <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+                    <span>Next-Gen Enterprise Forensics</span>
+                </div>
+                <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight leading-tight text-slate-900">
+                    Multi-Layered <span class="text-blue-600">Procurement-to-Pay</span> Fraud Detection
+                </h1>
+                <p class="text-lg text-slate-600 max-w-xl">
+                    Uncover complex fraud schemes across your enterprise network combining Graph Databases, Heterogeneous GNNs, and Vector RAG.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#architecture" class="px-7 py-3.5 rounded-xl bg-blue-600 text-white font-bold text-sm shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition-all active:scale-95">
+                        Explore Architecture
+                    </a>
+                    <a href="#taxonomy" class="px-7 py-3.5 rounded-xl bg-white border border-slate-300 text-slate-700 font-semibold text-sm hover:border-slate-400 hover:bg-slate-50 transition-all active:scale-95">
+                        View 8 Fraud Schemes
+                    </a>
+                </div>
+            </div>
+
+            <!-- Interactive Preview Card -->
+            <div class="lg:col-span-5" data-aos="fade-left" data-aos-duration="1000">
+                <div class="p-6 rounded-2xl bg-slate-900 text-white shadow-xl relative transition-transform duration-300 hover:scale-[1.02]">
+                    <div class="absolute -top-3 -right-3 px-3 py-1 rounded-lg bg-blue-600 text-white text-xs font-mono">
+                        HeteroData Graph
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between text-xs text-slate-400 border-b border-slate-800 pb-3">
+                            <span>Entities Node Matrix</span>
+                            <span class="text-blue-400 font-mono">100 Emp / 345 Vendors</span>
+                        </div>
+                        <div class="h-48 rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-center relative overflow-hidden group">
+                            <div class="text-center space-y-2 relative z-10 transition-transform duration-300 group-hover:scale-110">
+                                <i class="fa-solid fa-network-wired text-4xl text-blue-400"></i>
+                                <p class="text-xs text-slate-400 font-mono">Neo4j + PyTorch Geometric Active</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 gap-3 pt-2">
+                            <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 transition-colors hover:border-blue-500">
+                                <span class="text-xs text-slate-400 block">Fraud Patterns</span>
+                                <span class="text-lg font-bold text-white">8 Schemes</span>
+                            </div>
+                            <div class="p-3 rounded-xl bg-slate-950 border border-slate-800 transition-colors hover:border-blue-500">
+                                <span class="text-xs text-slate-400 block">Vector Index</span>
+                                <span class="text-lg font-bold text-white">Qdrant RAG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Features Grid (AOS Entrance + Micro-Interaction Hover) -->
+    <section id="features" class="py-24 bg-slate-100 relative border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-4" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-slate-900">Multi-Modal Detection Core</h2>
+                <p class="text-slate-600">Powered by three independent validation pipelines working in unison to eliminate false negatives.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 rounded-xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 mb-6 icon-box">
+                        <i class="fa-solid fa-brain text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Graph Neural Networks</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Trains 3-layer HeteroConv SAGEConv models on relational P2P topologies to uncover zero-shot structural anomalies.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-600 mb-6 icon-box">
+                        <i class="fa-solid fa-magnifying-glass-chart text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Semantic Contract RAG</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Leverages SentenceTransformers and Qdrant to catch line-item price & scope mismatches instantly.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-emerald-600 mb-6 icon-box">
+                        <i class="fa-solid fa-shield-check text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-900">Cypher Rule Queries</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Executes 8 pre-configured Neo4j rule checks for shell vendors, split POs, and segregation of duties violations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architecture Section -->
+    <section id="architecture" class="py-24 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-4" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-slate-900">System Architecture Pipeline</h2>
+                <p class="text-slate-600">End-to-end data ingestion, simulation, and scoring pipeline overview.</p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-slate-50 border border-slate-200 shadow-sm" data-aos="fade-up">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+                    <div class="p-4 rounded-xl bg-white border border-slate-200 transition-all duration-300 hover:-translate-y-1 hover:border-blue-600">
+                        <span class="text-blue-600 font-mono text-xs block mb-1">STAGE 01</span>
+                        <h4 class="font-bold text-sm mb-2 text-slate-900">Data & Fraud Gen</h4>
+                        <p class="text-xs text-slate-600">Faker pipeline planting 8 distinct real-world fraud schemes.</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-white border border-slate-200 transition-all duration-300 hover:-translate-y-1 hover:border-blue-600">
+                        <span class="text-blue-600 font-mono text-xs block mb-1">STAGE 02</span>
+                        <h4 class="font-bold text-sm mb-2 text-slate-900">Neo4j Graph</h4>
+                        <p class="text-xs text-slate-600">Relational topology loading & Cypher query rule validation.</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-white border border-slate-200 transition-all duration-300 hover:-translate-y-1 hover:border-blue-600">
+                        <span class="text-blue-600 font-mono text-xs block mb-1">STAGE 03</span>
+                        <h4 class="font-bold text-sm mb-2 text-slate-900">GNN & Qdrant RAG</h4>
+                        <p class="text-xs text-slate-600">PyTorch Geometric training and vector similarity embedding.</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-white border border-slate-200 transition-all duration-300 hover:-translate-y-1 hover:border-blue-600">
+                        <span class="text-blue-600 font-mono text-xs block mb-1">STAGE 04</span>
+                        <h4 class="font-bold text-sm mb-2 text-slate-900">Streamlit UI</h4>
+                        <p class="text-xs text-slate-600">Real-time multi-modal risk analysis dashboard for investigators.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fraud Taxonomy Preview -->
+    <section id="taxonomy" class="py-24 bg-slate-100 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16 space-y-4" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-slate-900">Simulated Fraud Taxonomy</h2>
+                <p class="text-slate-600">8 enterprise procurement fraud patterns implanted and tested within the ecosystem.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-5 rounded-xl bg-white border border-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-blue-600 hover:shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <span class="text-xs font-mono text-blue-600 font-semibold">F1 • SHELL VENDOR</span>
+                    <h4 class="font-bold mt-1 mb-2 text-slate-900">Shared Contact Info</h4>
+                    <p class="text-xs text-slate-600">Vendor shares direct personal phone or email with an active employee.</p>
+                </div>
+                <div class="p-5 rounded-xl bg-white border border-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-blue-600 hover:shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <span class="text-xs font-mono text-blue-600 font-semibold">F2 • SPLIT POs</span>
+                    <h4 class="font-bold mt-1 mb-2 text-slate-900">Threshold Evasion</h4>
+                    <p class="text-xs text-slate-600">POs split into multiple transactions under approval limits on the same date.</p>
+                </div>
+                <div class="p-5 rounded-xl bg-white border border-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-blue-600 hover:shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <span class="text-xs font-mono text-blue-600 font-semibold">F4 • SEGREGATION</span>
+                    <h4 class="font-bold mt-1 mb-2 text-slate-900">Duty Violations</h4>
+                    <p class="text-xs text-slate-600">Same employee both creates (raises) and approves the purchase order.</p>
+                </div>
+                <div class="p-5 rounded-xl bg-white border border-slate-200 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-blue-600 hover:shadow-md" data-aos="fade-up" data-aos-delay="400">
+                    <span class="text-xs font-mono text-blue-600 font-semibold">F6 • RATE MISMATCH</span>
+                    <h4 class="font-bold mt-1 mb-2 text-slate-900">Contract Breaches</h4>
+                    <p class="text-xs text-slate-600">Invoice amounts exceeding agreed contract rates by more than 30%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quickstart / Footer -->
+    <section id="quickstart" class="py-20 bg-white border-t border-slate-200 text-center">
+        <div class="max-w-3xl mx-auto px-6 space-y-6" data-aos="fade-up">
+            <h2 class="text-3xl font-bold text-slate-900">Ready to Launch the Dashboard?</h2>
+            <p class="text-slate-600 text-sm">Run your local Streamlit instance to start investigating multi-modal risk scores.</p>
+            <div class="p-4 rounded-xl bg-slate-900 text-blue-400 font-mono text-xs inline-block shadow-sm transition-transform hover:scale-105 cursor-pointer">
+                streamlit run dashboard.py
+            </div>
+            <div class="pt-6 text-xs text-slate-500">
+                SentinelP2P Enterprise Fraud Analysis System &copy; 2026
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS Script Initialization -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+            easing: 'ease-out-cubic',
+        });
+    </script>
+</body>
+</html>

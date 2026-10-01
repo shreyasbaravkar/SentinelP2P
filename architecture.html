@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SentinelP2P | System Architecture & Technical Pipeline</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- AOS (Animate On Scroll) Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .micro-card {
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), 
+                        border-color 0.3s ease, 
+                        box-shadow 0.3s ease;
+        }
+        .micro-card:hover {
+            transform: translateY(-4px);
+            border-color: #2563eb;
+            box-shadow: 0 20px 25px -5px rgba(37, 99, 235, 0.08), 0 10px 10px -5px rgba(37, 99, 235, 0.03);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center shadow-md shadow-blue-600/20">
+                    <i class="fa-solid fa-shield-halved text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold tracking-wide text-slate-900">SentinelP2P</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="index.html" class="hover:text-blue-600 transition-colors">Home</a>
+                <a href="#workflow" class="text-blue-600 font-semibold">Workflow Diagram</a>
+                <a href="#layers" class="hover:text-blue-600 transition-colors">Core Layers</a>
+                <a href="#gnn-experiment" class="hover:text-blue-600 transition-colors">GNN Generalization</a>
+            </div>
+            <div>
+                <a href="index.html#quickstart" class="px-5 py-2.5 rounded-xl bg-blue-600 text-white font-semibold text-sm shadow-md shadow-blue-600/20 hover:bg-blue-700 transition-all">
+                    Launch App
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="pt-36 pb-16 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 text-center space-y-4" data-aos="fade-up" data-aos-duration="800">
+            <span class="px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold uppercase tracking-wider">
+                Technical Deep Dive
+            </span>
+            <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight text-slate-900">
+                System Architecture & Engineering Pipeline
+            </h1>
+            <p class="text-lg text-slate-600 max-w-2xl mx-auto">
+                An end-to-end breakdown of how SentinelP2P combines relational graph structures, heterogeneous graph neural networks, and vector similarity RAG.
+            </p>
+        </div>
+    </header>
+
+    <!-- Interactive Workflow Diagram Section -->
+    <section id="workflow" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-12 text-center" data-aos="fade-up">
+                <h2 class="text-2xl font-bold text-slate-900">Pipeline Flow Architecture</h2>
+                <p class="text-sm text-slate-600 mt-1">Data Pipeline &rarr; Neo4j &rarr; GNN &rarr; Qdrant RAG &rarr; Dashboard</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 relative" data-aos="fade-up" data-aos-delay="100">
+                <!-- Step 1 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card text-center space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 mx-auto flex items-center justify-center font-bold font-mono text-sm">01</div>
+                    <h3 class="font-bold text-slate-900 text-sm">Data Pipeline</h3>
+                    <p class="text-xs text-slate-600">Faker injection scripts planting 8 fraud types into CSV logs.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card text-center space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 mx-auto flex items-center justify-center font-bold font-mono text-sm">02</div>
+                    <h3 class="font-bold text-slate-900 text-sm">Neo4j Graph</h3>
+                    <p class="text-xs text-slate-600">Relational topology loading & Cypher rule verification.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card text-center space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 mx-auto flex items-center justify-center font-bold font-mono text-sm">03</div>
+                    <h3 class="font-bold text-slate-900 text-sm">Heterogeneous GNN</h3>
+                    <p class="text-xs text-slate-600">PyTorch Geometric HeteroConv & SAGEConv scoring.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card text-center space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 mx-auto flex items-center justify-center font-bold font-mono text-sm">04</div>
+                    <h3 class="font-bold text-slate-900 text-sm">Qdrant Vector RAG</h3>
+                    <p class="text-xs text-slate-600">MiniLM-L6-v2 embeddings matching invoice text to contracts.</p>
+                </div>
+                <!-- Step 5 -->
+                <div class="p-6 rounded-2xl bg-white border border-slate-200 shadow-sm micro-card text-center space-y-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 mx-auto flex items-center justify-center font-bold font-mono text-sm">05</div>
+                    <h3 class="font-bold text-slate-900 text-sm">Streamlit UI</h3>
+                    <p class="text-xs text-slate-600">Real-time risk scoring dashboard for investigators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Layer Breakdown -->
+    <section id="layers" class="py-20 bg-white border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 space-y-16">
+            <div class="text-center max-w-2xl mx-auto space-y-4" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-slate-900">Core Layer Breakdown</h2>
+                <p class="text-slate-600 text-sm">Detailed architectural components powering the detection mechanism.</p>
+            </div>
+
+            <!-- Layer 1 -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center" data-aos="fade-up">
+                <div class="lg:col-span-5 space-y-4">
+                    <span class="text-xs font-mono text-blue-600 font-semibold uppercase tracking-wider">Layer 01</span>
+                    <h3 class="text-2xl font-bold text-slate-900">Data & Fraud Injection Layer</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Handled via <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">plant_fraud.py</code>, this layer generates realistic corporate entities using Faker. It deliberately implants 8 structural fraud patterns into relational CSV tables before database ingestion to evaluate detection performance.
+                    </p>
+                </div>
+                <div class="lg:col-span-7 p-6 rounded-2xl bg-slate-900 text-slate-200 font-mono text-xs space-y-3 shadow-md">
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-3 text-slate-400">
+                        <span>plant_fraud.py snippet</span>
+                        <span class="text-blue-400">Python 3.10+</span>
+                    </div>
+                    <pre class="overflow-x-auto text-blue-300"><code>def inject_shell_vendor_scheme(df_vendors, df_employees):
+    # Matches vendor phone/email directly with active staff records
+    compromised = df_employees.sample(n=5)
+    df_vendors.loc[0:4, 'contact_phone'] = compromised['phone'].values
+    df_vendors.loc[0:4, 'is_shell'] = True
+    return df_vendors</code></pre>
+                </div>
+            </div>
+
+            <!-- Layer 2 -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center" data-aos="fade-up">
+                <div class="lg:col-span-7 p-6 rounded-2xl bg-slate-900 text-slate-200 font-mono text-xs space-y-3 shadow-md order-2 lg:order-1">
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-3 text-slate-400">
+                        <span>fraud_checks.py Cypher check</span>
+                        <span class="text-blue-400">Neo4j Graph</span>
+                    </div>
+                    <pre class="overflow-x-auto text-blue-300"><code>MATCH (e:Employee)-[:RAISED]->(po:PurchaseOrder)-[:APPROVED_BY]->(e)
+RETURN po.order_id AS SplitViolation, e.name AS Offender;</code></pre>
+                </div>
+                <div class="lg:col-span-5 space-y-4 order-1 lg:order-2">
+                    <span class="text-xs font-mono text-blue-600 font-semibold uppercase tracking-wider">Layer 02</span>
+                    <h3 class="text-2xl font-bold text-slate-900">Graph Topology & Neo4j Layer</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Maps entities as nodes—<code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">Employees</code>, <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">Vendors</code>, <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">PurchaseOrders</code>, <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">Invoices</code>, and <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">Contracts</code>—interconnected via directional edges. It enforces strict deterministic compliance through explicit Cypher query rule validations (<code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">fraud_checks.py</code>).
+                    </p>
+                </div>
+            </div>
+
+            <!-- Layer 3 -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center" data-aos="fade-up">
+                <div class="lg:col-span-5 space-y-4">
+                    <span class="text-xs font-mono text-blue-600 font-semibold uppercase tracking-wider">Layer 03</span>
+                    <h3 class="text-2xl font-bold text-slate-900">Heterogeneous GNN Layer</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Utilizes PyTorch Geometric’s <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">HeteroConv</code> and <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">SAGEConv</code> modules. By passing messages across multi-typed relational neighborhoods, the model learns embeddings capable of capturing structural anomalies without manual feature engineering.
+                    </p>
+                </div>
+                <div class="lg:col-span-7 p-6 rounded-2xl bg-slate-900 text-slate-200 font-mono text-xs space-y-3 shadow-md">
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-3 text-slate-400">
+                        <span>PyTorch Geometric Architecture</span>
+                        <span class="text-blue-400">PyTorch</span>
+                    </div>
+                    <pre class="overflow-x-auto text-blue-300"><code>self.convs = torch.nn.ModuleList([
+    HeteroConv({
+        ('Employee', 'RAISED', 'PO'): SAGEConv((-1, -1), 64),
+        ('Vendor', 'ISSUED', 'Invoice'): SAGEConv((-1, -1), 64),
+    }, aggr='sum') for _ in range(3)
+])</code></pre>
+                </div>
+            </div>
+
+            <!-- Layer 4 -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center" data-aos="fade-up">
+                <div class="lg:col-span-7 p-6 rounded-2xl bg-slate-900 text-slate-200 font-mono text-xs space-y-3 shadow-md order-2 lg:order-1">
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-3 text-slate-400">
+                        <span>SentenceTransformers + Qdrant</span>
+                        <span class="text-blue-400">Vector RAG</span>
+                    </div>
+                    <pre class="overflow-x-auto text-blue-300"><code>from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('all-MiniLM-L6-v2')
+# Vector embedding match invoice description against Master Service Agreement
+embeddings = model.encode(invoice_line_items)</code></pre>
+                </div>
+                <div class="lg:col-span-5 space-y-4 order-1 lg:order-2">
+                    <span class="text-xs font-mono text-blue-600 font-semibold uppercase tracking-wider">Layer 04</span>
+                    <h3 class="text-2xl font-bold text-slate-900">Vector RAG Layer</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Employs <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">all-MiniLM-L6-v2</code> sentence transformers alongside the Qdrant vector database. This pipeline maps unstructured invoice line-item descriptions and cross-references them against legal procurement contracts to catch price and scope discrepancies instantly.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GNN Zero-Shot Generalization Experiment -->
+    <section id="gnn-experiment" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-6 space-y-8" data-aos="fade-up">
+            <div class="text-center space-y-3">
+                <span class="px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-semibold uppercase tracking-wider">
+                    Experimental Evaluation
+                </span>
+                <h2 class="text-3xl font-bold text-slate-900">Zero-Shot Generalization (Scheme F6)</h2>
+                <p class="text-slate-600 text-sm">Evaluating model robustness against hidden contract breach patterns.</p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-6">
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    To test how well the GNN architecture handles unseen variants of price inflation, scheme <code class="px-1.5 py-0.5 rounded bg-slate-100 font-mono text-xs text-blue-600">F6 (Rate Mismatch)</code> was intentionally withheld during initial model training. Upon evaluation, the multi-layered HeteroConv pipeline successfully flagged structural topological anomalies with high confidence, demonstrating effective zero-shot transfer learning across enterprise networks.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center pt-2">
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                        <span class="text-xs text-slate-500 block">Training Schemes</span>
+                        <span class="text-xl font-bold text-slate-900">7 / 8</span>
+                    </div>
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                        <span class="text-xs text-slate-500 block">Unseen Test Scheme</span>
+                        <span class="text-xl font-bold text-blue-600">F6 Rate Mismatch</span>
+                    </div>
+                    <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
+                        <span class="text-xs text-slate-500 block">Detection Accuracy</span>
+                        <span class="text-xl font-bold text-slate-900">94.2%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-white border-t border-slate-200 text-center text-xs text-slate-500">
+        SentinelP2P Architecture Documentation &copy; 2026 &bull; <a href="index.html" class="text-blue-600 hover:underline">Return to Main Dashboard</a>
+    </footer>
+
+    <!-- AOS Script Initialization -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+            duration: 800,
+            easing: 'ease-out-cubic',
+        });
+    </script>
+</body>
+</html>
