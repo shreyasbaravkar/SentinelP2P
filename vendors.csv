@@ -344,3 +344,48 @@ VEN342,Independent Supplier 11,allison.hill@sentinelcorp.com,9990000011,Freelanc
 VEN343,Independent Supplier 12,jeffrey.johnson@sentinelcorp.com,9990000012,Freelance Office Space,GB00INDEP000000012,REG-UNKNOWN,Office Supplies,2026-04-13,No,EMP059
 VEN344,Independent Supplier 13,carla.collins@sentinelcorp.com,9990000013,Freelance Office Space,GB00INDEP000000013,REG-UNKNOWN,Office Supplies,2026-04-14,No,EMP055
 VEN345,Independent Supplier 14,christopher.schwartz@sentinelcorp.com,9990000014,Freelance Office Space,GB00INDEP000000014,REG-UNKNOWN,Office Supplies,2026-04-15,No,EMP094
+VEN346,Shell Vendor 1,richard.jones@sentinelcorp.com,488-635-5231,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000000,UNVERIFIED,IT Hardware,2026-01-01,No,EMP082
+VEN347,Shell Vendor 2,amber.perez@sentinelcorp.com,731-564-7525,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000001,UNVERIFIED,Catering,2026-01-02,No,EMP004
+VEN348,Shell Vendor 3,christina.smith@sentinelcorp.com,427.319.3745,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000002,UNVERIFIED,IT Hardware,2026-01-03,No,EMP036
+VEN349,Shell Vendor 4,nicole.chambers@sentinelcorp.com,820.503.7917,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000003,UNVERIFIED,IT Hardware,2026-01-04,No,EMP029
+VEN350,Shell Vendor 5,monica.rose@sentinelcorp.com,001-243-541-0369x71179,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000004,UNVERIFIED,IT Hardware,2026-01-05,No,EMP095
+VEN351,Shell Vendor 6,amy.mccoy@sentinelcorp.com,751-386-4492,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000005,UNVERIFIED,Catering,2026-01-06,No,EMP087
+VEN352,Shell Vendor 7,alexis.baker@sentinelcorp.com,001-568-211-7758x9178,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000006,UNVERIFIED,IT Hardware,2026-01-07,No,EMP070
+VEN353,Shell Vendor 8,michael.parker@sentinelcorp.com,(802)829-6120x183,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000007,UNVERIFIED,Office Supplies,2026-01-08,No,EMP076
+VEN354,Shell Vendor 9,mia.sutton@sentinelcorp.com,+1-528-232-7648x350,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000008,UNVERIFIED,IT Hardware,2026-01-09,No,EMP005
+VEN355,Shell Vendor 10,michael.brown@sentinelcorp.com,4519834738,"Unit 4B, Industrial Estate, Remote City",GB00FAKE00000000009,UNVERIFIED,IT Hardware,2026-01-10,No,EMP012
+VEN356,Shell Vendor 11,janet.ross@sentinelcorp.com,+1-401-963-2870x8317,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000010,UNVERIFIED,Catering,2026-01-11,No,EMP030
+VEN357,Shell Vendor 12,paul.wilson@sentinelcorp.com,249-278-4036,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000011,UNVERIFIED,IT Hardware,2026-01-12,No,EMP078
+VEN358,Shell Vendor 13,marcus.richards@sentinelcorp.com,(998)547-8961x1836,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000012,UNVERIFIED,IT Hardware,2026-01-13,No,EMP072
+VEN359,Shell Vendor 14,rebecca.taylor@sentinelcorp.com,4756818141,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000013,UNVERIFIED,Catering,2026-01-14,No,EMP092
+VEN360,Shell Vendor 15,christopher.schwartz@sentinelcorp.com,(970)565-3794,"Unit 4B, Industrial Estate, Remote City",GB00FAKE000000000014,UNVERIFIED,Catering,2026-01-15,No,EMP090
+VEN361,NewCo Traders 0,contact@newco0.com,0000000000,Unregistered Address,GB00NEWCO000000000,PENDING,IT Hardware,2026-06-01,No,EMP021
+VEN362,NewCo Traders 1,contact@newco1.com,0000000000,Unregistered Address,GB00NEWCO000000001,PENDING,IT Hardware,2026-06-02,No,EMP068
+VEN363,NewCo Traders 2,contact@newco2.com,0000000000,Unregistered Address,GB00NEWCO000000002,PENDING,IT Hardware,2026-06-03,No,EMP042
+VEN364,NewCo Traders 3,contact@newco3.com,0000000000,Unregistered Address,GB00NEWCO000000003,PENDING,IT Hardware,2026-06-04,No,EMP047
+VEN365,NewCo Traders 4,contact@newco4.com,0000000000,Unregistered Address,GB00NEWCO000000004,PENDING,IT Hardware,2026-06-05,No,EMP031
+VEN366,NewCo Traders 5,contact@newco5.com,0000000000,Unregistered Address,GB00NEWCO000000005,PENDING,IT Hardware,2026-06-06,No,EMP011
+VEN367,NewCo Traders 6,contact@newco6.com,0000000000,Unregistered Address,GB00NEWCO000000006,PENDING,IT Hardware,2026-06-07,No,EMP009
+VEN368,NewCo Traders 7,contact@newco7.com,0000000000,Unregistered Address,GB00NEWCO000000007,PENDING,IT Hardware,2026-06-08,No,EMP099
+VEN369,NewCo Traders 8,contact@newco8.com,0000000000,Unregistered Address,GB00NEWCO000000008,PENDING,IT Hardware,2026-06-09,No,EMP061
+VEN370,NewCo Traders 9,contact@newco9.com,0000000000,Unregistered Address,GB00NEWCO000000009,PENDING,IT Hardware,2026-06-10,No,EMP034
+VEN371,NewCo Traders 10,contact@newco10.com,0000000000,Unregistered Address,GB00NEWCO0000000010,PENDING,IT Hardware,2026-06-11,No,EMP055
+VEN372,NewCo Traders 11,contact@newco11.com,0000000000,Unregistered Address,GB00NEWCO0000000011,PENDING,IT Hardware,2026-06-12,No,EMP097
+VEN373,NewCo Traders 12,contact@newco12.com,0000000000,Unregistered Address,GB00NEWCO0000000012,PENDING,IT Hardware,2026-06-13,No,EMP092
+VEN374,NewCo Traders 13,contact@newco13.com,0000000000,Unregistered Address,GB00NEWCO0000000013,PENDING,IT Hardware,2026-06-14,No,EMP084
+VEN375,NewCo Traders 14,contact@newco14.com,0000000000,Unregistered Address,GB00NEWCO0000000014,PENDING,IT Hardware,2026-06-15,No,EMP058
+VEN376,Independent Supplier 0,sarah.morgan@sentinelcorp.com,9990000000,Freelance Office Space,GB00INDEP00000000,REG-UNKNOWN,Office Supplies,2026-04-01,No,EMP024
+VEN377,Independent Supplier 1,christina.smith@sentinelcorp.com,9990000001,Freelance Office Space,GB00INDEP00000001,REG-UNKNOWN,Office Supplies,2026-04-02,No,EMP060
+VEN378,Independent Supplier 2,billy.mitchell@sentinelcorp.com,9990000002,Freelance Office Space,GB00INDEP00000002,REG-UNKNOWN,Office Supplies,2026-04-03,No,EMP010
+VEN379,Independent Supplier 3,andrew.shaw.md@sentinelcorp.com,9990000003,Freelance Office Space,GB00INDEP00000003,REG-UNKNOWN,Office Supplies,2026-04-04,No,EMP071
+VEN380,Independent Supplier 4,john.russell@sentinelcorp.com,9990000004,Freelance Office Space,GB00INDEP00000004,REG-UNKNOWN,Office Supplies,2026-04-05,No,EMP007
+VEN381,Independent Supplier 5,barry.ramos@sentinelcorp.com,9990000005,Freelance Office Space,GB00INDEP00000005,REG-UNKNOWN,Office Supplies,2026-04-06,No,EMP070
+VEN382,Independent Supplier 6,alyssa.gonzalez@sentinelcorp.com,9990000006,Freelance Office Space,GB00INDEP00000006,REG-UNKNOWN,Office Supplies,2026-04-07,No,EMP012
+VEN383,Independent Supplier 7,amanda.hughes@sentinelcorp.com,9990000007,Freelance Office Space,GB00INDEP00000007,REG-UNKNOWN,Office Supplies,2026-04-08,No,EMP031
+VEN384,Independent Supplier 8,ashley.landry@sentinelcorp.com,9990000008,Freelance Office Space,GB00INDEP00000008,REG-UNKNOWN,Office Supplies,2026-04-09,No,EMP053
+VEN385,Independent Supplier 9,edward.burgess@sentinelcorp.com,9990000009,Freelance Office Space,GB00INDEP00000009,REG-UNKNOWN,Office Supplies,2026-04-10,No,EMP062
+VEN386,Independent Supplier 10,roy.torres@sentinelcorp.com,9990000010,Freelance Office Space,GB00INDEP000000010,REG-UNKNOWN,Office Supplies,2026-04-11,No,EMP052
+VEN387,Independent Supplier 11,ashley.dyer@sentinelcorp.com,9990000011,Freelance Office Space,GB00INDEP000000011,REG-UNKNOWN,Office Supplies,2026-04-12,No,EMP022
+VEN388,Independent Supplier 12,ricky.larson@sentinelcorp.com,9990000012,Freelance Office Space,GB00INDEP000000012,REG-UNKNOWN,Office Supplies,2026-04-13,No,EMP001
+VEN389,Independent Supplier 13,lindsey.johnson@sentinelcorp.com,9990000013,Freelance Office Space,GB00INDEP000000013,REG-UNKNOWN,Office Supplies,2026-04-14,No,EMP034
+VEN390,Independent Supplier 14,amber.flynn@sentinelcorp.com,9990000014,Freelance Office Space,GB00INDEP000000014,REG-UNKNOWN,Office Supplies,2026-04-15,No,EMP037
