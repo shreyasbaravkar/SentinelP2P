@@ -3,9 +3,9 @@ import numpy as np
 from qdrant_client import QdrantClient
 from sentence_transformers import SentenceTransformer
 
-invoices = pd.read_csv("invoices.csv")
-contracts = pd.read_csv("contracts.csv")
-pos = pd.read_csv("purchase_orders.csv")
+invoices = pd.read_csv("../../data/invoices.csv")
+contracts = pd.read_csv("../../data/contracts.csv")
+pos = pd.read_csv("../../data/purchase_orders.csv")
 print(f"Loaded {len(invoices)} invoices, {len(pos)} purchase orders")
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -45,9 +45,9 @@ for i, row in invoices.iterrows():
     })
 
 results_df = pd.DataFrame(results)
-results_df.to_csv("rag_similarity_scores.csv", index=False)
+results_df.to_csv("../../data/rag_similarity_scores.csv", index=False)
 
-print(f"\nSaved {len(results_df)} rows to rag_similarity_scores.csv")
+print(f"\nSaved {len(results_df)} rows to ../../data/rag_similarity_scores.csv")
 print(f"no_contract_on_file: {(results_df['rag_status'] == 'no_contract_on_file').sum()}")
 print(f"scored (has contract): {results_df['similarity'].notna().sum()}")
 print()

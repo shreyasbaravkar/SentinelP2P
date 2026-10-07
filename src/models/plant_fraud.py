@@ -8,19 +8,19 @@ random.seed(42)
 # READ ALL EXISTING DATA FIRST
 # ============================================================
 
-with open("employees.csv", "r", encoding="utf-8") as f:
+with open("../../data/employees.csv", "r", encoding="utf-8") as f:
     employees = list(csv.DictReader(f))
 
-with open("vendors.csv", "r", encoding="utf-8") as f:
+with open("../../data/vendors.csv", "r", encoding="utf-8") as f:
     vendors = list(csv.DictReader(f))
 
-with open("purchase_orders.csv", "r", encoding="utf-8") as f:
+with open("../../data/purchase_orders.csv", "r", encoding="utf-8") as f:
     pos = list(csv.DictReader(f))
 
-with open("invoices.csv", "r", encoding="utf-8") as f:
+with open("../../data/invoices.csv", "r", encoding="utf-8") as f:
     invoices = list(csv.DictReader(f))
 
-with open("contracts.csv", "r", encoding="utf-8") as f:
+with open("../../data/contracts.csv", "r", encoding="utf-8") as f:
     contracts = list(csv.DictReader(f))
 
 # ============================================================
@@ -240,7 +240,7 @@ print("Planted 15 category-mismatch fraud cases")
 # SAVE EVERYTHING
 # ============================================================
 
-with open("vendors.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/vendors.csv", "w", newline="", encoding="utf-8") as f:
     fieldnames = ["vendor_id", "vendor_name", "email", "phone", "address", "bank_account",
                   "registration_number", "vendor_category", "onboarding_date", "has_contract",
                   "created_by_employee_id"]
@@ -248,14 +248,14 @@ with open("vendors.csv", "w", newline="", encoding="utf-8") as f:
     writer.writeheader()
     writer.writerows(vendors)
 
-with open("purchase_orders.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/purchase_orders.csv", "w", newline="", encoding="utf-8") as f:
     fieldnames = ["po_id", "vendor_id", "amount", "item_category", "date",
                   "created_by_employee_id", "approved_by_employee_id", "payment_terms"]
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(pos)
 
-with open("invoices.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/invoices.csv", "w", newline="", encoding="utf-8") as f:
     fieldnames = ["invoice_id", "po_id", "amount", "item_category", "description",
                   "date", "payment_status", "submitted_by_employee_id"]
     writer = csv.DictWriter(f, fieldnames=fieldnames)
