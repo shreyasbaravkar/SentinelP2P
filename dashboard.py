@@ -46,6 +46,9 @@ def load_data():
 
 
 df, data_path = load_data()
+st.sidebar.caption(f"Data file: {data_path}")
+st.sidebar.caption(f"Has closest-service column: {'best_match_service' in df.columns}")
+st.sidebar.caption(f"Columns: {len(df.columns)}")
 if df is None:
     st.error("dashboard_data.csv not found. Run `python build_dashboard_data.py` first.")
     st.stop()
@@ -217,6 +220,8 @@ elif navigation == "🔍 Risk Matrix & Forensic Inspector":
             fired = [pretty(c) for c in RULE_COLS if bool(row[c])]
             fired_str = ", ".join(fired) if fired else "None"
             similarity_str = f"{row['similarity']:.1%}" if pd.notna(row.get("similarity")) else "N/A"
+            closest_str = row.get("best_match_service")
+            closest_str = closest_str if pd.notna(closest_str) else "N/A"
 
             st.markdown(f"""
                 <div class="inspector-card">
@@ -230,6 +235,7 @@ elif navigation == "🔍 Risk Matrix & Forensic Inspector":
                     <p style="font-size: 13px; margin: 4px 0;"><b>GNN Risk Score:</b> <span style="color: #dc2626; font-weight: 700;">{row['gnn_risk_score']:.1%}</span></p>
                     <p style="font-size: 13px; margin: 4px 0;"><b>RAG Status:</b> <span style="color: #d97706; font-weight: 600;">{row['rag_status']}</span></p>
                     <p style="font-size: 13px; margin: 4px 0;"><b>RAG Similarity:</b> {similarity_str}</p>
+                    <p style="font-size: 13px; margin: 4px 0;"><b>Closest service for this description:</b> {closest_str}</p>
                     <p style="font-size: 13px; margin: 4px 0;"><b>Rules Fired:</b> <span style="font-family: monospace; background: #fef2f2; color: #dc2626; padding: 2px 6px; border-radius: 4px;">{fired_str}</span></p>
                     <p style="font-size: 13px; margin: 4px 0;"><b>Overall Status:</b> <span style="background: #fef2f2; color: #dc2626; padding: 2px 6px; border-radius: 4px; font-weight: 600;">{row['overall_status']}</span></p>
                 </div>
