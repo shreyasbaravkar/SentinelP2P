@@ -6,7 +6,7 @@ import pandas as pd
 # LOAD THE SAVED GRAPH
 # ============================================================
 
-data = torch.load("graph_data.pt", weights_only=False)
+data = torch.load("../../data/graph_data.pt", weights_only=False)
 print("Graph loaded:")
 print(data)
 
@@ -187,7 +187,7 @@ print(sorted(hidden_probs.tolist(), reverse=True))
 # this assumes invoices were loaded into the graph in the same
 # row order as invoices.csv (true if you built the graph via a
 # straight pandas read with no reordering/filtering)
-invoices_df = pd.read_csv("invoices.csv")
+invoices_df = pd.read_csv("../../data/invoices.csv")
 
 assert len(invoices_df) == probs.shape[0], (
     f"Mismatch: {len(invoices_df)} invoices in CSV vs {probs.shape[0]} nodes in graph — "
@@ -199,5 +199,5 @@ gnn_results = pd.DataFrame({
     "gnn_risk_score": probs.tolist(),
     "gnn_prediction": preds.tolist(),  # 1 = risky, 0 = not risky
 })
-gnn_results.to_csv("gnn_scores.csv", index=False)
-print(f"\nSaved {len(gnn_results)} GNN scores to gnn_scores.csv")
+gnn_results.to_csv("../../data/gnn_scores.csv", index=False)
+print(f"\nSaved {len(gnn_results)} GNN scores to ../../data/gnn_scores.csv")

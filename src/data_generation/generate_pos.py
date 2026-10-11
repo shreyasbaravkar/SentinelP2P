@@ -14,13 +14,13 @@ PAYMENT_TERMS = ["Net 15", "Net 30", "Net 45", "Net 60"]
 
 # Read employees and vendors
 employees = []
-with open("employees.csv", "r") as f:
+with open("../../data/employees.csv", "r") as f:
     reader = csv.DictReader(f)
     for row in reader:
         employees.append(row)
 
 vendors = []
-with open("vendors.csv", "r") as f:
+with open("../../data/vendors.csv", "r") as f:
     reader = csv.DictReader(f)
     for row in reader:
         vendors.append(row)
@@ -51,9 +51,9 @@ for i in range(1, 701):  # scaled up from 104 to 700
 fieldnames = ["po_id", "vendor_id", "amount", "item_category", "date",
               "created_by_employee_id", "approved_by_employee_id", "payment_terms"]
 
-with open("purchase_orders.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/purchase_orders.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(pos)
 
-print(f"Created {len(pos)} purchase orders -> purchase_orders.csv")
+print(f"Created {len(pos)} purchase orders -> ../../data/purchase_orders.csv")

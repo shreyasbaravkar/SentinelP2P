@@ -10,16 +10,16 @@ random.seed(42)
 PAYMENT_STATUSES = ["Paid", "Pending", "Overdue"]
 
 employees = []
-with open("employees.csv", "r", encoding="utf-8") as f:
+with open("../../data/employees.csv", "r", encoding="utf-8") as f:
     employees = list(csv.DictReader(f))
 
 pos = []
-with open("purchase_orders.csv", "r", encoding="utf-8") as f:
+with open("../../data/purchase_orders.csv", "r", encoding="utf-8") as f:
     pos = list(csv.DictReader(f))
 
 # NEW: read contracts to respect agreed rates for clean invoices
 vendor_contract_rate = {}
-with open("contracts.csv", "r", encoding="utf-8") as f:
+with open("../../data/contracts.csv", "r", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         vendor_contract_rate[row["vendor_id"]] = float(row["agreed_rate"])
 
@@ -59,9 +59,9 @@ for i, po in enumerate(selected_pos, start=1):
 fieldnames = ["invoice_id", "po_id", "amount", "item_category", "description",
               "date", "payment_status", "submitted_by_employee_id"]
 
-with open("invoices.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/invoices.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(invoices)
 
-print(f"Created {len(invoices)} invoices -> invoices.csv")
+print(f"Created {len(invoices)} invoices -> ../../data/invoices.csv")

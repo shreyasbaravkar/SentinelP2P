@@ -9,7 +9,7 @@ random.seed(42)
 
 # Read vendors, only keep the ones that have a contract
 vendors = []
-with open("vendors.csv", "r") as f:
+with open("../../data/vendors.csv", "r") as f:
     reader = csv.DictReader(f)
     for row in reader:
         if row["has_contract"] == "Yes":
@@ -45,9 +45,9 @@ for i, vendor in enumerate(vendors, start=1):
         "end_date": end_date.strftime("%Y-%m-%d")
     })
 
-with open("contracts.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/contracts.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["contract_id", "vendor_id", "contract_text", "agreed_rate", "start_date", "end_date"])
     writer.writeheader()
     writer.writerows(contracts)
 
-print(f"Created {len(contracts)} contracts -> contracts.csv")
+print(f"Created {len(contracts)} contracts -> ../../data/contracts.csv")

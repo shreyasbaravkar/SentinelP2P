@@ -12,7 +12,7 @@ VENDOR_CATEGORIES = ["IT Hardware", "Office Supplies", "Catering", "Logistics",
 
 # Read existing employees so we can link vendors to them
 employees = []
-with open("employees.csv", "r") as f:
+with open("../../data/employees.csv", "r") as f:
     reader = csv.DictReader(f)
     for row in reader:
         employees.append(row)
@@ -43,9 +43,9 @@ fieldnames = ["vendor_id", "vendor_name", "email", "phone", "address", "bank_acc
               "registration_number", "vendor_category", "onboarding_date", "has_contract",
               "created_by_employee_id"]
 
-with open("vendors.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/vendors.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(vendors)
 
-print(f"Created {len(vendors)} vendors -> vendors.csv")
+print(f"Created {len(vendors)} vendors -> ../../data/vendors.csv")

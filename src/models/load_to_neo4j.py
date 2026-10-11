@@ -18,11 +18,11 @@ def run_batch(tx, query, rows):
     tx.run(query, rows=rows)
 
 def load_data():
-    employees = read_csv("employees.csv")
-    vendors = read_csv("vendors.csv")
-    pos = read_csv("purchase_orders.csv")
-    invoices = read_csv("invoices.csv")
-    contracts = read_csv("contracts.csv")
+    employees = read_csv("../../data/employees.csv")
+    vendors = read_csv("../../data/vendors.csv")
+    pos = read_csv("../../data/purchase_orders.csv")
+    invoices = read_csv("../../data/invoices.csv")
+    contracts = read_csv("../../data/contracts.csv")
 
     with driver.session() as session:
 

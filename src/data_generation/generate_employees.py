@@ -35,9 +35,9 @@ for i in range(1, 101):  # scaled up from 20 to 100
         "join_date": join_date.strftime("%Y-%m-%d")
     })
 
-with open("employees.csv", "w", newline="", encoding="utf-8") as f:
+with open("../../data/employees.csv", "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=["employee_id", "name", "email", "phone", "department", "role", "join_date"])
     writer.writeheader()
     writer.writerows(employees)
 
-print(f"Created {len(employees)} employees -> employees.csv")
+print(f"Created {len(employees)} employees -> ../../data/employees.csv")

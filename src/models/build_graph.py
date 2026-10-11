@@ -1,11 +1,11 @@
 import pandas as pd
 
 # Load all CSVs
-emp = pd.read_csv("employees.csv")
-ven = pd.read_csv("vendors.csv")
-po = pd.read_csv("purchase_orders.csv")
-inv = pd.read_csv("invoices.csv")
-con = pd.read_csv("contracts.csv")
+emp = pd.read_csv("../../data/employees.csv")
+ven = pd.read_csv("../../data/vendors.csv")
+po = pd.read_csv("../../data/purchase_orders.csv")
+inv = pd.read_csv("../../data/invoices.csv")
+con = pd.read_csv("../../data/contracts.csv")
 
 print(f"Loaded: {len(emp)} employees, {len(ven)} vendors, {len(po)} POs, {len(inv)} invoices, {len(con)} contracts")
 
@@ -256,6 +256,6 @@ print(f"Risky invoices in test: {invoice_labels[test_mask].sum().item()}")
 # SAVE THE GRAPH TO DISK
 # ============================================================
 
-torch.save(data, "graph_data.pt")
+torch.save(data, "../../data/graph_data.pt")
 print()
-print("Graph saved to graph_data.pt")
+print("Graph saved to ../../data/graph_data.pt")

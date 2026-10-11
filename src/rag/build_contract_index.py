@@ -4,7 +4,7 @@ from qdrant_client.models import VectorParams, Distance, PointStruct
 from sentence_transformers import SentenceTransformer
 
 # Load contracts
-contracts = pd.read_csv("contracts.csv")
+contracts = pd.read_csv("../../data/contracts.csv")
 print(f"Loaded {len(contracts)} contracts")
 
 # Load a small, fast embedding model (runs locally, no API key needed)
@@ -17,7 +17,7 @@ texts = contracts["contract_text"].tolist()
 embeddings = model.encode(texts, show_progress_bar=True)
 
 # Set up Qdrant in local on-disk mode (no server needed)
-client = QdrantClient(path="./qdrant_data")
+client = QdrantClient(path="../../qdrant_data")
 
 collection_name = "contracts"
 vector_size = embeddings.shape[1]  # 384 for this model
