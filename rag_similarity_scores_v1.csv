@@ -1,0 +1,711 @@
+invoice_id,vendor_id,contract_text,similarity,rag_status
+INV0001,VEN094,The vendor shall provide logistics and courier services at an agreed rate of ₹7040.96 per shipment.,0.3641982078552246,
+INV0002,VEN126,,,no_contract_on_file
+INV0003,VEN030,The vendor shall provide cleaning services at an agreed rate of ₹659.22 per month.,0.2183687686920166,
+INV0004,VEN009,,,no_contract_on_file
+INV0005,VEN197,The vendor shall provide printing and packaging materials at an agreed rate of ₹21958.4 per order.,0.4206530749797821,
+INV0006,VEN160,,,no_contract_on_file
+INV0007,VEN064,,,no_contract_on_file
+INV0008,VEN127,"The vendor shall supply IT hardware equipment at an agreed rate of ₹5669.08 per unit/order, with delivery within 15 business days of order confirmation.",0.12968312203884125,
+INV0009,VEN039,"The vendor shall provide catering services at an agreed rate of ₹4309.25 per event, inclusive of setup and service charges.",0.18545854091644287,
+INV0010,VEN133,,,no_contract_on_file
+INV0011,VEN221,,,no_contract_on_file
+INV0012,VEN290,,,no_contract_on_file
+INV0013,VEN017,The vendor shall provide logistics and courier services at an agreed rate of ₹1150.13 per shipment.,0.1180163100361824,
+INV0014,VEN033,"The vendor shall provide catering services at an agreed rate of ₹17604.42 per event, inclusive of setup and service charges.",0.1296909749507904,
+INV0015,VEN195,The vendor shall provide logistics and courier services at an agreed rate of ₹11616.23 per shipment.,0.13128358125686646,
+INV0016,VEN143,"The vendor shall provide office supplies at an agreed rate of ₹6937.17 per order, payable within the agreed payment terms.",0.10601367056369781,
+INV0017,VEN161,,,no_contract_on_file
+INV0018,VEN005,The vendor shall provide logistics and courier services at an agreed rate of ₹18543.54 per shipment.,0.2560649812221527,
+INV0019,VEN244,,,no_contract_on_file
+INV0020,VEN282,,,no_contract_on_file
+INV0021,VEN096,The vendor shall provide printing and packaging materials at an agreed rate of ₹16376.87 per order.,0.28576093912124634,
+INV0022,VEN284,,,no_contract_on_file
+INV0023,VEN220,,,no_contract_on_file
+INV0024,VEN068,,,no_contract_on_file
+INV0025,VEN258,,,no_contract_on_file
+INV0026,VEN180,,,no_contract_on_file
+INV0027,VEN125,The vendor shall provide printing and packaging materials at an agreed rate of ₹7059.65 per order.,0.33033671975135803,
+INV0028,VEN039,"The vendor shall provide catering services at an agreed rate of ₹4309.25 per event, inclusive of setup and service charges.",0.3168407082557678,
+INV0029,VEN241,The vendor shall provide printing and packaging materials at an agreed rate of ₹1919.17 per order.,0.2053956836462021,
+INV0030,VEN023,The vendor shall provide printing and packaging materials at an agreed rate of ₹5900.8 per order.,0.4175555408000946,
+INV0031,VEN123,"The vendor shall provide catering services at an agreed rate of ₹8228.6 per event, inclusive of setup and service charges.",0.17051255702972412,
+INV0032,VEN184,,,no_contract_on_file
+INV0033,VEN125,The vendor shall provide printing and packaging materials at an agreed rate of ₹7059.65 per order.,0.33033671975135803,
+INV0034,VEN251,The vendor shall provide software licenses at an agreed rate of ₹19262.94 per license renewal cycle.,0.13962876796722412,
+INV0035,VEN070,,,no_contract_on_file
+INV0036,VEN211,The vendor shall provide software licenses at an agreed rate of ₹7811.9 per license renewal cycle.,0.6991788148880005,
+INV0037,VEN009,,,no_contract_on_file
+INV0038,VEN214,"The vendor shall provide office supplies at an agreed rate of ₹4244.56 per order, payable within the agreed payment terms.",0.199401393532753,
+INV0039,VEN106,,,no_contract_on_file
+INV0040,VEN002,"The vendor shall provide catering services at an agreed rate of ₹1112.76 per event, inclusive of setup and service charges.",0.6000819206237793,
+INV0041,VEN014,The vendor shall provide logistics and courier services at an agreed rate of ₹5856.63 per shipment.,0.631045401096344,
+INV0042,VEN214,"The vendor shall provide office supplies at an agreed rate of ₹4244.56 per order, payable within the agreed payment terms.",0.199401393532753,
+INV0043,VEN193,The vendor shall provide logistics and courier services at an agreed rate of ₹11151.75 per shipment.,0.13357651233673096,
+INV0044,VEN230,,,no_contract_on_file
+INV0045,VEN271,,,no_contract_on_file
+INV0046,VEN030,The vendor shall provide cleaning services at an agreed rate of ₹659.22 per month.,0.26569992303848267,
+INV0047,VEN192,The vendor shall provide printing and packaging materials at an agreed rate of ₹3233.03 per order.,0.05286914482712746,
+INV0048,VEN145,"The vendor shall provide office supplies at an agreed rate of ₹22496.66 per order, payable within the agreed payment terms.",0.10490628331899643,
+INV0049,VEN274,,,no_contract_on_file
+INV0050,VEN233,,,no_contract_on_file
+INV0051,VEN044,The vendor shall provide printing and packaging materials at an agreed rate of ₹23951.72 per order.,0.41071179509162903,
+INV0052,VEN076,"The vendor shall provide office supplies at an agreed rate of ₹1622.7 per order, payable within the agreed payment terms.",0.3141256272792816,
+INV0053,VEN035,,,no_contract_on_file
+INV0054,VEN217,,,no_contract_on_file
+INV0055,VEN264,,,no_contract_on_file
+INV0056,VEN233,,,no_contract_on_file
+INV0057,VEN250,The vendor shall provide cleaning services at an agreed rate of ₹19134.75 per month.,0.2468169629573822,
+INV0058,VEN215,,,no_contract_on_file
+INV0059,VEN056,,,no_contract_on_file
+INV0060,VEN207,,,no_contract_on_file
+INV0061,VEN158,,,no_contract_on_file
+INV0062,VEN086,,,no_contract_on_file
+INV0063,VEN121,"The vendor shall provide catering services at an agreed rate of ₹6111.68 per event, inclusive of setup and service charges.",0.12914445996284485,
+INV0064,VEN253,The vendor shall provide software licenses at an agreed rate of ₹3645.59 per license renewal cycle.,0.17344772815704346,
+INV0065,VEN115,,,no_contract_on_file
+INV0066,VEN103,,,no_contract_on_file
+INV0067,VEN008,,,no_contract_on_file
+INV0068,VEN194,,,no_contract_on_file
+INV0069,VEN152,The vendor shall provide printing and packaging materials at an agreed rate of ₹12983.39 per order.,0.33013466000556946,
+INV0070,VEN226,,,no_contract_on_file
+INV0071,VEN258,,,no_contract_on_file
+INV0072,VEN071,,,no_contract_on_file
+INV0073,VEN059,The vendor shall provide printing and packaging materials at an agreed rate of ₹24341.34 per order.,0.40247294306755066,
+INV0074,VEN263,,,no_contract_on_file
+INV0075,VEN023,The vendor shall provide printing and packaging materials at an agreed rate of ₹5900.8 per order.,0.05753210559487343,
+INV0076,VEN213,The vendor shall provide cleaning services at an agreed rate of ₹15419.77 per month.,0.2383785992860794,
+INV0077,VEN299,,,no_contract_on_file
+INV0078,VEN165,,,no_contract_on_file
+INV0079,VEN161,,,no_contract_on_file
+INV0080,VEN210,,,no_contract_on_file
+INV0081,VEN248,"The vendor shall supply IT hardware equipment at an agreed rate of ₹2195.71 per unit/order, with delivery within 15 business days of order confirmation.",0.2756972312927246,
+INV0082,VEN237,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23262.92 per unit/order, with delivery within 15 business days of order confirmation.",0.5610232949256897,
+INV0083,VEN172,,,no_contract_on_file
+INV0084,VEN133,,,no_contract_on_file
+INV0085,VEN015,,,no_contract_on_file
+INV0086,VEN047,,,no_contract_on_file
+INV0087,VEN217,,,no_contract_on_file
+INV0088,VEN105,"The vendor shall provide catering services at an agreed rate of ₹4692.9 per event, inclusive of setup and service charges.",0.23126201331615448,
+INV0089,VEN024,,,no_contract_on_file
+INV0090,VEN149,The vendor shall provide printing and packaging materials at an agreed rate of ₹5873.36 per order.,0.2928570508956909,
+INV0091,VEN041,,,no_contract_on_file
+INV0092,VEN179,The vendor shall provide cleaning services at an agreed rate of ₹21589.1 per month.,0.24260801076889038,
+INV0093,VEN157,"The vendor shall provide office supplies at an agreed rate of ₹15872.43 per order, payable within the agreed payment terms.",0.3387451767921448,
+INV0094,VEN213,The vendor shall provide cleaning services at an agreed rate of ₹15419.77 per month.,0.13991056382656097,
+INV0095,VEN144,"The vendor shall provide catering services at an agreed rate of ₹14822.36 per event, inclusive of setup and service charges.",0.17046315968036652,
+INV0096,VEN293,"The vendor shall supply IT hardware equipment at an agreed rate of ₹13180.61 per unit/order, with delivery within 15 business days of order confirmation.",0.2353208065032959,
+INV0097,VEN192,The vendor shall provide printing and packaging materials at an agreed rate of ₹3233.03 per order.,0.4064487814903259,
+INV0098,VEN064,,,no_contract_on_file
+INV0099,VEN285,"The vendor shall supply IT hardware equipment at an agreed rate of ₹5428.2 per unit/order, with delivery within 15 business days of order confirmation.",0.1456623077392578,
+INV0100,VEN006,"The vendor shall supply IT hardware equipment at an agreed rate of ₹17079.14 per unit/order, with delivery within 15 business days of order confirmation.",0.14749044179916382,
+INV0101,VEN241,The vendor shall provide printing and packaging materials at an agreed rate of ₹1919.17 per order.,0.16950680315494537,
+INV0102,VEN027,,,no_contract_on_file
+INV0103,VEN195,The vendor shall provide logistics and courier services at an agreed rate of ₹11616.23 per shipment.,0.129044771194458,
+INV0104,VEN078,"The vendor shall supply IT hardware equipment at an agreed rate of ₹7590.01 per unit/order, with delivery within 15 business days of order confirmation.",0.14415983855724335,
+INV0105,VEN059,The vendor shall provide printing and packaging materials at an agreed rate of ₹24341.34 per order.,0.39262744784355164,
+INV0106,VEN238,"The vendor shall provide office supplies at an agreed rate of ₹22028.69 per order, payable within the agreed payment terms.",0.10884509235620499,
+INV0107,VEN293,"The vendor shall supply IT hardware equipment at an agreed rate of ₹13180.61 per unit/order, with delivery within 15 business days of order confirmation.",0.2353208065032959,
+INV0108,VEN107,The vendor shall provide printing and packaging materials at an agreed rate of ₹18363.61 per order.,0.6066819429397583,
+INV0109,VEN074,"The vendor shall provide catering services at an agreed rate of ₹14645.13 per event, inclusive of setup and service charges.",0.3154807984828949,
+INV0110,VEN155,"The vendor shall provide office supplies at an agreed rate of ₹3186.4 per order, payable within the agreed payment terms.",0.36641302704811096,
+INV0111,VEN284,,,no_contract_on_file
+INV0112,VEN037,,,no_contract_on_file
+INV0113,VEN180,,,no_contract_on_file
+INV0114,VEN264,,,no_contract_on_file
+INV0115,VEN213,The vendor shall provide cleaning services at an agreed rate of ₹15419.77 per month.,0.19829551875591278,
+INV0116,VEN105,"The vendor shall provide catering services at an agreed rate of ₹4692.9 per event, inclusive of setup and service charges.",0.17874878644943237,
+INV0117,VEN079,"The vendor shall supply IT hardware equipment at an agreed rate of ₹2454.9 per unit/order, with delivery within 15 business days of order confirmation.",0.2276400923728943,
+INV0118,VEN059,The vendor shall provide printing and packaging materials at an agreed rate of ₹24341.34 per order.,0.04844796285033226,
+INV0119,VEN034,The vendor shall provide printing and packaging materials at an agreed rate of ₹8836.14 per order.,0.3272930383682251,
+INV0120,VEN067,,,no_contract_on_file
+INV0121,VEN128,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23601.29 per unit/order, with delivery within 15 business days of order confirmation.",0.1301451474428177,
+INV0122,VEN061,,,no_contract_on_file
+INV0123,VEN177,"The vendor shall provide office supplies at an agreed rate of ₹24291.42 per order, payable within the agreed payment terms.",0.20781810581684113,
+INV0124,VEN200,The vendor shall provide software licenses at an agreed rate of ₹12764.36 per license renewal cycle.,0.1275859922170639,
+INV0125,VEN296,The vendor shall provide printing and packaging materials at an agreed rate of ₹6005.08 per order.,0.3162963092327118,
+INV0126,VEN130,"The vendor shall provide catering services at an agreed rate of ₹8209.61 per event, inclusive of setup and service charges.",0.23605015873908997,
+INV0127,VEN263,,,no_contract_on_file
+INV0128,VEN088,The vendor shall provide cleaning services at an agreed rate of ₹16074.27 per month.,0.23927555978298187,
+INV0129,VEN144,"The vendor shall provide catering services at an agreed rate of ₹14822.36 per event, inclusive of setup and service charges.",0.12978166341781616,
+INV0130,VEN244,,,no_contract_on_file
+INV0131,VEN089,,,no_contract_on_file
+INV0132,VEN003,"The vendor shall provide office supplies at an agreed rate of ₹7238.22 per order, payable within the agreed payment terms.",0.16686764359474182,
+INV0133,VEN286,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8137.05 per unit/order, with delivery within 15 business days of order confirmation.",0.14196394383907318,
+INV0134,VEN142,The vendor shall provide software licenses at an agreed rate of ₹14253.52 per license renewal cycle.,0.06779973953962326,
+INV0135,VEN127,"The vendor shall supply IT hardware equipment at an agreed rate of ₹5669.08 per unit/order, with delivery within 15 business days of order confirmation.",0.3329068124294281,
+INV0136,VEN251,The vendor shall provide software licenses at an agreed rate of ₹19262.94 per license renewal cycle.,0.061387255787849426,
+INV0137,VEN209,,,no_contract_on_file
+INV0138,VEN215,,,no_contract_on_file
+INV0139,VEN091,,,no_contract_on_file
+INV0140,VEN068,,,no_contract_on_file
+INV0141,VEN147,,,no_contract_on_file
+INV0142,VEN161,,,no_contract_on_file
+INV0143,VEN193,The vendor shall provide logistics and courier services at an agreed rate of ₹11151.75 per shipment.,0.2618198096752167,
+INV0144,VEN061,,,no_contract_on_file
+INV0145,VEN064,,,no_contract_on_file
+INV0146,VEN215,,,no_contract_on_file
+INV0147,VEN295,,,no_contract_on_file
+INV0148,VEN282,,,no_contract_on_file
+INV0149,VEN078,"The vendor shall supply IT hardware equipment at an agreed rate of ₹7590.01 per unit/order, with delivery within 15 business days of order confirmation.",0.22885653376579285,
+INV0150,VEN294,"The vendor shall provide catering services at an agreed rate of ₹3464.6 per event, inclusive of setup and service charges.",0.18192777037620544,
+INV0151,VEN013,"The vendor shall provide catering services at an agreed rate of ₹1230.03 per event, inclusive of setup and service charges.",0.27143150568008423,
+INV0152,VEN264,,,no_contract_on_file
+INV0153,VEN150,The vendor shall provide logistics and courier services at an agreed rate of ₹24939.67 per shipment.,0.293040007352829,
+INV0154,VEN240,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8034.1 per unit/order, with delivery within 15 business days of order confirmation.",0.1355379819869995,
+INV0155,VEN208,,,no_contract_on_file
+INV0156,VEN240,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8034.1 per unit/order, with delivery within 15 business days of order confirmation.",0.13933111727237701,
+INV0157,VEN295,,,no_contract_on_file
+INV0158,VEN091,,,no_contract_on_file
+INV0159,VEN005,The vendor shall provide logistics and courier services at an agreed rate of ₹18543.54 per shipment.,0.11668632924556732,
+INV0160,VEN166,,,no_contract_on_file
+INV0161,VEN164,,,no_contract_on_file
+INV0162,VEN287,,,no_contract_on_file
+INV0163,VEN061,,,no_contract_on_file
+INV0164,VEN060,,,no_contract_on_file
+INV0165,VEN150,The vendor shall provide logistics and courier services at an agreed rate of ₹24939.67 per shipment.,0.29956915974617004,
+INV0166,VEN034,The vendor shall provide printing and packaging materials at an agreed rate of ₹8836.14 per order.,0.6167377829551697,
+INV0167,VEN295,,,no_contract_on_file
+INV0168,VEN250,The vendor shall provide cleaning services at an agreed rate of ₹19134.75 per month.,0.21636906266212463,
+INV0169,VEN132,,,no_contract_on_file
+INV0170,VEN048,"The vendor shall provide catering services at an agreed rate of ₹2869.55 per event, inclusive of setup and service charges.",0.3229277431964874,
+INV0171,VEN284,,,no_contract_on_file
+INV0172,VEN277,The vendor shall provide printing and packaging materials at an agreed rate of ₹5689.06 per order.,0.3906604051589966,
+INV0173,VEN156,,,no_contract_on_file
+INV0174,VEN145,"The vendor shall provide office supplies at an agreed rate of ₹22496.66 per order, payable within the agreed payment terms.",0.13913144171237946,
+INV0175,VEN126,,,no_contract_on_file
+INV0176,VEN068,,,no_contract_on_file
+INV0177,VEN150,The vendor shall provide logistics and courier services at an agreed rate of ₹24939.67 per shipment.,0.15641772747039795,
+INV0178,VEN129,The vendor shall provide software licenses at an agreed rate of ₹21971.01 per license renewal cycle.,0.13593065738677979,
+INV0179,VEN259,,,no_contract_on_file
+INV0180,VEN227,The vendor shall provide software licenses at an agreed rate of ₹13493.66 per license renewal cycle.,0.05959586799144745,
+INV0181,VEN139,"The vendor shall supply IT hardware equipment at an agreed rate of ₹6989.56 per unit/order, with delivery within 15 business days of order confirmation.",0.5943276882171631,
+INV0182,VEN297,,,no_contract_on_file
+INV0183,VEN151,,,no_contract_on_file
+INV0184,VEN168,The vendor shall provide software licenses at an agreed rate of ₹2056.43 per license renewal cycle.,0.13484616577625275,
+INV0185,VEN131,"The vendor shall provide catering services at an agreed rate of ₹16558.25 per event, inclusive of setup and service charges.",0.6004249453544617,
+INV0186,VEN283,,,no_contract_on_file
+INV0187,VEN262,,,no_contract_on_file
+INV0188,VEN019,,,no_contract_on_file
+INV0189,VEN196,The vendor shall provide cleaning services at an agreed rate of ₹23868.49 per month.,0.1283840388059616,
+INV0190,VEN243,The vendor shall provide logistics and courier services at an agreed rate of ₹23700.26 per shipment.,0.29843467473983765,
+INV0191,VEN072,,,no_contract_on_file
+INV0192,VEN220,,,no_contract_on_file
+INV0193,VEN170,The vendor shall provide software licenses at an agreed rate of ₹9849.67 per license renewal cycle.,0.05561434105038643,
+INV0194,VEN206,"The vendor shall provide catering services at an agreed rate of ₹21827.7 per event, inclusive of setup and service charges.",0.2191195785999298,
+INV0195,VEN032,The vendor shall provide cleaning services at an agreed rate of ₹20242.57 per month.,0.13076411187648773,
+INV0196,VEN099,,,no_contract_on_file
+INV0197,VEN298,,,no_contract_on_file
+INV0198,VEN229,,,no_contract_on_file
+INV0199,VEN164,,,no_contract_on_file
+INV0200,VEN260,,,no_contract_on_file
+INV0201,VEN155,"The vendor shall provide office supplies at an agreed rate of ₹3186.4 per order, payable within the agreed payment terms.",0.30841264128685,
+INV0202,VEN018,,,no_contract_on_file
+INV0203,VEN122,"The vendor shall supply IT hardware equipment at an agreed rate of ₹1286.46 per unit/order, with delivery within 15 business days of order confirmation.",0.32999420166015625,
+INV0204,VEN052,,,no_contract_on_file
+INV0205,VEN015,,,no_contract_on_file
+INV0206,VEN125,The vendor shall provide printing and packaging materials at an agreed rate of ₹7059.65 per order.,0.28857728838920593,
+INV0207,VEN226,,,no_contract_on_file
+INV0208,VEN041,,,no_contract_on_file
+INV0209,VEN114,,,no_contract_on_file
+INV0210,VEN275,The vendor shall provide software licenses at an agreed rate of ₹10866.88 per license renewal cycle.,0.24916529655456543,
+INV0211,VEN112,The vendor shall provide software licenses at an agreed rate of ₹14145.27 per license renewal cycle.,0.12133579701185226,
+INV0212,VEN150,The vendor shall provide logistics and courier services at an agreed rate of ₹24939.67 per shipment.,0.26487743854522705,
+INV0213,VEN107,The vendor shall provide printing and packaging materials at an agreed rate of ₹18363.61 per order.,0.039718132466077805,
+INV0214,VEN244,,,no_contract_on_file
+INV0215,VEN113,,,no_contract_on_file
+INV0216,VEN181,The vendor shall provide software licenses at an agreed rate of ₹781.29 per license renewal cycle.,0.11748877167701721,
+INV0217,VEN068,,,no_contract_on_file
+INV0218,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.2162647545337677,
+INV0219,VEN046,The vendor shall provide logistics and courier services at an agreed rate of ₹2772.27 per shipment.,0.2455294132232666,
+INV0220,VEN005,The vendor shall provide logistics and courier services at an agreed rate of ₹18543.54 per shipment.,0.11668632924556732,
+INV0221,VEN280,,,no_contract_on_file
+INV0222,VEN016,"The vendor shall provide catering services at an agreed rate of ₹12881.2 per event, inclusive of setup and service charges.",0.20660416781902313,
+INV0223,VEN059,The vendor shall provide printing and packaging materials at an agreed rate of ₹24341.34 per order.,0.39262744784355164,
+INV0224,VEN204,The vendor shall provide logistics and courier services at an agreed rate of ₹22859.38 per shipment.,0.2275918871164322,
+INV0225,VEN214,"The vendor shall provide office supplies at an agreed rate of ₹4244.56 per order, payable within the agreed payment terms.",0.3448675572872162,
+INV0226,VEN268,,,no_contract_on_file
+INV0227,VEN108,The vendor shall provide software licenses at an agreed rate of ₹4503.36 per license renewal cycle.,0.14137890934944153,
+INV0228,VEN147,,,no_contract_on_file
+INV0229,VEN296,The vendor shall provide printing and packaging materials at an agreed rate of ₹6005.08 per order.,0.28480684757232666,
+INV0230,VEN005,The vendor shall provide logistics and courier services at an agreed rate of ₹18543.54 per shipment.,0.30567678809165955,
+INV0231,VEN004,The vendor shall provide cleaning services at an agreed rate of ₹5968.66 per month.,0.26699453592300415,
+INV0232,VEN008,,,no_contract_on_file
+INV0233,VEN235,,,no_contract_on_file
+INV0234,VEN126,,,no_contract_on_file
+INV0235,VEN272,,,no_contract_on_file
+INV0236,VEN178,,,no_contract_on_file
+INV0237,VEN145,"The vendor shall provide office supplies at an agreed rate of ₹22496.66 per order, payable within the agreed payment terms.",0.13913144171237946,
+INV0238,VEN293,"The vendor shall supply IT hardware equipment at an agreed rate of ₹13180.61 per unit/order, with delivery within 15 business days of order confirmation.",0.14680702984333038,
+INV0239,VEN208,,,no_contract_on_file
+INV0240,VEN192,The vendor shall provide printing and packaging materials at an agreed rate of ₹3233.03 per order.,0.05286914482712746,
+INV0241,VEN028,The vendor shall provide cleaning services at an agreed rate of ₹14937.01 per month.,0.2656717002391815,
+INV0242,VEN080,,,no_contract_on_file
+INV0243,VEN011,,,no_contract_on_file
+INV0244,VEN045,"The vendor shall provide office supplies at an agreed rate of ₹8746.57 per order, payable within the agreed payment terms.",0.16671741008758545,
+INV0245,VEN278,"The vendor shall provide catering services at an agreed rate of ₹13712.75 per event, inclusive of setup and service charges.",0.20906195044517517,
+INV0246,VEN128,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23601.29 per unit/order, with delivery within 15 business days of order confirmation.",0.27957841753959656,
+INV0247,VEN067,,,no_contract_on_file
+INV0248,VEN197,The vendor shall provide printing and packaging materials at an agreed rate of ₹21958.4 per order.,0.054654236882925034,
+INV0249,VEN003,"The vendor shall provide office supplies at an agreed rate of ₹7238.22 per order, payable within the agreed payment terms.",0.31346434354782104,
+INV0250,VEN143,"The vendor shall provide office supplies at an agreed rate of ₹6937.17 per order, payable within the agreed payment terms.",0.5666161179542542,
+INV0251,VEN073,"The vendor shall provide office supplies at an agreed rate of ₹21611.82 per order, payable within the agreed payment terms.",0.24789732694625854,
+INV0252,VEN086,,,no_contract_on_file
+INV0253,VEN158,,,no_contract_on_file
+INV0254,VEN090,"The vendor shall provide office supplies at an agreed rate of ₹9438.39 per order, payable within the agreed payment terms.",0.3397537171840668,
+INV0255,VEN266,,,no_contract_on_file
+INV0256,VEN093,The vendor shall provide logistics and courier services at an agreed rate of ₹5632.92 per shipment.,0.6107489466667175,
+INV0257,VEN128,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23601.29 per unit/order, with delivery within 15 business days of order confirmation.",0.3058009445667267,
+INV0258,VEN299,,,no_contract_on_file
+INV0259,VEN085,,,no_contract_on_file
+INV0260,VEN272,,,no_contract_on_file
+INV0261,VEN203,,,no_contract_on_file
+INV0262,VEN215,,,no_contract_on_file
+INV0263,VEN275,The vendor shall provide software licenses at an agreed rate of ₹10866.88 per license renewal cycle.,0.1608317494392395,
+INV0264,VEN005,The vendor shall provide logistics and courier services at an agreed rate of ₹18543.54 per shipment.,0.11668635159730911,
+INV0265,VEN251,The vendor shall provide software licenses at an agreed rate of ₹19262.94 per license renewal cycle.,0.13245916366577148,
+INV0266,VEN218,The vendor shall provide printing and packaging materials at an agreed rate of ₹19181.51 per order.,0.6038158535957336,
+INV0267,VEN043,,,no_contract_on_file
+INV0268,VEN040,,,no_contract_on_file
+INV0269,VEN016,"The vendor shall provide catering services at an agreed rate of ₹12881.2 per event, inclusive of setup and service charges.",0.3068391978740692,
+INV0270,VEN292,The vendor shall provide software licenses at an agreed rate of ₹11233.45 per license renewal cycle.,0.17220769822597504,
+INV0271,VEN007,The vendor shall provide software licenses at an agreed rate of ₹22358.4 per license renewal cycle.,0.24029646813869476,
+INV0272,VEN185,,,no_contract_on_file
+INV0273,VEN205,,,no_contract_on_file
+INV0274,VEN024,,,no_contract_on_file
+INV0275,VEN280,,,no_contract_on_file
+INV0276,VEN051,,,no_contract_on_file
+INV0277,VEN292,The vendor shall provide software licenses at an agreed rate of ₹11233.45 per license renewal cycle.,0.05619664490222931,
+INV0278,VEN288,,,no_contract_on_file
+INV0279,VEN236,The vendor shall provide printing and packaging materials at an agreed rate of ₹977.18 per order.,0.28358423709869385,
+INV0280,VEN057,The vendor shall provide software licenses at an agreed rate of ₹18378.43 per license renewal cycle.,0.24031147360801697,
+INV0281,VEN215,,,no_contract_on_file
+INV0282,VEN195,The vendor shall provide logistics and courier services at an agreed rate of ₹11616.23 per shipment.,0.3024015426635742,
+INV0283,VEN246,The vendor shall provide software licenses at an agreed rate of ₹2598.51 per license renewal cycle.,0.262094646692276,
+INV0284,VEN219,,,no_contract_on_file
+INV0285,VEN282,,,no_contract_on_file
+INV0286,VEN053,The vendor shall provide logistics and courier services at an agreed rate of ₹15291.29 per shipment.,0.614165186882019,
+INV0287,VEN066,,,no_contract_on_file
+INV0288,VEN100,,,no_contract_on_file
+INV0289,VEN189,"The vendor shall provide catering services at an agreed rate of ₹7037.22 per event, inclusive of setup and service charges.",0.22955942153930664,
+INV0290,VEN227,The vendor shall provide software licenses at an agreed rate of ₹13493.66 per license renewal cycle.,0.16592319309711456,
+INV0291,VEN059,The vendor shall provide printing and packaging materials at an agreed rate of ₹24341.34 per order.,0.3204832375049591,
+INV0292,VEN207,,,no_contract_on_file
+INV0293,VEN216,,,no_contract_on_file
+INV0294,VEN192,The vendor shall provide printing and packaging materials at an agreed rate of ₹3233.03 per order.,0.6206812262535095,
+INV0295,VEN283,,,no_contract_on_file
+INV0296,VEN197,The vendor shall provide printing and packaging materials at an agreed rate of ₹21958.4 per order.,0.27227023243904114,
+INV0297,VEN241,The vendor shall provide printing and packaging materials at an agreed rate of ₹1919.17 per order.,0.049530431628227234,
+INV0298,VEN280,,,no_contract_on_file
+INV0299,VEN155,"The vendor shall provide office supplies at an agreed rate of ₹3186.4 per order, payable within the agreed payment terms.",0.33763638138771057,
+INV0300,VEN260,,,no_contract_on_file
+INV0301,VEN164,,,no_contract_on_file
+INV0302,VEN252,,,no_contract_on_file
+INV0303,VEN074,"The vendor shall provide catering services at an agreed rate of ₹14645.13 per event, inclusive of setup and service charges.",0.17576219141483307,
+INV0304,VEN053,The vendor shall provide logistics and courier services at an agreed rate of ₹15291.29 per shipment.,0.29315701127052307,
+INV0305,VEN054,,,no_contract_on_file
+INV0306,VEN260,,,no_contract_on_file
+INV0307,VEN191,,,no_contract_on_file
+INV0308,VEN106,,,no_contract_on_file
+INV0309,VEN287,,,no_contract_on_file
+INV0310,VEN031,,,no_contract_on_file
+INV0311,VEN238,"The vendor shall provide office supplies at an agreed rate of ₹22028.69 per order, payable within the agreed payment terms.",0.37885069847106934,
+INV0312,VEN217,,,no_contract_on_file
+INV0313,VEN014,The vendor shall provide logistics and courier services at an agreed rate of ₹5856.63 per shipment.,0.3099779784679413,
+INV0314,VEN024,,,no_contract_on_file
+INV0315,VEN158,,,no_contract_on_file
+INV0316,VEN009,,,no_contract_on_file
+INV0317,VEN205,,,no_contract_on_file
+INV0318,VEN022,"The vendor shall provide catering services at an agreed rate of ₹13851.07 per event, inclusive of setup and service charges.",0.6040481925010681,
+INV0319,VEN170,The vendor shall provide software licenses at an agreed rate of ₹9849.67 per license renewal cycle.,0.13893696665763855,
+INV0320,VEN100,,,no_contract_on_file
+INV0321,VEN232,"The vendor shall provide catering services at an agreed rate of ₹8441.82 per event, inclusive of setup and service charges.",0.14853841066360474,
+INV0322,VEN133,,,no_contract_on_file
+INV0323,VEN275,The vendor shall provide software licenses at an agreed rate of ₹10866.88 per license renewal cycle.,0.04408608749508858,
+INV0324,VEN085,,,no_contract_on_file
+INV0325,VEN128,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23601.29 per unit/order, with delivery within 15 business days of order confirmation.",0.22792895138263702,
+INV0326,VEN203,,,no_contract_on_file
+INV0327,VEN206,"The vendor shall provide catering services at an agreed rate of ₹21827.7 per event, inclusive of setup and service charges.",0.28184419870376587,
+INV0328,VEN208,,,no_contract_on_file
+INV0329,VEN162,,,no_contract_on_file
+INV0330,VEN146,,,no_contract_on_file
+INV0331,VEN156,,,no_contract_on_file
+INV0332,VEN286,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8137.05 per unit/order, with delivery within 15 business days of order confirmation.",0.15354330837726593,
+INV0333,VEN091,,,no_contract_on_file
+INV0334,VEN211,The vendor shall provide software licenses at an agreed rate of ₹7811.9 per license renewal cycle.,0.14191384613513947,
+INV0335,VEN126,,,no_contract_on_file
+INV0336,VEN282,,,no_contract_on_file
+INV0337,VEN280,,,no_contract_on_file
+INV0338,VEN171,The vendor shall provide logistics and courier services at an agreed rate of ₹24904.97 per shipment.,0.26435646414756775,
+INV0339,VEN062,"The vendor shall provide office supplies at an agreed rate of ₹9774.09 per order, payable within the agreed payment terms.",0.5726087093353271,
+INV0340,VEN260,,,no_contract_on_file
+INV0341,VEN013,"The vendor shall provide catering services at an agreed rate of ₹1230.03 per event, inclusive of setup and service charges.",0.1778026968240738,
+INV0342,VEN027,,,no_contract_on_file
+INV0343,VEN054,,,no_contract_on_file
+INV0344,VEN291,"The vendor shall provide catering services at an agreed rate of ₹16422.01 per event, inclusive of setup and service charges.",0.5899065136909485,
+INV0345,VEN099,,,no_contract_on_file
+INV0346,VEN217,,,no_contract_on_file
+INV0347,VEN063,The vendor shall provide software licenses at an agreed rate of ₹14025.0 per license renewal cycle.,0.17199213802814484,
+INV0348,VEN266,,,no_contract_on_file
+INV0349,VEN235,,,no_contract_on_file
+INV0350,VEN276,,,no_contract_on_file
+INV0351,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.28080248832702637,
+INV0352,VEN198,The vendor shall provide logistics and courier services at an agreed rate of ₹6953.03 per shipment.,0.6296646595001221,
+INV0353,VEN050,,,no_contract_on_file
+INV0354,VEN201,The vendor shall provide logistics and courier services at an agreed rate of ₹4876.97 per shipment.,0.14903292059898376,
+INV0355,VEN191,,,no_contract_on_file
+INV0356,VEN123,"The vendor shall provide catering services at an agreed rate of ₹8228.6 per event, inclusive of setup and service charges.",0.3063448369503021,
+INV0357,VEN218,The vendor shall provide printing and packaging materials at an agreed rate of ₹19181.51 per order.,0.6038158535957336,
+INV0358,VEN134,,,no_contract_on_file
+INV0359,VEN142,The vendor shall provide software licenses at an agreed rate of ₹14253.52 per license renewal cycle.,0.6852679252624512,
+INV0360,VEN286,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8137.05 per unit/order, with delivery within 15 business days of order confirmation.",0.31220942735671997,
+INV0361,VEN011,,,no_contract_on_file
+INV0362,VEN042,,,no_contract_on_file
+INV0363,VEN270,,,no_contract_on_file
+INV0364,VEN132,,,no_contract_on_file
+INV0365,VEN249,,,no_contract_on_file
+INV0366,VEN204,The vendor shall provide logistics and courier services at an agreed rate of ₹22859.38 per shipment.,0.6137264370918274,
+INV0367,VEN115,,,no_contract_on_file
+INV0368,VEN099,,,no_contract_on_file
+INV0369,VEN044,The vendor shall provide printing and packaging materials at an agreed rate of ₹23951.72 per order.,0.3086368441581726,
+INV0370,VEN075,The vendor shall provide software licenses at an agreed rate of ₹17762.01 per license renewal cycle.,0.17005804181098938,
+INV0371,VEN005,The vendor shall provide logistics and courier services at an agreed rate of ₹18543.54 per shipment.,0.30567675828933716,
+INV0372,VEN169,,,no_contract_on_file
+INV0373,VEN279,The vendor shall provide cleaning services at an agreed rate of ₹18383.31 per month.,0.21926942467689514,
+INV0374,VEN126,,,no_contract_on_file
+INV0375,VEN136,The vendor shall provide printing and packaging materials at an agreed rate of ₹22906.42 per order.,0.6262324452400208,
+INV0376,VEN115,,,no_contract_on_file
+INV0377,VEN103,,,no_contract_on_file
+INV0378,VEN037,,,no_contract_on_file
+INV0379,VEN166,,,no_contract_on_file
+INV0380,VEN081,The vendor shall provide software licenses at an agreed rate of ₹6203.38 per license renewal cycle.,0.1707584708929062,
+INV0381,VEN160,,,no_contract_on_file
+INV0382,VEN289,The vendor shall provide printing and packaging materials at an agreed rate of ₹24881.16 per order.,0.3905806839466095,
+INV0383,VEN097,,,no_contract_on_file
+INV0384,VEN264,,,no_contract_on_file
+INV0385,VEN042,,,no_contract_on_file
+INV0386,VEN199,,,no_contract_on_file
+INV0387,VEN224,The vendor shall provide logistics and courier services at an agreed rate of ₹19576.35 per shipment.,0.26640087366104126,
+INV0388,VEN036,,,no_contract_on_file
+INV0389,VEN079,"The vendor shall supply IT hardware equipment at an agreed rate of ₹2454.9 per unit/order, with delivery within 15 business days of order confirmation.",0.3419734835624695,
+INV0390,VEN105,"The vendor shall provide catering services at an agreed rate of ₹4692.9 per event, inclusive of setup and service charges.",0.1806432008743286,
+INV0391,VEN166,,,no_contract_on_file
+INV0392,VEN092,The vendor shall provide logistics and courier services at an agreed rate of ₹9569.43 per shipment.,0.29112669825553894,
+INV0393,VEN071,,,no_contract_on_file
+INV0394,VEN117,,,no_contract_on_file
+INV0395,VEN020,"The vendor shall provide office supplies at an agreed rate of ₹5371.52 per order, payable within the agreed payment terms.",0.11138740181922913,
+INV0396,VEN195,The vendor shall provide logistics and courier services at an agreed rate of ₹11616.23 per shipment.,0.13128355145454407,
+INV0397,VEN013,"The vendor shall provide catering services at an agreed rate of ₹1230.03 per event, inclusive of setup and service charges.",0.11713360249996185,
+INV0398,VEN014,The vendor shall provide logistics and courier services at an agreed rate of ₹5856.63 per shipment.,0.631045401096344,
+INV0399,VEN220,,,no_contract_on_file
+INV0400,VEN044,The vendor shall provide printing and packaging materials at an agreed rate of ₹23951.72 per order.,0.3924948573112488,
+INV0401,VEN238,"The vendor shall provide office supplies at an agreed rate of ₹22028.69 per order, payable within the agreed payment terms.",0.37885069847106934,
+INV0402,VEN050,,,no_contract_on_file
+INV0403,VEN239,The vendor shall provide cleaning services at an agreed rate of ₹20875.81 per month.,0.23033028841018677,
+INV0404,VEN007,The vendor shall provide software licenses at an agreed rate of ₹22358.4 per license renewal cycle.,0.24029649794101715,
+INV0405,VEN152,The vendor shall provide printing and packaging materials at an agreed rate of ₹12983.39 per order.,0.3301346004009247,
+INV0406,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.2162647545337677,
+INV0407,VEN082,,,no_contract_on_file
+INV0408,VEN021,The vendor shall provide cleaning services at an agreed rate of ₹16422.17 per month.,0.21083129942417145,
+INV0409,VEN291,"The vendor shall provide catering services at an agreed rate of ₹16422.01 per event, inclusive of setup and service charges.",0.2715704143047333,
+INV0410,VEN154,The vendor shall provide printing and packaging materials at an agreed rate of ₹1654.35 per order.,0.32348164916038513,
+INV0411,VEN235,,,no_contract_on_file
+INV0412,VEN106,,,no_contract_on_file
+INV0413,VEN121,"The vendor shall provide catering services at an agreed rate of ₹6111.68 per event, inclusive of setup and service charges.",0.20172113180160522,
+INV0414,VEN150,The vendor shall provide logistics and courier services at an agreed rate of ₹24939.67 per shipment.,0.15641772747039795,
+INV0415,VEN068,,,no_contract_on_file
+INV0416,VEN299,,,no_contract_on_file
+INV0417,VEN098,,,no_contract_on_file
+INV0418,VEN198,The vendor shall provide logistics and courier services at an agreed rate of ₹6953.03 per shipment.,0.29602232575416565,
+INV0419,VEN072,,,no_contract_on_file
+INV0420,VEN126,,,no_contract_on_file
+INV0421,VEN296,The vendor shall provide printing and packaging materials at an agreed rate of ₹6005.08 per order.,0.3162963390350342,
+INV0422,VEN035,,,no_contract_on_file
+INV0423,VEN243,The vendor shall provide logistics and courier services at an agreed rate of ₹23700.26 per shipment.,0.24349519610404968,
+INV0424,VEN290,,,no_contract_on_file
+INV0425,VEN213,The vendor shall provide cleaning services at an agreed rate of ₹15419.77 per month.,0.19829551875591278,
+INV0426,VEN249,,,no_contract_on_file
+INV0427,VEN252,,,no_contract_on_file
+INV0428,VEN139,"The vendor shall supply IT hardware equipment at an agreed rate of ₹6989.56 per unit/order, with delivery within 15 business days of order confirmation.",0.14716334640979767,
+INV0429,VEN121,"The vendor shall provide catering services at an agreed rate of ₹6111.68 per event, inclusive of setup and service charges.",0.31502723693847656,
+INV0430,VEN147,,,no_contract_on_file
+INV0431,VEN053,The vendor shall provide logistics and courier services at an agreed rate of ₹15291.29 per shipment.,0.29315701127052307,
+INV0432,VEN097,,,no_contract_on_file
+INV0433,VEN109,"The vendor shall supply IT hardware equipment at an agreed rate of ₹9796.66 per unit/order, with delivery within 15 business days of order confirmation.",0.3368256688117981,
+INV0434,VEN124,,,no_contract_on_file
+INV0435,VEN296,The vendor shall provide printing and packaging materials at an agreed rate of ₹6005.08 per order.,0.4086132049560547,
+INV0436,VEN121,"The vendor shall provide catering services at an agreed rate of ₹6111.68 per event, inclusive of setup and service charges.",0.2221842259168625,
+INV0437,VEN235,,,no_contract_on_file
+INV0438,VEN186,"The vendor shall provide office supplies at an agreed rate of ₹17201.9 per order, payable within the agreed payment terms.",0.27260419726371765,
+INV0439,VEN248,"The vendor shall supply IT hardware equipment at an agreed rate of ₹2195.71 per unit/order, with delivery within 15 business days of order confirmation.",0.212888702750206,
+INV0440,VEN216,,,no_contract_on_file
+INV0441,VEN068,,,no_contract_on_file
+INV0442,VEN197,The vendor shall provide printing and packaging materials at an agreed rate of ₹21958.4 per order.,0.1812397837638855,
+INV0443,VEN278,"The vendor shall provide catering services at an agreed rate of ₹13712.75 per event, inclusive of setup and service charges.",0.31586724519729614,
+INV0444,VEN167,The vendor shall provide software licenses at an agreed rate of ₹10842.92 per license renewal cycle.,0.13224968314170837,
+INV0445,VEN092,The vendor shall provide logistics and courier services at an agreed rate of ₹9569.43 per shipment.,0.2624471187591553,
+INV0446,VEN269,,,no_contract_on_file
+INV0447,VEN204,The vendor shall provide logistics and courier services at an agreed rate of ₹22859.38 per shipment.,0.31821388006210327,
+INV0448,VEN181,The vendor shall provide software licenses at an agreed rate of ₹781.29 per license renewal cycle.,0.2264770269393921,
+INV0449,VEN242,"The vendor shall provide office supplies at an agreed rate of ₹22011.24 per order, payable within the agreed payment terms.",0.5730907917022705,
+INV0450,VEN009,,,no_contract_on_file
+INV0451,VEN165,,,no_contract_on_file
+INV0452,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.22156520187854767,
+INV0453,VEN253,The vendor shall provide software licenses at an agreed rate of ₹3645.59 per license renewal cycle.,0.05789970979094505,
+INV0454,VEN251,The vendor shall provide software licenses at an agreed rate of ₹19262.94 per license renewal cycle.,0.6870237588882446,
+INV0455,VEN138,,,no_contract_on_file
+INV0456,VEN198,The vendor shall provide logistics and courier services at an agreed rate of ₹6953.03 per shipment.,0.35687336325645447,
+INV0457,VEN163,,,no_contract_on_file
+INV0458,VEN095,The vendor shall provide cleaning services at an agreed rate of ₹23448.04 per month.,0.24598540365695953,
+INV0459,VEN293,"The vendor shall supply IT hardware equipment at an agreed rate of ₹13180.61 per unit/order, with delivery within 15 business days of order confirmation.",0.2353208065032959,
+INV0460,VEN019,,,no_contract_on_file
+INV0461,VEN232,"The vendor shall provide catering services at an agreed rate of ₹8441.82 per event, inclusive of setup and service charges.",0.16706137359142303,
+INV0462,VEN283,,,no_contract_on_file
+INV0463,VEN189,"The vendor shall provide catering services at an agreed rate of ₹7037.22 per event, inclusive of setup and service charges.",0.13480988144874573,
+INV0464,VEN154,The vendor shall provide printing and packaging materials at an agreed rate of ₹1654.35 per order.,0.41648977994918823,
+INV0465,VEN192,The vendor shall provide printing and packaging materials at an agreed rate of ₹3233.03 per order.,0.15835724771022797,
+INV0466,VEN161,,,no_contract_on_file
+INV0467,VEN144,"The vendor shall provide catering services at an agreed rate of ₹14822.36 per event, inclusive of setup and service charges.",0.12978166341781616,
+INV0468,VEN261,,,no_contract_on_file
+INV0469,VEN179,The vendor shall provide cleaning services at an agreed rate of ₹21589.1 per month.,0.19996848702430725,
+INV0470,VEN022,"The vendor shall provide catering services at an agreed rate of ₹13851.07 per event, inclusive of setup and service charges.",0.12598885595798492,
+INV0471,VEN041,,,no_contract_on_file
+INV0472,VEN035,,,no_contract_on_file
+INV0473,VEN028,The vendor shall provide cleaning services at an agreed rate of ₹14937.01 per month.,0.2909117341041565,
+INV0474,VEN095,The vendor shall provide cleaning services at an agreed rate of ₹23448.04 per month.,0.24598540365695953,
+INV0475,VEN219,,,no_contract_on_file
+INV0476,VEN009,,,no_contract_on_file
+INV0477,VEN109,"The vendor shall supply IT hardware equipment at an agreed rate of ₹9796.66 per unit/order, with delivery within 15 business days of order confirmation.",0.23188593983650208,
+INV0478,VEN142,The vendor shall provide software licenses at an agreed rate of ₹14253.52 per license renewal cycle.,0.12770716845989227,
+INV0479,VEN191,,,no_contract_on_file
+INV0480,VEN160,,,no_contract_on_file
+INV0481,VEN028,The vendor shall provide cleaning services at an agreed rate of ₹14937.01 per month.,0.2909117341041565,
+INV0482,VEN245,,,no_contract_on_file
+INV0483,VEN014,The vendor shall provide logistics and courier services at an agreed rate of ₹5856.63 per shipment.,0.1158381924033165,
+INV0484,VEN300,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8783.1 per unit/order, with delivery within 15 business days of order confirmation.",0.5817731022834778,
+INV0485,VEN069,The vendor shall provide software licenses at an agreed rate of ₹15653.73 per license renewal cycle.,0.049354568123817444,
+INV0486,VEN071,,,no_contract_on_file
+INV0487,VEN087,The vendor shall provide printing and packaging materials at an agreed rate of ₹7310.35 per order.,0.4100991487503052,
+INV0488,VEN221,,,no_contract_on_file
+INV0489,VEN028,The vendor shall provide cleaning services at an agreed rate of ₹14937.01 per month.,0.13309445977210999,
+INV0490,VEN021,The vendor shall provide cleaning services at an agreed rate of ₹16422.17 per month.,0.2467714548110962,
+INV0491,VEN096,The vendor shall provide printing and packaging materials at an agreed rate of ₹16376.87 per order.,0.03565968573093414,
+INV0492,VEN042,,,no_contract_on_file
+INV0493,VEN141,,,no_contract_on_file
+INV0494,VEN028,The vendor shall provide cleaning services at an agreed rate of ₹14937.01 per month.,0.13309445977210999,
+INV0495,VEN021,The vendor shall provide cleaning services at an agreed rate of ₹16422.17 per month.,0.21083129942417145,
+INV0496,VEN262,,,no_contract_on_file
+INV0497,VEN240,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8034.1 per unit/order, with delivery within 15 business days of order confirmation.",0.3012488782405853,
+INV0498,VEN228,The vendor shall provide software licenses at an agreed rate of ₹514.01 per license renewal cycle.,0.26324424147605896,
+INV0499,VEN096,The vendor shall provide printing and packaging materials at an agreed rate of ₹16376.87 per order.,0.2072482407093048,
+INV0500,VEN235,,,no_contract_on_file
+INV0501,VEN273,"The vendor shall supply IT hardware equipment at an agreed rate of ₹21874.61 per unit/order, with delivery within 15 business days of order confirmation.",0.2957441210746765,
+INV0502,VEN227,The vendor shall provide software licenses at an agreed rate of ₹13493.66 per license renewal cycle.,0.13130410015583038,
+INV0503,VEN265,The vendor shall provide printing and packaging materials at an agreed rate of ₹6993.89 per order.,0.2007000893354416,
+INV0504,VEN204,The vendor shall provide logistics and courier services at an agreed rate of ₹22859.38 per shipment.,0.3553231656551361,
+INV0505,VEN005,The vendor shall provide logistics and courier services at an agreed rate of ₹18543.54 per shipment.,0.34897956252098083,
+INV0506,VEN247,The vendor shall provide printing and packaging materials at an agreed rate of ₹12406.77 per order.,0.05616181716322899,
+INV0507,VEN250,The vendor shall provide cleaning services at an agreed rate of ₹19134.75 per month.,0.2736370265483856,
+INV0508,VEN295,,,no_contract_on_file
+INV0509,VEN011,,,no_contract_on_file
+INV0510,VEN235,,,no_contract_on_file
+INV0511,VEN007,The vendor shall provide software licenses at an agreed rate of ₹22358.4 per license renewal cycle.,0.12634344398975372,
+INV0512,VEN155,"The vendor shall provide office supplies at an agreed rate of ₹3186.4 per order, payable within the agreed payment terms.",0.2769910395145416,
+INV0513,VEN137,"The vendor shall provide catering services at an agreed rate of ₹11741.87 per event, inclusive of setup and service charges.",0.12696649134159088,
+INV0514,VEN141,,,no_contract_on_file
+INV0515,VEN237,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23262.92 per unit/order, with delivery within 15 business days of order confirmation.",0.07123352587223053,
+INV0516,VEN128,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23601.29 per unit/order, with delivery within 15 business days of order confirmation.",0.5850909352302551,
+INV0517,VEN276,,,no_contract_on_file
+INV0518,VEN019,,,no_contract_on_file
+INV0519,VEN079,"The vendor shall supply IT hardware equipment at an agreed rate of ₹2454.9 per unit/order, with delivery within 15 business days of order confirmation.",0.2276400923728943,
+INV0520,VEN136,The vendor shall provide printing and packaging materials at an agreed rate of ₹22906.42 per order.,0.29121488332748413,
+INV0521,VEN178,,,no_contract_on_file
+INV0522,VEN079,"The vendor shall supply IT hardware equipment at an agreed rate of ₹2454.9 per unit/order, with delivery within 15 business days of order confirmation.",0.5808296799659729,
+INV0523,VEN132,,,no_contract_on_file
+INV0524,VEN206,"The vendor shall provide catering services at an agreed rate of ₹21827.7 per event, inclusive of setup and service charges.",0.17384792864322662,
+INV0525,VEN186,"The vendor shall provide office supplies at an agreed rate of ₹17201.9 per order, payable within the agreed payment terms.",0.10484839230775833,
+INV0526,VEN241,The vendor shall provide printing and packaging materials at an agreed rate of ₹1919.17 per order.,0.3207959830760956,
+INV0527,VEN171,The vendor shall provide logistics and courier services at an agreed rate of ₹24904.97 per shipment.,0.15098780393600464,
+INV0528,VEN188,The vendor shall provide printing and packaging materials at an agreed rate of ₹13655.77 per order.,0.1308908462524414,
+INV0529,VEN292,The vendor shall provide software licenses at an agreed rate of ₹11233.45 per license renewal cycle.,0.12743693590164185,
+INV0530,VEN196,The vendor shall provide cleaning services at an agreed rate of ₹23868.49 per month.,0.25825658440589905,
+INV0531,VEN059,The vendor shall provide printing and packaging materials at an agreed rate of ₹24341.34 per order.,0.04844796285033226,
+INV0532,VEN300,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8783.1 per unit/order, with delivery within 15 business days of order confirmation.",0.152008056640625,
+INV0533,VEN027,,,no_contract_on_file
+INV0534,VEN136,The vendor shall provide printing and packaging materials at an agreed rate of ₹22906.42 per order.,0.39057469367980957,
+INV0535,VEN197,The vendor shall provide printing and packaging materials at an agreed rate of ₹21958.4 per order.,0.3228594958782196,
+INV0536,VEN018,,,no_contract_on_file
+INV0537,VEN140,The vendor shall provide cleaning services at an agreed rate of ₹6542.37 per month.,0.21979109942913055,
+INV0538,VEN007,The vendor shall provide software licenses at an agreed rate of ₹22358.4 per license renewal cycle.,0.1393028050661087,
+INV0539,VEN188,The vendor shall provide printing and packaging materials at an agreed rate of ₹13655.77 per order.,0.05226094275712967,
+INV0540,VEN124,,,no_contract_on_file
+INV0541,VEN048,"The vendor shall provide catering services at an agreed rate of ₹2869.55 per event, inclusive of setup and service charges.",0.1798471063375473,
+INV0542,VEN260,,,no_contract_on_file
+INV0543,VEN248,"The vendor shall supply IT hardware equipment at an agreed rate of ₹2195.71 per unit/order, with delivery within 15 business days of order confirmation.",0.2128887176513672,
+INV0544,VEN285,"The vendor shall supply IT hardware equipment at an agreed rate of ₹5428.2 per unit/order, with delivery within 15 business days of order confirmation.",0.5907223224639893,
+INV0545,VEN022,"The vendor shall provide catering services at an agreed rate of ₹13851.07 per event, inclusive of setup and service charges.",0.6040481925010681,
+INV0546,VEN098,,,no_contract_on_file
+INV0547,VEN178,,,no_contract_on_file
+INV0548,VEN185,,,no_contract_on_file
+INV0549,VEN275,The vendor shall provide software licenses at an agreed rate of ₹10866.88 per license renewal cycle.,0.7111450433731079,
+INV0550,VEN291,"The vendor shall provide catering services at an agreed rate of ₹16422.01 per event, inclusive of setup and service charges.",0.163486048579216,
+INV0551,VEN102,,,no_contract_on_file
+INV0552,VEN163,,,no_contract_on_file
+INV0553,VEN001,"The vendor shall supply IT hardware equipment at an agreed rate of ₹16165.96 per unit/order, with delivery within 15 business days of order confirmation.",0.3123396337032318,
+INV0554,VEN223,,,no_contract_on_file
+INV0555,VEN132,,,no_contract_on_file
+INV0556,VEN010,The vendor shall provide printing and packaging materials at an agreed rate of ₹2630.0 per order.,0.27482855319976807,
+INV0557,VEN269,,,no_contract_on_file
+INV0558,VEN272,,,no_contract_on_file
+INV0559,VEN108,The vendor shall provide software licenses at an agreed rate of ₹4503.36 per license renewal cycle.,0.14172251522541046,
+INV0560,VEN283,,,no_contract_on_file
+INV0561,VEN189,"The vendor shall provide catering services at an agreed rate of ₹7037.22 per event, inclusive of setup and service charges.",0.22955942153930664,
+INV0562,VEN034,The vendor shall provide printing and packaging materials at an agreed rate of ₹8836.14 per order.,0.6167377829551697,
+INV0563,VEN132,,,no_contract_on_file
+INV0564,VEN239,The vendor shall provide cleaning services at an agreed rate of ₹20875.81 per month.,0.21185648441314697,
+INV0565,VEN117,,,no_contract_on_file
+INV0566,VEN189,"The vendor shall provide catering services at an agreed rate of ₹7037.22 per event, inclusive of setup and service charges.",0.27681073546409607,
+INV0567,VEN206,"The vendor shall provide catering services at an agreed rate of ₹21827.7 per event, inclusive of setup and service charges.",0.595538318157196,
+INV0568,VEN076,"The vendor shall provide office supplies at an agreed rate of ₹1622.7 per order, payable within the agreed payment terms.",0.3141256272792816,
+INV0569,VEN022,"The vendor shall provide catering services at an agreed rate of ₹13851.07 per event, inclusive of setup and service charges.",0.27477386593818665,
+INV0570,VEN232,"The vendor shall provide catering services at an agreed rate of ₹8441.82 per event, inclusive of setup and service charges.",0.6016207337379456,
+INV0571,VEN250,The vendor shall provide cleaning services at an agreed rate of ₹19134.75 per month.,0.2736370265483856,
+INV0572,VEN235,,,no_contract_on_file
+INV0573,VEN259,,,no_contract_on_file
+INV0574,VEN178,,,no_contract_on_file
+INV0575,VEN258,,,no_contract_on_file
+INV0576,VEN244,,,no_contract_on_file
+INV0577,VEN218,The vendor shall provide printing and packaging materials at an agreed rate of ₹19181.51 per order.,0.37694552540779114,
+INV0578,VEN146,,,no_contract_on_file
+INV0579,VEN164,,,no_contract_on_file
+INV0580,VEN257,,,no_contract_on_file
+INV0581,VEN256,"The vendor shall provide catering services at an agreed rate of ₹13970.19 per event, inclusive of setup and service charges.",0.11987259238958359,
+INV0582,VEN013,"The vendor shall provide catering services at an agreed rate of ₹1230.03 per event, inclusive of setup and service charges.",0.27143150568008423,
+INV0583,VEN066,,,no_contract_on_file
+INV0584,VEN073,"The vendor shall provide office supplies at an agreed rate of ₹21611.82 per order, payable within the agreed payment terms.",0.36391961574554443,
+INV0585,VEN235,,,no_contract_on_file
+INV0586,VEN083,,,no_contract_on_file
+INV0587,VEN190,"The vendor shall provide office supplies at an agreed rate of ₹16203.56 per order, payable within the agreed payment terms.",0.1935303658246994,
+INV0588,VEN266,,,no_contract_on_file
+INV0589,VEN238,"The vendor shall provide office supplies at an agreed rate of ₹22028.69 per order, payable within the agreed payment terms.",0.3132220208644867,
+INV0590,VEN019,,,no_contract_on_file
+INV0591,VEN036,,,no_contract_on_file
+INV0592,VEN147,,,no_contract_on_file
+INV0593,VEN275,The vendor shall provide software licenses at an agreed rate of ₹10866.88 per license renewal cycle.,0.13994677364826202,
+INV0594,VEN122,"The vendor shall supply IT hardware equipment at an agreed rate of ₹1286.46 per unit/order, with delivery within 15 business days of order confirmation.",0.32999417185783386,
+INV0595,VEN215,,,no_contract_on_file
+INV0596,VEN123,"The vendor shall provide catering services at an agreed rate of ₹8228.6 per event, inclusive of setup and service charges.",0.2704121470451355,
+INV0597,VEN147,,,no_contract_on_file
+INV0598,VEN078,"The vendor shall supply IT hardware equipment at an agreed rate of ₹7590.01 per unit/order, with delivery within 15 business days of order confirmation.",0.13937489688396454,
+INV0599,VEN091,,,no_contract_on_file
+INV0600,VEN176,,,no_contract_on_file
+INV0601,VEN060,,,no_contract_on_file
+INV0602,VEN009,,,no_contract_on_file
+INV0603,VEN098,,,no_contract_on_file
+INV0604,VEN269,,,no_contract_on_file
+INV0605,VEN052,,,no_contract_on_file
+INV0606,VEN222,The vendor shall provide software licenses at an agreed rate of ₹13714.79 per license renewal cycle.,0.26825258135795593,
+INV0607,VEN110,The vendor shall provide printing and packaging materials at an agreed rate of ₹24743.32 per order.,0.176237553358078,
+INV0608,VEN098,,,no_contract_on_file
+INV0609,VEN225,,,no_contract_on_file
+INV0610,VEN119,The vendor shall provide logistics and courier services at an agreed rate of ₹21149.87 per shipment.,0.30091461539268494,
+INV0611,VEN228,The vendor shall provide software licenses at an agreed rate of ₹514.01 per license renewal cycle.,0.16624602675437927,
+INV0612,VEN077,The vendor shall provide cleaning services at an agreed rate of ₹6083.51 per month.,0.21279962360858917,
+INV0613,VEN112,The vendor shall provide software licenses at an agreed rate of ₹14145.27 per license renewal cycle.,0.14550042152404785,
+INV0614,VEN184,,,no_contract_on_file
+INV0615,VEN259,,,no_contract_on_file
+INV0616,VEN182,"The vendor shall provide catering services at an agreed rate of ₹18157.68 per event, inclusive of setup and service charges.",0.1699632853269577,
+INV0617,VEN204,The vendor shall provide logistics and courier services at an agreed rate of ₹22859.38 per shipment.,0.13161736726760864,
+INV0618,VEN120,The vendor shall provide software licenses at an agreed rate of ₹19512.0 per license renewal cycle.,0.21551357209682465,
+INV0619,VEN286,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8137.05 per unit/order, with delivery within 15 business days of order confirmation.",0.15354330837726593,
+INV0620,VEN106,,,no_contract_on_file
+INV0621,VEN233,,,no_contract_on_file
+INV0622,VEN136,The vendor shall provide printing and packaging materials at an agreed rate of ₹22906.42 per order.,0.14706267416477203,
+INV0623,VEN261,,,no_contract_on_file
+INV0624,VEN084,"The vendor shall provide office supplies at an agreed rate of ₹2974.54 per order, payable within the agreed payment terms.",0.09508738666772842,
+INV0625,VEN125,The vendor shall provide printing and packaging materials at an agreed rate of ₹7059.65 per order.,0.04665651172399521,
+INV0626,VEN232,"The vendor shall provide catering services at an agreed rate of ₹8441.82 per event, inclusive of setup and service charges.",0.16706137359142303,
+INV0627,VEN016,"The vendor shall provide catering services at an agreed rate of ₹12881.2 per event, inclusive of setup and service charges.",0.1767515242099762,
+INV0628,VEN231,,,no_contract_on_file
+INV0629,VEN221,,,no_contract_on_file
+INV0630,VEN076,"The vendor shall provide office supplies at an agreed rate of ₹1622.7 per order, payable within the agreed payment terms.",0.28313371539115906,
+INV0631,VEN099,,,no_contract_on_file
+INV0632,VEN017,The vendor shall provide logistics and courier services at an agreed rate of ₹1150.13 per shipment.,0.26411381363868713,
+INV0633,VEN235,,,no_contract_on_file
+INV0634,VEN261,,,no_contract_on_file
+INV0635,VEN067,,,no_contract_on_file
+INV0636,VEN137,"The vendor shall provide catering services at an agreed rate of ₹11741.87 per event, inclusive of setup and service charges.",0.3082948327064514,
+INV0637,VEN086,,,no_contract_on_file
+INV0638,VEN118,"The vendor shall provide catering services at an agreed rate of ₹17273.05 per event, inclusive of setup and service charges.",0.17656880617141724,
+INV0639,VEN168,The vendor shall provide software licenses at an agreed rate of ₹2056.43 per license renewal cycle.,0.16777844727039337,
+INV0640,VEN283,,,no_contract_on_file
+INV0641,VEN251,The vendor shall provide software licenses at an agreed rate of ₹19262.94 per license renewal cycle.,0.22643113136291504,
+INV0642,VEN162,,,no_contract_on_file
+INV0643,VEN111,"The vendor shall supply IT hardware equipment at an agreed rate of ₹16179.99 per unit/order, with delivery within 15 business days of order confirmation.",0.06922157108783722,
+INV0644,VEN152,The vendor shall provide printing and packaging materials at an agreed rate of ₹12983.39 per order.,0.14069567620754242,
+INV0645,VEN090,"The vendor shall provide office supplies at an agreed rate of ₹9438.39 per order, payable within the agreed payment terms.",0.29737961292266846,
+INV0646,VEN002,"The vendor shall provide catering services at an agreed rate of ₹1112.76 per event, inclusive of setup and service charges.",0.11309963464736938,
+INV0647,VEN119,The vendor shall provide logistics and courier services at an agreed rate of ₹21149.87 per shipment.,0.27991387248039246,
+INV0648,VEN263,,,no_contract_on_file
+INV0649,VEN239,The vendor shall provide cleaning services at an agreed rate of ₹20875.81 per month.,0.6083425879478455,
+INV0650,VEN246,The vendor shall provide software licenses at an agreed rate of ₹2598.51 per license renewal cycle.,0.23113057017326355,
+INV0651,VEN215,,,no_contract_on_file
+INV0652,VEN272,,,no_contract_on_file
+INV0653,VEN125,The vendor shall provide printing and packaging materials at an agreed rate of ₹7059.65 per order.,0.3338347375392914,
+INV0654,VEN085,,,no_contract_on_file
+INV0655,VEN235,,,no_contract_on_file
+INV0656,VEN280,,,no_contract_on_file
+INV0657,VEN194,,,no_contract_on_file
+INV0658,VEN068,,,no_contract_on_file
+INV0659,VEN256,"The vendor shall provide catering services at an agreed rate of ₹13970.19 per event, inclusive of setup and service charges.",0.08962895721197128,
+INV0660,VEN275,The vendor shall provide software licenses at an agreed rate of ₹10866.88 per license renewal cycle.,0.040363166481256485,
+INV0661,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.21603791415691376,
+INV0662,VEN155,"The vendor shall provide office supplies at an agreed rate of ₹3186.4 per order, payable within the agreed payment terms.",0.30762138962745667,
+INV0663,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.21603791415691376,
+INV0664,VEN022,"The vendor shall provide catering services at an agreed rate of ₹13851.07 per event, inclusive of setup and service charges.",0.08963374048471451,
+INV0665,VEN295,,,no_contract_on_file
+INV0666,VEN206,"The vendor shall provide catering services at an agreed rate of ₹21827.7 per event, inclusive of setup and service charges.",0.30154287815093994,
+INV0667,VEN232,"The vendor shall provide catering services at an agreed rate of ₹8441.82 per event, inclusive of setup and service charges.",0.3075706362724304,
+INV0668,VEN300,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8783.1 per unit/order, with delivery within 15 business days of order confirmation.",0.28393223881721497,
+INV0669,VEN277,The vendor shall provide printing and packaging materials at an agreed rate of ₹5689.06 per order.,0.30706432461738586,
+INV0670,VEN023,The vendor shall provide printing and packaging materials at an agreed rate of ₹5900.8 per order.,0.29356884956359863,
+INV0671,VEN157,"The vendor shall provide office supplies at an agreed rate of ₹15872.43 per order, payable within the agreed payment terms.",0.3402019739151001,
+INV0672,VEN250,The vendor shall provide cleaning services at an agreed rate of ₹19134.75 per month.,0.32455912232398987,
+INV0673,VEN122,"The vendor shall supply IT hardware equipment at an agreed rate of ₹1286.46 per unit/order, with delivery within 15 business days of order confirmation.",0.30368342995643616,
+INV0674,VEN145,"The vendor shall provide office supplies at an agreed rate of ₹22496.66 per order, payable within the agreed payment terms.",0.330148845911026,
+INV0675,VEN128,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23601.29 per unit/order, with delivery within 15 business days of order confirmation.",0.29900550842285156,
+INV0676,VEN192,The vendor shall provide printing and packaging materials at an agreed rate of ₹3233.03 per order.,0.30575457215309143,
+INV0677,VEN222,The vendor shall provide software licenses at an agreed rate of ₹13714.79 per license renewal cycle.,0.27798110246658325,
+INV0678,VEN150,The vendor shall provide logistics and courier services at an agreed rate of ₹24939.67 per shipment.,0.37623631954193115,
+INV0679,VEN285,"The vendor shall supply IT hardware equipment at an agreed rate of ₹5428.2 per unit/order, with delivery within 15 business days of order confirmation.",0.2974470257759094,
+INV0680,VEN078,"The vendor shall supply IT hardware equipment at an agreed rate of ₹7590.01 per unit/order, with delivery within 15 business days of order confirmation.",0.2965371906757355,
+INV0681,VEN091,,,no_contract_on_file
+INV0682,VEN215,,,no_contract_on_file
+INV0683,VEN272,,,no_contract_on_file
+INV0684,VEN125,The vendor shall provide printing and packaging materials at an agreed rate of ₹7059.65 per order.,0.3338347375392914,
+INV0685,VEN085,,,no_contract_on_file
+INV0686,VEN235,,,no_contract_on_file
+INV0687,VEN280,,,no_contract_on_file
+INV0688,VEN194,,,no_contract_on_file
+INV0689,VEN068,,,no_contract_on_file
+INV0690,VEN256,"The vendor shall provide catering services at an agreed rate of ₹13970.19 per event, inclusive of setup and service charges.",0.08962895721197128,
+INV0691,VEN275,The vendor shall provide software licenses at an agreed rate of ₹10866.88 per license renewal cycle.,0.040363166481256485,
+INV0692,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.21603791415691376,
+INV0693,VEN250,The vendor shall provide cleaning services at an agreed rate of ₹19134.75 per month.,0.24120980501174927,
+INV0694,VEN155,"The vendor shall provide office supplies at an agreed rate of ₹3186.4 per order, payable within the agreed payment terms.",0.30762138962745667,
+INV0695,VEN148,The vendor shall provide cleaning services at an agreed rate of ₹10285.31 per month.,0.21603791415691376,
+INV0696,VEN022,"The vendor shall provide catering services at an agreed rate of ₹13851.07 per event, inclusive of setup and service charges.",0.30579468607902527,
+INV0697,VEN149,The vendor shall provide printing and packaging materials at an agreed rate of ₹5873.36 per order.,0.28537583351135254,
+INV0698,VEN240,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8034.1 per unit/order, with delivery within 15 business days of order confirmation.",0.2883453965187073,
+INV0699,VEN300,"The vendor shall supply IT hardware equipment at an agreed rate of ₹8783.1 per unit/order, with delivery within 15 business days of order confirmation.",0.28393223881721497,
+INV0700,VEN206,"The vendor shall provide catering services at an agreed rate of ₹21827.7 per event, inclusive of setup and service charges.",0.30154287815093994,
+INV0701,VEN232,"The vendor shall provide catering services at an agreed rate of ₹8441.82 per event, inclusive of setup and service charges.",0.3075706362724304,
+INV0702,VEN277,The vendor shall provide printing and packaging materials at an agreed rate of ₹5689.06 per order.,0.30706432461738586,
+INV0703,VEN023,The vendor shall provide printing and packaging materials at an agreed rate of ₹5900.8 per order.,0.29356884956359863,
+INV0704,VEN157,"The vendor shall provide office supplies at an agreed rate of ₹15872.43 per order, payable within the agreed payment terms.",0.3402019739151001,
+INV0705,VEN250,The vendor shall provide cleaning services at an agreed rate of ₹19134.75 per month.,0.32455912232398987,
+INV0706,VEN122,"The vendor shall supply IT hardware equipment at an agreed rate of ₹1286.46 per unit/order, with delivery within 15 business days of order confirmation.",0.30368342995643616,
+INV0707,VEN145,"The vendor shall provide office supplies at an agreed rate of ₹22496.66 per order, payable within the agreed payment terms.",0.330148845911026,
+INV0708,VEN128,"The vendor shall supply IT hardware equipment at an agreed rate of ₹23601.29 per unit/order, with delivery within 15 business days of order confirmation.",0.29900550842285156,
+INV0709,VEN192,The vendor shall provide printing and packaging materials at an agreed rate of ₹3233.03 per order.,0.30575457215309143,
+INV0710,VEN222,The vendor shall provide software licenses at an agreed rate of ₹13714.79 per license renewal cycle.,0.27798110246658325,
