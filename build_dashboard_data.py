@@ -11,7 +11,7 @@ combined = invoices[["invoice_id", "po_id", "amount", "item_category", "descript
                      "date", "payment_status", "submitted_by_employee_id"]].copy()
 combined = combined.merge(rules, on="invoice_id", how="left")
 combined = combined.merge(gnn, on="invoice_id", how="left")
-combined = combined.merge(rag[["invoice_id", "similarity", "rag_status"]], on="invoice_id", how="left")
+combined = combined.merge(rag[["invoice_id", "similarity", "rag_status","best_match_service"]], on="invoice_id", how="left")
 
 rule_cols = [c for c in combined.columns if c.startswith("rule_")]
 combined["any_rule_flagged"] = combined[rule_cols].any(axis=1)
